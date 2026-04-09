@@ -19,10 +19,13 @@ function LoginPage() {
     setError(null)
     setLoading(true)
     try {
-      const { user } = await repositories.auth.login(email, password)
-      useAuthStore.getState().login(user)
-      navigate({ to: '/$orgSlug/$clientSlug/shop', params: { orgSlug: 'halo', clientSlug: 'heydude' } })
+      const result = await repositories.auth.login(email, password)
+      console.log('Login result:', result)
+      useAuthStore.getState().login(result.user)
+      console.log('Auth state after login:', useAuthStore.getState().isAuthenticated)
+      window.location.href = '/halo/heydude/shop'
     } catch (err) {
+      console.error('Login error:', err)
       setError(err instanceof Error ? err.message : 'Login failed')
     } finally {
       setLoading(false)

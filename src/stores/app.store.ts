@@ -1,5 +1,5 @@
 import { create } from 'zustand'
-import { persist } from 'zustand/middleware'
+import { persist, createJSONStorage } from 'zustand/middleware'
 import { startOfMonth, endOfMonth } from 'date-fns'
 import type { DateRange } from '@/modules/shared/types'
 
@@ -8,6 +8,12 @@ interface AppState {
   dateRange: DateRange
   toggleSidebar: () => void
   setDateRange: (range: DateRange) => void
+}
+
+const noopStorage = {
+  getItem: () => null,
+  setItem: () => {},
+  removeItem: () => {},
 }
 
 export const useAppStore = create<AppState>()(
@@ -24,6 +30,9 @@ export const useAppStore = create<AppState>()(
     {
       name: 'scc-app',
       partialize: (state) => ({ sidebarCollapsed: state.sidebarCollapsed }),
+      storage: createJSONStorage(() =>
+        typeof window !== 'undefined' ? localStorage : noopStorage,
+      ),
     },
   ),
 )

@@ -1,5 +1,5 @@
 import { create } from 'zustand'
-import { persist } from 'zustand/middleware'
+import { persist, createJSONStorage } from 'zustand/middleware'
 import type { User } from '@/modules/shared/types'
 
 interface AuthState {
@@ -7,6 +7,12 @@ interface AuthState {
   isAuthenticated: boolean
   login: (user: User) => void
   logout: () => void
+}
+
+const noopStorage = {
+  getItem: () => null,
+  setItem: () => {},
+  removeItem: () => {},
 }
 
 export const useAuthStore = create<AuthState>()(
@@ -17,6 +23,11 @@ export const useAuthStore = create<AuthState>()(
       login: (user) => set({ user, isAuthenticated: true }),
       logout: () => set({ user: null, isAuthenticated: false }),
     }),
-    { name: 'scc-auth' },
+    {
+      name: 'scc-auth',
+      storage: createJSONStorage(() =>
+        typeof window !== 'undefined' ? localStorage : noopStorage,
+      ),
+    },
   ),
 )
