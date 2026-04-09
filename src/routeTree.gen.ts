@@ -14,7 +14,9 @@ import { Route as IndexRouteImport } from './routes/index'
 import { Route as OrgSlugOverviewRouteImport } from './routes/$orgSlug/overview'
 import { Route as OrgSlugClientSlugRouteRouteImport } from './routes/$orgSlug/$clientSlug/route'
 import { Route as OrgSlugClientSlugIndexRouteImport } from './routes/$orgSlug/$clientSlug/index'
+import { Route as OrgSlugClientSlugVideosRouteImport } from './routes/$orgSlug/$clientSlug/videos'
 import { Route as OrgSlugClientSlugShopRouteImport } from './routes/$orgSlug/$clientSlug/shop'
+import { Route as OrgSlugClientSlugAdsRouteImport } from './routes/$orgSlug/$clientSlug/ads'
 
 const OrgSlugRouteRoute = OrgSlugRouteRouteImport.update({
   id: '/$orgSlug',
@@ -41,9 +43,19 @@ const OrgSlugClientSlugIndexRoute = OrgSlugClientSlugIndexRouteImport.update({
   path: '/',
   getParentRoute: () => OrgSlugClientSlugRouteRoute,
 } as any)
+const OrgSlugClientSlugVideosRoute = OrgSlugClientSlugVideosRouteImport.update({
+  id: '/videos',
+  path: '/videos',
+  getParentRoute: () => OrgSlugClientSlugRouteRoute,
+} as any)
 const OrgSlugClientSlugShopRoute = OrgSlugClientSlugShopRouteImport.update({
   id: '/shop',
   path: '/shop',
+  getParentRoute: () => OrgSlugClientSlugRouteRoute,
+} as any)
+const OrgSlugClientSlugAdsRoute = OrgSlugClientSlugAdsRouteImport.update({
+  id: '/ads',
+  path: '/ads',
   getParentRoute: () => OrgSlugClientSlugRouteRoute,
 } as any)
 
@@ -52,14 +64,18 @@ export interface FileRoutesByFullPath {
   '/$orgSlug': typeof OrgSlugRouteRouteWithChildren
   '/$orgSlug/$clientSlug': typeof OrgSlugClientSlugRouteRouteWithChildren
   '/$orgSlug/overview': typeof OrgSlugOverviewRoute
+  '/$orgSlug/$clientSlug/ads': typeof OrgSlugClientSlugAdsRoute
   '/$orgSlug/$clientSlug/shop': typeof OrgSlugClientSlugShopRoute
+  '/$orgSlug/$clientSlug/videos': typeof OrgSlugClientSlugVideosRoute
   '/$orgSlug/$clientSlug/': typeof OrgSlugClientSlugIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/$orgSlug': typeof OrgSlugRouteRouteWithChildren
   '/$orgSlug/overview': typeof OrgSlugOverviewRoute
+  '/$orgSlug/$clientSlug/ads': typeof OrgSlugClientSlugAdsRoute
   '/$orgSlug/$clientSlug/shop': typeof OrgSlugClientSlugShopRoute
+  '/$orgSlug/$clientSlug/videos': typeof OrgSlugClientSlugVideosRoute
   '/$orgSlug/$clientSlug': typeof OrgSlugClientSlugIndexRoute
 }
 export interface FileRoutesById {
@@ -68,7 +84,9 @@ export interface FileRoutesById {
   '/$orgSlug': typeof OrgSlugRouteRouteWithChildren
   '/$orgSlug/$clientSlug': typeof OrgSlugClientSlugRouteRouteWithChildren
   '/$orgSlug/overview': typeof OrgSlugOverviewRoute
+  '/$orgSlug/$clientSlug/ads': typeof OrgSlugClientSlugAdsRoute
   '/$orgSlug/$clientSlug/shop': typeof OrgSlugClientSlugShopRoute
+  '/$orgSlug/$clientSlug/videos': typeof OrgSlugClientSlugVideosRoute
   '/$orgSlug/$clientSlug/': typeof OrgSlugClientSlugIndexRoute
 }
 export interface FileRouteTypes {
@@ -78,14 +96,18 @@ export interface FileRouteTypes {
     | '/$orgSlug'
     | '/$orgSlug/$clientSlug'
     | '/$orgSlug/overview'
+    | '/$orgSlug/$clientSlug/ads'
     | '/$orgSlug/$clientSlug/shop'
+    | '/$orgSlug/$clientSlug/videos'
     | '/$orgSlug/$clientSlug/'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
     | '/$orgSlug'
     | '/$orgSlug/overview'
+    | '/$orgSlug/$clientSlug/ads'
     | '/$orgSlug/$clientSlug/shop'
+    | '/$orgSlug/$clientSlug/videos'
     | '/$orgSlug/$clientSlug'
   id:
     | '__root__'
@@ -93,7 +115,9 @@ export interface FileRouteTypes {
     | '/$orgSlug'
     | '/$orgSlug/$clientSlug'
     | '/$orgSlug/overview'
+    | '/$orgSlug/$clientSlug/ads'
     | '/$orgSlug/$clientSlug/shop'
+    | '/$orgSlug/$clientSlug/videos'
     | '/$orgSlug/$clientSlug/'
   fileRoutesById: FileRoutesById
 }
@@ -139,6 +163,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof OrgSlugClientSlugIndexRouteImport
       parentRoute: typeof OrgSlugClientSlugRouteRoute
     }
+    '/$orgSlug/$clientSlug/videos': {
+      id: '/$orgSlug/$clientSlug/videos'
+      path: '/videos'
+      fullPath: '/$orgSlug/$clientSlug/videos'
+      preLoaderRoute: typeof OrgSlugClientSlugVideosRouteImport
+      parentRoute: typeof OrgSlugClientSlugRouteRoute
+    }
     '/$orgSlug/$clientSlug/shop': {
       id: '/$orgSlug/$clientSlug/shop'
       path: '/shop'
@@ -146,17 +177,28 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof OrgSlugClientSlugShopRouteImport
       parentRoute: typeof OrgSlugClientSlugRouteRoute
     }
+    '/$orgSlug/$clientSlug/ads': {
+      id: '/$orgSlug/$clientSlug/ads'
+      path: '/ads'
+      fullPath: '/$orgSlug/$clientSlug/ads'
+      preLoaderRoute: typeof OrgSlugClientSlugAdsRouteImport
+      parentRoute: typeof OrgSlugClientSlugRouteRoute
+    }
   }
 }
 
 interface OrgSlugClientSlugRouteRouteChildren {
+  OrgSlugClientSlugAdsRoute: typeof OrgSlugClientSlugAdsRoute
   OrgSlugClientSlugShopRoute: typeof OrgSlugClientSlugShopRoute
+  OrgSlugClientSlugVideosRoute: typeof OrgSlugClientSlugVideosRoute
   OrgSlugClientSlugIndexRoute: typeof OrgSlugClientSlugIndexRoute
 }
 
 const OrgSlugClientSlugRouteRouteChildren: OrgSlugClientSlugRouteRouteChildren =
   {
+    OrgSlugClientSlugAdsRoute: OrgSlugClientSlugAdsRoute,
     OrgSlugClientSlugShopRoute: OrgSlugClientSlugShopRoute,
+    OrgSlugClientSlugVideosRoute: OrgSlugClientSlugVideosRoute,
     OrgSlugClientSlugIndexRoute: OrgSlugClientSlugIndexRoute,
   }
 
