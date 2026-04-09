@@ -5,6 +5,8 @@ import { createMockAuthRepository } from './adapters/mock/auth.mock'
 import { createMockCreatorRepository } from './adapters/mock/creators.mock'
 import { createMockContentRepository } from './adapters/mock/content.mock'
 import { createMockSamplesRepository } from './adapters/mock/samples.mock'
+import { createMockScorecardsRepository } from './adapters/mock/scorecards.mock'
+import { createMockPlanningRepository } from './adapters/mock/planning.mock'
 
 export const repositories = {
   shop: createMockShopRepository(),
@@ -14,4 +16,6 @@ export const repositories = {
   creators: createMockCreatorRepository(),
   content: createMockContentRepository(),
   samples: createMockSamplesRepository(),
+  scorecards: createMockScorecardsRepository(),
+  planning: createMockPlanningRepository(),
 }

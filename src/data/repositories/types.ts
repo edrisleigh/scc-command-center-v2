@@ -5,6 +5,8 @@ import type { VideoDailyMetric } from '@/modules/videos/types'
 import type { AdsDailyMetric } from '@/modules/ads/types'
 import type { Creator, LiveCreator, TargetCollab, CollaborationData, CreatorIncentive } from '@/modules/creators/types'
 import type { Product, SampleOrder, HeroProduct, Restock } from '@/modules/samples/types'
+import type { WeeklyScorecard, MonthlyScorecard } from '@/modules/scorecards/types'
+import type { PlanningPeriod, StrategyLever } from '@/modules/planning/types'
 
 export interface AuthRepository {
   login(email: string, password: string): Promise<{ user: User; token: string }>
@@ -43,4 +45,14 @@ export interface SamplesRepository {
   getSampleOrders(clientId: string): Promise<SampleOrder[]>
   getHeroProducts(clientId: string): Promise<HeroProduct[]>
   getRestocks(clientId: string): Promise<Restock[]>
+}
+
+export interface ScorecardsRepository {
+  getWeeklyScorecard(clientId: string): Promise<WeeklyScorecard[]>
+  getMonthlyScorecard(clientId: string): Promise<MonthlyScorecard[]>
+}
+
+export interface PlanningRepository {
+  getPlanningPeriods(clientId: string): Promise<PlanningPeriod[]>
+  getStrategyLevers(clientId: string): Promise<StrategyLever[]>
 }
