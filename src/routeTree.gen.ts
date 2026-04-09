@@ -9,15 +9,30 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as LoginRouteImport } from './routes/login'
 import { Route as OrgSlugRouteRouteImport } from './routes/$orgSlug/route'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as OrgSlugOverviewRouteImport } from './routes/$orgSlug/overview'
 import { Route as OrgSlugClientSlugRouteRouteImport } from './routes/$orgSlug/$clientSlug/route'
 import { Route as OrgSlugClientSlugIndexRouteImport } from './routes/$orgSlug/$clientSlug/index'
+import { Route as OrgSlugClientSlugWorkflowRouteImport } from './routes/$orgSlug/$clientSlug/workflow'
 import { Route as OrgSlugClientSlugVideosRouteImport } from './routes/$orgSlug/$clientSlug/videos'
 import { Route as OrgSlugClientSlugShopRouteImport } from './routes/$orgSlug/$clientSlug/shop'
+import { Route as OrgSlugClientSlugSettingsRouteImport } from './routes/$orgSlug/$clientSlug/settings'
+import { Route as OrgSlugClientSlugScorecardsRouteImport } from './routes/$orgSlug/$clientSlug/scorecards'
+import { Route as OrgSlugClientSlugSamplesRouteImport } from './routes/$orgSlug/$clientSlug/samples'
+import { Route as OrgSlugClientSlugPlanningRouteImport } from './routes/$orgSlug/$clientSlug/planning'
+import { Route as OrgSlugClientSlugImportRouteImport } from './routes/$orgSlug/$clientSlug/import'
+import { Route as OrgSlugClientSlugCreatorsRouteImport } from './routes/$orgSlug/$clientSlug/creators'
+import { Route as OrgSlugClientSlugContentRouteImport } from './routes/$orgSlug/$clientSlug/content'
+import { Route as OrgSlugClientSlugCalendarRouteImport } from './routes/$orgSlug/$clientSlug/calendar'
 import { Route as OrgSlugClientSlugAdsRouteImport } from './routes/$orgSlug/$clientSlug/ads'
 
+const LoginRoute = LoginRouteImport.update({
+  id: '/login',
+  path: '/login',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const OrgSlugRouteRoute = OrgSlugRouteRouteImport.update({
   id: '/$orgSlug',
   path: '/$orgSlug',
@@ -43,6 +58,12 @@ const OrgSlugClientSlugIndexRoute = OrgSlugClientSlugIndexRouteImport.update({
   path: '/',
   getParentRoute: () => OrgSlugClientSlugRouteRoute,
 } as any)
+const OrgSlugClientSlugWorkflowRoute =
+  OrgSlugClientSlugWorkflowRouteImport.update({
+    id: '/workflow',
+    path: '/workflow',
+    getParentRoute: () => OrgSlugClientSlugRouteRoute,
+  } as any)
 const OrgSlugClientSlugVideosRoute = OrgSlugClientSlugVideosRouteImport.update({
   id: '/videos',
   path: '/videos',
@@ -53,6 +74,53 @@ const OrgSlugClientSlugShopRoute = OrgSlugClientSlugShopRouteImport.update({
   path: '/shop',
   getParentRoute: () => OrgSlugClientSlugRouteRoute,
 } as any)
+const OrgSlugClientSlugSettingsRoute =
+  OrgSlugClientSlugSettingsRouteImport.update({
+    id: '/settings',
+    path: '/settings',
+    getParentRoute: () => OrgSlugClientSlugRouteRoute,
+  } as any)
+const OrgSlugClientSlugScorecardsRoute =
+  OrgSlugClientSlugScorecardsRouteImport.update({
+    id: '/scorecards',
+    path: '/scorecards',
+    getParentRoute: () => OrgSlugClientSlugRouteRoute,
+  } as any)
+const OrgSlugClientSlugSamplesRoute =
+  OrgSlugClientSlugSamplesRouteImport.update({
+    id: '/samples',
+    path: '/samples',
+    getParentRoute: () => OrgSlugClientSlugRouteRoute,
+  } as any)
+const OrgSlugClientSlugPlanningRoute =
+  OrgSlugClientSlugPlanningRouteImport.update({
+    id: '/planning',
+    path: '/planning',
+    getParentRoute: () => OrgSlugClientSlugRouteRoute,
+  } as any)
+const OrgSlugClientSlugImportRoute = OrgSlugClientSlugImportRouteImport.update({
+  id: '/import',
+  path: '/import',
+  getParentRoute: () => OrgSlugClientSlugRouteRoute,
+} as any)
+const OrgSlugClientSlugCreatorsRoute =
+  OrgSlugClientSlugCreatorsRouteImport.update({
+    id: '/creators',
+    path: '/creators',
+    getParentRoute: () => OrgSlugClientSlugRouteRoute,
+  } as any)
+const OrgSlugClientSlugContentRoute =
+  OrgSlugClientSlugContentRouteImport.update({
+    id: '/content',
+    path: '/content',
+    getParentRoute: () => OrgSlugClientSlugRouteRoute,
+  } as any)
+const OrgSlugClientSlugCalendarRoute =
+  OrgSlugClientSlugCalendarRouteImport.update({
+    id: '/calendar',
+    path: '/calendar',
+    getParentRoute: () => OrgSlugClientSlugRouteRoute,
+  } as any)
 const OrgSlugClientSlugAdsRoute = OrgSlugClientSlugAdsRouteImport.update({
   id: '/ads',
   path: '/ads',
@@ -62,31 +130,61 @@ const OrgSlugClientSlugAdsRoute = OrgSlugClientSlugAdsRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/$orgSlug': typeof OrgSlugRouteRouteWithChildren
+  '/login': typeof LoginRoute
   '/$orgSlug/$clientSlug': typeof OrgSlugClientSlugRouteRouteWithChildren
   '/$orgSlug/overview': typeof OrgSlugOverviewRoute
   '/$orgSlug/$clientSlug/ads': typeof OrgSlugClientSlugAdsRoute
+  '/$orgSlug/$clientSlug/calendar': typeof OrgSlugClientSlugCalendarRoute
+  '/$orgSlug/$clientSlug/content': typeof OrgSlugClientSlugContentRoute
+  '/$orgSlug/$clientSlug/creators': typeof OrgSlugClientSlugCreatorsRoute
+  '/$orgSlug/$clientSlug/import': typeof OrgSlugClientSlugImportRoute
+  '/$orgSlug/$clientSlug/planning': typeof OrgSlugClientSlugPlanningRoute
+  '/$orgSlug/$clientSlug/samples': typeof OrgSlugClientSlugSamplesRoute
+  '/$orgSlug/$clientSlug/scorecards': typeof OrgSlugClientSlugScorecardsRoute
+  '/$orgSlug/$clientSlug/settings': typeof OrgSlugClientSlugSettingsRoute
   '/$orgSlug/$clientSlug/shop': typeof OrgSlugClientSlugShopRoute
   '/$orgSlug/$clientSlug/videos': typeof OrgSlugClientSlugVideosRoute
+  '/$orgSlug/$clientSlug/workflow': typeof OrgSlugClientSlugWorkflowRoute
   '/$orgSlug/$clientSlug/': typeof OrgSlugClientSlugIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/$orgSlug': typeof OrgSlugRouteRouteWithChildren
+  '/login': typeof LoginRoute
   '/$orgSlug/overview': typeof OrgSlugOverviewRoute
   '/$orgSlug/$clientSlug/ads': typeof OrgSlugClientSlugAdsRoute
+  '/$orgSlug/$clientSlug/calendar': typeof OrgSlugClientSlugCalendarRoute
+  '/$orgSlug/$clientSlug/content': typeof OrgSlugClientSlugContentRoute
+  '/$orgSlug/$clientSlug/creators': typeof OrgSlugClientSlugCreatorsRoute
+  '/$orgSlug/$clientSlug/import': typeof OrgSlugClientSlugImportRoute
+  '/$orgSlug/$clientSlug/planning': typeof OrgSlugClientSlugPlanningRoute
+  '/$orgSlug/$clientSlug/samples': typeof OrgSlugClientSlugSamplesRoute
+  '/$orgSlug/$clientSlug/scorecards': typeof OrgSlugClientSlugScorecardsRoute
+  '/$orgSlug/$clientSlug/settings': typeof OrgSlugClientSlugSettingsRoute
   '/$orgSlug/$clientSlug/shop': typeof OrgSlugClientSlugShopRoute
   '/$orgSlug/$clientSlug/videos': typeof OrgSlugClientSlugVideosRoute
+  '/$orgSlug/$clientSlug/workflow': typeof OrgSlugClientSlugWorkflowRoute
   '/$orgSlug/$clientSlug': typeof OrgSlugClientSlugIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/$orgSlug': typeof OrgSlugRouteRouteWithChildren
+  '/login': typeof LoginRoute
   '/$orgSlug/$clientSlug': typeof OrgSlugClientSlugRouteRouteWithChildren
   '/$orgSlug/overview': typeof OrgSlugOverviewRoute
   '/$orgSlug/$clientSlug/ads': typeof OrgSlugClientSlugAdsRoute
+  '/$orgSlug/$clientSlug/calendar': typeof OrgSlugClientSlugCalendarRoute
+  '/$orgSlug/$clientSlug/content': typeof OrgSlugClientSlugContentRoute
+  '/$orgSlug/$clientSlug/creators': typeof OrgSlugClientSlugCreatorsRoute
+  '/$orgSlug/$clientSlug/import': typeof OrgSlugClientSlugImportRoute
+  '/$orgSlug/$clientSlug/planning': typeof OrgSlugClientSlugPlanningRoute
+  '/$orgSlug/$clientSlug/samples': typeof OrgSlugClientSlugSamplesRoute
+  '/$orgSlug/$clientSlug/scorecards': typeof OrgSlugClientSlugScorecardsRoute
+  '/$orgSlug/$clientSlug/settings': typeof OrgSlugClientSlugSettingsRoute
   '/$orgSlug/$clientSlug/shop': typeof OrgSlugClientSlugShopRoute
   '/$orgSlug/$clientSlug/videos': typeof OrgSlugClientSlugVideosRoute
+  '/$orgSlug/$clientSlug/workflow': typeof OrgSlugClientSlugWorkflowRoute
   '/$orgSlug/$clientSlug/': typeof OrgSlugClientSlugIndexRoute
 }
 export interface FileRouteTypes {
@@ -94,40 +192,78 @@ export interface FileRouteTypes {
   fullPaths:
     | '/'
     | '/$orgSlug'
+    | '/login'
     | '/$orgSlug/$clientSlug'
     | '/$orgSlug/overview'
     | '/$orgSlug/$clientSlug/ads'
+    | '/$orgSlug/$clientSlug/calendar'
+    | '/$orgSlug/$clientSlug/content'
+    | '/$orgSlug/$clientSlug/creators'
+    | '/$orgSlug/$clientSlug/import'
+    | '/$orgSlug/$clientSlug/planning'
+    | '/$orgSlug/$clientSlug/samples'
+    | '/$orgSlug/$clientSlug/scorecards'
+    | '/$orgSlug/$clientSlug/settings'
     | '/$orgSlug/$clientSlug/shop'
     | '/$orgSlug/$clientSlug/videos'
+    | '/$orgSlug/$clientSlug/workflow'
     | '/$orgSlug/$clientSlug/'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
     | '/$orgSlug'
+    | '/login'
     | '/$orgSlug/overview'
     | '/$orgSlug/$clientSlug/ads'
+    | '/$orgSlug/$clientSlug/calendar'
+    | '/$orgSlug/$clientSlug/content'
+    | '/$orgSlug/$clientSlug/creators'
+    | '/$orgSlug/$clientSlug/import'
+    | '/$orgSlug/$clientSlug/planning'
+    | '/$orgSlug/$clientSlug/samples'
+    | '/$orgSlug/$clientSlug/scorecards'
+    | '/$orgSlug/$clientSlug/settings'
     | '/$orgSlug/$clientSlug/shop'
     | '/$orgSlug/$clientSlug/videos'
+    | '/$orgSlug/$clientSlug/workflow'
     | '/$orgSlug/$clientSlug'
   id:
     | '__root__'
     | '/'
     | '/$orgSlug'
+    | '/login'
     | '/$orgSlug/$clientSlug'
     | '/$orgSlug/overview'
     | '/$orgSlug/$clientSlug/ads'
+    | '/$orgSlug/$clientSlug/calendar'
+    | '/$orgSlug/$clientSlug/content'
+    | '/$orgSlug/$clientSlug/creators'
+    | '/$orgSlug/$clientSlug/import'
+    | '/$orgSlug/$clientSlug/planning'
+    | '/$orgSlug/$clientSlug/samples'
+    | '/$orgSlug/$clientSlug/scorecards'
+    | '/$orgSlug/$clientSlug/settings'
     | '/$orgSlug/$clientSlug/shop'
     | '/$orgSlug/$clientSlug/videos'
+    | '/$orgSlug/$clientSlug/workflow'
     | '/$orgSlug/$clientSlug/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   OrgSlugRouteRoute: typeof OrgSlugRouteRouteWithChildren
+  LoginRoute: typeof LoginRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/login': {
+      id: '/login'
+      path: '/login'
+      fullPath: '/login'
+      preLoaderRoute: typeof LoginRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/$orgSlug': {
       id: '/$orgSlug'
       path: '/$orgSlug'
@@ -163,6 +299,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof OrgSlugClientSlugIndexRouteImport
       parentRoute: typeof OrgSlugClientSlugRouteRoute
     }
+    '/$orgSlug/$clientSlug/workflow': {
+      id: '/$orgSlug/$clientSlug/workflow'
+      path: '/workflow'
+      fullPath: '/$orgSlug/$clientSlug/workflow'
+      preLoaderRoute: typeof OrgSlugClientSlugWorkflowRouteImport
+      parentRoute: typeof OrgSlugClientSlugRouteRoute
+    }
     '/$orgSlug/$clientSlug/videos': {
       id: '/$orgSlug/$clientSlug/videos'
       path: '/videos'
@@ -177,6 +320,62 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof OrgSlugClientSlugShopRouteImport
       parentRoute: typeof OrgSlugClientSlugRouteRoute
     }
+    '/$orgSlug/$clientSlug/settings': {
+      id: '/$orgSlug/$clientSlug/settings'
+      path: '/settings'
+      fullPath: '/$orgSlug/$clientSlug/settings'
+      preLoaderRoute: typeof OrgSlugClientSlugSettingsRouteImport
+      parentRoute: typeof OrgSlugClientSlugRouteRoute
+    }
+    '/$orgSlug/$clientSlug/scorecards': {
+      id: '/$orgSlug/$clientSlug/scorecards'
+      path: '/scorecards'
+      fullPath: '/$orgSlug/$clientSlug/scorecards'
+      preLoaderRoute: typeof OrgSlugClientSlugScorecardsRouteImport
+      parentRoute: typeof OrgSlugClientSlugRouteRoute
+    }
+    '/$orgSlug/$clientSlug/samples': {
+      id: '/$orgSlug/$clientSlug/samples'
+      path: '/samples'
+      fullPath: '/$orgSlug/$clientSlug/samples'
+      preLoaderRoute: typeof OrgSlugClientSlugSamplesRouteImport
+      parentRoute: typeof OrgSlugClientSlugRouteRoute
+    }
+    '/$orgSlug/$clientSlug/planning': {
+      id: '/$orgSlug/$clientSlug/planning'
+      path: '/planning'
+      fullPath: '/$orgSlug/$clientSlug/planning'
+      preLoaderRoute: typeof OrgSlugClientSlugPlanningRouteImport
+      parentRoute: typeof OrgSlugClientSlugRouteRoute
+    }
+    '/$orgSlug/$clientSlug/import': {
+      id: '/$orgSlug/$clientSlug/import'
+      path: '/import'
+      fullPath: '/$orgSlug/$clientSlug/import'
+      preLoaderRoute: typeof OrgSlugClientSlugImportRouteImport
+      parentRoute: typeof OrgSlugClientSlugRouteRoute
+    }
+    '/$orgSlug/$clientSlug/creators': {
+      id: '/$orgSlug/$clientSlug/creators'
+      path: '/creators'
+      fullPath: '/$orgSlug/$clientSlug/creators'
+      preLoaderRoute: typeof OrgSlugClientSlugCreatorsRouteImport
+      parentRoute: typeof OrgSlugClientSlugRouteRoute
+    }
+    '/$orgSlug/$clientSlug/content': {
+      id: '/$orgSlug/$clientSlug/content'
+      path: '/content'
+      fullPath: '/$orgSlug/$clientSlug/content'
+      preLoaderRoute: typeof OrgSlugClientSlugContentRouteImport
+      parentRoute: typeof OrgSlugClientSlugRouteRoute
+    }
+    '/$orgSlug/$clientSlug/calendar': {
+      id: '/$orgSlug/$clientSlug/calendar'
+      path: '/calendar'
+      fullPath: '/$orgSlug/$clientSlug/calendar'
+      preLoaderRoute: typeof OrgSlugClientSlugCalendarRouteImport
+      parentRoute: typeof OrgSlugClientSlugRouteRoute
+    }
     '/$orgSlug/$clientSlug/ads': {
       id: '/$orgSlug/$clientSlug/ads'
       path: '/ads'
@@ -189,16 +388,34 @@ declare module '@tanstack/react-router' {
 
 interface OrgSlugClientSlugRouteRouteChildren {
   OrgSlugClientSlugAdsRoute: typeof OrgSlugClientSlugAdsRoute
+  OrgSlugClientSlugCalendarRoute: typeof OrgSlugClientSlugCalendarRoute
+  OrgSlugClientSlugContentRoute: typeof OrgSlugClientSlugContentRoute
+  OrgSlugClientSlugCreatorsRoute: typeof OrgSlugClientSlugCreatorsRoute
+  OrgSlugClientSlugImportRoute: typeof OrgSlugClientSlugImportRoute
+  OrgSlugClientSlugPlanningRoute: typeof OrgSlugClientSlugPlanningRoute
+  OrgSlugClientSlugSamplesRoute: typeof OrgSlugClientSlugSamplesRoute
+  OrgSlugClientSlugScorecardsRoute: typeof OrgSlugClientSlugScorecardsRoute
+  OrgSlugClientSlugSettingsRoute: typeof OrgSlugClientSlugSettingsRoute
   OrgSlugClientSlugShopRoute: typeof OrgSlugClientSlugShopRoute
   OrgSlugClientSlugVideosRoute: typeof OrgSlugClientSlugVideosRoute
+  OrgSlugClientSlugWorkflowRoute: typeof OrgSlugClientSlugWorkflowRoute
   OrgSlugClientSlugIndexRoute: typeof OrgSlugClientSlugIndexRoute
 }
 
 const OrgSlugClientSlugRouteRouteChildren: OrgSlugClientSlugRouteRouteChildren =
   {
     OrgSlugClientSlugAdsRoute: OrgSlugClientSlugAdsRoute,
+    OrgSlugClientSlugCalendarRoute: OrgSlugClientSlugCalendarRoute,
+    OrgSlugClientSlugContentRoute: OrgSlugClientSlugContentRoute,
+    OrgSlugClientSlugCreatorsRoute: OrgSlugClientSlugCreatorsRoute,
+    OrgSlugClientSlugImportRoute: OrgSlugClientSlugImportRoute,
+    OrgSlugClientSlugPlanningRoute: OrgSlugClientSlugPlanningRoute,
+    OrgSlugClientSlugSamplesRoute: OrgSlugClientSlugSamplesRoute,
+    OrgSlugClientSlugScorecardsRoute: OrgSlugClientSlugScorecardsRoute,
+    OrgSlugClientSlugSettingsRoute: OrgSlugClientSlugSettingsRoute,
     OrgSlugClientSlugShopRoute: OrgSlugClientSlugShopRoute,
     OrgSlugClientSlugVideosRoute: OrgSlugClientSlugVideosRoute,
+    OrgSlugClientSlugWorkflowRoute: OrgSlugClientSlugWorkflowRoute,
     OrgSlugClientSlugIndexRoute: OrgSlugClientSlugIndexRoute,
   }
 
@@ -224,6 +441,7 @@ const OrgSlugRouteRouteWithChildren = OrgSlugRouteRoute._addFileChildren(
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   OrgSlugRouteRoute: OrgSlugRouteRouteWithChildren,
+  LoginRoute: LoginRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
