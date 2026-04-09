@@ -1,0 +1,164 @@
+{
+  "events": [
+    {
+      "id": "cal-1",
+      "date": "2025-10-01",
+      "title": "Q4 Kickoff",
+      "type": "internal",
+      "owner": "ACT Team",
+      "notes": "Kick off Q4 strategy session with full team. Review targets and assign ownership."
+    },
+    {
+      "id": "cal-2",
+      "date": "2025-10-06",
+      "title": "New Arrivals Campaign",
+      "type": "campaign",
+      "owner": "Liz",
+      "notes": "Launch new fall arrivals campaign on TikTok Shop. Focus on boosting GMV with creator-driven content."
+    },
+    {
+      "id": "cal-3",
+      "date": "2025-10-10",
+      "title": "Jelly Roll Boot Launch",
+      "type": "launch",
+      "owner": "Kuljit",
+      "notes": "Official launch of the Jelly Roll collab boot. Coordinate creator seeding and TT Live."
+    },
+    {
+      "id": "cal-4",
+      "date": "2025-10-14",
+      "title": "Monthly Planning Meeting",
+      "type": "internal",
+      "owner": "ACT Team",
+      "notes": "Monthly sync to review performance, align on priorities, and update the strategy levers."
+    },
+    {
+      "id": "cal-5",
+      "date": "2025-10-17",
+      "title": "TikTok Shop Super Sale",
+      "type": "tt_promo",
+      "owner": "Christian",
+      "notes": "TikTok platform-wide super sale event. Increase ad spend and boost creator incentives."
+    },
+    {
+      "id": "cal-6",
+      "date": "2025-10-22",
+      "title": "Slip Camp Release",
+      "type": "launch",
+      "owner": "Carla",
+      "notes": "New slip-on camp moc style release. Bundle with sample seeding to key affiliates."
+    },
+    {
+      "id": "cal-7",
+      "date": "2025-10-28",
+      "title": "Creator Review",
+      "type": "internal",
+      "owner": "Liz",
+      "notes": "Quarterly review of creator performance. Identify top affiliates for Q4 push."
+    },
+    {
+      "id": "cal-8",
+      "date": "2025-11-03",
+      "title": "Holiday Push",
+      "type": "campaign",
+      "owner": "Kuljit",
+      "notes": "Holiday season campaign kickoff. Prep creatives, finalize creator list, set up TT ads."
+    },
+    {
+      "id": "cal-9",
+      "date": "2025-11-10",
+      "title": "Monthly Planning Meeting",
+      "type": "internal",
+      "owner": "ACT Team",
+      "notes": "November planning sync. Review October performance and confirm holiday campaign readiness."
+    },
+    {
+      "id": "cal-10",
+      "date": "2025-11-17",
+      "title": "Buffalo Plaid Contest",
+      "type": "campaign",
+      "owner": "Carla",
+      "notes": "UGC contest around the buffalo plaid collection. Incentivize creators with gift cards and increased commission."
+    },
+    {
+      "id": "cal-11",
+      "date": "2025-11-24",
+      "title": "Black Friday Mega Deal",
+      "type": "tt_promo",
+      "owner": "Christian",
+      "notes": "Black Friday TikTok Shop mega sale. Maximize ad spend efficiency and push top SKUs."
+    },
+    {
+      "id": "cal-12",
+      "date": "2025-11-27",
+      "title": "Cyber Monday Promo",
+      "type": "tt_promo",
+      "owner": "Liz",
+      "notes": "Cyber Monday deals extension. Activate flash coupons and creator live streams."
+    },
+    {
+      "id": "cal-13",
+      "date": "2025-12-01",
+      "title": "Creator Review",
+      "type": "internal",
+      "owner": "Kuljit",
+      "notes": "End-of-year creator audit. Identify top performers and plan retention strategy."
+    },
+    {
+      "id": "cal-14",
+      "date": "2025-12-05",
+      "title": "Holiday Gift Guide Launch",
+      "type": "launch",
+      "owner": "Carla",
+      "notes": "Push HEYDUDE as holiday gift option. Coordinate with creators on gift guide content."
+    },
+    {
+      "id": "cal-15",
+      "date": "2025-12-08",
+      "title": "Monthly Planning Meeting",
+      "type": "internal",
+      "owner": "ACT Team",
+      "notes": "December strategy sync. Final Q4 push review and Q1 2026 planning kickoff."
+    },
+    {
+      "id": "cal-16",
+      "date": "2025-12-12",
+      "title": "12.12 TikTok Super Sale",
+      "type": "tt_promo",
+      "owner": "Christian",
+      "notes": "Annual 12.12 TikTok platform sale event. Double-down on top affiliate deals."
+    },
+    {
+      "id": "cal-17",
+      "date": "2025-12-15",
+      "title": "New Arrivals Campaign",
+      "type": "campaign",
+      "owner": "Liz",
+      "notes": "Late holiday new arrivals drop. Target gifting audience with fast shipping messaging."
+    },
+    {
+      "id": "cal-18",
+      "date": "2025-12-19",
+      "title": "Winter Clearance Campaign",
+      "type": "campaign",
+      "owner": "Kuljit",
+      "notes": "End of season clearance push. Clear excess inventory through TikTok Shop flash deals."
+    },
+    {
+      "id": "cal-19",
+      "date": "2025-12-22",
+      "title": "Year-End Review",
+      "type": "internal",
+      "owner": "ACT Team",
+      "notes": "Full year performance review. Document learnings, celebrate wins, set targets for 2026."
+    },
+    {
+      "id": "cal-20",
+      "date": "2025-12-29",
+      "title": "New Year Teaser Launch",
+      "type": "launch",
+      "owner": "Carla",
+      "notes": "Tease new 2026 spring collection via TikTok Live. Seed to select creators for early buzz."
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "tasks": [
+    {
+      "id": "wf-1",
+      "role": "affiliate_comms",
+      "taskName": "Daily Shop Health Check",
+      "frequency": "daily",
+      "dayOfWeek": [],
+      "completedThisWeek": [true, true, true, false, false],
+      "goal": 5
+    },
+    {
+      "id": "wf-2",
+      "role": "affiliate_comms",
+      "taskName": "Download Shop Data",
+      "frequency": "daily",
+      "dayOfWeek": [],
+      "completedThisWeek": [true, true, false, false, false],
+      "goal": 5
+    },
+    {
+      "id": "wf-3",
+      "role": "affiliate_comms",
+      "taskName": "Download Video Performance Data",
+      "frequency": "daily",
+      "dayOfWeek": [],
+      "completedThisWeek": [true, true, true, true, false],
+      "goal": 5
+    },
+    {
+      "id": "wf-4",
+      "role": "affiliate_comms",
+      "taskName": "Update Ads Tab",
+      "frequency": "daily",
+      "dayOfWeek": [],
+      "completedThisWeek": [true, false, true, false, false],
+      "goal": 5
+    },
+    {
+      "id": "wf-5",
+      "role": "affiliate_comms",
+      "taskName": "Download Sample Data",
+      "frequency": "daily",
+      "dayOfWeek": [],
+      "completedThisWeek": [true, true, true, true, true],
+      "goal": 5
+    },
+    {
+      "id": "wf-6",
+      "role": "affiliate_comms",
+      "taskName": "Review sample requests expiring in 3 days",
+      "frequency": "daily",
+      "dayOfWeek": [],
+      "completedThisWeek": [true, true, false, true, false],
+      "goal": 5
+    },
+    {
+      "id": "wf-7",
+      "role": "affiliate_comms",
+      "taskName": "Review unreplied messages",
+      "frequency": "daily",
+      "dayOfWeek": [],
+      "completedThisWeek": [true, true, true, false, false],
+      "goal": 5
+    },
+    {
+      "id": "wf-8",
+      "role": "affiliate_comms",
+      "taskName": "Update Weekly Scorecard",
+      "frequency": "weekly",
+      "dayOfWeek": [2],
+      "completedThisWeek": [false, true, false, false, false],
+      "goal": 1
+    },
+    {
+      "id": "wf-9",
+      "role": "affiliate_comms",
+      "taskName": "Update Creators_Date & Past",
+      "frequency": "weekly",
+      "dayOfWeek": [2],
+      "completedThisWeek": [false, true, false, false, false],
+      "goal": 1
+    },
+    {
+      "id": "wf-10",
+      "role": "affiliate_comms",
+      "taskName": "Update Products_Date & Past",
+      "frequency": "weekly",
+      "dayOfWeek": [2],
+      "completedThisWeek": [false, false, false, false, false],
+      "goal": 1
+    },
+    {
+      "id": "wf-11",
+      "role": "media_buyer",
+      "taskName": "Update Ad Spend in Ads Tab",
+      "frequency": "daily",
+      "dayOfWeek": [],
+      "completedThisWeek": [true, true, true, true, false],
+      "goal": 5
+    },
+    {
+      "id": "wf-12",
+      "role": "media_buyer",
+      "taskName": "Update Ad Driven GMV in Ads Tab",
+      "frequency": "daily",
+      "dayOfWeek": [],
+      "completedThisWeek": [true, true, true, false, false],
+      "goal": 5
+    },
+    {
+      "id": "wf-13",
+      "role": "scs",
+      "taskName": "Review Hero Product Tab",
+      "frequency": "weekly",
+      "dayOfWeek": [1],
+      "completedThisWeek": [true, false, false, false, false],
+      "goal": 1
+    },
+    {
+      "id": "wf-14",
+      "role": "scs",
+      "taskName": "Update Strategy Levers",
+      "frequency": "weekly",
+      "dayOfWeek": [5],
+      "completedThisWeek": [false, false, false, false, false],
+      "goal": 1
+    },
+    {
+      "id": "wf-15",
+      "role": "scs",
+      "taskName": "Weekly Performance Summary",
+      "frequency": "weekly",
+      "dayOfWeek": [5],
+      "completedThisWeek": [false, false, false, false, false],
+      "goal": 1
+    }
+  ]
+}

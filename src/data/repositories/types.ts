@@ -7,6 +7,8 @@ import type { Creator, LiveCreator, TargetCollab, CollaborationData, CreatorInce
 import type { Product, SampleOrder, HeroProduct, Restock } from '@/modules/samples/types'
 import type { WeeklyScorecard, MonthlyScorecard } from '@/modules/scorecards/types'
 import type { PlanningPeriod, StrategyLever } from '@/modules/planning/types'
+import type { CalendarEvent } from '@/modules/calendar/types'
+import type { WorkflowTask } from '@/modules/workflow/types'
 
 export interface AuthRepository {
   login(email: string, password: string): Promise<{ user: User; token: string }>
@@ -55,4 +57,12 @@ export interface ScorecardsRepository {
 export interface PlanningRepository {
   getPlanningPeriods(clientId: string): Promise<PlanningPeriod[]>
   getStrategyLevers(clientId: string): Promise<StrategyLever[]>
+}
+
+export interface CalendarRepository {
+  getEvents(clientId: string): Promise<CalendarEvent[]>
+}
+
+export interface WorkflowRepository {
+  getWorkflowTasks(clientId: string): Promise<WorkflowTask[]>
 }
