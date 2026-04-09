@@ -5,7 +5,15 @@ import { tanstackStart } from '@tanstack/react-start/plugin/vite'
 import { resolve } from 'path'
 
 export default defineConfig({
-  plugins: [tanstackStart(), react(), tailwindcss()],
+  plugins: [
+    tanstackStart({
+      router: {
+        autoCodeSplitting: false,
+      },
+    }),
+    react(),
+    tailwindcss(),
+  ],
   resolve: {
     alias: {
       '@': resolve(__dirname, './src'),
