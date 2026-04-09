@@ -4,6 +4,8 @@ import { VideoKpis } from '@/modules/videos/components/video-kpis'
 import { VideoChart } from '@/modules/videos/components/video-chart'
 import { VideoFunnel } from '@/modules/videos/components/video-funnel'
 import { VideoTable } from '@/modules/videos/components/video-table'
+import { exportToCsv } from '@/lib/export'
+import { ExportButton } from '@/modules/shared/components/export-button'
 
 function VideosPage() {
   const { data, isLoading } = useVideoMetrics('client-1')
@@ -20,9 +22,12 @@ function VideosPage() {
 
   return (
     <div className="space-y-6">
-      <div>
-        <h2 className="text-xl font-bold text-foreground">Video Performance</h2>
-        <p className="text-sm text-muted">Track video GMV, views, and conversion funnel metrics.</p>
+      <div className="flex items-center justify-between">
+        <div>
+          <h2 className="text-xl font-bold text-foreground">Video Performance</h2>
+          <p className="text-sm text-muted">Track video GMV, views, and conversion funnel metrics.</p>
+        </div>
+        <ExportButton onClick={() => exportToCsv(metrics, 'video-analytics')} />
       </div>
       <VideoKpis data={metrics} previousData={[]} />
       <VideoChart data={metrics} />

@@ -4,6 +4,8 @@ import { AdsKpis } from '@/modules/ads/components/ads-kpis'
 import { RoasChart } from '@/modules/ads/components/roas-chart'
 import { CollabsComparison } from '@/modules/ads/components/collabs-comparison'
 import { AdsTable } from '@/modules/ads/components/ads-table'
+import { exportToCsv } from '@/lib/export'
+import { ExportButton } from '@/modules/shared/components/export-button'
 
 function AdsPage() {
   const { data, isLoading } = useAdsMetrics('client-1')
@@ -20,9 +22,12 @@ function AdsPage() {
 
   return (
     <div className="space-y-6">
-      <div>
-        <h2 className="text-xl font-bold text-foreground">Ads Management</h2>
-        <p className="text-sm text-muted">Monitor ad spend, ROAS, and collaboration performance.</p>
+      <div className="flex items-center justify-between">
+        <div>
+          <h2 className="text-xl font-bold text-foreground">Ads Management</h2>
+          <p className="text-sm text-muted">Monitor ad spend, ROAS, and collaboration performance.</p>
+        </div>
+        <ExportButton onClick={() => exportToCsv(metrics, 'ads-analytics')} />
       </div>
       <AdsKpis data={metrics} previousData={[]} />
       <RoasChart data={metrics} />
