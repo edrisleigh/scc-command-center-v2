@@ -15,7 +15,7 @@ interface DataTableProps<T> {
   pageSize?: number
 }
 
-export function DataTable<T extends Record<string, unknown>>({
+export function DataTable<T extends object>({
   columns, data, pageSize = 25,
 }: DataTableProps<T>) {
   const [sortKey, setSortKey] = useState<string | null>(null)
@@ -25,8 +25,8 @@ export function DataTable<T extends Record<string, unknown>>({
   const sortedData = useMemo(() => {
     if (!sortKey) return data
     return [...data].sort((a, b) => {
-      const aVal = a[sortKey]
-      const bVal = b[sortKey]
+      const aVal = (a as Record<string, unknown>)[sortKey]
+      const bVal = (b as Record<string, unknown>)[sortKey]
       if (typeof aVal === 'number' && typeof bVal === 'number') {
         return sortDir === 'asc' ? aVal - bVal : bVal - aVal
       }
@@ -74,7 +74,7 @@ export function DataTable<T extends Record<string, unknown>>({
               <tr key={i} className={cn('border-b border-border last:border-0', 'hover:bg-accent/50')}>
                 {columns.map((col) => (
                   <td key={col.key} className="px-4 py-3 text-card-foreground">
-                    {col.format ? col.format(row[col.key]) : String(row[col.key])}
+                    {col.format ? col.format(row[col.key as keyof T]) : String(row[col.key as keyof T])}
                   </td>
                 ))}
               </tr>

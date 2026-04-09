@@ -89,7 +89,7 @@ export function TimeSeriesChart({
           <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.06)" />
           <XAxis dataKey={xAxisKey} tick={{ fill: '#888', fontSize: 11 }} tickFormatter={(v) => { if (granularity === 'monthly') return v; return format(parseISO(v), 'MMM d') }} />
           <YAxis tick={{ fill: '#888', fontSize: 11 }} tickFormatter={(v) => valueFormatter(v)} />
-          <Tooltip contentStyle={{ background: '#1a1a2e', border: '1px solid rgba(255,255,255,0.1)', borderRadius: 8, color: '#e0e0e0' }} formatter={(v: number) => valueFormatter(v)} />
+          <Tooltip contentStyle={{ background: '#1a1a2e', border: '1px solid rgba(255,255,255,0.1)', borderRadius: 8, color: '#e0e0e0' }} formatter={(v) => valueFormatter(Number(v))} />
           <Area type="monotone" dataKey={dataKey} stroke={color} fill={color} fillOpacity={0.1} />
           {secondaryDataKey && <Area type="monotone" dataKey={secondaryDataKey} stroke={secondaryColor} fill={secondaryColor} fillOpacity={0.05} />}
         </AreaChart>
