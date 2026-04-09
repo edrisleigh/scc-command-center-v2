@@ -1,10 +1,14 @@
 import { createFileRoute } from '@tanstack/react-router'
+import { CsvImportWizard } from '@/modules/import/components/csv-import-wizard'
 
 export const Route = createFileRoute('/$orgSlug/$clientSlug/import')({
   component: () => (
-    <div>
-      <h2 className="text-xl font-bold text-foreground">Data Import</h2>
-      <p className="mt-2 text-muted">Coming in Phase 2</p>
+    <div className="space-y-6">
+      <div>
+        <h2 className="text-xl font-bold text-foreground">Data Import</h2>
+        <p className="text-sm text-muted">Upload CSV files to import data into the system</p>
+      </div>
+      <CsvImportWizard />
     </div>
   ),
 })
