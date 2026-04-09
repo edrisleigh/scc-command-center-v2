@@ -1,6 +1,5 @@
 import { create } from 'zustand'
 import { persist, createJSONStorage } from 'zustand/middleware'
-import { startOfMonth, endOfMonth } from 'date-fns'
 import type { DateRange } from '@/modules/shared/types'
 
 interface AppState {
@@ -21,8 +20,8 @@ export const useAppStore = create<AppState>()(
     (set) => ({
       sidebarCollapsed: false,
       dateRange: {
-        from: startOfMonth(new Date()),
-        to: endOfMonth(new Date()),
+        from: new Date('2025-10-01'),
+        to: new Date('2025-10-31'),
       },
       toggleSidebar: () => set((s) => ({ sidebarCollapsed: !s.sidebarCollapsed })),
       setDateRange: (dateRange) => set({ dateRange }),

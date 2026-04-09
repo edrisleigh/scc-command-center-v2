@@ -1,14 +1,15 @@
-import { format, subDays, startOfMonth, endOfMonth, subMonths } from 'date-fns'
+import { format } from 'date-fns'
 import { CalendarDays } from 'lucide-react'
 import { useDateRange } from '@/modules/shared/hooks/use-date-range'
 import { cn } from '@/lib/utils'
 
+// Presets aligned with fixture data range (Sep–Nov 2025)
 const presets = [
-  { label: 'Last 7 days', from: () => subDays(new Date(), 6), to: () => new Date() },
-  { label: 'Last 28 days', from: () => subDays(new Date(), 27), to: () => new Date() },
-  { label: 'This month', from: () => startOfMonth(new Date()), to: () => endOfMonth(new Date()) },
-  { label: 'Last month', from: () => startOfMonth(subMonths(new Date(), 1)), to: () => endOfMonth(subMonths(new Date(), 1)) },
-  { label: 'Last 3 months', from: () => startOfMonth(subMonths(new Date(), 2)), to: () => endOfMonth(new Date()) },
+  { label: 'Oct 2025', from: () => new Date('2025-10-01'), to: () => new Date('2025-10-31') },
+  { label: 'Nov 2025', from: () => new Date('2025-11-01'), to: () => new Date('2025-11-30') },
+  { label: 'Sep 2025', from: () => new Date('2025-09-01'), to: () => new Date('2025-09-30') },
+  { label: 'Q4 2025', from: () => new Date('2025-10-01'), to: () => new Date('2025-11-30') },
+  { label: 'All Data', from: () => new Date('2025-09-01'), to: () => new Date('2025-11-30') },
 ]
 
 export function DateRangePicker() {
