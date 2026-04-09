@@ -1,0 +1,12 @@
+{
+  "organizations": [
+    { "id": "org-1", "name": "Halo Agency", "slug": "halo" }
+  ],
+  "clients": [
+    { "id": "client-1", "organizationId": "org-1", "name": "HEYDUDE", "slug": "heydude", "platform": "tiktok" },
+    { "id": "client-2", "organizationId": "org-1", "name": "Brand B", "slug": "brand-b", "platform": "tiktok" }
+  ],
+  "users": [
+    { "id": "user-1", "name": "Edris Aleigh", "email": "edris@halo.com", "role": "admin", "organizationId": "org-1" }
+  ]
+}
