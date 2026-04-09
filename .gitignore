@@ -1,0 +1,7 @@
+node_modules
+dist
+.superpowers
+.env
+.vinxi
+.output
+app.config.timestamp_*
