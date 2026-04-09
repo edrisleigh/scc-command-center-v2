@@ -9,38 +9,108 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as OrgSlugRouteRouteImport } from './routes/$orgSlug/route'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as OrgSlugOverviewRouteImport } from './routes/$orgSlug/overview'
+import { Route as OrgSlugClientSlugRouteRouteImport } from './routes/$orgSlug/$clientSlug/route'
+import { Route as OrgSlugClientSlugIndexRouteImport } from './routes/$orgSlug/$clientSlug/index'
+import { Route as OrgSlugClientSlugShopRouteImport } from './routes/$orgSlug/$clientSlug/shop'
 
+const OrgSlugRouteRoute = OrgSlugRouteRouteImport.update({
+  id: '/$orgSlug',
+  path: '/$orgSlug',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const OrgSlugOverviewRoute = OrgSlugOverviewRouteImport.update({
+  id: '/overview',
+  path: '/overview',
+  getParentRoute: () => OrgSlugRouteRoute,
+} as any)
+const OrgSlugClientSlugRouteRoute = OrgSlugClientSlugRouteRouteImport.update({
+  id: '/$clientSlug',
+  path: '/$clientSlug',
+  getParentRoute: () => OrgSlugRouteRoute,
+} as any)
+const OrgSlugClientSlugIndexRoute = OrgSlugClientSlugIndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => OrgSlugClientSlugRouteRoute,
+} as any)
+const OrgSlugClientSlugShopRoute = OrgSlugClientSlugShopRouteImport.update({
+  id: '/shop',
+  path: '/shop',
+  getParentRoute: () => OrgSlugClientSlugRouteRoute,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/$orgSlug': typeof OrgSlugRouteRouteWithChildren
+  '/$orgSlug/$clientSlug': typeof OrgSlugClientSlugRouteRouteWithChildren
+  '/$orgSlug/overview': typeof OrgSlugOverviewRoute
+  '/$orgSlug/$clientSlug/shop': typeof OrgSlugClientSlugShopRoute
+  '/$orgSlug/$clientSlug/': typeof OrgSlugClientSlugIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/$orgSlug': typeof OrgSlugRouteRouteWithChildren
+  '/$orgSlug/overview': typeof OrgSlugOverviewRoute
+  '/$orgSlug/$clientSlug/shop': typeof OrgSlugClientSlugShopRoute
+  '/$orgSlug/$clientSlug': typeof OrgSlugClientSlugIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/$orgSlug': typeof OrgSlugRouteRouteWithChildren
+  '/$orgSlug/$clientSlug': typeof OrgSlugClientSlugRouteRouteWithChildren
+  '/$orgSlug/overview': typeof OrgSlugOverviewRoute
+  '/$orgSlug/$clientSlug/shop': typeof OrgSlugClientSlugShopRoute
+  '/$orgSlug/$clientSlug/': typeof OrgSlugClientSlugIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths:
+    | '/'
+    | '/$orgSlug'
+    | '/$orgSlug/$clientSlug'
+    | '/$orgSlug/overview'
+    | '/$orgSlug/$clientSlug/shop'
+    | '/$orgSlug/$clientSlug/'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to:
+    | '/'
+    | '/$orgSlug'
+    | '/$orgSlug/overview'
+    | '/$orgSlug/$clientSlug/shop'
+    | '/$orgSlug/$clientSlug'
+  id:
+    | '__root__'
+    | '/'
+    | '/$orgSlug'
+    | '/$orgSlug/$clientSlug'
+    | '/$orgSlug/overview'
+    | '/$orgSlug/$clientSlug/shop'
+    | '/$orgSlug/$clientSlug/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  OrgSlugRouteRoute: typeof OrgSlugRouteRouteWithChildren
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/$orgSlug': {
+      id: '/$orgSlug'
+      path: '/$orgSlug'
+      fullPath: '/$orgSlug'
+      preLoaderRoute: typeof OrgSlugRouteRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/': {
       id: '/'
       path: '/'
@@ -48,11 +118,70 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/$orgSlug/overview': {
+      id: '/$orgSlug/overview'
+      path: '/overview'
+      fullPath: '/$orgSlug/overview'
+      preLoaderRoute: typeof OrgSlugOverviewRouteImport
+      parentRoute: typeof OrgSlugRouteRoute
+    }
+    '/$orgSlug/$clientSlug': {
+      id: '/$orgSlug/$clientSlug'
+      path: '/$clientSlug'
+      fullPath: '/$orgSlug/$clientSlug'
+      preLoaderRoute: typeof OrgSlugClientSlugRouteRouteImport
+      parentRoute: typeof OrgSlugRouteRoute
+    }
+    '/$orgSlug/$clientSlug/': {
+      id: '/$orgSlug/$clientSlug/'
+      path: '/'
+      fullPath: '/$orgSlug/$clientSlug/'
+      preLoaderRoute: typeof OrgSlugClientSlugIndexRouteImport
+      parentRoute: typeof OrgSlugClientSlugRouteRoute
+    }
+    '/$orgSlug/$clientSlug/shop': {
+      id: '/$orgSlug/$clientSlug/shop'
+      path: '/shop'
+      fullPath: '/$orgSlug/$clientSlug/shop'
+      preLoaderRoute: typeof OrgSlugClientSlugShopRouteImport
+      parentRoute: typeof OrgSlugClientSlugRouteRoute
+    }
   }
 }
 
+interface OrgSlugClientSlugRouteRouteChildren {
+  OrgSlugClientSlugShopRoute: typeof OrgSlugClientSlugShopRoute
+  OrgSlugClientSlugIndexRoute: typeof OrgSlugClientSlugIndexRoute
+}
+
+const OrgSlugClientSlugRouteRouteChildren: OrgSlugClientSlugRouteRouteChildren =
+  {
+    OrgSlugClientSlugShopRoute: OrgSlugClientSlugShopRoute,
+    OrgSlugClientSlugIndexRoute: OrgSlugClientSlugIndexRoute,
+  }
+
+const OrgSlugClientSlugRouteRouteWithChildren =
+  OrgSlugClientSlugRouteRoute._addFileChildren(
+    OrgSlugClientSlugRouteRouteChildren,
+  )
+
+interface OrgSlugRouteRouteChildren {
+  OrgSlugClientSlugRouteRoute: typeof OrgSlugClientSlugRouteRouteWithChildren
+  OrgSlugOverviewRoute: typeof OrgSlugOverviewRoute
+}
+
+const OrgSlugRouteRouteChildren: OrgSlugRouteRouteChildren = {
+  OrgSlugClientSlugRouteRoute: OrgSlugClientSlugRouteRouteWithChildren,
+  OrgSlugOverviewRoute: OrgSlugOverviewRoute,
+}
+
+const OrgSlugRouteRouteWithChildren = OrgSlugRouteRoute._addFileChildren(
+  OrgSlugRouteRouteChildren,
+)
+
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  OrgSlugRouteRoute: OrgSlugRouteRouteWithChildren,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
