@@ -6,7 +6,7 @@ import type { AdsDailyMetric } from '@/modules/ads/types'
 import type { Creator, LiveCreator, TargetCollab, CollaborationData, CreatorIncentive } from '@/modules/creators/types'
 import type { Product, SampleOrder, HeroProduct, Restock } from '@/modules/samples/types'
 import type { WeeklyScorecard, MonthlyScorecard } from '@/modules/scorecards/types'
-import type { PlanningPeriod, StrategyLever } from '@/modules/planning/types'
+
 import type { CalendarEvent } from '@/modules/calendar/types'
 import type { WorkflowTask } from '@/modules/workflow/types'
 
@@ -54,10 +54,6 @@ export interface ScorecardsRepository {
   getMonthlyScorecard(clientId: string): Promise<MonthlyScorecard[]>
 }
 
-export interface PlanningRepository {
-  getPlanningPeriods(clientId: string): Promise<PlanningPeriod[]>
-  getStrategyLevers(clientId: string): Promise<StrategyLever[]>
-}
 
 export interface CalendarRepository {
   getEvents(clientId: string): Promise<CalendarEvent[]>

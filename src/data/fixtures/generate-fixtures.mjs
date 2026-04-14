@@ -31,7 +31,7 @@ function getDates(start, end) {
   return dates
 }
 
-const dates = getDates('2025-09-01', '2025-11-30')
+const dates = getDates('2025-01-01', '2026-04-13')
 
 // --- Shop daily fixtures ---
 const shopDaily = dates.map((date) => {

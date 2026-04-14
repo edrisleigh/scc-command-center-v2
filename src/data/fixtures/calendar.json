@@ -159,6 +159,158 @@
       "type": "launch",
       "owner": "Carla",
       "notes": "Tease new 2026 spring collection via TikTok Live. Seed to select creators for early buzz."
+    },
+    {
+      "id": "cal-21",
+      "date": "2026-01-05",
+      "title": "Q1 2026 Kickoff",
+      "type": "internal",
+      "owner": "ACT Team",
+      "notes": "Kick off Q1 2026. Align on GMV targets, creator rosters, and spring campaign calendar."
+    },
+    {
+      "id": "cal-22",
+      "date": "2026-01-09",
+      "title": "Spring Collection Launch",
+      "type": "launch",
+      "owner": "Kuljit",
+      "notes": "Launch the 2026 Spring Collection. Coordinate influencer seeding and TikTok Shop product listings."
+    },
+    {
+      "id": "cal-23",
+      "date": "2026-01-14",
+      "title": "New Year New Kicks Campaign",
+      "type": "campaign",
+      "owner": "Liz",
+      "notes": "January campaign targeting resolution shoppers. Focus on fresh starts and lifestyle content."
+    },
+    {
+      "id": "cal-24",
+      "date": "2026-01-19",
+      "title": "TikTok Shop Flash Sale",
+      "type": "tt_promo",
+      "owner": "Christian",
+      "notes": "Platform-wide flash sale. Increase CPC bids and activate top affiliate discount codes."
+    },
+    {
+      "id": "cal-25",
+      "date": "2026-01-26",
+      "title": "Monthly Planning Meeting",
+      "type": "internal",
+      "owner": "ACT Team",
+      "notes": "January recap and February campaign planning. Review early Q1 pacing vs targets."
+    },
+    {
+      "id": "cal-26",
+      "date": "2026-02-02",
+      "title": "Valentine's Day Campaign",
+      "type": "campaign",
+      "owner": "Carla",
+      "notes": "Valentine's gifting push. Activate lifestyle creators for couples content and gift-guide videos."
+    },
+    {
+      "id": "cal-27",
+      "date": "2026-02-09",
+      "title": "HEYDUDE x Creator Collab Drop",
+      "type": "launch",
+      "owner": "Kuljit",
+      "notes": "Limited-edition collab with top TikTok creator. Exclusive colorway reveal and live selling event."
+    },
+    {
+      "id": "cal-28",
+      "date": "2026-02-14",
+      "title": "Valentine's Flash Promo",
+      "type": "tt_promo",
+      "owner": "Christian",
+      "notes": "Valentine's Day TikTok Shop exclusive promo. Push coupon codes and creator live streams."
+    },
+    {
+      "id": "cal-29",
+      "date": "2026-02-23",
+      "title": "Monthly Planning Meeting",
+      "type": "internal",
+      "owner": "ACT Team",
+      "notes": "February close and March planning. Prep for spring break and St. Patrick's Day moments."
+    },
+    {
+      "id": "cal-30",
+      "date": "2026-03-02",
+      "title": "Spring Break Campaign",
+      "type": "campaign",
+      "owner": "Liz",
+      "notes": "Spring break lifestyle campaign. Target college-age shoppers with beach and outdoor content."
+    },
+    {
+      "id": "cal-31",
+      "date": "2026-03-09",
+      "title": "St. Patrick's Day Launch",
+      "type": "launch",
+      "owner": "Carla",
+      "notes": "Limited green colorway drop for St. Patrick's Day. Flash release via TikTok Live."
+    },
+    {
+      "id": "cal-32",
+      "date": "2026-03-16",
+      "title": "TikTok Shop Deals Week",
+      "type": "tt_promo",
+      "owner": "Christian",
+      "notes": "Platform-wide deals week event. Coordinated ad push with category-level promotions."
+    },
+    {
+      "id": "cal-33",
+      "date": "2026-03-23",
+      "title": "Monthly Planning Meeting",
+      "type": "internal",
+      "owner": "ACT Team",
+      "notes": "March close. Q1 final push review and Q2 planning preview."
+    },
+    {
+      "id": "cal-34",
+      "date": "2026-03-30",
+      "title": "Creator Review",
+      "type": "internal",
+      "owner": "Liz",
+      "notes": "Q1 creator performance review. Identify MVPs for Q2 VIP tier. Offboard underperformers."
+    },
+    {
+      "id": "cal-35",
+      "date": "2026-04-01",
+      "title": "Q2 2026 Kickoff",
+      "type": "internal",
+      "owner": "ACT Team",
+      "notes": "Q2 strategy kickoff. Introduce summer campaign themes, set GMV pacing milestones."
+    },
+    {
+      "id": "cal-36",
+      "date": "2026-04-03",
+      "title": "Easter Campaign",
+      "type": "campaign",
+      "owner": "Kuljit",
+      "notes": "Easter weekend shopping push. Activate gift-giving content with family lifestyle creators."
+    },
+    {
+      "id": "cal-37",
+      "date": "2026-04-07",
+      "title": "Spring Refresh Launch",
+      "type": "launch",
+      "owner": "Carla",
+      "notes": "New pastel colorways drop for spring. Seed to 20 top lifestyle creators ahead of launch day."
+    },
+    {
+      "id": "cal-38",
+      "date": "2026-04-10",
+      "title": "TikTok Spring Sale",
+      "type": "tt_promo",
+      "owner": "Christian",
+      "notes": "TikTok Shop spring sale event. Platform coupons plus creator-specific discount codes."
+    },
+    {
+      "id": "cal-39",
+      "date": "2026-04-13",
+      "title": "Monthly Planning Meeting",
+      "type": "internal",
+      "owner": "ACT Team",
+      "notes": "April mid-month check-in. Review Q2 pacing and adjust creator incentive strategy."
     }
   ]
 }

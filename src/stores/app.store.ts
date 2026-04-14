@@ -20,15 +20,20 @@ export const useAppStore = create<AppState>()(
     (set) => ({
       sidebarCollapsed: false,
       dateRange: {
-        from: new Date('2025-10-01'),
-        to: new Date('2025-10-31'),
+        from: new Date('2026-03-01'),
+        to: new Date('2026-04-13'),
       },
       toggleSidebar: () => set((s) => ({ sidebarCollapsed: !s.sidebarCollapsed })),
       setDateRange: (dateRange) => set({ dateRange }),
     }),
     {
       name: 'scc-app',
+      version: 1,
       partialize: (state) => ({ sidebarCollapsed: state.sidebarCollapsed }),
+      merge: (persisted, current) => ({
+        ...current,
+        sidebarCollapsed: (persisted as Partial<AppState>).sidebarCollapsed ?? current.sidebarCollapsed,
+      }),
       storage: createJSONStorage(() =>
         typeof window !== 'undefined' ? localStorage : noopStorage,
       ),

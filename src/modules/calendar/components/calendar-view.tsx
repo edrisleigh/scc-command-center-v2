@@ -51,7 +51,7 @@ function getMondayFirstIndex(date: Date): number {
 }
 
 export function CalendarView({ events }: CalendarViewProps) {
-  const [currentMonth, setCurrentMonth] = useState(() => new Date(2025, 10, 1)) // Nov 2025
+  const [currentMonth, setCurrentMonth] = useState(() => new Date(2026, 3, 1)) // Apr 2026
   const [selectedEvent, setSelectedEvent] = useState<CalendarEvent | null>(null)
 
   const days = useMemo(() => {

@@ -105,7 +105,7 @@ export function CreatorList({ creators, onSelect, selectedId }: CreatorListProps
       header: 'Vs Prior',
       render: (c) => (
         <span className={cn(c.deltaVsPriorPeriod >= 0 ? 'text-success' : 'text-danger')}>
-          {c.deltaVsPriorPeriod >= 0 ? '+' : ''}{formatPercent(c.deltaVsPriorPeriod)}
+          {c.deltaVsPriorPeriod >= 0 ? '+' : ''}{formatCurrency(c.deltaVsPriorPeriod)}
         </span>
       ),
     },

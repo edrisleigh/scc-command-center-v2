@@ -8,7 +8,9 @@ export default defineConfig({
   plugins: [
     tanstackStart({
       router: {
-        autoCodeSplitting: false,
+        codeSplittingOptions: {
+          defaultBehavior: [],
+        },
       },
     }),
     react(),

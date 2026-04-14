@@ -7,12 +7,14 @@ import {
   FileText,
   Package,
   ClipboardList,
-  Target,
+
   Calendar,
   ListChecks,
   Upload,
   Settings,
   LayoutDashboard,
+  PanelLeftOpen,
+  PanelLeftClose,
 } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { useTenant } from '@/modules/shared/hooks/use-tenant'
@@ -39,7 +41,7 @@ const sections: NavSection[] = [
     title: 'Analytics',
     items: [
       { label: 'Shop Analytics', icon: BarChart3, path: 'shop' },
-      { label: 'Video Performance', icon: Video, path: 'video' },
+      { label: 'Video Performance', icon: Video, path: 'videos' },
       { label: 'Ads Management', icon: Megaphone, path: 'ads' },
     ],
   },
@@ -55,7 +57,6 @@ const sections: NavSection[] = [
     title: 'Reporting',
     items: [
       { label: 'Scorecards', icon: ClipboardList, path: 'scorecards' },
-      { label: 'Planning & OGSM', icon: Target, path: 'planning' },
     ],
   },
   {

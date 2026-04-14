@@ -51,7 +51,7 @@ export function CreatorDetail({ creator, collaborations, incentives, onClose }: 
           <div>
             <span className="text-muted-foreground">Vs Prior Period: </span>
             <span className={cn(creator.deltaVsPriorPeriod >= 0 ? 'text-success' : 'text-danger')}>
-              {creator.deltaVsPriorPeriod >= 0 ? '+' : ''}{formatPercent(creator.deltaVsPriorPeriod)}
+              {creator.deltaVsPriorPeriod >= 0 ? '+' : ''}{formatCurrency(creator.deltaVsPriorPeriod)}
             </span>
           </div>
           <div>

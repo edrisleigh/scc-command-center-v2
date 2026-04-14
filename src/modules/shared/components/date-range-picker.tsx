@@ -5,11 +5,11 @@ import { cn } from '@/lib/utils'
 
 // Presets aligned with fixture data range (Sep–Nov 2025)
 const presets = [
-  { label: 'Oct 2025', from: () => new Date('2025-10-01'), to: () => new Date('2025-10-31') },
-  { label: 'Nov 2025', from: () => new Date('2025-11-01'), to: () => new Date('2025-11-30') },
-  { label: 'Sep 2025', from: () => new Date('2025-09-01'), to: () => new Date('2025-09-30') },
-  { label: 'Q4 2025', from: () => new Date('2025-10-01'), to: () => new Date('2025-11-30') },
-  { label: 'All Data', from: () => new Date('2025-09-01'), to: () => new Date('2025-11-30') },
+  { label: 'Apr 2026', from: () => new Date('2026-04-01'), to: () => new Date('2026-04-13') },
+  { label: 'Mar 2026', from: () => new Date('2026-03-01'), to: () => new Date('2026-03-31') },
+  { label: 'Q1 2026',  from: () => new Date('2026-01-01'), to: () => new Date('2026-03-31') },
+  { label: 'Q4 2025',  from: () => new Date('2025-10-01'), to: () => new Date('2025-12-31') },
+  { label: 'All Data', from: () => new Date('2025-01-01'), to: () => new Date('2026-04-13') },
 ]
 
 export function DateRangePicker() {
