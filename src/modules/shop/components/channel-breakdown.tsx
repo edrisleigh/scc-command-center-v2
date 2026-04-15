@@ -1,19 +1,19 @@
-import { formatCurrency } from '@/lib/utils'
-import type { ShopDailyMetric } from '@/modules/shop/types'
+import { formatCurrency } from "@/lib/utils";
+import type { ShopDailyMetric } from "@/modules/shop/types";
 
 interface ChannelBreakdownProps {
-  data: ShopDailyMetric[]
+  data: ShopDailyMetric[];
 }
 
 function sumKey(data: ShopDailyMetric[], key: keyof ShopDailyMetric): number {
-  return data.reduce((acc, d) => acc + (d[key] as number), 0)
+  return data.reduce((acc, d) => acc + (d[key] as number), 0);
 }
 
 interface ChannelBarProps {
-  label: string
-  amount: number
-  pct: number
-  color: string
+  label: string;
+  amount: number;
+  pct: number;
+  color: string;
 }
 
 function ChannelBar({ label, amount, pct, color }: ChannelBarProps) {
@@ -21,33 +21,45 @@ function ChannelBar({ label, amount, pct, color }: ChannelBarProps) {
     <div className="space-y-1">
       <div className="flex items-center justify-between text-sm">
         <div className="flex items-center gap-2">
-          <span className="inline-block h-2.5 w-2.5 rounded-full" style={{ backgroundColor: color }} />
+          <span
+            className="inline-block h-2.5 w-2.5 rounded-full"
+            style={{ backgroundColor: color }}
+          />
           <span className="text-card-foreground">{label}</span>
         </div>
-        <span className="text-card-foreground font-medium">{formatCurrency(amount)}</span>
+        <span className="text-card-foreground font-medium">
+          {formatCurrency(amount)}
+        </span>
       </div>
       <div className="h-1.5 w-full rounded-full bg-border overflow-hidden">
-        <div className="h-full rounded-full" style={{ width: `${pct * 100}%`, backgroundColor: color }} />
+        <div
+          className="h-full rounded-full"
+          style={{ width: `${pct * 100}%`, backgroundColor: color }}
+        />
       </div>
-      <div className="text-right text-xs text-muted">{(pct * 100).toFixed(1)}%</div>
+      <div className="text-right text-xs text-muted">
+        {(pct * 100).toFixed(1)}%
+      </div>
     </div>
-  )
+  );
 }
 
 export function ChannelBreakdown({ data }: ChannelBreakdownProps) {
-  const videoGmv = sumKey(data, 'videoGmv')
-  const productCardGmv = sumKey(data, 'productCardGmv')
-  const liveGmv = sumKey(data, 'liveGmv')
-  const totalChannel = videoGmv + productCardGmv + liveGmv
+  const videoGmv = sumKey(data, "videoGmv");
+  const productCardGmv = sumKey(data, "productCardGmv");
+  const liveGmv = sumKey(data, "liveGmv");
+  const totalChannel = videoGmv + productCardGmv + liveGmv;
 
-  const affiliateGmv = sumKey(data, 'affiliateGmv')
-  const totalGmv = sumKey(data, 'gmv')
-  const nonAffiliateGmv = Math.max(0, totalGmv - affiliateGmv)
+  const affiliateGmv = sumKey(data, "affiliateGmv");
+  const totalGmv = sumKey(data, "gmv");
+  const nonAffiliateGmv = Math.max(0, totalGmv - affiliateGmv);
 
   return (
     <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
       <div className="rounded-lg border border-border bg-card p-5 space-y-4">
-        <h3 className="text-sm font-semibold text-card-foreground">GMV by Channel</h3>
+        <h3 className="text-sm font-semibold text-card-foreground">
+          GMV by Channel
+        </h3>
         <div className="space-y-3">
           <ChannelBar
             label="Video"
@@ -71,16 +83,18 @@ export function ChannelBreakdown({ data }: ChannelBreakdownProps) {
       </div>
 
       <div className="rounded-lg border border-border bg-card p-5 space-y-4">
-        <h3 className="text-sm font-semibold text-card-foreground">Affiliate vs Non-Affiliate</h3>
+        <h3 className="text-sm font-semibold text-card-foreground">
+          Affiliate vs Open Collaboration
+        </h3>
         <div className="space-y-3">
           <ChannelBar
-            label="Affiliate"
+            label="Target Collaboration"
             amount={affiliateGmv}
             pct={totalGmv > 0 ? affiliateGmv / totalGmv : 0}
             color="#fbbf24"
           />
           <ChannelBar
-            label="Non-Affiliate"
+            label="Open Collaboration"
             amount={nonAffiliateGmv}
             pct={totalGmv > 0 ? nonAffiliateGmv / totalGmv : 0}
             color="#9ca3af"
@@ -88,5 +102,5 @@ export function ChannelBreakdown({ data }: ChannelBreakdownProps) {
         </div>
       </div>
     </div>
-  )
+  );
 }
