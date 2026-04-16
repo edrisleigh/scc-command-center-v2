@@ -7,6 +7,7 @@ import { resolve } from 'path'
 export default defineConfig({
   plugins: [
     tanstackStart({
+      spa: { enabled: true },
       router: {
         codeSplittingOptions: {
           defaultBehavior: [],
