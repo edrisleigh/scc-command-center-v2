@@ -5,6 +5,8 @@ import { VideoFunnel } from '@/modules/videos/components/video-funnel'
 import { VideoTable } from '@/modules/videos/components/video-table'
 import { exportToCsv } from '@/lib/export'
 import { ExportButton } from '@/modules/shared/components/export-button'
+import { FreshnessBadge } from '@/modules/freshness/components/freshness-badge'
+import { FlagButton } from '@/modules/flags/components/flag-button'
 
 export function VideosPage() {
   const { data, isLoading } = useVideoMetrics('client-1')
@@ -23,10 +25,16 @@ export function VideosPage() {
     <div className="space-y-6">
       <div className="flex items-center justify-between">
         <div>
-          <h2 className="text-xl font-bold text-foreground">Video Performance</h2>
+          <div className="flex items-center gap-3">
+            <h2 className="text-xl font-bold text-foreground">Video Performance</h2>
+            <FreshnessBadge source="video-daily" size="sm" />
+          </div>
           <p className="text-sm text-muted">Track video GMV, views, and conversion funnel metrics.</p>
         </div>
-        <ExportButton onClick={() => exportToCsv(metrics, 'video-analytics')} />
+        <div className="flex items-center gap-2">
+          <FlagButton section="videos" />
+          <ExportButton onClick={() => exportToCsv(metrics, 'video-analytics')} />
+        </div>
       </div>
       <VideoKpis data={metrics} previousData={[]} />
       <VideoChart data={metrics} />

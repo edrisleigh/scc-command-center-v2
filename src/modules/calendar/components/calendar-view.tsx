@@ -11,12 +11,19 @@ import {
   parseISO,
   isSameMonth,
 } from 'date-fns'
-import { ChevronLeft, ChevronRight, X } from 'lucide-react'
+import { ChevronLeft, ChevronRight, X, Plus, Pencil } from 'lucide-react'
 import { cn } from '@/lib/utils'
-import type { CalendarEvent } from '@/modules/calendar/types'
+import type { CalendarEvent, CalendarEventInput } from '@/modules/calendar/types'
+import { EventDialog } from '@/modules/calendar/components/event-dialog'
+import {
+  useCreateCalendarEvent,
+  useUpdateCalendarEvent,
+  useDeleteCalendarEvent,
+} from '@/modules/calendar/hooks'
 
 interface CalendarViewProps {
   events: CalendarEvent[]
+  clientId?: string
 }
 
 const EVENT_TYPE_CONFIG = {
@@ -44,15 +51,23 @@ const EVENT_TYPE_CONFIG = {
 
 const DAY_NAMES = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
 
-// Convert getDay (0=Sun) to Mon-first index (0=Mon)
 function getMondayFirstIndex(date: Date): number {
-  const day = getDay(date) // 0=Sun, 1=Mon, ..., 6=Sat
+  const day = getDay(date)
   return day === 0 ? 6 : day - 1
 }
 
-export function CalendarView({ events }: CalendarViewProps) {
-  const [currentMonth, setCurrentMonth] = useState(() => new Date(2026, 3, 1)) // Apr 2026
+export function CalendarView({ events, clientId = 'client-1' }: CalendarViewProps) {
+  const [currentMonth, setCurrentMonth] = useState(() => new Date(2026, 3, 1))
   const [selectedEvent, setSelectedEvent] = useState<CalendarEvent | null>(null)
+  const [dialog, setDialog] = useState<
+    | { mode: 'create'; initialDate?: string }
+    | { mode: 'edit'; event: CalendarEvent }
+    | null
+  >(null)
+
+  const createMutation = useCreateCalendarEvent(clientId)
+  const updateMutation = useUpdateCalendarEvent(clientId)
+  const deleteMutation = useDeleteCalendarEvent(clientId)
 
   const days = useMemo(() => {
     const monthStart = startOfMonth(currentMonth)
@@ -74,28 +89,55 @@ export function CalendarView({ events }: CalendarViewProps) {
 
   const totalCells = Math.ceil((startPadding + days.length) / 7) * 7
 
+  const handleSubmit = async (input: CalendarEventInput) => {
+    if (dialog?.mode === 'edit') {
+      await updateMutation.mutateAsync({ id: dialog.event.id, patch: input })
+      setSelectedEvent(null)
+    } else {
+      await createMutation.mutateAsync(input)
+    }
+  }
+
+  const handleDelete = async () => {
+    if (dialog?.mode !== 'edit') return
+    await deleteMutation.mutateAsync(dialog.event.id)
+    setSelectedEvent(null)
+  }
+
   return (
     <div className="space-y-4">
-      {/* Month navigation header */}
       <div className="flex items-center justify-between">
         <button
           onClick={() => setCurrentMonth((m) => subMonths(m, 1))}
-          className="flex h-8 w-8 items-center justify-center rounded-md border border-border text-muted-foreground hover:bg-accent hover:text-card-foreground transition-colors"
+          className="flex h-8 w-8 items-center justify-center rounded-md border border-border text-muted-foreground transition-colors hover:bg-accent hover:text-card-foreground"
         >
           <ChevronLeft className="h-4 w-4" />
         </button>
         <h3 className="text-base font-semibold text-card-foreground">
           {format(currentMonth, 'MMMM yyyy')}
         </h3>
-        <button
-          onClick={() => setCurrentMonth((m) => addMonths(m, 1))}
-          className="flex h-8 w-8 items-center justify-center rounded-md border border-border text-muted-foreground hover:bg-accent hover:text-card-foreground transition-colors"
-        >
-          <ChevronRight className="h-4 w-4" />
-        </button>
+        <div className="flex items-center gap-2">
+          <button
+            onClick={() =>
+              setDialog({
+                mode: 'create',
+                initialDate: format(currentMonth, 'yyyy-MM-dd'),
+              })
+            }
+            className="flex items-center gap-1.5 rounded-md border border-border bg-card px-3 py-1.5 text-xs font-medium text-card-foreground transition hover:bg-accent"
+          >
+            <Plus className="h-3.5 w-3.5" />
+            New event
+          </button>
+          <button
+            onClick={() => setCurrentMonth((m) => addMonths(m, 1))}
+            className="flex h-8 w-8 items-center justify-center rounded-md border border-border text-muted-foreground transition-colors hover:bg-accent hover:text-card-foreground"
+          >
+            <ChevronRight className="h-4 w-4" />
+          </button>
+        </div>
       </div>
 
-      {/* Legend */}
       <div className="flex flex-wrap gap-3">
         {(Object.entries(EVENT_TYPE_CONFIG) as [keyof typeof EVENT_TYPE_CONFIG, (typeof EVENT_TYPE_CONFIG)[keyof typeof EVENT_TYPE_CONFIG]][]).map(([key, cfg]) => (
           <div key={key} className="flex items-center gap-1.5">
@@ -105,9 +147,7 @@ export function CalendarView({ events }: CalendarViewProps) {
         ))}
       </div>
 
-      {/* Calendar grid */}
-      <div className="rounded-lg border border-border bg-card overflow-hidden">
-        {/* Day headers */}
+      <div className="overflow-hidden rounded-lg border border-border bg-card">
         <div className="grid grid-cols-7 border-b border-border">
           {DAY_NAMES.map((day) => (
             <div
@@ -119,7 +159,6 @@ export function CalendarView({ events }: CalendarViewProps) {
           ))}
         </div>
 
-        {/* Day cells */}
         <div className="grid grid-cols-7">
           {Array.from({ length: totalCells }).map((_, idx) => {
             const dayOffset = idx - startPadding
@@ -131,7 +170,7 @@ export function CalendarView({ events }: CalendarViewProps) {
               <div
                 key={idx}
                 className={cn(
-                  'min-h-[80px] border-b border-r border-border p-1.5',
+                  'group relative min-h-[80px] border-b border-r border-border p-1.5',
                   !day && 'bg-accent/20',
                   idx % 7 === 6 && 'border-r-0',
                   idx >= totalCells - 7 && 'border-b-0',
@@ -139,15 +178,29 @@ export function CalendarView({ events }: CalendarViewProps) {
               >
                 {day && (
                   <>
-                    <div
-                      className={cn(
-                        'mb-1 flex h-6 w-6 items-center justify-center rounded-full text-xs font-medium',
-                        isToday
-                          ? 'bg-primary text-primary-foreground'
-                          : 'text-muted-foreground',
-                      )}
-                    >
-                      {format(day, 'd')}
+                    <div className="mb-1 flex items-center justify-between">
+                      <div
+                        className={cn(
+                          'flex h-6 w-6 items-center justify-center rounded-full text-xs font-medium',
+                          isToday
+                            ? 'bg-primary text-primary-foreground'
+                            : 'text-muted-foreground',
+                        )}
+                      >
+                        {format(day, 'd')}
+                      </div>
+                      <button
+                        onClick={() =>
+                          setDialog({
+                            mode: 'create',
+                            initialDate: format(day, 'yyyy-MM-dd'),
+                          })
+                        }
+                        className="opacity-0 transition group-hover:opacity-100"
+                        aria-label={`Add event on ${format(day, 'MMM d')}`}
+                      >
+                        <Plus className="h-3.5 w-3.5 text-muted-foreground hover:text-card-foreground" />
+                      </button>
                     </div>
                     <div className="space-y-0.5">
                       {dayEvents.slice(0, 3).map((event) => (
@@ -188,7 +241,6 @@ export function CalendarView({ events }: CalendarViewProps) {
         </div>
       </div>
 
-      {/* Event detail panel */}
       {selectedEvent && (
         <div className="rounded-lg border border-border bg-card p-4">
           <div className="flex items-start justify-between gap-4">
@@ -207,33 +259,52 @@ export function CalendarView({ events }: CalendarViewProps) {
                 </span>
               </div>
               <div className="flex items-center gap-4 text-xs text-muted-foreground">
-                <span>
-                  {format(parseISO(selectedEvent.date), 'EEEE, MMMM d, yyyy')}
-                </span>
-                <span>Owner: {selectedEvent.owner}</span>
+                <span>{format(parseISO(selectedEvent.date), 'EEEE, MMMM d, yyyy')}</span>
+                {selectedEvent.owner && <span>Owner: {selectedEvent.owner}</span>}
               </div>
               {selectedEvent.notes && (
-                <p className="pt-1 text-sm text-card-foreground">
-                  {selectedEvent.notes}
+                <p className="pt-1 text-sm text-card-foreground">{selectedEvent.notes}</p>
+              )}
+              {selectedEvent.updatedBy && selectedEvent.updatedAt && (
+                <p className="pt-1 text-[11px] text-muted">
+                  Updated by {selectedEvent.updatedBy} on{' '}
+                  {format(parseISO(selectedEvent.updatedAt), 'MMM d, yyyy h:mm a')}
                 </p>
               )}
             </div>
-            <button
-              onClick={() => setSelectedEvent(null)}
-              className="shrink-0 rounded p-1 text-muted-foreground hover:bg-accent hover:text-card-foreground transition-colors"
-            >
-              <X className="h-4 w-4" />
-            </button>
+            <div className="flex items-center gap-1">
+              <button
+                onClick={() => setDialog({ mode: 'edit', event: selectedEvent })}
+                className="flex items-center gap-1 rounded-md border border-border px-2 py-1 text-xs text-muted-foreground transition hover:bg-accent hover:text-card-foreground"
+              >
+                <Pencil className="h-3 w-3" />
+                Edit
+              </button>
+              <button
+                onClick={() => setSelectedEvent(null)}
+                className="shrink-0 rounded p-1 text-muted-foreground transition-colors hover:bg-accent hover:text-card-foreground"
+              >
+                <X className="h-4 w-4" />
+              </button>
+            </div>
           </div>
         </div>
       )}
 
-      {/* Month summary */}
       {eventsForMonth.length === 0 && (
-        <div className="rounded-lg border border-border bg-card px-6 py-8 text-center text-muted-foreground text-sm">
-          No events scheduled for {format(currentMonth, 'MMMM yyyy')}.
+        <div className="rounded-lg border border-border bg-card px-6 py-8 text-center text-sm text-muted-foreground">
+          No events scheduled for {format(currentMonth, 'MMMM yyyy')}. Click "New event" to add one.
         </div>
       )}
+
+      <EventDialog
+        open={dialog !== null}
+        onClose={() => setDialog(null)}
+        event={dialog?.mode === 'edit' ? dialog.event : null}
+        initialDate={dialog?.mode === 'create' ? dialog.initialDate : undefined}
+        onSubmit={handleSubmit}
+        onDelete={dialog?.mode === 'edit' ? handleDelete : undefined}
+      />
     </div>
   )
 }

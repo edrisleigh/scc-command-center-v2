@@ -13,6 +13,8 @@ import {
 } from '@/modules/creators/hooks'
 import type { Creator } from '@/modules/creators/types'
 import { cn } from '@/lib/utils'
+import { FreshnessBadge } from '@/modules/freshness/components/freshness-badge'
+import { FlagButton } from '@/modules/flags/components/flag-button'
 
 type Tab = 'all' | 'live' | 'collabs'
 
@@ -55,9 +57,15 @@ export function CreatorsPage() {
 
   return (
     <div className="space-y-6">
-      <div>
-        <h2 className="text-xl font-bold text-foreground">Creator Management</h2>
-        <p className="text-sm text-muted">Manage creators, track performance, and monitor collaborations.</p>
+      <div className="flex items-center justify-between">
+        <div>
+          <div className="flex items-center gap-3">
+            <h2 className="text-xl font-bold text-foreground">Creator Management</h2>
+            <FreshnessBadge source="creators" size="sm" />
+          </div>
+          <p className="text-sm text-muted">Manage creators, track performance, and monitor collaborations.</p>
+        </div>
+        <FlagButton section="creators" />
       </div>
 
       {/* Summary KPIs */}

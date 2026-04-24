@@ -2,6 +2,8 @@ import { useMemo } from 'react'
 import { KpiCard } from '@/modules/shared/components/kpi-card'
 import { WorkflowChecklist } from '@/modules/workflow/components/workflow-checklist'
 import { useWorkflowTasks } from '@/modules/workflow/hooks'
+import { FreshnessBadge } from '@/modules/freshness/components/freshness-badge'
+import { FlagButton } from '@/modules/flags/components/flag-button'
 
 export function WorkflowPage() {
   const { data: tasks, isLoading } = useWorkflowTasks('client-1')
@@ -53,11 +55,17 @@ export function WorkflowPage() {
 
   return (
     <div className="space-y-6">
-      <div>
-        <h2 className="text-xl font-bold text-foreground">Workflow</h2>
-        <p className="text-sm text-muted">
-          Weekly task checklist for Affiliate Comms, Media Buyer, and SCS roles.
-        </p>
+      <div className="flex items-center justify-between">
+        <div>
+          <div className="flex items-center gap-3">
+            <h2 className="text-xl font-bold text-foreground">Workflow</h2>
+            <FreshnessBadge source="workflow" size="sm" />
+          </div>
+          <p className="text-sm text-muted">
+            Weekly task checklist for Affiliate Comms, Media Buyer, and SCS roles.
+          </p>
+        </div>
+        <FlagButton section="workflow" />
       </div>
 
       {/* KPIs */}

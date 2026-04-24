@@ -6,6 +6,8 @@ import { HeroProducts } from '@/modules/samples/components/hero-products'
 import { Restocks } from '@/modules/samples/components/restocks'
 import { useProducts, useSampleOrders, useHeroProducts, useRestocks } from '@/modules/samples/hooks'
 import { cn } from '@/lib/utils'
+import { FreshnessBadge } from '@/modules/freshness/components/freshness-badge'
+import { FlagButton } from '@/modules/flags/components/flag-button'
 
 type Tab = 'products' | 'orders' | 'hero' | 'restocks'
 
@@ -45,9 +47,15 @@ export function SamplesPage() {
 
   return (
     <div className="space-y-6">
-      <div>
-        <h2 className="text-xl font-bold text-foreground">Samples &amp; Products</h2>
-        <p className="text-sm text-muted">Manage product catalog, track sample orders, and monitor hero SKUs.</p>
+      <div className="flex items-center justify-between">
+        <div>
+          <div className="flex items-center gap-3">
+            <h2 className="text-xl font-bold text-foreground">Samples &amp; Products</h2>
+            <FreshnessBadge source="samples" size="sm" />
+          </div>
+          <p className="text-sm text-muted">Manage product catalog, track sample orders, and monitor hero SKUs.</p>
+        </div>
+        <FlagButton section="samples" />
       </div>
 
       {/* Summary KPIs */}

@@ -5,6 +5,8 @@ import { CollabsComparison } from '@/modules/ads/components/collabs-comparison'
 import { AdsTable } from '@/modules/ads/components/ads-table'
 import { exportToCsv } from '@/lib/export'
 import { ExportButton } from '@/modules/shared/components/export-button'
+import { FreshnessBadge } from '@/modules/freshness/components/freshness-badge'
+import { FlagButton } from '@/modules/flags/components/flag-button'
 
 export function AdsPage() {
   const { data, isLoading } = useAdsMetrics('client-1')
@@ -23,10 +25,16 @@ export function AdsPage() {
     <div className="space-y-6">
       <div className="flex items-center justify-between">
         <div>
-          <h2 className="text-xl font-bold text-foreground">Ads Management</h2>
+          <div className="flex items-center gap-3">
+            <h2 className="text-xl font-bold text-foreground">Ads Management</h2>
+            <FreshnessBadge source="ads-daily" size="sm" />
+          </div>
           <p className="text-sm text-muted">Monitor ad spend, ROAS, and collaboration performance.</p>
         </div>
-        <ExportButton onClick={() => exportToCsv(metrics, 'ads-analytics')} />
+        <div className="flex items-center gap-2">
+          <FlagButton section="ads" />
+          <ExportButton onClick={() => exportToCsv(metrics, 'ads-analytics')} />
+        </div>
       </div>
       <AdsKpis data={metrics} previousData={[]} />
       <RoasChart data={metrics} />

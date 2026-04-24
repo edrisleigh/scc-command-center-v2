@@ -10,14 +10,15 @@ import {
 
   Calendar,
   ListChecks,
-  Upload,
   Settings,
   LayoutDashboard,
+  Flag,
   PanelLeftOpen,
   PanelLeftClose,
 } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { useTenant } from '@/modules/shared/hooks/use-tenant'
+import { useFlags } from '@/modules/flags/hooks'
 
 interface NavItem {
   label: string
@@ -64,7 +65,7 @@ const sections: NavSection[] = [
     items: [
       { label: 'Calendar', icon: Calendar, path: 'calendar' },
       { label: 'Workflow', icon: ListChecks, path: 'workflow' },
-      { label: 'Data Import', icon: Upload, path: 'import' },
+      { label: 'Flags', icon: Flag, path: 'flags' },
       { label: 'Settings', icon: Settings, path: 'settings' },
     ],
   },
@@ -73,6 +74,8 @@ const sections: NavSection[] = [
 export function Sidebar() {
   const { orgSlug, clientSlug } = useTenant()
   const matchRoute = useMatchRoute()
+  const { data: flags } = useFlags('client-1')
+  const openFlagCount = (flags ?? []).filter((f) => f.status !== 'resolved').length
 
   return (
     <aside className="flex w-[220px] shrink-0 flex-col overflow-y-auto bg-accent/50 py-4">
@@ -98,6 +101,9 @@ export function Sidebar() {
                   params: { orgSlug, clientSlug },
                 })
 
+            const badge =
+              item.path === 'flags' && openFlagCount > 0 ? openFlagCount : null
+
             return (
               <Link
                 key={item.path}
@@ -111,7 +117,12 @@ export function Sidebar() {
                 )}
               >
                 <item.icon className="h-4 w-4 shrink-0" />
-                {item.label}
+                <span className="flex-1">{item.label}</span>
+                {badge !== null && (
+                  <span className="rounded-full bg-amber-500/20 px-1.5 text-[10px] font-semibold text-amber-400">
+                    {badge}
+                  </span>
+                )}
               </Link>
             )
           })}
