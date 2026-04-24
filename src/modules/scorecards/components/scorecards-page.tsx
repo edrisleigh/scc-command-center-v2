@@ -4,6 +4,8 @@ import { WeeklyScorecardTable } from '@/modules/scorecards/components/weekly-sco
 import { MonthlyScorecardTable } from '@/modules/scorecards/components/monthly-scorecard'
 import { useWeeklyScorecard, useMonthlyScorecard } from '@/modules/scorecards/hooks'
 import { cn } from '@/lib/utils'
+import { FreshnessBadge } from '@/modules/freshness/components/freshness-badge'
+import { FlagButton } from '@/modules/flags/components/flag-button'
 
 type Tab = 'weekly' | 'monthly'
 
@@ -53,9 +55,15 @@ export function ScorecardsPage() {
 
   return (
     <div className="space-y-6">
-      <div>
-        <h2 className="text-xl font-bold text-foreground">Scorecards</h2>
-        <p className="text-sm text-muted">Weekly and monthly performance summaries across all key KPIs.</p>
+      <div className="flex items-center justify-between">
+        <div>
+          <div className="flex items-center gap-3">
+            <h2 className="text-xl font-bold text-foreground">Scorecards</h2>
+            <FreshnessBadge source="scorecards" size="sm" />
+          </div>
+          <p className="text-sm text-muted">Weekly and monthly performance summaries across all key KPIs.</p>
+        </div>
+        <FlagButton section="scorecards" />
       </div>
 
       {/* Summary KPIs */}

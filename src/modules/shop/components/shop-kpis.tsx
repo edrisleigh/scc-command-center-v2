@@ -1,47 +1,47 @@
 import { KpiCard } from '@/modules/shared/components/kpi-card'
 import type { ShopDailyMetric } from '@/modules/shop/types'
+import { useAppStore } from '@/stores/app.store'
+import {
+  SHOP_METRIC_CATALOG,
+  aggregate,
+  getMetricDefinition,
+} from '@/modules/shop/metric-catalog'
 
 interface ShopKpisProps {
   data: ShopDailyMetric[]
   previousData: ShopDailyMetric[]
 }
 
-function sumKey(data: ShopDailyMetric[], key: keyof ShopDailyMetric): number {
-  return data.reduce((acc, d) => acc + (d[key] as number), 0)
-}
-
-function avgKey(data: ShopDailyMetric[], key: keyof ShopDailyMetric): number {
-  if (data.length === 0) return 0
-  return sumKey(data, key) / data.length
-}
-
 export function ShopKpis({ data, previousData }: ShopKpisProps) {
-  const gmv = sumKey(data, 'gmv')
-  const prevGmv = sumKey(previousData, 'gmv')
+  const selected = useAppStore((s) => s.shopMetricPrefs.kpi)
 
-  const revenue = sumKey(data, 'grossRevenue')
-  const prevRevenue = sumKey(previousData, 'grossRevenue')
+  const visible = selected
+    .map((key) => getMetricDefinition(key))
+    .filter((def): def is (typeof SHOP_METRIC_CATALOG)[number] => Boolean(def))
 
-  const orders = sumKey(data, 'orders')
-  const prevOrders = sumKey(previousData, 'orders')
-
-  const customers = sumKey(data, 'customers')
-  const prevCustomers = sumKey(previousData, 'customers')
-
-  const visitors = sumKey(data, 'visitors')
-  const prevVisitors = sumKey(previousData, 'visitors')
-
-  const cvr = avgKey(data, 'conversionRate')
-  const prevCvr = avgKey(previousData, 'conversionRate')
+  if (visible.length === 0) {
+    return (
+      <div className="rounded-lg border border-dashed border-border bg-card/50 p-6 text-center text-sm text-muted">
+        No KPIs selected. Click the gear icon to customize.
+      </div>
+    )
+  }
 
   return (
     <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-6">
-      <KpiCard label="GMV" value={gmv} previousValue={prevGmv || null} format="currency" />
-      <KpiCard label="Gross Revenue" value={revenue} previousValue={prevRevenue || null} format="currency" />
-      <KpiCard label="Orders" value={orders} previousValue={prevOrders || null} format="number" />
-      <KpiCard label="Customers" value={customers} previousValue={prevCustomers || null} format="number" />
-      <KpiCard label="Visitors" value={visitors} previousValue={prevVisitors || null} format="number" />
-      <KpiCard label="CVR" value={cvr} previousValue={prevCvr || null} format="percent" />
+      {visible.map((def) => {
+        const value = aggregate(data, def)
+        const prev = aggregate(previousData, def)
+        return (
+          <KpiCard
+            key={def.key}
+            label={def.label}
+            value={value}
+            previousValue={prev || null}
+            format={def.format}
+          />
+        )
+      })}
     </div>
   )
 }
