@@ -9,6 +9,7 @@ import type { WeeklyScorecard, MonthlyScorecard } from '@/modules/scorecards/typ
 
 import type { CalendarEvent } from '@/modules/calendar/types'
 import type { WorkflowTask } from '@/modules/workflow/types'
+import type { LaunchScenario } from '@/modules/launch/types'
 
 export interface AuthRepository {
   login(email: string, password: string): Promise<{ user: User; token: string }>
@@ -61,4 +62,14 @@ export interface CalendarRepository {
 
 export interface WorkflowRepository {
   getWorkflowTasks(clientId: string): Promise<WorkflowTask[]>
+}
+
+export interface LaunchRepository {
+  list(orgSlug: string): Promise<LaunchScenario[]>
+  getById(scenarioId: string): Promise<LaunchScenario | null>
+  getByClientSlug(orgSlug: string, clientSlug: string): Promise<LaunchScenario | null>
+  create(input: { orgSlug: string; prospectName: string; name: string }): Promise<LaunchScenario>
+  save(scenario: LaunchScenario): Promise<LaunchScenario>
+  lock(scenarioId: string, chosenScenarioKey: import('@/modules/launch/types').ScenarioKey): Promise<LaunchScenario>
+  linkToClient(scenarioId: string, clientSlug: string): Promise<LaunchScenario>
 }
