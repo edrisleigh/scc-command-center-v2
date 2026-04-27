@@ -96,3 +96,66 @@ describe('computeScenario - TTS margins and profit', () => {
     expect(out.tts.platformProfit[0]).toBeCloseTo(-34005.6, 0)
   })
 })
+
+describe('computeScenario - cumulative investment freezes after break-even', () => {
+  it('writes 0 for all months after the running sum crosses positive, even if later months would have been negative', () => {
+    // Construct a fixture where TTS platform profit is -10000, -5000, +20000, -3000, +5000, +5000.
+    // Cumulative running sum before clipping: -10K, -15K, +5K, +2K, +7K, +12K.
+    // The inflection happens at M3. After M3, cumulativeInvest must be 0 — including M4 (which has a negative profit).
+    // The buggy version would write a fictional cumulative for M4 by re-referencing the M2 value.
+
+    // With roas=1.5, adSpend=10000, adPctOfGmv=1, all cost pcts=0:
+    //   gmv = 15000, agencyComm = 750, contribution = 15000 - 750 - 10000 = 4250
+    //   preRetainer = 4250 - 5000 = -750, platformProfit = -750 - 11900 = -12650 (negative)
+    // With roas=5.0, adSpend=50000, adPctOfGmv=1, all cost pcts=0:
+    //   gmv = 250000, agencyComm = 12500, contribution = 250000 - 12500 - 50000 = 187500
+    //   preRetainer = 187500 - 5000 = 182500, platformProfit = 182500 - 11900 = 170600 (positive)
+    // platformProfit array: [-12650, -12650, +170600, -12650, +170600, +170600]
+    // Running cumulative:   -12650, -25300, +145300, ...
+    // Inflection at M3 (index 2). M4 (index 3) has negative profit but must still read 0.
+    const shared: SharedInputs = {
+      aov: 100,
+      cogsPercent: 0,
+      shippingPerUnit: 0,
+      creatorCommissionPct: 0,
+      platformFeePct: 0,
+    }
+    const inputs: ScenarioInputs = {
+      tts: {
+        roas:            [1.5, 1.5, 5.0, 1.5, 5.0, 5.0],
+        adSpend:         [10000, 10000, 50000, 10000, 50000, 50000],
+        adPctOfGmv:      [1, 1, 1, 1, 1, 1],
+        samplesPerMonth: [0, 0, 0, 0, 0, 0],
+        videosPerCreator:[1, 1, 1, 1, 1, 1],
+      },
+      dtc: {
+        googleAdSpend: [0, 0, 0, 0, 0, 0],
+        metaAdSpend:   [0, 0, 0, 0, 0, 0],
+        googleRoas:    [0, 0, 0, 0, 0, 0],
+        metaRoas:      [0, 0, 0, 0, 0, 0],
+      },
+      amazonMultiplierVsTts: 0,
+    }
+
+    const out = computeScenario(inputs, shared)
+
+    // Find the first month where running sum crosses to non-negative.
+    let runningSum = 0
+    let crossedAt = -1
+    for (let i = 0; i < out.tts.platformProfit.length; i++) {
+      runningSum += out.tts.platformProfit[i]
+      if (runningSum >= 0 && crossedAt === -1) {
+        crossedAt = i
+      }
+    }
+    expect(crossedAt).toBeGreaterThan(-1) // sanity: this scenario does cross
+
+    // At least one month before the inflection should be negative
+    expect(out.tts.cumulativeInvest[0]).toBeLessThan(0)
+
+    // All months at or after crossedAt must read 0
+    for (let i = crossedAt; i < out.tts.cumulativeInvest.length; i++) {
+      expect(out.tts.cumulativeInvest[i]).toBe(0)
+    }
+  })
+})

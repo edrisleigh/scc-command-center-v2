@@ -78,14 +78,23 @@ export function computeScenario(
     clicks[m] = videos[m] * CLICKS_PER_VIDEO
   }
 
-  // cumulative investment: running sum of profits while still negative
+  // cumulative investment: running sum of platformProfit while still negative;
+  // once cum becomes non-negative (the launch breaks even), freeze output at 0
+  // for all subsequent months — matches Excel template, where cells past the
+  // inflection point are intentionally blank.
   let cum = 0
+  let stillInvesting = true
   for (let m = 0; m < MONTHS; m++) {
-    if (cum + ttsPlatformProfit[m] < 0) {
-      cum += ttsPlatformProfit[m]
-      ttsCumulativeInvest[m] = cum
-    } else {
+    if (!stillInvesting) {
       ttsCumulativeInvest[m] = 0
+      continue
+    }
+    cum += ttsPlatformProfit[m]
+    if (cum >= 0) {
+      ttsCumulativeInvest[m] = 0
+      stillInvesting = false
+    } else {
+      ttsCumulativeInvest[m] = cum
     }
   }
 
