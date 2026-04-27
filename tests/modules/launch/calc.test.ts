@@ -45,3 +45,54 @@ describe('computeScenario - TTS GMV and orders', () => {
     expect(out.tts.orders[0]).toBeCloseTo(17647.0588 / 99.99, 2)
   })
 })
+
+describe('computeScenario - TTS active creators and videos', () => {
+  it('month 1 active creators equals samplesPerMonth[0]', () => {
+    const out = computeScenario(conservativeInputs, conservativeShared)
+    expect(out.tts.activeCreators[0]).toBeCloseTo(200, 6)
+  })
+
+  it('month 2 active creators = (samples + prior) * 0.98', () => {
+    const out = computeScenario(conservativeInputs, conservativeShared)
+    // (200 + 200) * 0.98 = 392
+    expect(out.tts.activeCreators[1]).toBeCloseTo(392, 6)
+  })
+
+  it('month 3 active creators compounds correctly', () => {
+    const out = computeScenario(conservativeInputs, conservativeShared)
+    // (200 + 392) * 0.98 = 580.16
+    expect(out.tts.activeCreators[2]).toBeCloseTo(580.16, 6)
+  })
+
+  it('videos = activeCreators * videosPerCreator', () => {
+    const out = computeScenario(conservativeInputs, conservativeShared)
+    // M1: 200 * 3 = 600; M2: 392 * 2.4 = 940.8
+    expect(out.tts.videos[0]).toBeCloseTo(600, 6)
+    expect(out.tts.videos[1]).toBeCloseTo(940.8, 6)
+  })
+
+  it('videoViews and clicks scale linearly with videos', () => {
+    const out = computeScenario(conservativeInputs, conservativeShared)
+    expect(out.tts.videoViews[0]).toBeCloseTo(600 * 4993, 6)
+    expect(out.tts.clicks[0]).toBeCloseTo(600 * 330, 6)
+  })
+})
+
+describe('computeScenario - TTS margins and profit', () => {
+  it('contributionMargin = productMargin - creatorComm - platformFee - agencyComm - adSpend', () => {
+    const out = computeScenario(conservativeInputs, conservativeShared)
+    // M1: gmv=17647.06, orders=176.49, cogs=176.49*19.998=3529.41, ship=176.49*7=1235.42
+    // productMargin = 17647.06 - 3529.41 - 1235.42 = 12882.23
+    // creatorComm = 17647.06 * 0.15 = 2647.06
+    // platformFee = 17647.06 * 0.06 = 1058.82
+    // agencyComm = 17647.06 * 0.05 = 882.35
+    // contribution = 12882.23 - 2647.06 - 1058.82 - 882.35 - 20000 = -11706.00
+    expect(out.tts.contributionMargin[0]).toBeCloseTo(-11706.0, 0)
+  })
+
+  it('platformProfit subtracts sample cost, creator incentives, and TTS retainer', () => {
+    const out = computeScenario(conservativeInputs, conservativeShared)
+    // M1: contribution -11706 - sampleCost(200*(19.998+7)=5399.6) - 5000 - 11900 = -34005.6
+    expect(out.tts.platformProfit[0]).toBeCloseTo(-34005.6, 0)
+  })
+})
