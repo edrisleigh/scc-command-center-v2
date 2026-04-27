@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import { computeScenario } from '@/modules/launch/calc'
-import type { ScenarioInputs, SharedInputs } from '@/modules/launch/types'
+import type { ScenarioInputs, SharedInputs, ScenarioKey } from '@/modules/launch/types'
 
 const conservativeShared: SharedInputs = {
   aov: 99.99,
@@ -157,5 +157,100 @@ describe('computeScenario - cumulative investment freezes after break-even', () 
     for (let i = crossedAt; i < out.tts.cumulativeInvest.length; i++) {
       expect(out.tts.cumulativeInvest[i]).toBe(0)
     }
+  })
+})
+
+describe('computeScenario - DTC', () => {
+  it('googleRevenue = googleAdSpend * googleRoas', () => {
+    const out = computeScenario(conservativeInputs, conservativeShared)
+    // M1: 50000 * 0.4 = 20000
+    expect(out.dtc.googleRevenue[0]).toBeCloseTo(20000, 6)
+  })
+
+  it('incrementalRev = google + meta', () => {
+    const out = computeScenario(conservativeInputs, conservativeShared)
+    // M1: 20000 + (100000 * 0.2)=20000 → 40000
+    expect(out.dtc.incrementalRev[0]).toBeCloseTo(40000, 6)
+  })
+
+  it('platformProfit subtracts AGENCY_RETAINER_DTC', () => {
+    const out = computeScenario(conservativeInputs, conservativeShared)
+    // M1 incrementalRev=40000, orders=400.04, cogs=400.04*19.998=8000, ship=400.04*7=2800.28
+    // productMargin = 40000 - 8000 - 2800.28 = 29199.72; profit = 29199.72 - 5000 = 24199.72
+    expect(out.dtc.platformProfit[0]).toBeCloseTo(24199.72, 0)
+  })
+})
+
+describe('computeScenario - Amazon', () => {
+  it('revenue = ttsGmv * amazonMultiplier', () => {
+    const out = computeScenario(conservativeInputs, conservativeShared)
+    // M1: 17647.06 * 0.30 = 5294.12
+    expect(out.amazon.revenue[0]).toBeCloseTo(5294.12, 1)
+  })
+})
+
+describe('computeScenario - net profit and totals (Conservative)', () => {
+  it('reproduces Excel 6-month TTS GMV total', () => {
+    const out = computeScenario(conservativeInputs, conservativeShared)
+    expect(out.totals.ttsGmv).toBeCloseTo(960037.02, 0)
+  })
+
+  it('reproduces Excel 6-month TTS orders total', () => {
+    const out = computeScenario(conservativeInputs, conservativeShared)
+    expect(out.totals.ttsOrders).toBeCloseTo(9601.33, 1)
+  })
+
+  it('reproduces Excel 6-month videos total', () => {
+    const out = computeScenario(conservativeInputs, conservativeShared)
+    expect(out.totals.videos).toBeCloseTo(11777.83, 1)
+  })
+
+  it('reproduces Excel 6-month video views (within 1%)', () => {
+    const out = computeScenario(conservativeInputs, conservativeShared)
+    const expected = 58_806_697
+    const tolerance = expected * 0.01
+    expect(Math.abs(out.totals.videoViews - expected)).toBeLessThan(tolerance)
+  })
+
+  it('reproduces Excel 6-month DTC revenue total', () => {
+    const out = computeScenario(conservativeInputs, conservativeShared)
+    expect(out.totals.dtcRevenue).toBeCloseTo(976000, 0)
+  })
+
+  it('reproduces Excel 6-month Amazon revenue total', () => {
+    const out = computeScenario(conservativeInputs, conservativeShared)
+    expect(out.totals.amazonRevenue).toBeCloseTo(288011.10, 1)
+  })
+
+  it('reproduces Excel 6-month NET PROFIT (Conservative)', () => {
+    const out = computeScenario(conservativeInputs, conservativeShared)
+    expect(out.totals.netProfit).toBeCloseTo(955132.33, 0)
+  })
+})
+
+describe('computeScenario - edge cases', () => {
+  it('does not crash with all-zero inputs', () => {
+    const zeros6 = [0, 0, 0, 0, 0, 0]
+    const inputs: ScenarioInputs = {
+      tts: {
+        roas: zeros6, adSpend: zeros6, adPctOfGmv: [1, 1, 1, 1, 1, 1],
+        samplesPerMonth: zeros6, videosPerCreator: zeros6,
+      },
+      dtc: { googleAdSpend: zeros6, metaAdSpend: zeros6, googleRoas: zeros6, metaRoas: zeros6 },
+      amazonMultiplierVsTts: 0,
+    }
+    const out = computeScenario(inputs, conservativeShared)
+    expect(out.totals.ttsGmv).toBe(0)
+    expect(Number.isFinite(out.totals.netProfit)).toBe(true)
+  })
+
+  it('handles adPctOfGmv = 0 without dividing by zero', () => {
+    const inputs: ScenarioInputs = {
+      ...conservativeInputs,
+      tts: { ...conservativeInputs.tts, adPctOfGmv: [0, 0.8, 0.75, 0.72, 0.7, 0.65] },
+    }
+    const out = computeScenario(inputs, conservativeShared)
+    expect(out.tts.gmv[0]).toBe(0)
+    expect(Number.isFinite(out.tts.gmv[1])).toBe(true)
   })
 })

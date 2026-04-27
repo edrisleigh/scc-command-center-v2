@@ -98,56 +98,74 @@ export function computeScenario(
     }
   }
 
+  // ---- DTC ----
+  const dtcGoogle = zeros(), dtcMeta = zeros(), dtcInc = zeros(), dtcOrders = zeros()
+  const dtcCogs = zeros(), dtcShipping = zeros(), dtcProductMargin = zeros(), dtcPlatformProfit = zeros()
+
+  for (let m = 0; m < MONTHS; m++) {
+    dtcGoogle[m] = inputs.dtc.googleAdSpend[m] * inputs.dtc.googleRoas[m]
+    dtcMeta[m] = inputs.dtc.metaAdSpend[m] * inputs.dtc.metaRoas[m]
+    dtcInc[m] = dtcGoogle[m] + dtcMeta[m]
+    dtcOrders[m] = shared.aov > 0 ? dtcInc[m] / shared.aov : 0
+    dtcCogs[m] = dtcOrders[m] * cogsPerUnit
+    dtcShipping[m] = dtcOrders[m] * shared.shippingPerUnit
+    dtcProductMargin[m] = dtcInc[m] - dtcCogs[m] - dtcShipping[m]
+    dtcPlatformProfit[m] = dtcProductMargin[m] - AGENCY_RETAINER_DTC
+  }
+
+  // ---- Amazon ----
+  const amzRev = zeros(), amzOrders = zeros(), amzCogs = zeros(), amzShipping = zeros(), amzProductMargin = zeros()
+  for (let m = 0; m < MONTHS; m++) {
+    amzRev[m] = ttsGmv[m] * inputs.amazonMultiplierVsTts
+    amzOrders[m] = shared.aov > 0 ? amzRev[m] / shared.aov : 0
+    amzCogs[m] = amzOrders[m] * cogsPerUnit
+    amzShipping[m] = amzOrders[m] * shared.shippingPerUnit
+    amzProductMargin[m] = amzRev[m] - amzCogs[m] - amzShipping[m]
+  }
+
+  // ---- Net Profit ----
+  // Excel net profit uses DTC product margin (before the DTC agency retainer deduction),
+  // while TTS platformProfit already has its retainer baked in.
+  const netProfit = zeros()
+  for (let m = 0; m < MONTHS; m++) {
+    netProfit[m] = ttsPlatformProfit[m] + dtcProductMargin[m] + amzProductMargin[m]
+  }
+
   return {
     tts: {
-      gmv: ttsGmv,
-      orders: ttsOrders,
-      cogs: ttsCogs,
-      shipping: ttsShipping,
-      productMargin: ttsProductMargin,
-      creatorCommission: ttsCreatorComm,
-      platformFee: ttsPlatformFee,
-      agencyCommission: ttsAgencyComm,
-      contributionMargin: ttsContribution,
-      contributionPct: ttsContributionPct,
-      sampleCost: ttsSampleCost,
-      platformProfit: ttsPlatformProfit,
-      preRetainerProfit: ttsPreRetainer,
-      cumulativeInvest: ttsCumulativeInvest,
-      activeCreators,
-      videos,
-      videoViews,
-      clicks,
+      gmv: ttsGmv, orders: ttsOrders, cogs: ttsCogs, shipping: ttsShipping,
+      productMargin: ttsProductMargin, creatorCommission: ttsCreatorComm,
+      platformFee: ttsPlatformFee, agencyCommission: ttsAgencyComm,
+      contributionMargin: ttsContribution, contributionPct: ttsContributionPct,
+      sampleCost: ttsSampleCost, platformProfit: ttsPlatformProfit,
+      preRetainerProfit: ttsPreRetainer, cumulativeInvest: ttsCumulativeInvest,
+      activeCreators, videos, videoViews, clicks,
     },
     dtc: {
-      googleRevenue: zeros(),
-      metaRevenue: zeros(),
-      incrementalRev: zeros(),
-      orders: zeros(),
-      cogs: zeros(),
-      shipping: zeros(),
-      productMargin: zeros(),
-      platformProfit: zeros(),
+      googleRevenue: dtcGoogle, metaRevenue: dtcMeta, incrementalRev: dtcInc, orders: dtcOrders,
+      cogs: dtcCogs, shipping: dtcShipping, productMargin: dtcProductMargin, platformProfit: dtcPlatformProfit,
     },
     amazon: {
-      revenue: zeros(),
-      orders: zeros(),
-      cogs: zeros(),
-      shipping: zeros(),
-      productMargin: zeros(),
+      revenue: amzRev, orders: amzOrders, cogs: amzCogs, shipping: amzShipping, productMargin: amzProductMargin,
     },
-    netProfit: zeros(),
+    netProfit,
     totals: {
-      ttsGmv: sum(ttsGmv),
-      ttsOrders: sum(ttsOrders),
-      videos: sum(videos),
-      videoViews: sum(videoViews),
-      clicks: sum(clicks),
-      dtcRevenue: 0,
-      dtcOrders: 0,
-      amazonRevenue: 0,
-      amazonOrders: 0,
-      netProfit: 0,
+      ttsGmv: sum(ttsGmv), ttsOrders: sum(ttsOrders),
+      videos: sum(videos), videoViews: sum(videoViews), clicks: sum(clicks),
+      dtcRevenue: sum(dtcInc), dtcOrders: sum(dtcOrders),
+      amazonRevenue: sum(amzRev), amazonOrders: sum(amzOrders),
+      netProfit: sum(netProfit),
     },
+  }
+}
+
+export function computeAllScenarios(
+  doc: LaunchScenario,
+): Record<ScenarioKey, ScenarioOutputs> {
+  return {
+    conservative: computeScenario(doc.scenarios.conservative, doc.sharedInputs),
+    balanced: computeScenario(doc.scenarios.balanced, doc.sharedInputs),
+    aggressive: computeScenario(doc.scenarios.aggressive, doc.sharedInputs),
+    rapid_scale: computeScenario(doc.scenarios.rapid_scale, doc.sharedInputs),
   }
 }
