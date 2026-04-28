@@ -15,10 +15,13 @@ import {
   Flag,
   PanelLeftOpen,
   PanelLeftClose,
+  Rocket,
+  Target,
 } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { useTenant } from '@/modules/shared/hooks/use-tenant'
 import { useFlags } from '@/modules/flags/hooks'
+import { useLaunchScenarioByClient } from '@/modules/launch/hooks'
 
 interface NavItem {
   label: string
@@ -36,6 +39,7 @@ const sections: NavSection[] = [
     title: 'Overview',
     items: [
       { label: 'Agency Dashboard', icon: LayoutDashboard, path: 'overview' },
+      { label: 'Launch Scenarios', icon: Rocket, path: 'launch-scenarios' },
     ],
   },
   {
@@ -58,6 +62,7 @@ const sections: NavSection[] = [
     title: 'Reporting',
     items: [
       { label: 'Scorecards', icon: ClipboardList, path: 'scorecards' },
+      { label: 'Launch Plan', icon: Target, path: 'launch' },
     ],
   },
   {
@@ -76,58 +81,71 @@ export function Sidebar() {
   const matchRoute = useMatchRoute()
   const { data: flags } = useFlags('client-1')
   const openFlagCount = (flags ?? []).filter((f) => f.status !== 'resolved').length
+  const launchPlan = useLaunchScenarioByClient(orgSlug, clientSlug ?? '')
+  const showLaunchPlan = !!clientSlug && launchPlan.data?.status === 'locked'
 
   return (
     <aside className="flex w-[220px] shrink-0 flex-col overflow-y-auto bg-accent/50 py-4">
-      {sections.map((section) => (
-        <div key={section.title} className="mb-4">
-          <p className="mb-1 px-4 text-[10px] font-semibold uppercase tracking-widest text-muted-foreground">
-            {section.title}
-          </p>
-          {section.items.map((item) => {
-            const isOverview = item.path === 'overview'
-            const to = isOverview
-              ? ('/$orgSlug/overview' as const)
-              : ('/$orgSlug/$clientSlug/' + item.path as '/$orgSlug/$clientSlug/shop')
+      {sections.map((section) => {
+        const items = section.items.filter((item) => {
+          if (item.path === 'launch') return showLaunchPlan
+          return true
+        })
+        if (items.length === 0) return null
+        return (
+          <div key={section.title} className="mb-4">
+            <p className="mb-1 px-4 text-[10px] font-semibold uppercase tracking-widest text-muted-foreground">
+              {section.title}
+            </p>
+            {items.map((item) => {
+              const isAgencyLevel = item.path === 'overview' || item.path === 'launch-scenarios'
+              const to = item.path === 'overview'
+                ? ('/$orgSlug/overview' as const)
+                : item.path === 'launch-scenarios'
+                  ? ('/$orgSlug/launch-scenarios' as const)
+                  : ('/$orgSlug/$clientSlug/' + item.path as '/$orgSlug/$clientSlug/shop')
 
-            const params = isOverview
-              ? { orgSlug }
-              : { orgSlug, clientSlug }
+              const params = isAgencyLevel
+                ? { orgSlug }
+                : { orgSlug, clientSlug }
 
-            const isActive = isOverview
-              ? !!matchRoute({ to: '/$orgSlug/overview', params: { orgSlug } })
-              : !!matchRoute({
-                  to: `/$orgSlug/$clientSlug/${item.path}` as '/$orgSlug/$clientSlug/shop',
-                  params: { orgSlug, clientSlug },
-                })
+              const isActive = item.path === 'overview'
+                ? !!matchRoute({ to: '/$orgSlug/overview', params: { orgSlug } })
+                : item.path === 'launch-scenarios'
+                  ? !!matchRoute({ to: '/$orgSlug/launch-scenarios', params: { orgSlug } })
+                  : !!matchRoute({
+                      to: `/$orgSlug/$clientSlug/${item.path}` as '/$orgSlug/$clientSlug/shop',
+                      params: { orgSlug, clientSlug },
+                    })
 
-            const badge =
-              item.path === 'flags' && openFlagCount > 0 ? openFlagCount : null
+              const badge =
+                item.path === 'flags' && openFlagCount > 0 ? openFlagCount : null
 
-            return (
-              <Link
-                key={item.path}
-                to={to}
-                params={params as never}
-                className={cn(
-                  'flex items-center gap-3 border-l-2 px-4 py-2 text-sm transition-colors',
-                  isActive
-                    ? 'border-primary bg-primary/10 text-primary'
-                    : 'border-transparent text-muted-foreground hover:bg-accent hover:text-card-foreground',
-                )}
-              >
-                <item.icon className="h-4 w-4 shrink-0" />
-                <span className="flex-1">{item.label}</span>
-                {badge !== null && (
-                  <span className="rounded-full bg-amber-500/20 px-1.5 text-[10px] font-semibold text-amber-400">
-                    {badge}
-                  </span>
-                )}
-              </Link>
-            )
-          })}
-        </div>
-      ))}
+              return (
+                <Link
+                  key={item.path}
+                  to={to}
+                  params={params as never}
+                  className={cn(
+                    'flex items-center gap-3 border-l-2 px-4 py-2 text-sm transition-colors',
+                    isActive
+                      ? 'border-primary bg-primary/10 text-primary'
+                      : 'border-transparent text-muted-foreground hover:bg-accent hover:text-card-foreground',
+                  )}
+                >
+                  <item.icon className="h-4 w-4 shrink-0" />
+                  <span className="flex-1">{item.label}</span>
+                  {badge !== null && (
+                    <span className="rounded-full bg-amber-500/20 px-1.5 text-[10px] font-semibold text-amber-400">
+                      {badge}
+                    </span>
+                  )}
+                </Link>
+              )
+            })}
+          </div>
+        )
+      })}
     </aside>
   )
 }

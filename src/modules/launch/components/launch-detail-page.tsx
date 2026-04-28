@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { useParams } from '@tanstack/react-router'
+import { Link, useParams } from '@tanstack/react-router'
 import { useLaunchScenario, useSaveLaunchScenario, useLockLaunchScenario } from '@/modules/launch/hooks'
 import { computeAllScenarios } from '@/modules/launch/calc'
 import { defaultScenarioInputs } from '@/modules/launch/defaults'
@@ -34,13 +34,19 @@ export function LaunchDetailPage() {
   )
 
   if (isLoading) {
-    return <div className="py-20 text-center text-muted">Loading…</div>
+    return (
+      <AgencyShell orgSlug={orgSlug} title="Loading…">
+        <div className="py-20 text-center text-muted">Loading…</div>
+      </AgencyShell>
+    )
   }
   if (isError || !current || !outputs) {
     return (
-      <div className="rounded-md border border-danger/40 bg-danger/10 p-4 text-sm text-danger">
-        Couldn't load this launch scenario. <button onClick={() => location.reload()} className="underline">Retry</button>
-      </div>
+      <AgencyShell orgSlug={orgSlug} title="Launch Scenario">
+        <div className="rounded-md border border-danger/40 bg-danger/10 p-4 text-sm text-danger">
+          Couldn't load this launch scenario. <button onClick={() => location.reload()} className="underline">Retry</button>
+        </div>
+      </AgencyShell>
     )
   }
 
@@ -91,7 +97,7 @@ export function LaunchDetailPage() {
   }
 
   return (
-    <div className="space-y-6">
+    <AgencyShell orgSlug={orgSlug} title={current.name}>
       <header className="flex flex-wrap items-center justify-between gap-3">
         <div>
           <div className="flex items-center gap-2">
@@ -189,6 +195,32 @@ export function LaunchDetailPage() {
         onCancel={() => setConfirmingLock(false)}
         onConfirm={handleLockConfirm}
       />
+    </AgencyShell>
+  )
+}
+
+function AgencyShell({ orgSlug, title, children }: { orgSlug: string; title: string; children: React.ReactNode }) {
+  return (
+    <div className="min-h-screen bg-background">
+      <header className="flex h-14 shrink-0 items-center justify-between border-b border-border bg-card px-6">
+        <div className="flex items-center gap-3">
+          <span className="text-lg font-bold tracking-tight text-primary">SCC</span>
+          <div className="flex items-center gap-1.5 text-sm text-muted-foreground">
+            <span>/</span>
+            <span className="capitalize">{orgSlug}</span>
+            <span>/</span>
+            <Link to="/$orgSlug/launch-scenarios" params={{ orgSlug }} className="hover:text-card-foreground">
+              Launch Scenarios
+            </Link>
+            <span>/</span>
+            <span className="font-medium text-card-foreground">{title}</span>
+          </div>
+        </div>
+        <Link to="/$orgSlug/launch-scenarios" params={{ orgSlug }} className="text-sm font-medium text-primary hover:underline">
+          ← Launch Scenarios
+        </Link>
+      </header>
+      <main className="mx-auto max-w-6xl px-6 py-8 space-y-6">{children}</main>
     </div>
   )
 }

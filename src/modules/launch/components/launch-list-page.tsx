@@ -16,9 +16,6 @@ export function LaunchListPage() {
   const create = useCreateLaunchScenario()
   const [creating, setCreating] = useState(false)
 
-  if (isLoading) return <div className="py-20 text-center text-muted">Loading…</div>
-  if (isError) return <div className="py-10 text-center text-danger">Couldn't load scenarios.</div>
-
   const scenarios = data ?? []
 
   const projectedNet = (s: LaunchScenario) => {
@@ -42,7 +39,28 @@ export function LaunchListPage() {
   }
 
   return (
-    <div className="space-y-6">
+    <div className="min-h-screen bg-background">
+      <header className="flex h-14 shrink-0 items-center justify-between border-b border-border bg-card px-6">
+        <div className="flex items-center gap-3">
+          <span className="text-lg font-bold tracking-tight text-primary">SCC</span>
+          <div className="flex items-center gap-1.5 text-sm text-muted-foreground">
+            <span>/</span>
+            <span className="capitalize">{orgSlug}</span>
+            <span>/</span>
+            <span className="font-medium text-card-foreground">Launch Scenarios</span>
+          </div>
+        </div>
+        <Link to="/$orgSlug/overview" params={{ orgSlug }} className="text-sm font-medium text-primary hover:underline">
+          ← Agency Overview
+        </Link>
+      </header>
+      <main className="mx-auto max-w-6xl px-6 py-8 space-y-6">
+      {isLoading ? (
+        <div className="py-20 text-center text-muted">Loading…</div>
+      ) : isError ? (
+        <div className="py-10 text-center text-danger">Couldn't load scenarios.</div>
+      ) : (
+        <>
       <header className="flex items-center justify-between">
         <div>
           <h1 className="text-xl font-bold text-foreground">Launch Scenarios</h1>
@@ -127,6 +145,9 @@ export function LaunchListPage() {
         onCancel={() => setCreating(false)}
         onSubmit={handleCreate}
       />
+        </>
+      )}
+      </main>
     </div>
   )
 }
