@@ -174,7 +174,7 @@ function NumRow({
             min={0}
             value={v}
             onChange={(e) => onUpdate(i, e.target.value)}
-            className="w-full rounded bg-primary/10 border border-primary/30 px-1.5 py-1 text-right text-primary outline-none focus:bg-primary/20"
+            className="no-spinner w-full rounded bg-primary/10 border border-primary/30 px-1.5 py-1 text-right text-primary outline-none focus:bg-primary/20"
             data-field={field}
           />
         </td>

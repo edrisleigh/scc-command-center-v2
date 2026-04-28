@@ -50,7 +50,7 @@ export function SharedInputsPanel({ value, onChange, readOnly }: SharedInputsPan
                   if (f.format === 'percent') update(f.key, String(v))
                   else update(f.key, String(v))
                 }}
-                className="w-full bg-transparent text-base font-semibold text-card-foreground outline-none focus:ring-0 disabled:cursor-not-allowed"
+                className="no-spinner w-full bg-transparent text-base font-semibold text-card-foreground outline-none focus:ring-0 disabled:cursor-not-allowed"
               />
               {f.format === 'percent' && <span className="text-sm text-muted">×</span>}
             </div>
