@@ -6,6 +6,7 @@ import {
 } from '@tanstack/react-router'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
+import { Toaster } from 'sonner'
 import type { ReactNode } from 'react'
 import '../styles/globals.css'
 
@@ -44,6 +45,17 @@ function RootComponent() {
     <RootDocument>
       <QueryClientProvider client={queryClient}>
         <Outlet />
+        <Toaster
+          theme="dark"
+          position="bottom-right"
+          toastOptions={{
+            style: {
+              background: '#1a1a2e',
+              border: '1px solid rgba(255, 255, 255, 0.06)',
+              color: '#e0e0e0',
+            },
+          }}
+        />
         <ReactQueryDevtools buttonPosition="bottom-left" />
       </QueryClientProvider>
     </RootDocument>

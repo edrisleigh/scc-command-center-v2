@@ -3,6 +3,8 @@ import { isSameMonth, parseISO } from 'date-fns'
 import { KpiCard } from '@/modules/shared/components/kpi-card'
 import { CalendarView } from '@/modules/calendar/components/calendar-view'
 import { useCalendarEvents } from '@/modules/calendar/hooks'
+import { FreshnessBadge } from '@/modules/freshness/components/freshness-badge'
+import { FlagButton } from '@/modules/flags/components/flag-button'
 
 export function CalendarPage() {
   const { data: events, isLoading } = useCalendarEvents('client-1')
@@ -29,11 +31,17 @@ export function CalendarPage() {
 
   return (
     <div className="space-y-6">
-      <div>
-        <h2 className="text-xl font-bold text-foreground">Calendar</h2>
-        <p className="text-sm text-muted">
-          Campaign launches, TikTok promos, and team events at a glance.
-        </p>
+      <div className="flex items-center justify-between">
+        <div>
+          <div className="flex items-center gap-3">
+            <h2 className="text-xl font-bold text-foreground">Calendar</h2>
+            <FreshnessBadge source="calendar" size="sm" />
+          </div>
+          <p className="text-sm text-muted">
+            Campaign launches, TikTok promos, and team events at a glance.
+          </p>
+        </div>
+        <FlagButton section="calendar" />
       </div>
 
       {/* KPIs */}
