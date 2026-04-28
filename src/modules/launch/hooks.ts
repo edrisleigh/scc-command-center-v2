@@ -47,6 +47,9 @@ export function useSaveLaunchScenario() {
     mutationFn: (s: LaunchScenario) => repositories.launch.save(s),
     onSuccess: (saved) => {
       qc.setQueryData(KEY.byId(saved.id), saved)
+      if (saved.clientSlug) {
+        qc.setQueryData(KEY.byClient(saved.orgSlug, saved.clientSlug), saved)
+      }
       qc.invalidateQueries({ queryKey: KEY.list(saved.orgSlug) })
     },
   })
@@ -59,6 +62,9 @@ export function useLockLaunchScenario() {
       repositories.launch.lock(id, chosen),
     onSuccess: (locked) => {
       qc.setQueryData(KEY.byId(locked.id), locked)
+      if (locked.clientSlug) {
+        qc.setQueryData(KEY.byClient(locked.orgSlug, locked.clientSlug), locked)
+      }
       qc.invalidateQueries({ queryKey: KEY.list(locked.orgSlug) })
     },
   })
@@ -71,6 +77,9 @@ export function useLinkLaunchScenarioToClient() {
       repositories.launch.linkToClient(id, clientSlug),
     onSuccess: (linked) => {
       qc.setQueryData(KEY.byId(linked.id), linked)
+      if (linked.clientSlug) {
+        qc.setQueryData(KEY.byClient(linked.orgSlug, linked.clientSlug), linked)
+      }
       qc.invalidateQueries({ queryKey: KEY.list(linked.orgSlug) })
     },
   })
