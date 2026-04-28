@@ -58,4 +58,13 @@ describe('MockLaunchRepository', () => {
     const linked = await repo.linkToClient(created.id, 'lumen')
     expect(linked.clientSlug).toBe('lumen')
   })
+
+  it('getById returns isolated copy — mutating the result does not leak into the store', async () => {
+    const a = await repo.getById('ls-heydude-q2-2026')
+    a!.sharedInputs.aov = 99999
+    a!.scenarios.conservative.tts.roas[0] = 999
+    const b = await repo.getById('ls-heydude-q2-2026')
+    expect(b!.sharedInputs.aov).toBe(99.99)
+    expect(b!.scenarios.conservative.tts.roas[0]).toBe(0.75)
+  })
 })
