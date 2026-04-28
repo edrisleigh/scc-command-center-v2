@@ -22,6 +22,7 @@ import { Route as OrgSlugClientSlugSettingsRouteImport } from './routes/$orgSlug
 import { Route as OrgSlugClientSlugScorecardsRouteImport } from './routes/$orgSlug/$clientSlug/scorecards'
 import { Route as OrgSlugClientSlugSamplesRouteImport } from './routes/$orgSlug/$clientSlug/samples'
 import { Route as OrgSlugClientSlugImportRouteImport } from './routes/$orgSlug/$clientSlug/import'
+import { Route as OrgSlugClientSlugFlagsRouteImport } from './routes/$orgSlug/$clientSlug/flags'
 import { Route as OrgSlugClientSlugCreatorsRouteImport } from './routes/$orgSlug/$clientSlug/creators'
 import { Route as OrgSlugClientSlugContentRouteImport } from './routes/$orgSlug/$clientSlug/content'
 import { Route as OrgSlugClientSlugCalendarRouteImport } from './routes/$orgSlug/$clientSlug/calendar'
@@ -96,6 +97,11 @@ const OrgSlugClientSlugImportRoute = OrgSlugClientSlugImportRouteImport.update({
   path: '/import',
   getParentRoute: () => OrgSlugClientSlugRouteRoute,
 } as any)
+const OrgSlugClientSlugFlagsRoute = OrgSlugClientSlugFlagsRouteImport.update({
+  id: '/flags',
+  path: '/flags',
+  getParentRoute: () => OrgSlugClientSlugRouteRoute,
+} as any)
 const OrgSlugClientSlugCreatorsRoute =
   OrgSlugClientSlugCreatorsRouteImport.update({
     id: '/creators',
@@ -130,6 +136,7 @@ export interface FileRoutesByFullPath {
   '/$orgSlug/$clientSlug/calendar': typeof OrgSlugClientSlugCalendarRoute
   '/$orgSlug/$clientSlug/content': typeof OrgSlugClientSlugContentRoute
   '/$orgSlug/$clientSlug/creators': typeof OrgSlugClientSlugCreatorsRoute
+  '/$orgSlug/$clientSlug/flags': typeof OrgSlugClientSlugFlagsRoute
   '/$orgSlug/$clientSlug/import': typeof OrgSlugClientSlugImportRoute
   '/$orgSlug/$clientSlug/samples': typeof OrgSlugClientSlugSamplesRoute
   '/$orgSlug/$clientSlug/scorecards': typeof OrgSlugClientSlugScorecardsRoute
@@ -148,6 +155,7 @@ export interface FileRoutesByTo {
   '/$orgSlug/$clientSlug/calendar': typeof OrgSlugClientSlugCalendarRoute
   '/$orgSlug/$clientSlug/content': typeof OrgSlugClientSlugContentRoute
   '/$orgSlug/$clientSlug/creators': typeof OrgSlugClientSlugCreatorsRoute
+  '/$orgSlug/$clientSlug/flags': typeof OrgSlugClientSlugFlagsRoute
   '/$orgSlug/$clientSlug/import': typeof OrgSlugClientSlugImportRoute
   '/$orgSlug/$clientSlug/samples': typeof OrgSlugClientSlugSamplesRoute
   '/$orgSlug/$clientSlug/scorecards': typeof OrgSlugClientSlugScorecardsRoute
@@ -168,6 +176,7 @@ export interface FileRoutesById {
   '/$orgSlug/$clientSlug/calendar': typeof OrgSlugClientSlugCalendarRoute
   '/$orgSlug/$clientSlug/content': typeof OrgSlugClientSlugContentRoute
   '/$orgSlug/$clientSlug/creators': typeof OrgSlugClientSlugCreatorsRoute
+  '/$orgSlug/$clientSlug/flags': typeof OrgSlugClientSlugFlagsRoute
   '/$orgSlug/$clientSlug/import': typeof OrgSlugClientSlugImportRoute
   '/$orgSlug/$clientSlug/samples': typeof OrgSlugClientSlugSamplesRoute
   '/$orgSlug/$clientSlug/scorecards': typeof OrgSlugClientSlugScorecardsRoute
@@ -189,6 +198,7 @@ export interface FileRouteTypes {
     | '/$orgSlug/$clientSlug/calendar'
     | '/$orgSlug/$clientSlug/content'
     | '/$orgSlug/$clientSlug/creators'
+    | '/$orgSlug/$clientSlug/flags'
     | '/$orgSlug/$clientSlug/import'
     | '/$orgSlug/$clientSlug/samples'
     | '/$orgSlug/$clientSlug/scorecards'
@@ -207,6 +217,7 @@ export interface FileRouteTypes {
     | '/$orgSlug/$clientSlug/calendar'
     | '/$orgSlug/$clientSlug/content'
     | '/$orgSlug/$clientSlug/creators'
+    | '/$orgSlug/$clientSlug/flags'
     | '/$orgSlug/$clientSlug/import'
     | '/$orgSlug/$clientSlug/samples'
     | '/$orgSlug/$clientSlug/scorecards'
@@ -226,6 +237,7 @@ export interface FileRouteTypes {
     | '/$orgSlug/$clientSlug/calendar'
     | '/$orgSlug/$clientSlug/content'
     | '/$orgSlug/$clientSlug/creators'
+    | '/$orgSlug/$clientSlug/flags'
     | '/$orgSlug/$clientSlug/import'
     | '/$orgSlug/$clientSlug/samples'
     | '/$orgSlug/$clientSlug/scorecards'
@@ -335,6 +347,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof OrgSlugClientSlugImportRouteImport
       parentRoute: typeof OrgSlugClientSlugRouteRoute
     }
+    '/$orgSlug/$clientSlug/flags': {
+      id: '/$orgSlug/$clientSlug/flags'
+      path: '/flags'
+      fullPath: '/$orgSlug/$clientSlug/flags'
+      preLoaderRoute: typeof OrgSlugClientSlugFlagsRouteImport
+      parentRoute: typeof OrgSlugClientSlugRouteRoute
+    }
     '/$orgSlug/$clientSlug/creators': {
       id: '/$orgSlug/$clientSlug/creators'
       path: '/creators'
@@ -371,6 +390,7 @@ interface OrgSlugClientSlugRouteRouteChildren {
   OrgSlugClientSlugCalendarRoute: typeof OrgSlugClientSlugCalendarRoute
   OrgSlugClientSlugContentRoute: typeof OrgSlugClientSlugContentRoute
   OrgSlugClientSlugCreatorsRoute: typeof OrgSlugClientSlugCreatorsRoute
+  OrgSlugClientSlugFlagsRoute: typeof OrgSlugClientSlugFlagsRoute
   OrgSlugClientSlugImportRoute: typeof OrgSlugClientSlugImportRoute
   OrgSlugClientSlugSamplesRoute: typeof OrgSlugClientSlugSamplesRoute
   OrgSlugClientSlugScorecardsRoute: typeof OrgSlugClientSlugScorecardsRoute
@@ -387,6 +407,7 @@ const OrgSlugClientSlugRouteRouteChildren: OrgSlugClientSlugRouteRouteChildren =
     OrgSlugClientSlugCalendarRoute: OrgSlugClientSlugCalendarRoute,
     OrgSlugClientSlugContentRoute: OrgSlugClientSlugContentRoute,
     OrgSlugClientSlugCreatorsRoute: OrgSlugClientSlugCreatorsRoute,
+    OrgSlugClientSlugFlagsRoute: OrgSlugClientSlugFlagsRoute,
     OrgSlugClientSlugImportRoute: OrgSlugClientSlugImportRoute,
     OrgSlugClientSlugSamplesRoute: OrgSlugClientSlugSamplesRoute,
     OrgSlugClientSlugScorecardsRoute: OrgSlugClientSlugScorecardsRoute,

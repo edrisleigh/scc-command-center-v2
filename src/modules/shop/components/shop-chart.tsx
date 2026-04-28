@@ -1,51 +1,58 @@
-import { useState } from "react";
-import { TimeSeriesChart } from "@/modules/shared/components/time-series-chart";
-import { formatCurrency, formatNumber, formatCompactNumber } from "@/lib/utils";
-import { cn } from "@/lib/utils";
-import type { ShopDailyMetric } from "@/modules/shop/types";
+import { useEffect, useState } from 'react'
+import { TimeSeriesChart } from '@/modules/shared/components/time-series-chart'
+import { formatCurrency, formatNumber, formatCompactNumber } from '@/lib/utils'
+import { cn } from '@/lib/utils'
+import type { ShopDailyMetric } from '@/modules/shop/types'
+import { CHART_TAB_CATALOG, type ChartTabDefinition } from '@/modules/shop/metric-catalog'
+import { useAppStore } from '@/stores/app.store'
 
-type Tab = "revenue" | "orders" | "traffic" | "channels";
+type Tab = ChartTabDefinition['key']
 
 interface ShopChartProps {
-  data: ShopDailyMetric[];
+  data: ShopDailyMetric[]
 }
 
-const TABS: { id: Tab; label: string }[] = [
-  { id: "revenue", label: "Revenue" },
-  { id: "orders", label: "Orders" },
-  { id: "traffic", label: "Traffic" },
-  { id: "channels", label: "Channels" },
-];
-
 export function ShopChart({ data }: ShopChartProps) {
-  const [tab, setTab] = useState<Tab>("revenue");
+  const visibleTabKeys = useAppStore((s) => s.shopMetricPrefs.chart)
+  const visibleTabs = CHART_TAB_CATALOG.filter((t) => visibleTabKeys.includes(t.key))
+  const [tab, setTab] = useState<Tab>(visibleTabs[0]?.key ?? 'revenue')
 
-  const chartData = data as unknown as Record<string, unknown>[];
-  console.log("chart data", chartData);
+  useEffect(() => {
+    if (!visibleTabs.find((t) => t.key === tab) && visibleTabs[0]) {
+      setTab(visibleTabs[0].key)
+    }
+  }, [visibleTabKeys, tab, visibleTabs])
+
+  const chartData = data as unknown as Record<string, unknown>[]
 
   if (data.length === 0) {
     return (
-      <div className="rounded-xl border border-border bg-card p-6 flex items-center justify-center h-64">
-        <p className="text-sm text-muted">
-          No data for the selected date range.
-        </p>
+      <div className="flex h-64 items-center justify-center rounded-xl border border-border bg-card p-6">
+        <p className="text-sm text-muted">No data for the selected date range.</p>
       </div>
-    );
+    )
+  }
+
+  if (visibleTabs.length === 0) {
+    return (
+      <div className="rounded-xl border border-dashed border-border bg-card/50 p-6 text-center text-sm text-muted">
+        No chart tabs selected. Click the gear icon to customize.
+      </div>
+    )
   }
 
   return (
-    <div className="rounded-xl border border-border bg-card overflow-hidden">
-      {/* Tab nav */}
+    <div className="overflow-hidden rounded-xl border border-border bg-card">
       <div className="flex items-center gap-0.5 border-b border-border px-5 py-3">
-        {TABS.map((t) => (
+        {visibleTabs.map((t) => (
           <button
-            key={t.id}
-            onClick={() => setTab(t.id)}
+            key={t.key}
+            onClick={() => setTab(t.key)}
             className={cn(
-              "rounded-md px-3 py-1.5 text-xs font-medium transition-colors",
-              tab === t.id
-                ? "bg-amber-500/10 text-amber-500"
-                : "text-muted hover:text-card-foreground",
+              'rounded-md px-3 py-1.5 text-xs font-medium transition-colors',
+              tab === t.key
+                ? 'bg-amber-500/10 text-amber-500'
+                : 'text-muted hover:text-card-foreground',
             )}
           >
             {t.label}
@@ -53,9 +60,8 @@ export function ShopChart({ data }: ShopChartProps) {
         ))}
       </div>
 
-      {/* Chart */}
       <div className="p-1">
-        {tab === "revenue" && (
+        {tab === 'revenue' && (
           <TimeSeriesChart
             title="GMV & Gross Revenue"
             data={chartData}
@@ -67,7 +73,7 @@ export function ShopChart({ data }: ShopChartProps) {
             valueFormatter={formatCurrency}
           />
         )}
-        {tab === "orders" && (
+        {tab === 'orders' && (
           <TimeSeriesChart
             title="Orders & Customers"
             data={chartData}
@@ -79,7 +85,7 @@ export function ShopChart({ data }: ShopChartProps) {
             valueFormatter={formatNumber}
           />
         )}
-        {tab === "traffic" && (
+        {tab === 'traffic' && (
           <TimeSeriesChart
             title="Visitors & Page Views"
             data={chartData}
@@ -91,7 +97,7 @@ export function ShopChart({ data }: ShopChartProps) {
             valueFormatter={formatCompactNumber}
           />
         )}
-        {tab === "channels" && (
+        {tab === 'channels' && (
           <TimeSeriesChart
             title="Video GMV & LIVE GMV"
             data={chartData}
@@ -105,5 +111,5 @@ export function ShopChart({ data }: ShopChartProps) {
         )}
       </div>
     </div>
-  );
+  )
 }

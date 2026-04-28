@@ -1,4 +1,5 @@
 import { useState, useRef, useCallback } from 'react'
+import { toast } from 'sonner'
 import {
   Store,
   Video,
@@ -12,6 +13,17 @@ import {
 } from 'lucide-react'
 import { parseCsv, validateImport } from '@/lib/csv-import'
 import type { ImportDataType, ParsedData, ColumnMapping, ValidationError } from '@/lib/csv-import'
+import { useRecordRefresh } from '@/modules/freshness/hooks'
+import type { DataSource } from '@/modules/freshness/types'
+
+const IMPORT_TO_DATA_SOURCE: Record<ImportDataType, DataSource> = {
+  shop: 'shop-daily',
+  video: 'video-daily',
+  ads: 'ads-daily',
+  creators: 'creators',
+  samples: 'samples',
+  content: 'content',
+}
 
 const DATA_TYPES: {
   value: ImportDataType
@@ -83,6 +95,7 @@ export function CsvImportWizard() {
   const [importComplete, setImportComplete] = useState(false)
   const [isDragging, setIsDragging] = useState(false)
   const fileInputRef = useRef<HTMLInputElement>(null)
+  const recordRefresh = useRecordRefresh('client-1')
 
   const handleFileSelect = useCallback(
     async (file: File) => {
@@ -162,6 +175,12 @@ export function CsvImportWizard() {
       handleValidate()
     }
     if (step === 4) {
+      if (dataType) {
+        recordRefresh.mutate(IMPORT_TO_DATA_SOURCE[dataType], {
+          onSuccess: () => toast.success(`${dataType} data marked as refreshed`),
+          onError: (err) => toast.error(err.message),
+        })
+      }
       setImportComplete(true)
       return
     }
