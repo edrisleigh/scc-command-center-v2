@@ -99,6 +99,7 @@ interface ScenarioInputs {
     adPctOfGmv: number[]         // length 6
     samplesPerMonth: number[]    // length 6 — drives both sample cost AND active-creator growth
     videosPerCreator: number[]   // length 6 — Excel template uses [3, 2.4, 3, 3, 3, 3] for Conservative
+    creatorIncentives: number[]  // length 6 — varies per scenario per month (e.g. Aggressive ramps from $10K to $20K)
   }
   dtc: {
     googleAdSpend: number[]      // length 6
@@ -116,11 +117,12 @@ interface ScenarioInputs {
 AGENCY_COMMISSION_PCT  = 0.05      // 5% of TTS GMV
 AGENCY_RETAINER_TTS    = 11_900    // $/month
 AGENCY_RETAINER_DTC    = 5_000     // $/month
-CREATOR_INCENTIVES     = 5_000     // $/month
 VIEWS_PER_VIDEO        = 4_993
 CLICKS_PER_VIDEO       = 330
 CREATOR_RETENTION_RATE = 0.98      // month-over-month retention; (samples + prior_active) * 0.98
 ```
+
+> Note: an earlier draft of this spec listed `CREATOR_INCENTIVES = 5_000` as a constant. Implementation surfaced that the Excel actually varies it per scenario per month (Conservative $5K flat; Balanced ramps $7.5K → $10K; Aggressive $10K → $20K; Rapid Scale $15K → $30K). It was promoted to a per-month input on `ScenarioInputs.tts`.
 
 ## Module structure
 
@@ -216,8 +218,8 @@ tts:
   contributionMargin = productMargin - creatorCommission - platformFee - agencyCommission - adSpend
   contributionPct    = contributionMargin / gmv
   sampleCost         = samples * (aov * cogsPercent + shippingPerUnit)
-  platformProfit     = contributionMargin - sampleCost - CREATOR_INCENTIVES - AGENCY_RETAINER_TTS
-  preRetainerProfit  = contributionMargin - sampleCost - CREATOR_INCENTIVES
+  platformProfit     = contributionMargin - sampleCost - creatorIncentives - AGENCY_RETAINER_TTS
+  preRetainerProfit  = contributionMargin - sampleCost - creatorIncentives
   cumulativeInvest   = running sum of negative platformProfit while it remains < 0
   activeCreators[m1] = samplesPerMonth[m1]
   activeCreators[mN] = (samplesPerMonth[mN] + activeCreators[mN-1]) * CREATOR_RETENTION_RATE
@@ -240,7 +242,12 @@ amazon:
   orders             = revenue / aov
   cogs, shipping, productMargin (same shapes as TTS)
 
-netProfit            = tts.platformProfit + dtc.platformProfit + amazon.productMargin
+netProfit            = tts.platformProfit + dtc.productMargin + amazon.productMargin
+                       // ASYMMETRIC BY DESIGN: TTS contributes platformProfit (post-retainer)
+                       // but DTC contributes productMargin (PRE-retainer). The Excel template
+                       // tracks the DTC retainer in dtc.platformProfit for reporting but
+                       // deliberately excludes it from the rolled-up net profit. Switching
+                       // DTC to platformProfit shifts the total by MONTHS × AGENCY_RETAINER_DTC = $30K.
 
 totals: 6-month sums of: ttsGmv, ttsOrders, videos, videoViews, clicks, dtcRevenue,
         dtcOrders, amazonRevenue, amazonOrders, netProfit
