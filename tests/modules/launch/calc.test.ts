@@ -259,18 +259,22 @@ describe('computeScenario - edge cases', () => {
 })
 
 describe('default scenarios reproduce Excel net profit', () => {
-  const cases: Array<[ScenarioKey, number]> = [
-    ['conservative', 955132.33],
-    ['balanced', 1481308.32],
-    ['aggressive', 1960825.31],
-    ['rapid_scale', 2447802.64],
-  ]
+  // Use a Record so adding a 5th ScenarioKey forces a compile error here —
+  // keeps the regression suite exhaustive.
+  const expectedNetByScenario: Record<ScenarioKey, number> = {
+    conservative: 955132.33,
+    balanced:     1481308.32,
+    aggressive:   1960825.31,
+    rapid_scale:  2447802.64,
+  }
 
-  for (const [key, expectedNet] of cases) {
-    it(`${key} 6-month net profit ≈ ${expectedNet}`, () => {
+  for (const key of Object.keys(expectedNetByScenario) as ScenarioKey[]) {
+    const expectedNet = expectedNetByScenario[key]
+    it(`${key} 6-month net profit reproduces Excel within $1`, () => {
       const out = computeScenario(defaultScenarioInputs[key], defaultSharedInputs)
-      const tolerance = Math.abs(expectedNet) * 0.01 // within 1%
-      expect(Math.abs(out.totals.netProfit - expectedNet)).toBeLessThan(tolerance)
+      // Calc engine reproduces Excel exactly. A $1 tolerance leaves room for
+      // floating-point noise without permitting real regressions.
+      expect(Math.abs(out.totals.netProfit - expectedNet)).toBeLessThan(1)
     })
   }
 })
