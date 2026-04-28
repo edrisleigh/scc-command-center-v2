@@ -124,8 +124,13 @@ export function computeScenario(
   }
 
   // ---- Net Profit ----
-  // Excel net profit uses DTC product margin (before the DTC agency retainer deduction),
-  // while TTS platformProfit already has its retainer baked in.
+  // IMPORTANT: This sum is intentionally asymmetric. TTS contributes platformProfit
+  // (post-retainer), but DTC contributes productMargin (PRE-retainer). The DTC
+  // agency retainer is tracked in dtc.platformProfit for reporting but is
+  // deliberately excluded from company-wide net profit, mirroring the Excel
+  // template. Verified by the Conservative regression test reproducing
+  // $955,132.33 within $1. Switching DTC to dtcPlatformProfit would shift the
+  // total by MONTHS * AGENCY_RETAINER_DTC = $30,000.
   const netProfit = zeros()
   for (let m = 0; m < MONTHS; m++) {
     netProfit[m] = ttsPlatformProfit[m] + dtcProductMargin[m] + amzProductMargin[m]

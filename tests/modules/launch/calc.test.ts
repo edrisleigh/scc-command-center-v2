@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
-import { computeScenario } from '@/modules/launch/calc'
-import type { ScenarioInputs, SharedInputs, ScenarioKey } from '@/modules/launch/types'
+import { computeScenario, computeAllScenarios } from '@/modules/launch/calc'
+import type { ScenarioInputs, SharedInputs, LaunchScenario } from '@/modules/launch/types'
 
 const conservativeShared: SharedInputs = {
   aov: 99.99,
@@ -252,5 +252,42 @@ describe('computeScenario - edge cases', () => {
     const out = computeScenario(inputs, conservativeShared)
     expect(out.tts.gmv[0]).toBe(0)
     expect(Number.isFinite(out.tts.gmv[1])).toBe(true)
+  })
+})
+
+describe('computeAllScenarios', () => {
+  it('dispatches each key to its own scenario inputs', () => {
+    const baseDoc = (overrides: Partial<LaunchScenario> = {}): LaunchScenario => ({
+      id: 'test',
+      orgSlug: 'halo',
+      clientSlug: null,
+      prospectName: 'Test',
+      name: 'Test launch',
+      status: 'draft',
+      chosenScenarioKey: null,
+      sharedInputs: conservativeShared,
+      scenarios: {
+        conservative: { ...conservativeInputs, amazonMultiplierVsTts: 0.1 },
+        balanced:     { ...conservativeInputs, amazonMultiplierVsTts: 0.3 },
+        aggressive:   { ...conservativeInputs, amazonMultiplierVsTts: 0.5 },
+        rapid_scale:  { ...conservativeInputs, amazonMultiplierVsTts: 0.7 },
+      },
+      createdAt: '2026-01-01T00:00:00Z',
+      updatedAt: '2026-01-01T00:00:00Z',
+      lockedAt: null,
+      lockedBy: null,
+      ...overrides,
+    })
+
+    const out = computeAllScenarios(baseDoc())
+
+    // Each scenario key must dispatch to its own inputs — verify by ordering
+    // amazonRevenue, which is monotonic in amazonMultiplierVsTts.
+    expect(out.conservative.totals.amazonRevenue)
+      .toBeLessThan(out.balanced.totals.amazonRevenue)
+    expect(out.balanced.totals.amazonRevenue)
+      .toBeLessThan(out.aggressive.totals.amazonRevenue)
+    expect(out.aggressive.totals.amazonRevenue)
+      .toBeLessThan(out.rapid_scale.totals.amazonRevenue)
   })
 })
