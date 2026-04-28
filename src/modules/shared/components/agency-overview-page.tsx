@@ -174,13 +174,22 @@ export function AgencyOverviewPage() {
             </span>
           </div>
         </div>
-        <Link
-          to="/$orgSlug/$clientSlug/shop"
-          params={{ orgSlug, clientSlug: "heydude" }}
-          className="text-sm font-medium text-primary hover:underline"
-        >
-          ← Back to client
-        </Link>
+        <div className="flex items-center gap-4">
+          <Link
+            to="/$orgSlug/launch-scenarios"
+            params={{ orgSlug }}
+            className="text-sm font-medium text-primary hover:underline"
+          >
+            Launch Scenarios →
+          </Link>
+          <Link
+            to="/$orgSlug/$clientSlug/shop"
+            params={{ orgSlug, clientSlug: "heydude" }}
+            className="text-sm font-medium text-primary hover:underline"
+          >
+            ← Back to client
+          </Link>
+        </div>
       </header>
 
       {/* Main content */}
