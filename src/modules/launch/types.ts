@@ -17,6 +17,7 @@ export interface ScenarioInputs {
     adPctOfGmv: number[]        // length 6
     samplesPerMonth: number[]   // length 6 — drives sample cost AND active-creator growth
     videosPerCreator: number[]  // length 6
+    creatorIncentives: number[] // length 6 — varies per scenario per month
   }
   dtc: {
     googleAdSpend: number[]

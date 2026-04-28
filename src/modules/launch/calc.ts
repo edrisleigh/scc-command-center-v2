@@ -3,7 +3,6 @@ import {
   AGENCY_COMMISSION_PCT,
   AGENCY_RETAINER_TTS,
   AGENCY_RETAINER_DTC,
-  CREATOR_INCENTIVES,
   VIEWS_PER_VIDEO,
   CLICKS_PER_VIDEO,
   CREATOR_RETENTION_RATE,
@@ -64,7 +63,7 @@ export function computeScenario(
       - inputs.tts.adSpend[m]
     ttsContributionPct[m] = ttsGmv[m] === 0 ? 0 : ttsContribution[m] / ttsGmv[m]
     ttsSampleCost[m] = inputs.tts.samplesPerMonth[m] * (cogsPerUnit + shared.shippingPerUnit)
-    ttsPreRetainer[m] = ttsContribution[m] - ttsSampleCost[m] - CREATOR_INCENTIVES
+    ttsPreRetainer[m] = ttsContribution[m] - ttsSampleCost[m] - inputs.tts.creatorIncentives[m]
     ttsPlatformProfit[m] = ttsPreRetainer[m] - AGENCY_RETAINER_TTS
 
     if (m === 0) {

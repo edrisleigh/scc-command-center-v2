@@ -1,0 +1,85 @@
+import type { ScenarioInputs, SharedInputs, ScenarioKey } from './types'
+
+export const defaultSharedInputs: SharedInputs = {
+  aov: 99.99,
+  cogsPercent: 0.20,
+  shippingPerUnit: 7.00,
+  creatorCommissionPct: 0.15,
+  platformFeePct: 0.06,
+}
+
+const dtcCommon = {
+  googleAdSpend: [50000, 50000, 50000, 50000, 50000, 50000],
+  metaAdSpend: [100000, 100000, 100000, 100000, 100000, 100000],
+}
+
+export const defaultScenarioInputs: Record<ScenarioKey, ScenarioInputs> = {
+  // Conservative values confirmed verbatim from Excel sheet2.
+  conservative: {
+    tts: {
+      roas: [0.75, 1.5, 1.95, 2.5, 2.8, 3.0],
+      adSpend: [20000, 35000, 45000, 50000, 60000, 75000],
+      adPctOfGmv: [0.85, 0.8, 0.75, 0.72, 0.7, 0.65],
+      samplesPerMonth: [200, 200, 200, 200, 200, 200],
+      videosPerCreator: [3, 2.4, 3, 3, 3, 3],
+      creatorIncentives: [5000, 5000, 5000, 5000, 5000, 5000],
+    },
+    dtc: {
+      ...dtcCommon,
+      googleRoas: [0.4, 0.78, 0.91, 1.3, 1.43, 1.56],
+      metaRoas: [0.2, 0.65, 0.91, 1.3, 1.56, 1.95],
+    },
+    amazonMultiplierVsTts: 0.30,
+  },
+  // Balanced values extracted verbatim from Excel sheet3 (rows 4-6, 19, 36-39).
+  balanced: {
+    tts: {
+      roas: [1.0, 1.75, 2.5, 3.0, 3.25, 3.5],
+      adSpend: [30000, 50000, 75000, 80000, 100000, 125000],
+      adPctOfGmv: [0.8, 0.8, 0.75, 0.7, 0.7, 0.65],
+      samplesPerMonth: [300, 300, 500, 500, 500, 500],
+      videosPerCreator: [3, 2.4, 3, 3, 3, 2.6],
+      creatorIncentives: [7500, 7500, 10000, 10000, 10000, 10000],
+    },
+    dtc: {
+      ...dtcCommon,
+      googleRoas: [0.65, 0.91, 1.3, 1.56, 1.69, 1.95],
+      metaRoas: [0.39, 0.65, 0.91, 1.3, 1.95, 2.34],
+    },
+    amazonMultiplierVsTts: 0.30,
+  },
+  // Aggressive values extracted verbatim from Excel sheet4 (rows 4-6, 19, 36-39).
+  aggressive: {
+    tts: {
+      roas: [1.25, 2.0, 3.0, 3.0, 3.25, 4.0],
+      adSpend: [50000, 75000, 95000, 115000, 125000, 150000],
+      adPctOfGmv: [0.75, 0.75, 0.7, 0.7, 0.7, 0.65],
+      samplesPerMonth: [500, 500, 600, 600, 500, 500],
+      videosPerCreator: [3, 2.4, 3, 3, 3, 3],
+      creatorIncentives: [10000, 10000, 20000, 20000, 20000, 20000],
+    },
+    dtc: {
+      ...dtcCommon,
+      googleRoas: [0.65, 0.91, 1.3, 1.56, 1.95, 1.95],
+      metaRoas: [0.39, 1.04, 1.3, 1.69, 2.21, 2.6],
+    },
+    amazonMultiplierVsTts: 0.30,
+  },
+  // Rapid Scale values extracted verbatim from Excel sheet5 (rows 4-6, 19, 36-39).
+  rapid_scale: {
+    tts: {
+      roas: [1.75, 2.0, 2.75, 3.5, 4.25, 4.5],
+      adSpend: [50000, 50000, 150000, 150000, 150000, 150000],
+      adPctOfGmv: [0.75, 0.75, 0.7, 0.7, 0.65, 0.65],
+      samplesPerMonth: [500, 500, 750, 750, 500, 500],
+      videosPerCreator: [3, 2.4, 2.6, 3, 3, 3],
+      creatorIncentives: [15000, 15000, 30000, 30000, 30000, 30000],
+    },
+    dtc: {
+      ...dtcCommon,
+      googleRoas: [0.65, 0.91, 1.3, 1.56, 1.95, 1.95],
+      metaRoas: [0.39, 1.04, 1.3, 1.69, 2.21, 2.6],
+    },
+    amazonMultiplierVsTts: 0.30,
+  },
+}

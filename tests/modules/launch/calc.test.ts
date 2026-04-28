@@ -1,6 +1,7 @@
 import { describe, it, expect } from 'vitest'
 import { computeScenario, computeAllScenarios } from '@/modules/launch/calc'
-import type { ScenarioInputs, SharedInputs, LaunchScenario } from '@/modules/launch/types'
+import type { ScenarioInputs, SharedInputs, LaunchScenario, ScenarioKey } from '@/modules/launch/types'
+import { defaultSharedInputs, defaultScenarioInputs } from '@/modules/launch/defaults'
 
 const conservativeShared: SharedInputs = {
   aov: 99.99,
@@ -17,6 +18,7 @@ const conservativeInputs: ScenarioInputs = {
     adPctOfGmv: [0.85, 0.8, 0.75, 0.72, 0.7, 0.65],
     samplesPerMonth: [200, 200, 200, 200, 200, 200],
     videosPerCreator: [3, 2.4, 3, 3, 3, 3],
+    creatorIncentives: [5000, 5000, 5000, 5000, 5000, 5000],
   },
   dtc: {
     googleAdSpend: [50000, 50000, 50000, 50000, 50000, 50000],
@@ -122,11 +124,12 @@ describe('computeScenario - cumulative investment freezes after break-even', () 
     }
     const inputs: ScenarioInputs = {
       tts: {
-        roas:            [1.5, 1.5, 5.0, 1.5, 5.0, 5.0],
-        adSpend:         [10000, 10000, 50000, 10000, 50000, 50000],
-        adPctOfGmv:      [1, 1, 1, 1, 1, 1],
-        samplesPerMonth: [0, 0, 0, 0, 0, 0],
-        videosPerCreator:[1, 1, 1, 1, 1, 1],
+        roas:              [1.5, 1.5, 5.0, 1.5, 5.0, 5.0],
+        adSpend:           [10000, 10000, 50000, 10000, 50000, 50000],
+        adPctOfGmv:        [1, 1, 1, 1, 1, 1],
+        samplesPerMonth:   [0, 0, 0, 0, 0, 0],
+        videosPerCreator:  [1, 1, 1, 1, 1, 1],
+        creatorIncentives: [5000, 5000, 5000, 5000, 5000, 5000],
       },
       dtc: {
         googleAdSpend: [0, 0, 0, 0, 0, 0],
@@ -234,7 +237,7 @@ describe('computeScenario - edge cases', () => {
     const inputs: ScenarioInputs = {
       tts: {
         roas: zeros6, adSpend: zeros6, adPctOfGmv: [1, 1, 1, 1, 1, 1],
-        samplesPerMonth: zeros6, videosPerCreator: zeros6,
+        samplesPerMonth: zeros6, videosPerCreator: zeros6, creatorIncentives: zeros6,
       },
       dtc: { googleAdSpend: zeros6, metaAdSpend: zeros6, googleRoas: zeros6, metaRoas: zeros6 },
       amazonMultiplierVsTts: 0,
@@ -253,6 +256,23 @@ describe('computeScenario - edge cases', () => {
     expect(out.tts.gmv[0]).toBe(0)
     expect(Number.isFinite(out.tts.gmv[1])).toBe(true)
   })
+})
+
+describe('default scenarios reproduce Excel net profit', () => {
+  const cases: Array<[ScenarioKey, number]> = [
+    ['conservative', 955132.33],
+    ['balanced', 1481308.32],
+    ['aggressive', 1960825.31],
+    ['rapid_scale', 2447802.64],
+  ]
+
+  for (const [key, expectedNet] of cases) {
+    it(`${key} 6-month net profit ≈ ${expectedNet}`, () => {
+      const out = computeScenario(defaultScenarioInputs[key], defaultSharedInputs)
+      const tolerance = Math.abs(expectedNet) * 0.01 // within 1%
+      expect(Math.abs(out.totals.netProfit - expectedNet)).toBeLessThan(tolerance)
+    })
+  }
 })
 
 describe('computeAllScenarios', () => {
