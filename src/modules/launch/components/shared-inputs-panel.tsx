@@ -1,4 +1,5 @@
 import type { SharedInputs } from '@/modules/launch/types'
+import { NumInput } from './num-input'
 
 interface SharedInputsPanelProps {
   value: SharedInputs
@@ -22,34 +23,20 @@ const FIELDS: Field[] = [
 ]
 
 export function SharedInputsPanel({ value, onChange, readOnly }: SharedInputsPanelProps) {
-  const update = (key: keyof SharedInputs, raw: string) => {
-    const num = Number(raw)
-    if (!Number.isFinite(num)) return
-    const next = { ...value, [key]: num }
-    onChange(next)
-  }
-
   return (
     <div className="grid grid-cols-2 gap-3 sm:grid-cols-5">
       {FIELDS.map((f) => {
         const raw = value[f.key]
-        const display = f.format === 'percent' ? raw : raw
         return (
           <label key={f.key} className="block rounded-lg border border-border bg-card p-3">
             <div className="text-[10px] uppercase tracking-wide text-muted">{f.label}</div>
             <div className="mt-1 flex items-baseline gap-1">
               {f.format === 'currency' && <span className="text-sm text-muted">$</span>}
-              <input
-                type="number"
-                step="any"
+              <NumInput
+                value={raw}
                 disabled={readOnly}
-                value={display}
                 min={f.min}
-                onChange={(e) => {
-                  const v = Number(e.target.value)
-                  if (f.format === 'percent') update(f.key, String(v))
-                  else update(f.key, String(v))
-                }}
+                onChange={(num) => onChange({ ...value, [f.key]: num })}
                 className="no-spinner w-full bg-transparent text-base font-semibold text-card-foreground outline-none focus:ring-0 disabled:cursor-not-allowed"
               />
               {f.format === 'percent' && <span className="text-sm text-muted">×</span>}

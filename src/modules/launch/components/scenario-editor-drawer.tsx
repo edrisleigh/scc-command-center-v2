@@ -4,6 +4,7 @@ import { computeScenario } from '@/modules/launch/calc'
 import { SCENARIO_LABELS, MONTHS } from '@/modules/launch/constants'
 import type { ScenarioInputs, SharedInputs, ScenarioKey } from '@/modules/launch/types'
 import { formatCurrency, formatNumber, cn } from '@/lib/utils'
+import { NumInput } from './num-input'
 
 type Tab = 'tts' | 'dtc' | 'amazon' | 'outputs'
 
@@ -158,7 +159,7 @@ function Grid({ title, children }: { title: string; sectionKey: string; children
 }
 
 function NumRow({
-  label, field, values, onUpdate,
+  label, values, onUpdate,
 }: {
   label: string; field: string; values: number[]; onUpdate: (idx: number, raw: string) => void
 }) {
@@ -167,15 +168,12 @@ function NumRow({
       <td className="py-1 pr-3 text-muted">{label}</td>
       {values.map((v, i) => (
         <td key={i} className="px-1 py-1">
-          <input
-            aria-label={`${label} M${i + 1}`}
-            type="number"
-            step="any"
+          <NumInput
+            ariaLabel={`${label} M${i + 1}`}
             min={0}
             value={v}
-            onChange={(e) => onUpdate(i, e.target.value)}
+            onChange={(num) => onUpdate(i, String(num))}
             className="no-spinner w-full rounded bg-primary/10 border border-primary/30 px-1.5 py-1 text-right text-primary outline-none focus:bg-primary/20"
-            data-field={field}
           />
         </td>
       ))}
