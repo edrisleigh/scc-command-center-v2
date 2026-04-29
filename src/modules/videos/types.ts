@@ -1,4 +1,5 @@
 export interface VideoDailyMetric {
+  clientId: string
   date: string
   videoGmv: number
   videoViews: number

@@ -5,11 +5,11 @@ import type { VideoDailyMetric } from '@/modules/videos/types'
 
 export function createMockVideoRepository(): VideoRepository {
   return {
-    async getDailyMetrics(_clientId: string, range: DateRange): Promise<VideoDailyMetric[]> {
+    async getDailyMetrics(clientId: string, range: DateRange): Promise<VideoDailyMetric[]> {
       const from = range.from.toISOString().split('T')[0]
       const to = range.to.toISOString().split('T')[0]
       return (videoData as VideoDailyMetric[]).filter(
-        (m) => m.date >= from && m.date <= to,
+        (m) => m.clientId === clientId && m.date >= from && m.date <= to,
       )
     },
   }

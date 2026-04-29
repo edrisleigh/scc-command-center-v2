@@ -1,5 +1,6 @@
 [
   {
+    "clientId": "client-1",
     "date": "2025-01-01",
     "videoGmv": 75868.38,
     "videoViews": 2021510,
@@ -15,6 +16,7 @@
     "videosPosted": 4
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-02",
     "videoGmv": 72256.52,
     "videoViews": 2213987,
@@ -30,6 +32,7 @@
     "videosPosted": 15
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-03",
     "videoGmv": 36377.59,
     "videoViews": 1242150,
@@ -45,6 +48,7 @@
     "videosPosted": 4
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-04",
     "videoGmv": 91323.23,
     "videoViews": 2388149,
@@ -60,6 +64,7 @@
     "videosPosted": 12
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-05",
     "videoGmv": 71765.28,
     "videoViews": 2637976,
@@ -75,6 +80,7 @@
     "videosPosted": 15
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-06",
     "videoGmv": 72277.11,
     "videoViews": 1544401,
@@ -90,6 +96,7 @@
     "videosPosted": 15
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-07",
     "videoGmv": 55715.14,
     "videoViews": 1307582,
@@ -105,6 +112,7 @@
     "videosPosted": 3
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-08",
     "videoGmv": 59574.57,
     "videoViews": 1699347,
@@ -120,6 +128,7 @@
     "videosPosted": 12
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-09",
     "videoGmv": 52914.83,
     "videoViews": 2229424,
@@ -135,6 +144,7 @@
     "videosPosted": 10
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-10",
     "videoGmv": 65101.98,
     "videoViews": 1765516,
@@ -150,6 +160,7 @@
     "videosPosted": 7
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-11",
     "videoGmv": 54209.28,
     "videoViews": 2745405,
@@ -165,6 +176,7 @@
     "videosPosted": 15
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-12",
     "videoGmv": 47683.96,
     "videoViews": 1479405,
@@ -180,6 +192,7 @@
     "videosPosted": 9
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-13",
     "videoGmv": 30104.5,
     "videoViews": 1556264,
@@ -195,6 +208,7 @@
     "videosPosted": 4
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-14",
     "videoGmv": 42736.27,
     "videoViews": 2479227,
@@ -210,6 +224,7 @@
     "videosPosted": 7
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-15",
     "videoGmv": 62495.31,
     "videoViews": 1806345,
@@ -225,6 +240,7 @@
     "videosPosted": 12
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-16",
     "videoGmv": 58475.83,
     "videoViews": 1138738,
@@ -240,6 +256,7 @@
     "videosPosted": 8
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-17",
     "videoGmv": 67709.71,
     "videoViews": 1886880,
@@ -255,6 +272,7 @@
     "videosPosted": 13
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-18",
     "videoGmv": 88891.92,
     "videoViews": 1797123,
@@ -270,6 +288,7 @@
     "videosPosted": 9
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-19",
     "videoGmv": 48074.97,
     "videoViews": 2802207,
@@ -285,6 +304,7 @@
     "videosPosted": 6
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-20",
     "videoGmv": 61000.4,
     "videoViews": 1211788,
@@ -300,6 +320,7 @@
     "videosPosted": 10
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-21",
     "videoGmv": 63667.3,
     "videoViews": 2223619,
@@ -315,6 +336,7 @@
     "videosPosted": 15
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-22",
     "videoGmv": 62128.55,
     "videoViews": 1982992,
@@ -330,6 +352,7 @@
     "videosPosted": 14
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-23",
     "videoGmv": 42110.34,
     "videoViews": 2253710,
@@ -345,6 +368,7 @@
     "videosPosted": 6
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-24",
     "videoGmv": 79058.22,
     "videoViews": 1059939,
@@ -360,6 +384,7 @@
     "videosPosted": 5
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-25",
     "videoGmv": 43966.54,
     "videoViews": 1825417,
@@ -375,6 +400,7 @@
     "videosPosted": 11
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-26",
     "videoGmv": 57543.02,
     "videoViews": 1520791,
@@ -390,6 +416,7 @@
     "videosPosted": 15
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-27",
     "videoGmv": 43461.64,
     "videoViews": 1533823,
@@ -405,6 +432,7 @@
     "videosPosted": 6
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-28",
     "videoGmv": 76899.34,
     "videoViews": 1674398,
@@ -420,6 +448,7 @@
     "videosPosted": 4
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-29",
     "videoGmv": 67370.81,
     "videoViews": 2060976,
@@ -435,6 +464,7 @@
     "videosPosted": 12
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-30",
     "videoGmv": 58994.46,
     "videoViews": 1217812,
@@ -450,6 +480,7 @@
     "videosPosted": 14
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-31",
     "videoGmv": 74330.21,
     "videoViews": 1074903,
@@ -465,6 +496,7 @@
     "videosPosted": 4
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-01",
     "videoGmv": 76666.69,
     "videoViews": 1869319,
@@ -480,6 +512,7 @@
     "videosPosted": 11
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-02",
     "videoGmv": 69687.9,
     "videoViews": 1203282,
@@ -495,6 +528,7 @@
     "videosPosted": 8
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-03",
     "videoGmv": 61957.56,
     "videoViews": 2391204,
@@ -510,6 +544,7 @@
     "videosPosted": 8
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-04",
     "videoGmv": 38219.58,
     "videoViews": 2087261,
@@ -525,6 +560,7 @@
     "videosPosted": 11
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-05",
     "videoGmv": 40176.7,
     "videoViews": 2339979,
@@ -540,6 +576,7 @@
     "videosPosted": 8
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-06",
     "videoGmv": 48096.05,
     "videoViews": 1449290,
@@ -555,6 +592,7 @@
     "videosPosted": 14
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-07",
     "videoGmv": 42871.22,
     "videoViews": 1593821,
@@ -570,6 +608,7 @@
     "videosPosted": 14
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-08",
     "videoGmv": 86938.17,
     "videoViews": 2156755,
@@ -585,6 +624,7 @@
     "videosPosted": 13
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-09",
     "videoGmv": 65195.51,
     "videoViews": 2024066,
@@ -600,6 +640,7 @@
     "videosPosted": 12
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-10",
     "videoGmv": 36686.22,
     "videoViews": 1235491,
@@ -615,6 +656,7 @@
     "videosPosted": 14
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-11",
     "videoGmv": 49513.53,
     "videoViews": 2339535,
@@ -630,6 +672,7 @@
     "videosPosted": 11
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-12",
     "videoGmv": 33334.52,
     "videoViews": 1622878,
@@ -645,6 +688,7 @@
     "videosPosted": 9
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-13",
     "videoGmv": 64333.15,
     "videoViews": 1180013,
@@ -660,6 +704,7 @@
     "videosPosted": 10
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-14",
     "videoGmv": 76106.05,
     "videoViews": 2027173,
@@ -675,6 +720,7 @@
     "videosPosted": 10
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-15",
     "videoGmv": 52612.24,
     "videoViews": 1887454,
@@ -690,6 +736,7 @@
     "videosPosted": 11
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-16",
     "videoGmv": 60680.89,
     "videoViews": 2810868,
@@ -705,6 +752,7 @@
     "videosPosted": 15
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-17",
     "videoGmv": 55868.59,
     "videoViews": 1725646,
@@ -720,6 +768,7 @@
     "videosPosted": 6
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-18",
     "videoGmv": 60894.07,
     "videoViews": 2191117,
@@ -735,6 +784,7 @@
     "videosPosted": 12
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-19",
     "videoGmv": 74599.49,
     "videoViews": 1899482,
@@ -750,6 +800,7 @@
     "videosPosted": 12
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-20",
     "videoGmv": 57802.81,
     "videoViews": 1655851,
@@ -765,6 +816,7 @@
     "videosPosted": 4
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-21",
     "videoGmv": 34271.38,
     "videoViews": 1417170,
@@ -780,6 +832,7 @@
     "videosPosted": 6
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-22",
     "videoGmv": 61859.6,
     "videoViews": 2126345,
@@ -795,6 +848,7 @@
     "videosPosted": 8
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-23",
     "videoGmv": 51263.26,
     "videoViews": 1729237,
@@ -810,6 +864,7 @@
     "videosPosted": 6
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-24",
     "videoGmv": 69008.15,
     "videoViews": 2411568,
@@ -825,6 +880,7 @@
     "videosPosted": 4
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-25",
     "videoGmv": 69077.8,
     "videoViews": 2161108,
@@ -840,6 +896,7 @@
     "videosPosted": 7
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-26",
     "videoGmv": 33422.89,
     "videoViews": 1786929,
@@ -855,6 +912,7 @@
     "videosPosted": 6
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-27",
     "videoGmv": 44740.01,
     "videoViews": 2306906,
@@ -870,6 +928,7 @@
     "videosPosted": 9
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-28",
     "videoGmv": 32591.66,
     "videoViews": 1146761,
@@ -885,6 +944,7 @@
     "videosPosted": 11
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-01",
     "videoGmv": 39078.66,
     "videoViews": 2091702,
@@ -900,6 +960,7 @@
     "videosPosted": 3
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-02",
     "videoGmv": 88908.64,
     "videoViews": 1709377,
@@ -915,6 +976,7 @@
     "videosPosted": 14
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-03",
     "videoGmv": 41830.78,
     "videoViews": 1049726,
@@ -930,6 +992,7 @@
     "videosPosted": 13
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-04",
     "videoGmv": 57845.87,
     "videoViews": 1965579,
@@ -945,6 +1008,7 @@
     "videosPosted": 7
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-05",
     "videoGmv": 36194.81,
     "videoViews": 2389563,
@@ -960,6 +1024,7 @@
     "videosPosted": 9
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-06",
     "videoGmv": 54999.85,
     "videoViews": 1607569,
@@ -975,6 +1040,7 @@
     "videosPosted": 8
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-07",
     "videoGmv": 64618.51,
     "videoViews": 1346954,
@@ -990,6 +1056,7 @@
     "videosPosted": 12
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-08",
     "videoGmv": 84884.1,
     "videoViews": 2583555,
@@ -1005,6 +1072,7 @@
     "videosPosted": 12
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-09",
     "videoGmv": 37627.07,
     "videoViews": 1505853,
@@ -1020,6 +1088,7 @@
     "videosPosted": 13
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-10",
     "videoGmv": 65660.98,
     "videoViews": 1257675,
@@ -1035,6 +1104,7 @@
     "videosPosted": 4
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-11",
     "videoGmv": 76459.57,
     "videoViews": 1025771,
@@ -1050,6 +1120,7 @@
     "videosPosted": 3
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-12",
     "videoGmv": 68569.91,
     "videoViews": 1297783,
@@ -1065,6 +1136,7 @@
     "videosPosted": 8
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-13",
     "videoGmv": 53329.85,
     "videoViews": 2138242,
@@ -1080,6 +1152,7 @@
     "videosPosted": 7
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-14",
     "videoGmv": 61169.63,
     "videoViews": 1470438,
@@ -1095,6 +1168,7 @@
     "videosPosted": 7
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-15",
     "videoGmv": 36378.56,
     "videoViews": 2308076,
@@ -1110,6 +1184,7 @@
     "videosPosted": 3
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-16",
     "videoGmv": 66677.87,
     "videoViews": 2488435,
@@ -1125,6 +1200,7 @@
     "videosPosted": 4
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-17",
     "videoGmv": 49868.18,
     "videoViews": 1110431,
@@ -1140,6 +1216,7 @@
     "videosPosted": 11
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-18",
     "videoGmv": 46340.9,
     "videoViews": 1688837,
@@ -1155,6 +1232,7 @@
     "videosPosted": 7
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-19",
     "videoGmv": 66888.22,
     "videoViews": 1450045,
@@ -1170,6 +1248,7 @@
     "videosPosted": 4
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-20",
     "videoGmv": 53868.97,
     "videoViews": 1201145,
@@ -1185,6 +1264,7 @@
     "videosPosted": 13
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-21",
     "videoGmv": 48297.9,
     "videoViews": 1104808,
@@ -1200,6 +1280,7 @@
     "videosPosted": 12
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-22",
     "videoGmv": 74682.99,
     "videoViews": 2801850,
@@ -1215,6 +1296,7 @@
     "videosPosted": 5
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-23",
     "videoGmv": 77006.11,
     "videoViews": 1916052,
@@ -1230,6 +1312,7 @@
     "videosPosted": 7
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-24",
     "videoGmv": 47041.69,
     "videoViews": 2488959,
@@ -1245,6 +1328,7 @@
     "videosPosted": 12
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-25",
     "videoGmv": 77558.31,
     "videoViews": 1402410,
@@ -1260,6 +1344,7 @@
     "videosPosted": 7
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-26",
     "videoGmv": 63361.67,
     "videoViews": 1735700,
@@ -1275,6 +1360,7 @@
     "videosPosted": 4
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-27",
     "videoGmv": 61075.58,
     "videoViews": 1004957,
@@ -1290,6 +1376,7 @@
     "videosPosted": 11
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-28",
     "videoGmv": 75541.25,
     "videoViews": 1728974,
@@ -1305,6 +1392,7 @@
     "videosPosted": 14
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-29",
     "videoGmv": 88890.77,
     "videoViews": 1578898,
@@ -1320,6 +1408,7 @@
     "videosPosted": 3
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-30",
     "videoGmv": 43592.81,
     "videoViews": 1266102,
@@ -1335,6 +1424,7 @@
     "videosPosted": 14
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-31",
     "videoGmv": 40276.91,
     "videoViews": 2090916,
@@ -1350,6 +1440,7 @@
     "videosPosted": 5
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-01",
     "videoGmv": 66244.21,
     "videoViews": 1592121,
@@ -1365,6 +1456,7 @@
     "videosPosted": 14
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-02",
     "videoGmv": 62881.81,
     "videoViews": 2251038,
@@ -1380,6 +1472,7 @@
     "videosPosted": 14
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-03",
     "videoGmv": 73235.09,
     "videoViews": 1316235,
@@ -1395,6 +1488,7 @@
     "videosPosted": 12
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-04",
     "videoGmv": 67957.66,
     "videoViews": 1090661,
@@ -1410,6 +1504,7 @@
     "videosPosted": 6
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-05",
     "videoGmv": 48635.5,
     "videoViews": 1259300,
@@ -1425,6 +1520,7 @@
     "videosPosted": 8
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-06",
     "videoGmv": 81460.29,
     "videoViews": 2044231,
@@ -1440,6 +1536,7 @@
     "videosPosted": 6
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-07",
     "videoGmv": 75589.82,
     "videoViews": 2476820,
@@ -1455,6 +1552,7 @@
     "videosPosted": 7
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-08",
     "videoGmv": 50582.38,
     "videoViews": 1269165,
@@ -1470,6 +1568,7 @@
     "videosPosted": 5
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-09",
     "videoGmv": 57958.63,
     "videoViews": 1716292,
@@ -1485,6 +1584,7 @@
     "videosPosted": 6
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-10",
     "videoGmv": 67688.36,
     "videoViews": 1615618,
@@ -1500,6 +1600,7 @@
     "videosPosted": 7
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-11",
     "videoGmv": 77007.23,
     "videoViews": 1392207,
@@ -1515,6 +1616,7 @@
     "videosPosted": 10
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-12",
     "videoGmv": 37648.15,
     "videoViews": 1692017,
@@ -1530,6 +1632,7 @@
     "videosPosted": 14
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-13",
     "videoGmv": 78097.96,
     "videoViews": 2272441,
@@ -1545,6 +1648,7 @@
     "videosPosted": 11
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-14",
     "videoGmv": 75892.97,
     "videoViews": 1402480,
@@ -1560,6 +1664,7 @@
     "videosPosted": 4
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-15",
     "videoGmv": 35502.02,
     "videoViews": 2377807,
@@ -1575,6 +1680,7 @@
     "videosPosted": 10
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-16",
     "videoGmv": 61639.87,
     "videoViews": 2078073,
@@ -1590,6 +1696,7 @@
     "videosPosted": 12
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-17",
     "videoGmv": 31402.86,
     "videoViews": 1954440,
@@ -1605,6 +1712,7 @@
     "videosPosted": 12
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-18",
     "videoGmv": 37241.36,
     "videoViews": 1824810,
@@ -1620,6 +1728,7 @@
     "videosPosted": 7
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-19",
     "videoGmv": 70364.88,
     "videoViews": 2347774,
@@ -1635,6 +1744,7 @@
     "videosPosted": 9
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-20",
     "videoGmv": 53538.82,
     "videoViews": 2426744,
@@ -1650,6 +1760,7 @@
     "videosPosted": 9
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-21",
     "videoGmv": 67035.01,
     "videoViews": 1598125,
@@ -1665,6 +1776,7 @@
     "videosPosted": 4
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-22",
     "videoGmv": 43557.95,
     "videoViews": 1263469,
@@ -1680,6 +1792,7 @@
     "videosPosted": 12
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-23",
     "videoGmv": 37317.24,
     "videoViews": 1251931,
@@ -1695,6 +1808,7 @@
     "videosPosted": 11
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-24",
     "videoGmv": 61964.56,
     "videoViews": 2460808,
@@ -1710,6 +1824,7 @@
     "videosPosted": 8
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-25",
     "videoGmv": 79074.27,
     "videoViews": 1373255,
@@ -1725,6 +1840,7 @@
     "videosPosted": 4
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-26",
     "videoGmv": 43034.9,
     "videoViews": 2790778,
@@ -1740,6 +1856,7 @@
     "videosPosted": 7
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-27",
     "videoGmv": 91802.4,
     "videoViews": 2836875,
@@ -1755,6 +1872,7 @@
     "videosPosted": 8
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-28",
     "videoGmv": 55606.55,
     "videoViews": 1365628,
@@ -1770,6 +1888,7 @@
     "videosPosted": 8
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-29",
     "videoGmv": 36227.46,
     "videoViews": 1739802,
@@ -1785,6 +1904,7 @@
     "videosPosted": 9
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-30",
     "videoGmv": 71572.5,
     "videoViews": 2087273,
@@ -1800,6 +1920,7 @@
     "videosPosted": 10
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-01",
     "videoGmv": 73629.73,
     "videoViews": 2437162,
@@ -1815,6 +1936,7 @@
     "videosPosted": 5
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-02",
     "videoGmv": 50023.41,
     "videoViews": 2238924,
@@ -1830,6 +1952,7 @@
     "videosPosted": 11
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-03",
     "videoGmv": 88466.72,
     "videoViews": 2784924,
@@ -1845,6 +1968,7 @@
     "videosPosted": 3
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-04",
     "videoGmv": 57841.08,
     "videoViews": 1381584,
@@ -1860,6 +1984,7 @@
     "videosPosted": 13
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-05",
     "videoGmv": 58023.46,
     "videoViews": 1006929,
@@ -1875,6 +2000,7 @@
     "videosPosted": 6
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-06",
     "videoGmv": 62698.6,
     "videoViews": 2248272,
@@ -1890,6 +2016,7 @@
     "videosPosted": 3
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-07",
     "videoGmv": 33032,
     "videoViews": 1366151,
@@ -1905,6 +2032,7 @@
     "videosPosted": 5
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-08",
     "videoGmv": 37452.52,
     "videoViews": 1076742,
@@ -1920,6 +2048,7 @@
     "videosPosted": 11
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-09",
     "videoGmv": 67066.07,
     "videoViews": 2087234,
@@ -1935,6 +2064,7 @@
     "videosPosted": 10
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-10",
     "videoGmv": 75418.15,
     "videoViews": 1755541,
@@ -1950,6 +2080,7 @@
     "videosPosted": 8
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-11",
     "videoGmv": 52135.22,
     "videoViews": 2193272,
@@ -1965,6 +2096,7 @@
     "videosPosted": 7
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-12",
     "videoGmv": 46128.47,
     "videoViews": 2107687,
@@ -1980,6 +2112,7 @@
     "videosPosted": 4
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-13",
     "videoGmv": 47424.12,
     "videoViews": 1832561,
@@ -1995,6 +2128,7 @@
     "videosPosted": 12
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-14",
     "videoGmv": 51100.44,
     "videoViews": 1808500,
@@ -2010,6 +2144,7 @@
     "videosPosted": 14
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-15",
     "videoGmv": 65017.09,
     "videoViews": 2318142,
@@ -2025,6 +2160,7 @@
     "videosPosted": 11
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-16",
     "videoGmv": 32742.82,
     "videoViews": 1507693,
@@ -2040,6 +2176,7 @@
     "videosPosted": 11
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-17",
     "videoGmv": 38521.94,
     "videoViews": 2984494,
@@ -2055,6 +2192,7 @@
     "videosPosted": 7
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-18",
     "videoGmv": 54330.09,
     "videoViews": 2678072,
@@ -2070,6 +2208,7 @@
     "videosPosted": 7
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-19",
     "videoGmv": 74917.05,
     "videoViews": 1102694,
@@ -2085,6 +2224,7 @@
     "videosPosted": 13
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-20",
     "videoGmv": 71258.61,
     "videoViews": 2178559,
@@ -2100,6 +2240,7 @@
     "videosPosted": 7
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-21",
     "videoGmv": 56605.19,
     "videoViews": 2206257,
@@ -2115,6 +2256,7 @@
     "videosPosted": 6
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-22",
     "videoGmv": 69927.53,
     "videoViews": 1443352,
@@ -2130,6 +2272,7 @@
     "videosPosted": 9
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-23",
     "videoGmv": 41731.78,
     "videoViews": 1147282,
@@ -2145,6 +2288,7 @@
     "videosPosted": 6
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-24",
     "videoGmv": 79019.02,
     "videoViews": 1342271,
@@ -2160,6 +2304,7 @@
     "videosPosted": 8
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-25",
     "videoGmv": 48002.24,
     "videoViews": 2654399,
@@ -2175,6 +2320,7 @@
     "videosPosted": 5
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-26",
     "videoGmv": 59805.28,
     "videoViews": 1980483,
@@ -2190,6 +2336,7 @@
     "videosPosted": 11
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-27",
     "videoGmv": 44726.97,
     "videoViews": 1620932,
@@ -2205,6 +2352,7 @@
     "videosPosted": 3
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-28",
     "videoGmv": 33091.17,
     "videoViews": 1149716,
@@ -2220,6 +2368,7 @@
     "videosPosted": 10
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-29",
     "videoGmv": 69150.59,
     "videoViews": 1117186,
@@ -2235,6 +2384,7 @@
     "videosPosted": 10
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-30",
     "videoGmv": 49877.99,
     "videoViews": 2206089,
@@ -2250,6 +2400,7 @@
     "videosPosted": 10
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-31",
     "videoGmv": 69139.01,
     "videoViews": 2551636,
@@ -2265,6 +2416,7 @@
     "videosPosted": 3
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-01",
     "videoGmv": 36594.46,
     "videoViews": 1462544,
@@ -2280,6 +2432,7 @@
     "videosPosted": 8
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-02",
     "videoGmv": 36888.9,
     "videoViews": 2130607,
@@ -2295,6 +2448,7 @@
     "videosPosted": 7
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-03",
     "videoGmv": 37095.97,
     "videoViews": 2237686,
@@ -2310,6 +2464,7 @@
     "videosPosted": 12
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-04",
     "videoGmv": 78860.05,
     "videoViews": 1307011,
@@ -2325,6 +2480,7 @@
     "videosPosted": 7
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-05",
     "videoGmv": 72781.85,
     "videoViews": 1951684,
@@ -2340,6 +2496,7 @@
     "videosPosted": 13
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-06",
     "videoGmv": 47455.88,
     "videoViews": 2228192,
@@ -2355,6 +2512,7 @@
     "videosPosted": 8
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-07",
     "videoGmv": 73840,
     "videoViews": 2606881,
@@ -2370,6 +2528,7 @@
     "videosPosted": 8
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-08",
     "videoGmv": 63642,
     "videoViews": 2224744,
@@ -2385,6 +2544,7 @@
     "videosPosted": 7
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-09",
     "videoGmv": 39805.22,
     "videoViews": 2015987,
@@ -2400,6 +2560,7 @@
     "videosPosted": 13
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-10",
     "videoGmv": 64932.75,
     "videoViews": 1751494,
@@ -2415,6 +2576,7 @@
     "videosPosted": 5
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-11",
     "videoGmv": 67072.24,
     "videoViews": 1350615,
@@ -2430,6 +2592,7 @@
     "videosPosted": 11
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-12",
     "videoGmv": 40290.94,
     "videoViews": 1311180,
@@ -2445,6 +2608,7 @@
     "videosPosted": 6
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-13",
     "videoGmv": 42536.8,
     "videoViews": 1721257,
@@ -2460,6 +2624,7 @@
     "videosPosted": 12
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-14",
     "videoGmv": 51578.64,
     "videoViews": 1523220,
@@ -2475,6 +2640,7 @@
     "videosPosted": 3
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-15",
     "videoGmv": 77141.17,
     "videoViews": 2130442,
@@ -2490,6 +2656,7 @@
     "videosPosted": 6
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-16",
     "videoGmv": 53440.99,
     "videoViews": 2452636,
@@ -2505,6 +2672,7 @@
     "videosPosted": 14
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-17",
     "videoGmv": 76009.54,
     "videoViews": 2161830,
@@ -2520,6 +2688,7 @@
     "videosPosted": 10
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-18",
     "videoGmv": 36667.87,
     "videoViews": 2413668,
@@ -2535,6 +2704,7 @@
     "videosPosted": 5
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-19",
     "videoGmv": 30665.67,
     "videoViews": 1179707,
@@ -2550,6 +2720,7 @@
     "videosPosted": 5
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-20",
     "videoGmv": 44707.3,
     "videoViews": 2379482,
@@ -2565,6 +2736,7 @@
     "videosPosted": 7
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-21",
     "videoGmv": 60758.51,
     "videoViews": 2498126,
@@ -2580,6 +2752,7 @@
     "videosPosted": 12
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-22",
     "videoGmv": 71562.16,
     "videoViews": 1530324,
@@ -2595,6 +2768,7 @@
     "videosPosted": 5
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-23",
     "videoGmv": 45881.64,
     "videoViews": 2109176,
@@ -2610,6 +2784,7 @@
     "videosPosted": 11
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-24",
     "videoGmv": 36656.79,
     "videoViews": 2361006,
@@ -2625,6 +2800,7 @@
     "videosPosted": 10
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-25",
     "videoGmv": 55778.29,
     "videoViews": 1016698,
@@ -2640,6 +2816,7 @@
     "videosPosted": 7
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-26",
     "videoGmv": 62434.46,
     "videoViews": 2320731,
@@ -2655,6 +2832,7 @@
     "videosPosted": 3
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-27",
     "videoGmv": 72177.57,
     "videoViews": 2261633,
@@ -2670,6 +2848,7 @@
     "videosPosted": 9
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-28",
     "videoGmv": 65228.94,
     "videoViews": 1581148,
@@ -2685,6 +2864,7 @@
     "videosPosted": 7
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-29",
     "videoGmv": 86469.94,
     "videoViews": 1370555,
@@ -2700,6 +2880,7 @@
     "videosPosted": 12
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-30",
     "videoGmv": 70268.61,
     "videoViews": 1666152,
@@ -2715,6 +2896,7 @@
     "videosPosted": 7
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-01",
     "videoGmv": 52611.8,
     "videoViews": 2201571,
@@ -2730,6 +2912,7 @@
     "videosPosted": 14
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-02",
     "videoGmv": 78286.74,
     "videoViews": 2219408,
@@ -2745,6 +2928,7 @@
     "videosPosted": 10
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-03",
     "videoGmv": 61177.53,
     "videoViews": 2133080,
@@ -2760,6 +2944,7 @@
     "videosPosted": 12
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-04",
     "videoGmv": 30944.92,
     "videoViews": 1418806,
@@ -2775,6 +2960,7 @@
     "videosPosted": 11
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-05",
     "videoGmv": 74720.75,
     "videoViews": 2929372,
@@ -2790,6 +2976,7 @@
     "videosPosted": 4
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-06",
     "videoGmv": 60027.65,
     "videoViews": 1258304,
@@ -2805,6 +2992,7 @@
     "videosPosted": 13
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-07",
     "videoGmv": 74789.95,
     "videoViews": 1714568,
@@ -2820,6 +3008,7 @@
     "videosPosted": 7
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-08",
     "videoGmv": 36313.87,
     "videoViews": 1672589,
@@ -2835,6 +3024,7 @@
     "videosPosted": 11
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-09",
     "videoGmv": 60097.84,
     "videoViews": 1255075,
@@ -2850,6 +3040,7 @@
     "videosPosted": 5
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-10",
     "videoGmv": 75251.71,
     "videoViews": 1849432,
@@ -2865,6 +3056,7 @@
     "videosPosted": 5
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-11",
     "videoGmv": 36251.47,
     "videoViews": 1457722,
@@ -2880,6 +3072,7 @@
     "videosPosted": 7
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-12",
     "videoGmv": 51570.32,
     "videoViews": 1341864,
@@ -2895,6 +3088,7 @@
     "videosPosted": 5
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-13",
     "videoGmv": 61878.6,
     "videoViews": 2365976,
@@ -2910,6 +3104,7 @@
     "videosPosted": 14
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-14",
     "videoGmv": 31116.71,
     "videoViews": 1264002,
@@ -2925,6 +3120,7 @@
     "videosPosted": 3
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-15",
     "videoGmv": 61680.2,
     "videoViews": 1251190,
@@ -2940,6 +3136,7 @@
     "videosPosted": 14
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-16",
     "videoGmv": 30533.28,
     "videoViews": 1604124,
@@ -2955,6 +3152,7 @@
     "videosPosted": 4
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-17",
     "videoGmv": 34725.12,
     "videoViews": 1356944,
@@ -2970,6 +3168,7 @@
     "videosPosted": 14
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-18",
     "videoGmv": 47449.27,
     "videoViews": 1827153,
@@ -2985,6 +3184,7 @@
     "videosPosted": 14
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-19",
     "videoGmv": 59075.4,
     "videoViews": 2703029,
@@ -3000,6 +3200,7 @@
     "videosPosted": 9
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-20",
     "videoGmv": 57817.8,
     "videoViews": 2230720,
@@ -3015,6 +3216,7 @@
     "videosPosted": 9
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-21",
     "videoGmv": 64912.46,
     "videoViews": 1584549,
@@ -3030,6 +3232,7 @@
     "videosPosted": 13
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-22",
     "videoGmv": 43904.72,
     "videoViews": 1169265,
@@ -3045,6 +3248,7 @@
     "videosPosted": 11
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-23",
     "videoGmv": 77980.2,
     "videoViews": 2499233,
@@ -3060,6 +3264,7 @@
     "videosPosted": 12
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-24",
     "videoGmv": 62899.34,
     "videoViews": 1961553,
@@ -3075,6 +3280,7 @@
     "videosPosted": 12
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-25",
     "videoGmv": 35692.11,
     "videoViews": 1657880,
@@ -3090,6 +3296,7 @@
     "videosPosted": 4
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-26",
     "videoGmv": 81046.56,
     "videoViews": 2580151,
@@ -3105,6 +3312,7 @@
     "videosPosted": 5
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-27",
     "videoGmv": 84429.86,
     "videoViews": 1481030,
@@ -3120,6 +3328,7 @@
     "videosPosted": 10
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-28",
     "videoGmv": 35041.05,
     "videoViews": 1519716,
@@ -3135,6 +3344,7 @@
     "videosPosted": 14
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-29",
     "videoGmv": 36221.31,
     "videoViews": 1027341,
@@ -3150,6 +3360,7 @@
     "videosPosted": 13
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-30",
     "videoGmv": 37854.64,
     "videoViews": 2322399,
@@ -3165,6 +3376,7 @@
     "videosPosted": 4
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-31",
     "videoGmv": 34483.74,
     "videoViews": 1375093,
@@ -3180,6 +3392,7 @@
     "videosPosted": 10
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-01",
     "videoGmv": 59598.51,
     "videoViews": 1892980,
@@ -3195,6 +3408,7 @@
     "videosPosted": 3
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-02",
     "videoGmv": 69223.41,
     "videoViews": 2423392,
@@ -3210,6 +3424,7 @@
     "videosPosted": 5
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-03",
     "videoGmv": 82622.04,
     "videoViews": 2997748,
@@ -3225,6 +3440,7 @@
     "videosPosted": 13
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-04",
     "videoGmv": 65358.46,
     "videoViews": 1432630,
@@ -3240,6 +3456,7 @@
     "videosPosted": 13
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-05",
     "videoGmv": 73919.15,
     "videoViews": 2171084,
@@ -3255,6 +3472,7 @@
     "videosPosted": 6
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-06",
     "videoGmv": 33966.33,
     "videoViews": 1070428,
@@ -3270,6 +3488,7 @@
     "videosPosted": 10
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-07",
     "videoGmv": 50107.97,
     "videoViews": 1066675,
@@ -3285,6 +3504,7 @@
     "videosPosted": 14
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-08",
     "videoGmv": 46296.74,
     "videoViews": 1557098,
@@ -3300,6 +3520,7 @@
     "videosPosted": 13
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-09",
     "videoGmv": 54192.17,
     "videoViews": 1792349,
@@ -3315,6 +3536,7 @@
     "videosPosted": 5
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-10",
     "videoGmv": 77021.24,
     "videoViews": 1356614,
@@ -3330,6 +3552,7 @@
     "videosPosted": 5
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-11",
     "videoGmv": 31426.53,
     "videoViews": 1087634,
@@ -3345,6 +3568,7 @@
     "videosPosted": 13
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-12",
     "videoGmv": 54507.36,
     "videoViews": 2268097,
@@ -3360,6 +3584,7 @@
     "videosPosted": 6
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-13",
     "videoGmv": 63260.26,
     "videoViews": 1171971,
@@ -3375,6 +3600,7 @@
     "videosPosted": 8
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-14",
     "videoGmv": 77296.26,
     "videoViews": 1482723,
@@ -3390,6 +3616,7 @@
     "videosPosted": 10
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-15",
     "videoGmv": 68077.85,
     "videoViews": 2056983,
@@ -3405,6 +3632,7 @@
     "videosPosted": 13
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-16",
     "videoGmv": 44678.12,
     "videoViews": 2156440,
@@ -3420,6 +3648,7 @@
     "videosPosted": 12
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-17",
     "videoGmv": 93252.5,
     "videoViews": 2339244,
@@ -3435,6 +3664,7 @@
     "videosPosted": 8
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-18",
     "videoGmv": 61379.16,
     "videoViews": 1091740,
@@ -3450,6 +3680,7 @@
     "videosPosted": 12
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-19",
     "videoGmv": 46169.13,
     "videoViews": 1120098,
@@ -3465,6 +3696,7 @@
     "videosPosted": 12
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-20",
     "videoGmv": 37345.33,
     "videoViews": 1347097,
@@ -3480,6 +3712,7 @@
     "videosPosted": 12
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-21",
     "videoGmv": 78904.47,
     "videoViews": 1110165,
@@ -3495,6 +3728,7 @@
     "videosPosted": 10
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-22",
     "videoGmv": 42772.55,
     "videoViews": 2475979,
@@ -3510,6 +3744,7 @@
     "videosPosted": 4
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-23",
     "videoGmv": 84205.99,
     "videoViews": 2255928,
@@ -3525,6 +3760,7 @@
     "videosPosted": 13
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-24",
     "videoGmv": 71793.13,
     "videoViews": 2940494,
@@ -3540,6 +3776,7 @@
     "videosPosted": 13
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-25",
     "videoGmv": 37351.19,
     "videoViews": 2024076,
@@ -3555,6 +3792,7 @@
     "videosPosted": 10
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-26",
     "videoGmv": 62729.3,
     "videoViews": 1969775,
@@ -3570,6 +3808,7 @@
     "videosPosted": 4
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-27",
     "videoGmv": 57137.82,
     "videoViews": 2323905,
@@ -3585,6 +3824,7 @@
     "videosPosted": 12
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-28",
     "videoGmv": 33008.14,
     "videoViews": 1977033,
@@ -3600,6 +3840,7 @@
     "videosPosted": 11
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-29",
     "videoGmv": 76528.91,
     "videoViews": 1086482,
@@ -3615,6 +3856,7 @@
     "videosPosted": 15
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-30",
     "videoGmv": 74079.19,
     "videoViews": 2541452,
@@ -3630,6 +3872,7 @@
     "videosPosted": 5
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-31",
     "videoGmv": 53566.43,
     "videoViews": 1521318,
@@ -3645,6 +3888,7 @@
     "videosPosted": 3
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-01",
     "videoGmv": 30993.76,
     "videoViews": 1225499,
@@ -3660,6 +3904,7 @@
     "videosPosted": 6
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-02",
     "videoGmv": 67663.96,
     "videoViews": 1390626,
@@ -3675,6 +3920,7 @@
     "videosPosted": 12
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-03",
     "videoGmv": 44135.53,
     "videoViews": 1319464,
@@ -3690,6 +3936,7 @@
     "videosPosted": 14
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-04",
     "videoGmv": 31953.57,
     "videoViews": 1590133,
@@ -3705,6 +3952,7 @@
     "videosPosted": 9
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-05",
     "videoGmv": 36183.91,
     "videoViews": 2399603,
@@ -3720,6 +3968,7 @@
     "videosPosted": 15
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-06",
     "videoGmv": 56656.99,
     "videoViews": 2811242,
@@ -3735,6 +3984,7 @@
     "videosPosted": 4
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-07",
     "videoGmv": 69933.96,
     "videoViews": 2056627,
@@ -3750,6 +4000,7 @@
     "videosPosted": 6
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-08",
     "videoGmv": 36542.82,
     "videoViews": 2405895,
@@ -3765,6 +4016,7 @@
     "videosPosted": 12
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-09",
     "videoGmv": 33279.99,
     "videoViews": 2151089,
@@ -3780,6 +4032,7 @@
     "videosPosted": 6
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-10",
     "videoGmv": 70338.72,
     "videoViews": 1805738,
@@ -3795,6 +4048,7 @@
     "videosPosted": 10
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-11",
     "videoGmv": 39741.38,
     "videoViews": 1675114,
@@ -3810,6 +4064,7 @@
     "videosPosted": 11
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-12",
     "videoGmv": 60335.08,
     "videoViews": 1202042,
@@ -3825,6 +4080,7 @@
     "videosPosted": 8
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-13",
     "videoGmv": 46434.21,
     "videoViews": 1491540,
@@ -3840,6 +4096,7 @@
     "videosPosted": 5
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-14",
     "videoGmv": 91362.75,
     "videoViews": 1479891,
@@ -3855,6 +4112,7 @@
     "videosPosted": 14
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-15",
     "videoGmv": 77888.79,
     "videoViews": 1157709,
@@ -3870,6 +4128,7 @@
     "videosPosted": 10
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-16",
     "videoGmv": 72860.17,
     "videoViews": 1834347,
@@ -3885,6 +4144,7 @@
     "videosPosted": 14
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-17",
     "videoGmv": 31770.85,
     "videoViews": 1763023,
@@ -3900,6 +4160,7 @@
     "videosPosted": 5
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-18",
     "videoGmv": 52927.91,
     "videoViews": 1628515,
@@ -3915,6 +4176,7 @@
     "videosPosted": 4
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-19",
     "videoGmv": 78358.99,
     "videoViews": 2010457,
@@ -3930,6 +4192,7 @@
     "videosPosted": 8
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-20",
     "videoGmv": 36910.82,
     "videoViews": 2589977,
@@ -3945,6 +4208,7 @@
     "videosPosted": 10
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-21",
     "videoGmv": 80047.08,
     "videoViews": 1431070,
@@ -3960,6 +4224,7 @@
     "videosPosted": 13
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-22",
     "videoGmv": 54379.99,
     "videoViews": 1040593,
@@ -3975,6 +4240,7 @@
     "videosPosted": 11
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-23",
     "videoGmv": 56659.26,
     "videoViews": 2250908,
@@ -3990,6 +4256,7 @@
     "videosPosted": 9
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-24",
     "videoGmv": 65701.72,
     "videoViews": 1442842,
@@ -4005,6 +4272,7 @@
     "videosPosted": 6
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-25",
     "videoGmv": 56605.21,
     "videoViews": 2009465,
@@ -4020,6 +4288,7 @@
     "videosPosted": 11
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-26",
     "videoGmv": 79725.3,
     "videoViews": 1682750,
@@ -4035,6 +4304,7 @@
     "videosPosted": 11
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-27",
     "videoGmv": 72623.8,
     "videoViews": 2000830,
@@ -4050,6 +4320,7 @@
     "videosPosted": 7
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-28",
     "videoGmv": 42294.15,
     "videoViews": 2508057,
@@ -4065,6 +4336,7 @@
     "videosPosted": 14
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-29",
     "videoGmv": 33553.5,
     "videoViews": 1880904,
@@ -4080,6 +4352,7 @@
     "videosPosted": 10
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-30",
     "videoGmv": 43886.58,
     "videoViews": 2134492,
@@ -4095,6 +4368,7 @@
     "videosPosted": 11
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-01",
     "videoGmv": 31163.99,
     "videoViews": 1990700,
@@ -4110,6 +4384,7 @@
     "videosPosted": 9
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-02",
     "videoGmv": 43661.02,
     "videoViews": 1559668,
@@ -4125,6 +4400,7 @@
     "videosPosted": 5
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-03",
     "videoGmv": 51120.81,
     "videoViews": 1874928,
@@ -4140,6 +4416,7 @@
     "videosPosted": 13
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-04",
     "videoGmv": 90923.86,
     "videoViews": 1755582,
@@ -4155,6 +4432,7 @@
     "videosPosted": 5
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-05",
     "videoGmv": 91380.64,
     "videoViews": 2103931,
@@ -4170,6 +4448,7 @@
     "videosPosted": 7
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-06",
     "videoGmv": 52266.4,
     "videoViews": 2271500,
@@ -4185,6 +4464,7 @@
     "videosPosted": 12
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-07",
     "videoGmv": 58205.89,
     "videoViews": 1495852,
@@ -4200,6 +4480,7 @@
     "videosPosted": 6
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-08",
     "videoGmv": 45513.8,
     "videoViews": 1974857,
@@ -4215,6 +4496,7 @@
     "videosPosted": 5
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-09",
     "videoGmv": 38944.65,
     "videoViews": 1326935,
@@ -4230,6 +4512,7 @@
     "videosPosted": 4
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-10",
     "videoGmv": 61286.81,
     "videoViews": 1634299,
@@ -4245,6 +4528,7 @@
     "videosPosted": 10
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-11",
     "videoGmv": 42748.49,
     "videoViews": 2667650,
@@ -4260,6 +4544,7 @@
     "videosPosted": 8
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-12",
     "videoGmv": 40769.79,
     "videoViews": 2621171,
@@ -4275,6 +4560,7 @@
     "videosPosted": 9
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-13",
     "videoGmv": 62873.64,
     "videoViews": 1007474,
@@ -4290,6 +4576,7 @@
     "videosPosted": 7
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-14",
     "videoGmv": 57784.25,
     "videoViews": 1224579,
@@ -4305,6 +4592,7 @@
     "videosPosted": 10
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-15",
     "videoGmv": 49343.51,
     "videoViews": 1107806,
@@ -4320,6 +4608,7 @@
     "videosPosted": 14
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-16",
     "videoGmv": 70230.52,
     "videoViews": 1958467,
@@ -4335,6 +4624,7 @@
     "videosPosted": 3
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-17",
     "videoGmv": 59623.6,
     "videoViews": 2387656,
@@ -4350,6 +4640,7 @@
     "videosPosted": 11
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-18",
     "videoGmv": 44016.83,
     "videoViews": 1216511,
@@ -4365,6 +4656,7 @@
     "videosPosted": 7
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-19",
     "videoGmv": 44139.65,
     "videoViews": 1629699,
@@ -4380,6 +4672,7 @@
     "videosPosted": 12
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-20",
     "videoGmv": 75381.32,
     "videoViews": 1675920,
@@ -4395,6 +4688,7 @@
     "videosPosted": 3
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-21",
     "videoGmv": 54933.4,
     "videoViews": 1135984,
@@ -4410,6 +4704,7 @@
     "videosPosted": 9
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-22",
     "videoGmv": 64408.63,
     "videoViews": 1917082,
@@ -4425,6 +4720,7 @@
     "videosPosted": 12
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-23",
     "videoGmv": 55066.35,
     "videoViews": 1215605,
@@ -4440,6 +4736,7 @@
     "videosPosted": 5
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-24",
     "videoGmv": 63432.52,
     "videoViews": 1609386,
@@ -4455,6 +4752,7 @@
     "videosPosted": 13
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-25",
     "videoGmv": 55970.61,
     "videoViews": 2008121,
@@ -4470,6 +4768,7 @@
     "videosPosted": 3
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-26",
     "videoGmv": 80663.71,
     "videoViews": 1575295,
@@ -4485,6 +4784,7 @@
     "videosPosted": 3
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-27",
     "videoGmv": 32650.18,
     "videoViews": 2305240,
@@ -4500,6 +4800,7 @@
     "videosPosted": 14
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-28",
     "videoGmv": 62537.53,
     "videoViews": 2118422,
@@ -4515,6 +4816,7 @@
     "videosPosted": 13
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-29",
     "videoGmv": 72746.56,
     "videoViews": 2115315,
@@ -4530,6 +4832,7 @@
     "videosPosted": 14
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-30",
     "videoGmv": 38683.2,
     "videoViews": 1054693,
@@ -4545,6 +4848,7 @@
     "videosPosted": 4
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-31",
     "videoGmv": 78225.99,
     "videoViews": 1011173,
@@ -4560,6 +4864,7 @@
     "videosPosted": 13
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-01",
     "videoGmv": 38860.57,
     "videoViews": 1335778,
@@ -4575,6 +4880,7 @@
     "videosPosted": 14
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-02",
     "videoGmv": 59548.75,
     "videoViews": 2064547,
@@ -4590,6 +4896,7 @@
     "videosPosted": 8
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-03",
     "videoGmv": 73404.31,
     "videoViews": 1377490,
@@ -4605,6 +4912,7 @@
     "videosPosted": 8
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-04",
     "videoGmv": 63303.6,
     "videoViews": 1809646,
@@ -4620,6 +4928,7 @@
     "videosPosted": 3
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-05",
     "videoGmv": 66002.48,
     "videoViews": 2124887,
@@ -4635,6 +4944,7 @@
     "videosPosted": 10
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-06",
     "videoGmv": 53078.11,
     "videoViews": 2464912,
@@ -4650,6 +4960,7 @@
     "videosPosted": 12
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-07",
     "videoGmv": 46495.53,
     "videoViews": 2466724,
@@ -4665,6 +4976,7 @@
     "videosPosted": 13
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-08",
     "videoGmv": 68859.17,
     "videoViews": 2235501,
@@ -4680,6 +4992,7 @@
     "videosPosted": 12
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-09",
     "videoGmv": 92139.78,
     "videoViews": 2033626,
@@ -4695,6 +5008,7 @@
     "videosPosted": 6
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-10",
     "videoGmv": 77363.08,
     "videoViews": 2232356,
@@ -4710,6 +5024,7 @@
     "videosPosted": 4
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-11",
     "videoGmv": 70830.43,
     "videoViews": 1343379,
@@ -4725,6 +5040,7 @@
     "videosPosted": 10
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-12",
     "videoGmv": 57118.27,
     "videoViews": 1554146,
@@ -4740,6 +5056,7 @@
     "videosPosted": 11
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-13",
     "videoGmv": 33974.97,
     "videoViews": 1665654,
@@ -4755,6 +5072,7 @@
     "videosPosted": 12
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-14",
     "videoGmv": 69842.11,
     "videoViews": 1488370,
@@ -4770,6 +5088,7 @@
     "videosPosted": 4
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-15",
     "videoGmv": 91934.61,
     "videoViews": 2502723,
@@ -4785,6 +5104,7 @@
     "videosPosted": 11
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-16",
     "videoGmv": 76064.58,
     "videoViews": 1821452,
@@ -4800,6 +5120,7 @@
     "videosPosted": 14
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-17",
     "videoGmv": 72455.35,
     "videoViews": 2340015,
@@ -4815,6 +5136,7 @@
     "videosPosted": 11
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-18",
     "videoGmv": 51437.46,
     "videoViews": 2180805,
@@ -4830,6 +5152,7 @@
     "videosPosted": 15
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-19",
     "videoGmv": 70287.72,
     "videoViews": 2286320,
@@ -4845,6 +5168,7 @@
     "videosPosted": 8
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-20",
     "videoGmv": 72660.18,
     "videoViews": 1095822,
@@ -4860,6 +5184,7 @@
     "videosPosted": 12
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-21",
     "videoGmv": 65047.46,
     "videoViews": 1836887,
@@ -4875,6 +5200,7 @@
     "videosPosted": 9
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-22",
     "videoGmv": 54632.93,
     "videoViews": 2380076,
@@ -4890,6 +5216,7 @@
     "videosPosted": 6
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-23",
     "videoGmv": 50806.69,
     "videoViews": 1824144,
@@ -4905,6 +5232,7 @@
     "videosPosted": 4
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-24",
     "videoGmv": 61588.04,
     "videoViews": 1522621,
@@ -4920,6 +5248,7 @@
     "videosPosted": 3
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-25",
     "videoGmv": 58167.77,
     "videoViews": 1861647,
@@ -4935,6 +5264,7 @@
     "videosPosted": 5
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-26",
     "videoGmv": 50447.12,
     "videoViews": 2374845,
@@ -4950,6 +5280,7 @@
     "videosPosted": 9
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-27",
     "videoGmv": 55981.89,
     "videoViews": 1467860,
@@ -4965,6 +5296,7 @@
     "videosPosted": 11
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-28",
     "videoGmv": 56205.91,
     "videoViews": 1021267,
@@ -4980,6 +5312,7 @@
     "videosPosted": 12
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-29",
     "videoGmv": 40902.02,
     "videoViews": 2967453,
@@ -4995,6 +5328,7 @@
     "videosPosted": 7
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-30",
     "videoGmv": 63898.31,
     "videoViews": 1704621,
@@ -5010,6 +5344,7 @@
     "videosPosted": 6
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-01",
     "videoGmv": 61305.82,
     "videoViews": 2222420,
@@ -5025,6 +5360,7 @@
     "videosPosted": 6
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-02",
     "videoGmv": 39663.56,
     "videoViews": 2362896,
@@ -5040,6 +5376,7 @@
     "videosPosted": 7
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-03",
     "videoGmv": 75571.65,
     "videoViews": 1807791,
@@ -5055,6 +5392,7 @@
     "videosPosted": 14
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-04",
     "videoGmv": 44877.46,
     "videoViews": 2498979,
@@ -5070,6 +5408,7 @@
     "videosPosted": 7
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-05",
     "videoGmv": 41882.46,
     "videoViews": 1174050,
@@ -5085,6 +5424,7 @@
     "videosPosted": 13
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-06",
     "videoGmv": 77864.54,
     "videoViews": 1584729,
@@ -5100,6 +5440,7 @@
     "videosPosted": 5
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-07",
     "videoGmv": 85475.01,
     "videoViews": 2522523,
@@ -5115,6 +5456,7 @@
     "videosPosted": 4
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-08",
     "videoGmv": 59421.44,
     "videoViews": 1590541,
@@ -5130,6 +5472,7 @@
     "videosPosted": 15
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-09",
     "videoGmv": 63377.52,
     "videoViews": 1248741,
@@ -5145,6 +5488,7 @@
     "videosPosted": 8
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-10",
     "videoGmv": 51078.68,
     "videoViews": 1322027,
@@ -5160,6 +5504,7 @@
     "videosPosted": 11
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-11",
     "videoGmv": 62268.55,
     "videoViews": 1215267,
@@ -5175,6 +5520,7 @@
     "videosPosted": 14
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-12",
     "videoGmv": 72587.55,
     "videoViews": 1620000,
@@ -5190,6 +5536,7 @@
     "videosPosted": 10
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-13",
     "videoGmv": 67434.48,
     "videoViews": 1377677,
@@ -5205,6 +5552,7 @@
     "videosPosted": 7
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-14",
     "videoGmv": 66552.14,
     "videoViews": 2976333,
@@ -5220,6 +5568,7 @@
     "videosPosted": 7
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-15",
     "videoGmv": 44026.88,
     "videoViews": 1747025,
@@ -5235,6 +5584,7 @@
     "videosPosted": 6
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-16",
     "videoGmv": 57064.05,
     "videoViews": 2220769,
@@ -5250,6 +5600,7 @@
     "videosPosted": 5
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-17",
     "videoGmv": 76688.25,
     "videoViews": 2113910,
@@ -5265,6 +5616,7 @@
     "videosPosted": 3
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-18",
     "videoGmv": 74167.18,
     "videoViews": 2058063,
@@ -5280,6 +5632,7 @@
     "videosPosted": 5
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-19",
     "videoGmv": 48001.77,
     "videoViews": 1206195,
@@ -5295,6 +5648,7 @@
     "videosPosted": 15
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-20",
     "videoGmv": 65908.06,
     "videoViews": 2595098,
@@ -5310,6 +5664,7 @@
     "videosPosted": 6
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-21",
     "videoGmv": 64752.94,
     "videoViews": 1939882,
@@ -5325,6 +5680,7 @@
     "videosPosted": 7
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-22",
     "videoGmv": 38700.37,
     "videoViews": 1794541,
@@ -5340,6 +5696,7 @@
     "videosPosted": 5
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-23",
     "videoGmv": 42684.38,
     "videoViews": 2067652,
@@ -5355,6 +5712,7 @@
     "videosPosted": 10
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-24",
     "videoGmv": 39722.42,
     "videoViews": 1059957,
@@ -5370,6 +5728,7 @@
     "videosPosted": 14
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-25",
     "videoGmv": 41802.06,
     "videoViews": 1739584,
@@ -5385,6 +5744,7 @@
     "videosPosted": 10
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-26",
     "videoGmv": 36838.61,
     "videoViews": 1399678,
@@ -5400,6 +5760,7 @@
     "videosPosted": 12
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-27",
     "videoGmv": 64767.26,
     "videoViews": 1714105,
@@ -5415,6 +5776,7 @@
     "videosPosted": 8
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-28",
     "videoGmv": 64147.4,
     "videoViews": 2824338,
@@ -5430,6 +5792,7 @@
     "videosPosted": 13
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-29",
     "videoGmv": 57775.44,
     "videoViews": 1909833,
@@ -5445,6 +5808,7 @@
     "videosPosted": 5
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-30",
     "videoGmv": 49422.06,
     "videoViews": 1395768,
@@ -5460,6 +5824,7 @@
     "videosPosted": 8
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-31",
     "videoGmv": 68446.11,
     "videoViews": 1348837,
@@ -5475,6 +5840,7 @@
     "videosPosted": 8
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-01",
     "videoGmv": 66021.3,
     "videoViews": 1932026,
@@ -5490,6 +5856,7 @@
     "videosPosted": 14
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-02",
     "videoGmv": 53998,
     "videoViews": 1496242,
@@ -5505,6 +5872,7 @@
     "videosPosted": 6
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-03",
     "videoGmv": 68292.46,
     "videoViews": 1632980,
@@ -5520,6 +5888,7 @@
     "videosPosted": 6
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-04",
     "videoGmv": 54338.83,
     "videoViews": 2207635,
@@ -5535,6 +5904,7 @@
     "videosPosted": 9
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-05",
     "videoGmv": 67345.63,
     "videoViews": 1135290,
@@ -5550,6 +5920,7 @@
     "videosPosted": 13
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-06",
     "videoGmv": 76640.64,
     "videoViews": 2175605,
@@ -5565,6 +5936,7 @@
     "videosPosted": 6
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-07",
     "videoGmv": 32122.57,
     "videoViews": 1003456,
@@ -5580,6 +5952,7 @@
     "videosPosted": 8
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-08",
     "videoGmv": 75098.65,
     "videoViews": 1831337,
@@ -5595,6 +5968,7 @@
     "videosPosted": 5
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-09",
     "videoGmv": 64839.95,
     "videoViews": 2258521,
@@ -5610,6 +5984,7 @@
     "videosPosted": 3
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-10",
     "videoGmv": 40416.24,
     "videoViews": 2206711,
@@ -5625,6 +6000,7 @@
     "videosPosted": 6
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-11",
     "videoGmv": 57677.71,
     "videoViews": 1648916,
@@ -5640,6 +6016,7 @@
     "videosPosted": 14
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-12",
     "videoGmv": 36497.59,
     "videoViews": 2335606,
@@ -5655,6 +6032,7 @@
     "videosPosted": 14
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-13",
     "videoGmv": 71328.27,
     "videoViews": 2046935,
@@ -5670,6 +6048,7 @@
     "videosPosted": 12
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-14",
     "videoGmv": 52934.7,
     "videoViews": 2186722,
@@ -5685,6 +6064,7 @@
     "videosPosted": 11
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-15",
     "videoGmv": 42252.06,
     "videoViews": 2392000,
@@ -5700,6 +6080,7 @@
     "videosPosted": 14
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-16",
     "videoGmv": 63599.57,
     "videoViews": 1886614,
@@ -5715,6 +6096,7 @@
     "videosPosted": 4
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-17",
     "videoGmv": 37335.51,
     "videoViews": 2459789,
@@ -5730,6 +6112,7 @@
     "videosPosted": 6
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-18",
     "videoGmv": 89895.71,
     "videoViews": 1844082,
@@ -5745,6 +6128,7 @@
     "videosPosted": 11
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-19",
     "videoGmv": 41430.91,
     "videoViews": 2242952,
@@ -5760,6 +6144,7 @@
     "videosPosted": 14
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-20",
     "videoGmv": 50342.66,
     "videoViews": 1721253,
@@ -5775,6 +6160,7 @@
     "videosPosted": 11
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-21",
     "videoGmv": 44330.64,
     "videoViews": 1075603,
@@ -5790,6 +6176,7 @@
     "videosPosted": 12
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-22",
     "videoGmv": 37510.68,
     "videoViews": 1742479,
@@ -5805,6 +6192,7 @@
     "videosPosted": 6
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-23",
     "videoGmv": 63107.96,
     "videoViews": 1577225,
@@ -5820,6 +6208,7 @@
     "videosPosted": 13
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-24",
     "videoGmv": 95797.66,
     "videoViews": 1242470,
@@ -5835,6 +6224,7 @@
     "videosPosted": 14
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-25",
     "videoGmv": 74707.05,
     "videoViews": 1638140,
@@ -5850,6 +6240,7 @@
     "videosPosted": 7
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-26",
     "videoGmv": 72081.53,
     "videoViews": 1496068,
@@ -5865,6 +6256,7 @@
     "videosPosted": 8
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-27",
     "videoGmv": 72791.94,
     "videoViews": 2312535,
@@ -5880,6 +6272,7 @@
     "videosPosted": 10
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-28",
     "videoGmv": 79515.56,
     "videoViews": 2026687,
@@ -5895,6 +6288,7 @@
     "videosPosted": 8
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-29",
     "videoGmv": 38707.66,
     "videoViews": 1975404,
@@ -5910,6 +6304,7 @@
     "videosPosted": 5
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-30",
     "videoGmv": 42919.04,
     "videoViews": 1163751,
@@ -5925,6 +6320,7 @@
     "videosPosted": 4
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-31",
     "videoGmv": 46025.46,
     "videoViews": 2065981,
@@ -5940,6 +6336,7 @@
     "videosPosted": 7
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-01",
     "videoGmv": 78576.53,
     "videoViews": 1571954,
@@ -5955,6 +6352,7 @@
     "videosPosted": 7
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-02",
     "videoGmv": 35216.28,
     "videoViews": 1241088,
@@ -5970,6 +6368,7 @@
     "videosPosted": 13
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-03",
     "videoGmv": 74675.98,
     "videoViews": 1177612,
@@ -5985,6 +6384,7 @@
     "videosPosted": 13
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-04",
     "videoGmv": 35416.9,
     "videoViews": 2359367,
@@ -6000,6 +6400,7 @@
     "videosPosted": 10
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-05",
     "videoGmv": 51629.47,
     "videoViews": 1666077,
@@ -6015,6 +6416,7 @@
     "videosPosted": 9
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-06",
     "videoGmv": 40105.86,
     "videoViews": 2055596,
@@ -6030,6 +6432,7 @@
     "videosPosted": 9
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-07",
     "videoGmv": 89706.32,
     "videoViews": 2258221,
@@ -6045,6 +6448,7 @@
     "videosPosted": 12
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-08",
     "videoGmv": 84200.93,
     "videoViews": 2110223,
@@ -6060,6 +6464,7 @@
     "videosPosted": 10
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-09",
     "videoGmv": 62040.83,
     "videoViews": 1960235,
@@ -6075,6 +6480,7 @@
     "videosPosted": 4
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-10",
     "videoGmv": 74149.3,
     "videoViews": 2089395,
@@ -6090,6 +6496,7 @@
     "videosPosted": 9
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-11",
     "videoGmv": 70202.63,
     "videoViews": 1107090,
@@ -6105,6 +6512,7 @@
     "videosPosted": 11
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-12",
     "videoGmv": 48517.86,
     "videoViews": 1199729,
@@ -6120,6 +6528,7 @@
     "videosPosted": 9
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-13",
     "videoGmv": 47279.11,
     "videoViews": 1440652,
@@ -6135,6 +6544,7 @@
     "videosPosted": 11
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-14",
     "videoGmv": 81542.02,
     "videoViews": 2924900,
@@ -6150,6 +6560,7 @@
     "videosPosted": 14
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-15",
     "videoGmv": 49359.06,
     "videoViews": 1345386,
@@ -6165,6 +6576,7 @@
     "videosPosted": 7
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-16",
     "videoGmv": 33003.13,
     "videoViews": 1234566,
@@ -6180,6 +6592,7 @@
     "videosPosted": 7
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-17",
     "videoGmv": 67943.27,
     "videoViews": 1003548,
@@ -6195,6 +6608,7 @@
     "videosPosted": 9
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-18",
     "videoGmv": 58718.49,
     "videoViews": 1062877,
@@ -6210,6 +6624,7 @@
     "videosPosted": 4
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-19",
     "videoGmv": 45218.59,
     "videoViews": 2479749,
@@ -6225,6 +6640,7 @@
     "videosPosted": 6
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-20",
     "videoGmv": 41331.9,
     "videoViews": 1516817,
@@ -6240,6 +6656,7 @@
     "videosPosted": 14
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-21",
     "videoGmv": 85478.62,
     "videoViews": 2862447,
@@ -6255,6 +6672,7 @@
     "videosPosted": 11
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-22",
     "videoGmv": 79877.71,
     "videoViews": 2735603,
@@ -6270,6 +6688,7 @@
     "videosPosted": 9
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-23",
     "videoGmv": 40279.45,
     "videoViews": 1675468,
@@ -6285,6 +6704,7 @@
     "videosPosted": 9
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-24",
     "videoGmv": 52993.54,
     "videoViews": 1871547,
@@ -6300,6 +6720,7 @@
     "videosPosted": 15
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-25",
     "videoGmv": 48809.04,
     "videoViews": 2118219,
@@ -6315,6 +6736,7 @@
     "videosPosted": 13
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-26",
     "videoGmv": 73021.61,
     "videoViews": 1890514,
@@ -6330,6 +6752,7 @@
     "videosPosted": 9
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-27",
     "videoGmv": 74492.02,
     "videoViews": 2358601,
@@ -6345,6 +6768,7 @@
     "videosPosted": 5
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-28",
     "videoGmv": 63393.77,
     "videoViews": 2287968,
@@ -6360,6 +6784,7 @@
     "videosPosted": 12
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-01",
     "videoGmv": 92094.93,
     "videoViews": 1751234,
@@ -6375,6 +6800,7 @@
     "videosPosted": 14
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-02",
     "videoGmv": 36896.18,
     "videoViews": 2473063,
@@ -6390,6 +6816,7 @@
     "videosPosted": 10
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-03",
     "videoGmv": 76262.53,
     "videoViews": 2278136,
@@ -6405,6 +6832,7 @@
     "videosPosted": 9
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-04",
     "videoGmv": 52965.53,
     "videoViews": 1346510,
@@ -6420,6 +6848,7 @@
     "videosPosted": 4
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-05",
     "videoGmv": 50828.88,
     "videoViews": 1380848,
@@ -6435,6 +6864,7 @@
     "videosPosted": 12
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-06",
     "videoGmv": 45141.41,
     "videoViews": 1181138,
@@ -6450,6 +6880,7 @@
     "videosPosted": 10
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-07",
     "videoGmv": 45944.74,
     "videoViews": 2959705,
@@ -6465,6 +6896,7 @@
     "videosPosted": 7
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-08",
     "videoGmv": 56447.78,
     "videoViews": 2571197,
@@ -6480,6 +6912,7 @@
     "videosPosted": 8
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-09",
     "videoGmv": 43007.76,
     "videoViews": 1580088,
@@ -6495,6 +6928,7 @@
     "videosPosted": 10
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-10",
     "videoGmv": 58891.8,
     "videoViews": 2303295,
@@ -6510,6 +6944,7 @@
     "videosPosted": 4
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-11",
     "videoGmv": 52834.01,
     "videoViews": 1565919,
@@ -6525,6 +6960,7 @@
     "videosPosted": 7
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-12",
     "videoGmv": 63085.44,
     "videoViews": 1790815,
@@ -6540,6 +6976,7 @@
     "videosPosted": 5
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-13",
     "videoGmv": 67266.9,
     "videoViews": 1847378,
@@ -6555,6 +6992,7 @@
     "videosPosted": 12
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-14",
     "videoGmv": 92785.71,
     "videoViews": 2635075,
@@ -6570,6 +7008,7 @@
     "videosPosted": 12
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-15",
     "videoGmv": 81330.18,
     "videoViews": 1885781,
@@ -6585,6 +7024,7 @@
     "videosPosted": 14
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-16",
     "videoGmv": 44021.26,
     "videoViews": 2159214,
@@ -6600,6 +7040,7 @@
     "videosPosted": 7
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-17",
     "videoGmv": 55703.19,
     "videoViews": 1501294,
@@ -6615,6 +7056,7 @@
     "videosPosted": 8
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-18",
     "videoGmv": 54480.51,
     "videoViews": 1082887,
@@ -6630,6 +7072,7 @@
     "videosPosted": 8
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-19",
     "videoGmv": 45404.45,
     "videoViews": 2136607,
@@ -6645,6 +7088,7 @@
     "videosPosted": 8
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-20",
     "videoGmv": 47128.62,
     "videoViews": 1507914,
@@ -6660,6 +7104,7 @@
     "videosPosted": 10
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-21",
     "videoGmv": 69707.37,
     "videoViews": 2373474,
@@ -6675,6 +7120,7 @@
     "videosPosted": 14
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-22",
     "videoGmv": 80120.05,
     "videoViews": 2507347,
@@ -6690,6 +7136,7 @@
     "videosPosted": 4
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-23",
     "videoGmv": 68567.89,
     "videoViews": 1467060,
@@ -6705,6 +7152,7 @@
     "videosPosted": 8
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-24",
     "videoGmv": 66429.96,
     "videoViews": 2253623,
@@ -6720,6 +7168,7 @@
     "videosPosted": 8
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-25",
     "videoGmv": 40705.74,
     "videoViews": 1534672,
@@ -6735,6 +7184,7 @@
     "videosPosted": 9
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-26",
     "videoGmv": 41187.49,
     "videoViews": 1751771,
@@ -6750,6 +7200,7 @@
     "videosPosted": 15
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-27",
     "videoGmv": 51140.39,
     "videoViews": 1200384,
@@ -6765,6 +7216,7 @@
     "videosPosted": 8
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-28",
     "videoGmv": 53248.75,
     "videoViews": 1691842,
@@ -6780,6 +7232,7 @@
     "videosPosted": 13
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-29",
     "videoGmv": 87262.97,
     "videoViews": 1686219,
@@ -6795,6 +7248,7 @@
     "videosPosted": 7
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-30",
     "videoGmv": 67069.67,
     "videoViews": 2119974,
@@ -6810,6 +7264,7 @@
     "videosPosted": 14
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-31",
     "videoGmv": 72379.46,
     "videoViews": 1044653,
@@ -6825,6 +7280,7 @@
     "videosPosted": 10
   },
   {
+    "clientId": "client-1",
     "date": "2026-04-01",
     "videoGmv": 51733.6,
     "videoViews": 1507126,
@@ -6840,6 +7296,7 @@
     "videosPosted": 7
   },
   {
+    "clientId": "client-1",
     "date": "2026-04-02",
     "videoGmv": 50894.06,
     "videoViews": 1115300,
@@ -6855,6 +7312,7 @@
     "videosPosted": 7
   },
   {
+    "clientId": "client-1",
     "date": "2026-04-03",
     "videoGmv": 76372.55,
     "videoViews": 1446628,
@@ -6870,6 +7328,7 @@
     "videosPosted": 7
   },
   {
+    "clientId": "client-1",
     "date": "2026-04-04",
     "videoGmv": 80624.41,
     "videoViews": 2789939,
@@ -6885,6 +7344,7 @@
     "videosPosted": 14
   },
   {
+    "clientId": "client-1",
     "date": "2026-04-05",
     "videoGmv": 92548.1,
     "videoViews": 2607153,
@@ -6900,6 +7360,7 @@
     "videosPosted": 11
   },
   {
+    "clientId": "client-1",
     "date": "2026-04-06",
     "videoGmv": 75913.54,
     "videoViews": 1547030,
@@ -6915,6 +7376,7 @@
     "videosPosted": 8
   },
   {
+    "clientId": "client-1",
     "date": "2026-04-07",
     "videoGmv": 40260.8,
     "videoViews": 1827800,
@@ -6930,6 +7392,7 @@
     "videosPosted": 10
   },
   {
+    "clientId": "client-1",
     "date": "2026-04-08",
     "videoGmv": 66810.67,
     "videoViews": 2460996,
@@ -6945,6 +7408,7 @@
     "videosPosted": 14
   },
   {
+    "clientId": "client-1",
     "date": "2026-04-09",
     "videoGmv": 30042.05,
     "videoViews": 1924515,
@@ -6960,6 +7424,7 @@
     "videosPosted": 10
   },
   {
+    "clientId": "client-1",
     "date": "2026-04-10",
     "videoGmv": 56093.25,
     "videoViews": 1710817,
@@ -6975,6 +7440,7 @@
     "videosPosted": 9
   },
   {
+    "clientId": "client-1",
     "date": "2026-04-11",
     "videoGmv": 50512,
     "videoViews": 2446763,
@@ -6990,6 +7456,7 @@
     "videosPosted": 6
   },
   {
+    "clientId": "client-1",
     "date": "2026-04-12",
     "videoGmv": 56418.93,
     "videoViews": 2129257,
@@ -7005,6 +7472,7 @@
     "videosPosted": 3
   },
   {
+    "clientId": "client-1",
     "date": "2026-04-13",
     "videoGmv": 73846.55,
     "videoViews": 1110048,
