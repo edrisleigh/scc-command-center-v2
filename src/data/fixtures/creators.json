@@ -1,6 +1,7 @@
 {
   "creators": [
     {
+      "clientId": "client-1",
       "id": "creator-001",
       "username": "sneakersteph",
       "isVip": true,
@@ -19,6 +20,7 @@
       "gmvPerSample": 4758
     },
     {
+      "clientId": "client-1",
       "id": "creator-002",
       "username": "lifewithlauren_k",
       "isVip": true,
@@ -37,6 +39,7 @@
       "gmvPerSample": 5211
     },
     {
+      "clientId": "client-1",
       "id": "creator-003",
       "username": "trendyjordan99",
       "isVip": true,
@@ -55,6 +58,7 @@
       "gmvPerSample": 3572
     },
     {
+      "clientId": "client-1",
       "id": "creator-004",
       "username": "marcusonfeet",
       "isVip": false,
@@ -73,6 +77,7 @@
       "gmvPerSample": 3925
     },
     {
+      "clientId": "client-1",
       "id": "creator-005",
       "username": "fitchelsea",
       "isVip": true,
@@ -91,6 +96,7 @@
       "gmvPerSample": 3900
     },
     {
+      "clientId": "client-1",
       "id": "creator-006",
       "username": "dxvid_styles",
       "isVip": false,
@@ -109,6 +115,7 @@
       "gmvPerSample": 3225
     },
     {
+      "clientId": "client-1",
       "id": "creator-007",
       "username": "hailey_walks",
       "isVip": false,
@@ -127,6 +134,7 @@
       "gmvPerSample": 3744
     },
     {
+      "clientId": "client-1",
       "id": "creator-008",
       "username": "sneakrheadz",
       "isVip": true,
@@ -145,6 +153,7 @@
       "gmvPerSample": 3676
     },
     {
+      "clientId": "client-1",
       "id": "creator-009",
       "username": "priya_inpink",
       "isVip": false,
@@ -163,6 +172,7 @@
       "gmvPerSample": 3038
     },
     {
+      "clientId": "client-1",
       "id": "creator-010",
       "username": "ryanthriftdrip",
       "isVip": false,
@@ -181,6 +191,7 @@
       "gmvPerSample": 3633
     },
     {
+      "clientId": "client-1",
       "id": "creator-011",
       "username": "kacewithkate",
       "isVip": true,
@@ -199,6 +210,7 @@
       "gmvPerSample": 3208
     },
     {
+      "clientId": "client-1",
       "id": "creator-012",
       "username": "tevin_fits",
       "isVip": false,
@@ -217,6 +229,7 @@
       "gmvPerSample": 3120
     },
     {
+      "clientId": "client-1",
       "id": "creator-013",
       "username": "brooklynbootcamp",
       "isVip": true,
@@ -235,6 +248,7 @@
       "gmvPerSample": 3953
     },
     {
+      "clientId": "client-1",
       "id": "creator-014",
       "username": "nikki_oncloud",
       "isVip": false,
@@ -253,6 +267,7 @@
       "gmvPerSample": 3681
     },
     {
+      "clientId": "client-1",
       "id": "creator-015",
       "username": "zoecomfyvibes",
       "isVip": false,
@@ -271,6 +286,7 @@
       "gmvPerSample": 4020
     },
     {
+      "clientId": "client-1",
       "id": "creator-016",
       "username": "anthonyathletic",
       "isVip": true,
@@ -289,6 +305,7 @@
       "gmvPerSample": 4011
     },
     {
+      "clientId": "client-1",
       "id": "creator-017",
       "username": "mia_streetstyled",
       "isVip": false,
@@ -307,6 +324,7 @@
       "gmvPerSample": 3815
     },
     {
+      "clientId": "client-1",
       "id": "creator-018",
       "username": "footwearkev",
       "isVip": false,
@@ -325,6 +343,7 @@
       "gmvPerSample": 3067
     },
     {
+      "clientId": "client-1",
       "id": "creator-019",
       "username": "taylored_toes",
       "isVip": true,
@@ -343,6 +362,7 @@
       "gmvPerSample": 3982
     },
     {
+      "clientId": "client-1",
       "id": "creator-020",
       "username": "carla_kicks",
       "isVip": false,
@@ -361,6 +381,7 @@
       "gmvPerSample": 3479
     },
     {
+      "clientId": "client-1",
       "id": "creator-021",
       "username": "jacoblacedaily",
       "isVip": false,
@@ -379,6 +400,7 @@
       "gmvPerSample": 3343
     },
     {
+      "clientId": "client-1",
       "id": "creator-022",
       "username": "sierrasolesister",
       "isVip": true,
@@ -397,6 +419,7 @@
       "gmvPerSample": 3900
     },
     {
+      "clientId": "client-1",
       "id": "creator-023",
       "username": "devonthecourt",
       "isVip": false,
@@ -415,6 +438,7 @@
       "gmvPerSample": 3777
     },
     {
+      "clientId": "client-1",
       "id": "creator-024",
       "username": "paigepavement",
       "isVip": false,
@@ -433,6 +457,7 @@
       "gmvPerSample": 3218
     },
     {
+      "clientId": "client-1",
       "id": "creator-025",
       "username": "xandriasteps",
       "isVip": true,
@@ -453,6 +478,7 @@
   ],
   "liveCreators": [
     {
+      "clientId": "client-1",
       "id": "creator-001",
       "username": "sneakersteph",
       "isVip": true,
@@ -478,6 +504,7 @@
       "affiliateLiveStreams": 18
     },
     {
+      "clientId": "client-1",
       "id": "creator-003",
       "username": "trendyjordan99",
       "isVip": true,
@@ -503,6 +530,7 @@
       "affiliateLiveStreams": 24
     },
     {
+      "clientId": "client-1",
       "id": "creator-008",
       "username": "sneakrheadz",
       "isVip": true,
@@ -528,6 +556,7 @@
       "affiliateLiveStreams": 20
     },
     {
+      "clientId": "client-1",
       "id": "creator-011",
       "username": "kacewithkate",
       "isVip": true,
@@ -553,6 +582,7 @@
       "affiliateLiveStreams": 28
     },
     {
+      "clientId": "client-1",
       "id": "creator-025",
       "username": "xandriasteps",
       "isVip": true,
@@ -578,6 +608,7 @@
       "affiliateLiveStreams": 22
     },
     {
+      "clientId": "client-1",
       "id": "creator-005",
       "username": "fitchelsea",
       "isVip": true,
@@ -603,6 +634,7 @@
       "affiliateLiveStreams": 14
     },
     {
+      "clientId": "client-1",
       "id": "creator-016",
       "username": "anthonyathletic",
       "isVip": true,
@@ -628,6 +660,7 @@
       "affiliateLiveStreams": 12
     },
     {
+      "clientId": "client-1",
       "id": "creator-013",
       "username": "brooklynbootcamp",
       "isVip": true,
@@ -653,6 +686,7 @@
       "affiliateLiveStreams": 8
     },
     {
+      "clientId": "client-1",
       "id": "creator-004",
       "username": "marcusonfeet",
       "isVip": false,
@@ -678,6 +712,7 @@
       "affiliateLiveStreams": 6
     },
     {
+      "clientId": "client-1",
       "id": "creator-017",
       "username": "mia_streetstyled",
       "isVip": false,
@@ -705,6 +740,7 @@
   ],
   "targetCollabs": [
     {
+      "clientId": "client-1",
       "id": "tc-001",
       "creatorId": "creator-006",
       "creatorUsername": "dxvid_styles",
@@ -713,6 +749,7 @@
       "notes": "Reached out via TikTok DM, awaiting response."
     },
     {
+      "clientId": "client-1",
       "id": "tc-002",
       "creatorId": "creator-009",
       "creatorUsername": "priya_inpink",
@@ -721,6 +758,7 @@
       "notes": "Sample shipped 2026-03-18, content due by end of month."
     },
     {
+      "clientId": "client-1",
       "id": "tc-003",
       "creatorId": "creator-010",
       "creatorUsername": "ryanthriftdrip",
@@ -729,6 +767,7 @@
       "notes": "Manager contacted, negotiating rate."
     },
     {
+      "clientId": "client-1",
       "id": "tc-004",
       "creatorId": "creator-012",
       "creatorUsername": "tevin_fits",
@@ -737,6 +776,7 @@
       "notes": "Video posted 2026-03-01, generated $4,200 GMV."
     },
     {
+      "clientId": "client-1",
       "id": "tc-005",
       "creatorId": "creator-015",
       "creatorUsername": "zoecomfyvibes",
@@ -745,6 +785,7 @@
       "notes": "Creator not interested in shoe content."
     },
     {
+      "clientId": "client-1",
       "id": "tc-006",
       "creatorId": "creator-018",
       "creatorUsername": "footwearkev",
@@ -753,6 +794,7 @@
       "notes": "Brief sent, awaiting content draft."
     },
     {
+      "clientId": "client-1",
       "id": "tc-007",
       "creatorId": "creator-020",
       "creatorUsername": "carla_kicks",
@@ -761,6 +803,7 @@
       "notes": "High follower growth recently, priority outreach."
     },
     {
+      "clientId": "client-1",
       "id": "tc-008",
       "creatorId": "creator-021",
       "creatorUsername": "jacoblacedaily",
@@ -769,6 +812,7 @@
       "notes": "Strong CTR on recent shoe reviews."
     },
     {
+      "clientId": "client-1",
       "id": "tc-009",
       "creatorId": "creator-024",
       "creatorUsername": "paigepavement",
@@ -777,6 +821,7 @@
       "notes": "Two videos in production."
     },
     {
+      "clientId": "client-1",
       "id": "tc-010",
       "creatorId": "creator-002",
       "creatorUsername": "lifewithlauren_k",
@@ -787,6 +832,7 @@
   ],
   "collaborationData": [
     {
+      "clientId": "client-1",
       "id": "collab-001",
       "creatorId": "creator-001",
       "creatorUsername": "sneakersteph",
@@ -795,6 +841,7 @@
       "period": "2026-03"
     },
     {
+      "clientId": "client-1",
       "id": "collab-002",
       "creatorId": "creator-002",
       "creatorUsername": "lifewithlauren_k",
@@ -803,6 +850,7 @@
       "period": "2026-03"
     },
     {
+      "clientId": "client-1",
       "id": "collab-003",
       "creatorId": "creator-003",
       "creatorUsername": "trendyjordan99",
@@ -811,6 +859,7 @@
       "period": "2026-03"
     },
     {
+      "clientId": "client-1",
       "id": "collab-004",
       "creatorId": "creator-011",
       "creatorUsername": "kacewithkate",
@@ -819,6 +868,7 @@
       "period": "2026-03"
     },
     {
+      "clientId": "client-1",
       "id": "collab-005",
       "creatorId": "creator-025",
       "creatorUsername": "xandriasteps",
@@ -827,6 +877,7 @@
       "period": "2026-03"
     },
     {
+      "clientId": "client-1",
       "id": "collab-006",
       "creatorId": "creator-004",
       "creatorUsername": "marcusonfeet",
@@ -835,6 +886,7 @@
       "period": "2026-03"
     },
     {
+      "clientId": "client-1",
       "id": "collab-007",
       "creatorId": "creator-007",
       "creatorUsername": "hailey_walks",
@@ -843,6 +895,7 @@
       "period": "2026-03"
     },
     {
+      "clientId": "client-1",
       "id": "collab-008",
       "creatorId": "creator-014",
       "creatorUsername": "nikki_oncloud",
@@ -851,6 +904,7 @@
       "period": "2026-03"
     },
     {
+      "clientId": "client-1",
       "id": "collab-009",
       "creatorId": "creator-023",
       "creatorUsername": "devonthecourt",
@@ -859,6 +913,7 @@
       "period": "2026-03"
     },
     {
+      "clientId": "client-1",
       "id": "collab-010",
       "creatorId": "creator-019",
       "creatorUsername": "taylored_toes",
@@ -867,6 +922,7 @@
       "period": "2026-03"
     },
     {
+      "clientId": "client-1",
       "id": "collab-011",
       "creatorId": "creator-005",
       "creatorUsername": "fitchelsea",
@@ -875,6 +931,7 @@
       "period": "2026-02"
     },
     {
+      "clientId": "client-1",
       "id": "collab-012",
       "creatorId": "creator-008",
       "creatorUsername": "sneakrheadz",
@@ -883,6 +940,7 @@
       "period": "2026-02"
     },
     {
+      "clientId": "client-1",
       "id": "collab-013",
       "creatorId": "creator-013",
       "creatorUsername": "brooklynbootcamp",
@@ -891,6 +949,7 @@
       "period": "2026-02"
     },
     {
+      "clientId": "client-1",
       "id": "collab-014",
       "creatorId": "creator-022",
       "creatorUsername": "sierrasolesister",
@@ -899,6 +958,7 @@
       "period": "2026-02"
     },
     {
+      "clientId": "client-1",
       "id": "collab-015",
       "creatorId": "creator-016",
       "creatorUsername": "anthonyathletic",
@@ -909,6 +969,7 @@
   ],
   "creatorIncentives": [
     {
+      "clientId": "client-1",
       "id": "incentive-001",
       "creatorId": "creator-001",
       "creatorUsername": "sneakersteph",
@@ -917,6 +978,7 @@
       "period": "2026-Q1"
     },
     {
+      "clientId": "client-1",
       "id": "incentive-002",
       "creatorId": "creator-003",
       "creatorUsername": "trendyjordan99",
@@ -925,6 +987,7 @@
       "period": "2026-Q1"
     },
     {
+      "clientId": "client-1",
       "id": "incentive-003",
       "creatorId": "creator-011",
       "creatorUsername": "kacewithkate",
@@ -933,6 +996,7 @@
       "period": "2026-Q1"
     },
     {
+      "clientId": "client-1",
       "id": "incentive-004",
       "creatorId": "creator-025",
       "creatorUsername": "xandriasteps",
@@ -941,6 +1005,7 @@
       "period": "2026-Q1"
     },
     {
+      "clientId": "client-1",
       "id": "incentive-005",
       "creatorId": "creator-008",
       "creatorUsername": "sneakrheadz",
@@ -949,6 +1014,7 @@
       "period": "2026-Q1"
     },
     {
+      "clientId": "client-1",
       "id": "incentive-006",
       "creatorId": "creator-005",
       "creatorUsername": "fitchelsea",
@@ -957,6 +1023,7 @@
       "period": "2026-Q1"
     },
     {
+      "clientId": "client-1",
       "id": "incentive-007",
       "creatorId": "creator-019",
       "creatorUsername": "taylored_toes",
@@ -965,6 +1032,7 @@
       "period": "2026-Q1"
     },
     {
+      "clientId": "client-1",
       "id": "incentive-008",
       "creatorId": "creator-002",
       "creatorUsername": "lifewithlauren_k",

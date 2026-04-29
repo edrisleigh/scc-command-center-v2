@@ -1,4 +1,5 @@
 export interface Creator {
+  clientId: string
   id: string
   username: string
   isVip: boolean
@@ -28,6 +29,7 @@ export interface LiveCreator extends Creator {
 }
 
 export interface TargetCollab {
+  clientId: string
   id: string
   creatorId: string
   creatorUsername: string
@@ -37,6 +39,7 @@ export interface TargetCollab {
 }
 
 export interface CollaborationData {
+  clientId: string
   id: string
   creatorId: string
   creatorUsername: string
@@ -46,6 +49,7 @@ export interface CollaborationData {
 }
 
 export interface CreatorIncentive {
+  clientId: string
   id: string
   creatorId: string
   creatorUsername: string
