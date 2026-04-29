@@ -1,5 +1,6 @@
 [
   {
+    "clientId": "client-1",
     "date": "2025-01-01",
     "gmv": 160187.61,
     "grossRevenue": 169608.64,
@@ -19,6 +20,7 @@
     "reviews": 172
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-02",
     "gmv": 187717.58,
     "grossRevenue": 198807,
@@ -38,6 +40,7 @@
     "reviews": 121
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-03",
     "gmv": 177353.78,
     "grossRevenue": 187298.09,
@@ -57,6 +60,7 @@
     "reviews": 78
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-04",
     "gmv": 184792.64,
     "grossRevenue": 197572.79,
@@ -76,6 +80,7 @@
     "reviews": 200
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-05",
     "gmv": 270587.81,
     "grossRevenue": 289331.39,
@@ -95,6 +100,7 @@
     "reviews": 151
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-06",
     "gmv": 149487.45,
     "grossRevenue": 164574.22,
@@ -114,6 +120,7 @@
     "reviews": 120
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-07",
     "gmv": 172131.25,
     "grossRevenue": 183374.13,
@@ -133,6 +140,7 @@
     "reviews": 117
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-08",
     "gmv": 153492.1,
     "grossRevenue": 167100.63,
@@ -152,6 +160,7 @@
     "reviews": 89
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-09",
     "gmv": 177952.35,
     "grossRevenue": 191384.68,
@@ -171,6 +180,7 @@
     "reviews": 137
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-10",
     "gmv": 213988.04,
     "grossRevenue": 225230.09,
@@ -190,6 +200,7 @@
     "reviews": 84
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-11",
     "gmv": 220951.04,
     "grossRevenue": 248931.1,
@@ -209,6 +220,7 @@
     "reviews": 265
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-12",
     "gmv": 248142.53,
     "grossRevenue": 282984.45,
@@ -228,6 +240,7 @@
     "reviews": 91
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-13",
     "gmv": 215239.25,
     "grossRevenue": 235645.44,
@@ -247,6 +260,7 @@
     "reviews": 115
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-14",
     "gmv": 174408.89,
     "grossRevenue": 200130.88,
@@ -266,6 +280,7 @@
     "reviews": 104
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-15",
     "gmv": 151772.15,
     "grossRevenue": 162903.24,
@@ -285,6 +300,7 @@
     "reviews": 90
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-16",
     "gmv": 200291.1,
     "grossRevenue": 224014.89,
@@ -304,6 +320,7 @@
     "reviews": 56
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-17",
     "gmv": 206245.83,
     "grossRevenue": 221251.08,
@@ -323,6 +340,7 @@
     "reviews": 163
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-18",
     "gmv": 251707.88,
     "grossRevenue": 267285.26,
@@ -342,6 +360,7 @@
     "reviews": 154
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-19",
     "gmv": 250689.11,
     "grossRevenue": 274389.28,
@@ -361,6 +380,7 @@
     "reviews": 130
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-20",
     "gmv": 147313.15,
     "grossRevenue": 166688.81,
@@ -380,6 +400,7 @@
     "reviews": 126
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-21",
     "gmv": 158540.29,
     "grossRevenue": 181699.4,
@@ -399,6 +420,7 @@
     "reviews": 132
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-22",
     "gmv": 211497.1,
     "grossRevenue": 222936.93,
@@ -418,6 +440,7 @@
     "reviews": 168
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-23",
     "gmv": 154184.52,
     "grossRevenue": 167882.48,
@@ -437,6 +460,7 @@
     "reviews": 140
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-24",
     "gmv": 210262.42,
     "grossRevenue": 233057.85,
@@ -456,6 +480,7 @@
     "reviews": 59
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-25",
     "gmv": 245859.89,
     "grossRevenue": 279568.77,
@@ -475,6 +500,7 @@
     "reviews": 88
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-26",
     "gmv": 251315.41,
     "grossRevenue": 272811.21,
@@ -494,6 +520,7 @@
     "reviews": 143
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-27",
     "gmv": 161302.07,
     "grossRevenue": 185387.33,
@@ -513,6 +540,7 @@
     "reviews": 91
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-28",
     "gmv": 218107.24,
     "grossRevenue": 236514.32,
@@ -532,6 +560,7 @@
     "reviews": 121
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-29",
     "gmv": 194594.8,
     "grossRevenue": 210032.92,
@@ -551,6 +580,7 @@
     "reviews": 71
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-30",
     "gmv": 184491.08,
     "grossRevenue": 207167.83,
@@ -570,6 +600,7 @@
     "reviews": 204
   },
   {
+    "clientId": "client-1",
     "date": "2025-01-31",
     "gmv": 202921.83,
     "grossRevenue": 219098.22,
@@ -589,6 +620,7 @@
     "reviews": 122
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-01",
     "gmv": 223994.82,
     "grossRevenue": 239462.3,
@@ -608,6 +640,7 @@
     "reviews": 218
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-02",
     "gmv": 216064.51,
     "grossRevenue": 232108.57,
@@ -627,6 +660,7 @@
     "reviews": 60
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-03",
     "gmv": 218074.19,
     "grossRevenue": 244589.3,
@@ -646,6 +680,7 @@
     "reviews": 164
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-04",
     "gmv": 212293.19,
     "grossRevenue": 242422.75,
@@ -665,6 +700,7 @@
     "reviews": 131
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-05",
     "gmv": 167350.13,
     "grossRevenue": 183297.78,
@@ -684,6 +720,7 @@
     "reviews": 117
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-06",
     "gmv": 181077.33,
     "grossRevenue": 195463.5,
@@ -703,6 +740,7 @@
     "reviews": 118
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-07",
     "gmv": 188457.99,
     "grossRevenue": 205457.7,
@@ -722,6 +760,7 @@
     "reviews": 199
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-08",
     "gmv": 199675.85,
     "grossRevenue": 226566.13,
@@ -741,6 +780,7 @@
     "reviews": 153
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-09",
     "gmv": 266199.16,
     "grossRevenue": 306028.54,
@@ -760,6 +800,7 @@
     "reviews": 176
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-10",
     "gmv": 145263.03,
     "grossRevenue": 163843.52,
@@ -779,6 +820,7 @@
     "reviews": 186
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-11",
     "gmv": 166288.08,
     "grossRevenue": 189006.27,
@@ -798,6 +840,7 @@
     "reviews": 157
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-12",
     "gmv": 182507.8,
     "grossRevenue": 201395.96,
@@ -817,6 +860,7 @@
     "reviews": 132
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-13",
     "gmv": 199073.82,
     "grossRevenue": 215727.24,
@@ -836,6 +880,7 @@
     "reviews": 171
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-14",
     "gmv": 160115.58,
     "grossRevenue": 172708.2,
@@ -855,6 +900,7 @@
     "reviews": 105
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-15",
     "gmv": 255991.35,
     "grossRevenue": 280319.84,
@@ -874,6 +920,7 @@
     "reviews": 161
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-16",
     "gmv": 249500.96,
     "grossRevenue": 269947.57,
@@ -893,6 +940,7 @@
     "reviews": 175
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-17",
     "gmv": 162498.88,
     "grossRevenue": 179870.42,
@@ -912,6 +960,7 @@
     "reviews": 73
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-18",
     "gmv": 186401.43,
     "grossRevenue": 204763.91,
@@ -931,6 +980,7 @@
     "reviews": 178
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-19",
     "gmv": 143378.34,
     "grossRevenue": 162649.17,
@@ -950,6 +1000,7 @@
     "reviews": 97
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-20",
     "gmv": 211632.2,
     "grossRevenue": 225193.62,
@@ -969,6 +1020,7 @@
     "reviews": 127
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-21",
     "gmv": 199888.41,
     "grossRevenue": 212040.28,
@@ -988,6 +1040,7 @@
     "reviews": 173
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-22",
     "gmv": 241612.94,
     "grossRevenue": 259800.95,
@@ -1007,6 +1060,7 @@
     "reviews": 267
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-23",
     "gmv": 270274.67,
     "grossRevenue": 310295.01,
@@ -1026,6 +1080,7 @@
     "reviews": 165
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-24",
     "gmv": 165664.95,
     "grossRevenue": 183575.12,
@@ -1045,6 +1100,7 @@
     "reviews": 56
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-25",
     "gmv": 218838.68,
     "grossRevenue": 235020.06,
@@ -1064,6 +1120,7 @@
     "reviews": 165
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-26",
     "gmv": 185699.18,
     "grossRevenue": 197210.95,
@@ -1083,6 +1140,7 @@
     "reviews": 79
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-27",
     "gmv": 145857.41,
     "grossRevenue": 164042.77,
@@ -1102,6 +1160,7 @@
     "reviews": 168
   },
   {
+    "clientId": "client-1",
     "date": "2025-02-28",
     "gmv": 185055.78,
     "grossRevenue": 198272.79,
@@ -1121,6 +1180,7 @@
     "reviews": 127
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-01",
     "gmv": 217477.66,
     "grossRevenue": 238937.58,
@@ -1140,6 +1200,7 @@
     "reviews": 199
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-02",
     "gmv": 245794.48,
     "grossRevenue": 258710.11,
@@ -1159,6 +1220,7 @@
     "reviews": 129
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-03",
     "gmv": 161789.48,
     "grossRevenue": 178018.1,
@@ -1178,6 +1240,7 @@
     "reviews": 161
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-04",
     "gmv": 204299.19,
     "grossRevenue": 219980.22,
@@ -1197,6 +1260,7 @@
     "reviews": 117
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-05",
     "gmv": 148081.03,
     "grossRevenue": 167155.28,
@@ -1216,6 +1280,7 @@
     "reviews": 127
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-06",
     "gmv": 164541.78,
     "grossRevenue": 179107.54,
@@ -1235,6 +1300,7 @@
     "reviews": 136
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-07",
     "gmv": 184065.87,
     "grossRevenue": 200978.01,
@@ -1254,6 +1320,7 @@
     "reviews": 101
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-08",
     "gmv": 261088.85,
     "grossRevenue": 289724.29,
@@ -1273,6 +1340,7 @@
     "reviews": 141
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-09",
     "gmv": 247651.67,
     "grossRevenue": 272085.86,
@@ -1292,6 +1360,7 @@
     "reviews": 142
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-10",
     "gmv": 175638.33,
     "grossRevenue": 192723.56,
@@ -1311,6 +1380,7 @@
     "reviews": 70
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-11",
     "gmv": 211881.95,
     "grossRevenue": 235573.38,
@@ -1330,6 +1400,7 @@
     "reviews": 128
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-12",
     "gmv": 200072.57,
     "grossRevenue": 229540.71,
@@ -1349,6 +1420,7 @@
     "reviews": 128
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-13",
     "gmv": 206406.35,
     "grossRevenue": 219480.77,
@@ -1368,6 +1440,7 @@
     "reviews": 106
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-14",
     "gmv": 191267.86,
     "grossRevenue": 202985.74,
@@ -1387,6 +1460,7 @@
     "reviews": 128
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-15",
     "gmv": 196465.52,
     "grossRevenue": 209021.38,
@@ -1406,6 +1480,7 @@
     "reviews": 242
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-16",
     "gmv": 256092.17,
     "grossRevenue": 286357.54,
@@ -1425,6 +1500,7 @@
     "reviews": 188
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-17",
     "gmv": 216650.52,
     "grossRevenue": 229705.61,
@@ -1444,6 +1520,7 @@
     "reviews": 147
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-18",
     "gmv": 140238.79,
     "grossRevenue": 156877.77,
@@ -1463,6 +1540,7 @@
     "reviews": 140
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-19",
     "gmv": 163204.91,
     "grossRevenue": 182871.43,
@@ -1482,6 +1560,7 @@
     "reviews": 138
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-20",
     "gmv": 170757.32,
     "grossRevenue": 186750.75,
@@ -1501,6 +1580,7 @@
     "reviews": 142
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-21",
     "gmv": 215073.18,
     "grossRevenue": 226235.55,
@@ -1520,6 +1600,7 @@
     "reviews": 143
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-22",
     "gmv": 270211.44,
     "grossRevenue": 295911.79,
@@ -1539,6 +1620,7 @@
     "reviews": 218
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-23",
     "gmv": 260217.35,
     "grossRevenue": 281260.36,
@@ -1558,6 +1640,7 @@
     "reviews": 59
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-24",
     "gmv": 145562.54,
     "grossRevenue": 161603.07,
@@ -1577,6 +1660,7 @@
     "reviews": 156
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-25",
     "gmv": 156492.29,
     "grossRevenue": 179944.32,
@@ -1596,6 +1680,7 @@
     "reviews": 144
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-26",
     "gmv": 179830.27,
     "grossRevenue": 191871.96,
@@ -1615,6 +1700,7 @@
     "reviews": 195
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-27",
     "gmv": 193794.25,
     "grossRevenue": 215278.22,
@@ -1634,6 +1720,7 @@
     "reviews": 57
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-28",
     "gmv": 182328.78,
     "grossRevenue": 204779.68,
@@ -1653,6 +1740,7 @@
     "reviews": 76
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-29",
     "gmv": 194272.73,
     "grossRevenue": 217606.51,
@@ -1672,6 +1760,7 @@
     "reviews": 170
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-30",
     "gmv": 183113.17,
     "grossRevenue": 193267.12,
@@ -1691,6 +1780,7 @@
     "reviews": 117
   },
   {
+    "clientId": "client-1",
     "date": "2025-03-31",
     "gmv": 198895.21,
     "grossRevenue": 211588.24,
@@ -1710,6 +1800,7 @@
     "reviews": 120
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-01",
     "gmv": 209139.4,
     "grossRevenue": 228309.12,
@@ -1729,6 +1820,7 @@
     "reviews": 144
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-02",
     "gmv": 202147.36,
     "grossRevenue": 216199.08,
@@ -1748,6 +1840,7 @@
     "reviews": 159
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-03",
     "gmv": 218259.19,
     "grossRevenue": 229691.07,
@@ -1767,6 +1860,7 @@
     "reviews": 101
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-04",
     "gmv": 178013.97,
     "grossRevenue": 192737.29,
@@ -1786,6 +1880,7 @@
     "reviews": 97
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-05",
     "gmv": 229956.77,
     "grossRevenue": 251805.16,
@@ -1805,6 +1900,7 @@
     "reviews": 209
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-06",
     "gmv": 254820.21,
     "grossRevenue": 283771.33,
@@ -1824,6 +1920,7 @@
     "reviews": 191
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-07",
     "gmv": 161430.02,
     "grossRevenue": 173845.17,
@@ -1843,6 +1940,7 @@
     "reviews": 105
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-08",
     "gmv": 144989.49,
     "grossRevenue": 157100.37,
@@ -1862,6 +1960,7 @@
     "reviews": 152
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-09",
     "gmv": 214509.33,
     "grossRevenue": 231655.93,
@@ -1881,6 +1980,7 @@
     "reviews": 51
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-10",
     "gmv": 190694.61,
     "grossRevenue": 214655.67,
@@ -1900,6 +2000,7 @@
     "reviews": 136
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-11",
     "gmv": 168825.13,
     "grossRevenue": 179574.23,
@@ -1919,6 +2020,7 @@
     "reviews": 60
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-12",
     "gmv": 251945.28,
     "grossRevenue": 282166.81,
@@ -1938,6 +2040,7 @@
     "reviews": 92
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-13",
     "gmv": 203811.02,
     "grossRevenue": 232222.06,
@@ -1957,6 +2060,7 @@
     "reviews": 181
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-14",
     "gmv": 206880.05,
     "grossRevenue": 220706.48,
@@ -1976,6 +2080,7 @@
     "reviews": 71
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-15",
     "gmv": 147138.71,
     "grossRevenue": 159217.42,
@@ -1995,6 +2100,7 @@
     "reviews": 178
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-16",
     "gmv": 170937.91,
     "grossRevenue": 193027.84,
@@ -2014,6 +2120,7 @@
     "reviews": 104
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-17",
     "gmv": 176280.5,
     "grossRevenue": 197885.04,
@@ -2033,6 +2140,7 @@
     "reviews": 90
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-18",
     "gmv": 206791.01,
     "grossRevenue": 227027.65,
@@ -2052,6 +2160,7 @@
     "reviews": 205
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-19",
     "gmv": 211600.96,
     "grossRevenue": 230005.22,
@@ -2071,6 +2180,7 @@
     "reviews": 85
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-20",
     "gmv": 245551.59,
     "grossRevenue": 260119.47,
@@ -2090,6 +2200,7 @@
     "reviews": 71
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-21",
     "gmv": 140163.7,
     "grossRevenue": 150810.03,
@@ -2109,6 +2220,7 @@
     "reviews": 137
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-22",
     "gmv": 196060.87,
     "grossRevenue": 210118.77,
@@ -2128,6 +2240,7 @@
     "reviews": 113
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-23",
     "gmv": 171720.87,
     "grossRevenue": 188953.4,
@@ -2147,6 +2260,7 @@
     "reviews": 152
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-24",
     "gmv": 145049.8,
     "grossRevenue": 156268.8,
@@ -2166,6 +2280,7 @@
     "reviews": 160
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-25",
     "gmv": 219764.18,
     "grossRevenue": 245255.86,
@@ -2185,6 +2300,7 @@
     "reviews": 69
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-26",
     "gmv": 272089.58,
     "grossRevenue": 301370.7,
@@ -2204,6 +2320,7 @@
     "reviews": 101
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-27",
     "gmv": 221039.89,
     "grossRevenue": 248569.72,
@@ -2223,6 +2340,7 @@
     "reviews": 116
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-28",
     "gmv": 216017.5,
     "grossRevenue": 228794.84,
@@ -2242,6 +2360,7 @@
     "reviews": 58
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-29",
     "gmv": 164097.91,
     "grossRevenue": 185864.15,
@@ -2261,6 +2380,7 @@
     "reviews": 108
   },
   {
+    "clientId": "client-1",
     "date": "2025-04-30",
     "gmv": 183047.8,
     "grossRevenue": 209850.56,
@@ -2280,6 +2400,7 @@
     "reviews": 150
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-01",
     "gmv": 160233.86,
     "grossRevenue": 174098.89,
@@ -2299,6 +2420,7 @@
     "reviews": 83
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-02",
     "gmv": 194462.62,
     "grossRevenue": 206183.52,
@@ -2318,6 +2440,7 @@
     "reviews": 199
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-03",
     "gmv": 219968.47,
     "grossRevenue": 247329.9,
@@ -2337,6 +2460,7 @@
     "reviews": 94
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-04",
     "gmv": 235187.27,
     "grossRevenue": 255657.7,
@@ -2356,6 +2480,7 @@
     "reviews": 120
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-05",
     "gmv": 203137.5,
     "grossRevenue": 226192.78,
@@ -2375,6 +2500,7 @@
     "reviews": 146
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-06",
     "gmv": 149961.42,
     "grossRevenue": 160169.23,
@@ -2394,6 +2520,7 @@
     "reviews": 54
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-07",
     "gmv": 146842.4,
     "grossRevenue": 156308.55,
@@ -2413,6 +2540,7 @@
     "reviews": 108
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-08",
     "gmv": 194568.13,
     "grossRevenue": 214847.51,
@@ -2432,6 +2560,7 @@
     "reviews": 88
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-09",
     "gmv": 209688.19,
     "grossRevenue": 238981.92,
@@ -2451,6 +2580,7 @@
     "reviews": 80
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-10",
     "gmv": 225177.41,
     "grossRevenue": 255600.47,
@@ -2470,6 +2600,7 @@
     "reviews": 182
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-11",
     "gmv": 270787.28,
     "grossRevenue": 297405.92,
@@ -2489,6 +2620,7 @@
     "reviews": 154
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-12",
     "gmv": 195616.82,
     "grossRevenue": 224498.77,
@@ -2508,6 +2640,7 @@
     "reviews": 90
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-13",
     "gmv": 149309.6,
     "grossRevenue": 170892.38,
@@ -2527,6 +2660,7 @@
     "reviews": 130
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-14",
     "gmv": 159277.68,
     "grossRevenue": 174220.93,
@@ -2546,6 +2680,7 @@
     "reviews": 65
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-15",
     "gmv": 178591.29,
     "grossRevenue": 191491.87,
@@ -2565,6 +2700,7 @@
     "reviews": 97
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-16",
     "gmv": 147427.3,
     "grossRevenue": 165428.79,
@@ -2584,6 +2720,7 @@
     "reviews": 114
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-17",
     "gmv": 230059.34,
     "grossRevenue": 258110.79,
@@ -2603,6 +2740,7 @@
     "reviews": 131
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-18",
     "gmv": 264851.81,
     "grossRevenue": 278730.3,
@@ -2622,6 +2760,7 @@
     "reviews": 58
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-19",
     "gmv": 209149.97,
     "grossRevenue": 228700.55,
@@ -2641,6 +2780,7 @@
     "reviews": 93
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-20",
     "gmv": 145042.15,
     "grossRevenue": 166667.37,
@@ -2660,6 +2800,7 @@
     "reviews": 163
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-21",
     "gmv": 200913.38,
     "grossRevenue": 217147.44,
@@ -2679,6 +2820,7 @@
     "reviews": 58
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-22",
     "gmv": 151299.03,
     "grossRevenue": 162186.65,
@@ -2698,6 +2840,7 @@
     "reviews": 214
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-23",
     "gmv": 202741.77,
     "grossRevenue": 227337.28,
@@ -2717,6 +2860,7 @@
     "reviews": 143
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-24",
     "gmv": 254386.03,
     "grossRevenue": 282258.67,
@@ -2736,6 +2880,7 @@
     "reviews": 95
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-25",
     "gmv": 236535.58,
     "grossRevenue": 254754.34,
@@ -2755,6 +2900,7 @@
     "reviews": 95
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-26",
     "gmv": 203302.98,
     "grossRevenue": 228698.78,
@@ -2774,6 +2920,7 @@
     "reviews": 114
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-27",
     "gmv": 191659,
     "grossRevenue": 208828.18,
@@ -2793,6 +2940,7 @@
     "reviews": 101
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-28",
     "gmv": 203973.42,
     "grossRevenue": 217832.48,
@@ -2812,6 +2960,7 @@
     "reviews": 81
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-29",
     "gmv": 182967.17,
     "grossRevenue": 196955.37,
@@ -2831,6 +2980,7 @@
     "reviews": 115
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-30",
     "gmv": 214686.37,
     "grossRevenue": 243592.1,
@@ -2850,6 +3000,7 @@
     "reviews": 143
   },
   {
+    "clientId": "client-1",
     "date": "2025-05-31",
     "gmv": 213617.74,
     "grossRevenue": 226512.62,
@@ -2869,6 +3020,7 @@
     "reviews": 107
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-01",
     "gmv": 205968,
     "grossRevenue": 221910.63,
@@ -2888,6 +3040,7 @@
     "reviews": 190
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-02",
     "gmv": 168101.03,
     "grossRevenue": 193193.3,
@@ -2907,6 +3060,7 @@
     "reviews": 56
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-03",
     "gmv": 146856.5,
     "grossRevenue": 161009.08,
@@ -2926,6 +3080,7 @@
     "reviews": 64
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-04",
     "gmv": 207983.81,
     "grossRevenue": 230645.95,
@@ -2945,6 +3100,7 @@
     "reviews": 59
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-05",
     "gmv": 197536.36,
     "grossRevenue": 210651.38,
@@ -2964,6 +3120,7 @@
     "reviews": 158
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-06",
     "gmv": 194942.39,
     "grossRevenue": 213572.95,
@@ -2983,6 +3140,7 @@
     "reviews": 155
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-07",
     "gmv": 218035.88,
     "grossRevenue": 235334.56,
@@ -3002,6 +3160,7 @@
     "reviews": 240
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-08",
     "gmv": 247315.02,
     "grossRevenue": 281963.15,
@@ -3021,6 +3180,7 @@
     "reviews": 237
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-09",
     "gmv": 148263.8,
     "grossRevenue": 164040.93,
@@ -3040,6 +3200,7 @@
     "reviews": 69
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-10",
     "gmv": 215488.17,
     "grossRevenue": 237510.68,
@@ -3059,6 +3220,7 @@
     "reviews": 106
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-11",
     "gmv": 148820.07,
     "grossRevenue": 165218.29,
@@ -3078,6 +3240,7 @@
     "reviews": 198
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-12",
     "gmv": 142654.43,
     "grossRevenue": 161967.43,
@@ -3097,6 +3260,7 @@
     "reviews": 101
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-13",
     "gmv": 203434.84,
     "grossRevenue": 215850.98,
@@ -3116,6 +3280,7 @@
     "reviews": 149
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-14",
     "gmv": 257204.51,
     "grossRevenue": 290855.76,
@@ -3135,6 +3300,7 @@
     "reviews": 158
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-15",
     "gmv": 233553.98,
     "grossRevenue": 265693.75,
@@ -3154,6 +3320,7 @@
     "reviews": 89
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-16",
     "gmv": 156621.85,
     "grossRevenue": 177300.08,
@@ -3173,6 +3340,7 @@
     "reviews": 195
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-17",
     "gmv": 141094.96,
     "grossRevenue": 157485.68,
@@ -3192,6 +3360,7 @@
     "reviews": 87
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-18",
     "gmv": 173166.01,
     "grossRevenue": 196946.8,
@@ -3211,6 +3380,7 @@
     "reviews": 128
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-19",
     "gmv": 144299.9,
     "grossRevenue": 155591.72,
@@ -3230,6 +3400,7 @@
     "reviews": 74
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-20",
     "gmv": 195904.03,
     "grossRevenue": 221918.69,
@@ -3249,6 +3420,7 @@
     "reviews": 135
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-21",
     "gmv": 233688.53,
     "grossRevenue": 255095.02,
@@ -3268,6 +3440,7 @@
     "reviews": 137
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-22",
     "gmv": 261010.63,
     "grossRevenue": 292929.77,
@@ -3287,6 +3460,7 @@
     "reviews": 95
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-23",
     "gmv": 214575.06,
     "grossRevenue": 245442.25,
@@ -3306,6 +3480,7 @@
     "reviews": 134
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-24",
     "gmv": 153413.4,
     "grossRevenue": 175998.38,
@@ -3325,6 +3500,7 @@
     "reviews": 188
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-25",
     "gmv": 195463.92,
     "grossRevenue": 221609.54,
@@ -3344,6 +3520,7 @@
     "reviews": 157
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-26",
     "gmv": 184863.8,
     "grossRevenue": 205738.43,
@@ -3363,6 +3540,7 @@
     "reviews": 148
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-27",
     "gmv": 172230.3,
     "grossRevenue": 198004.87,
@@ -3382,6 +3560,7 @@
     "reviews": 90
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-28",
     "gmv": 198336.08,
     "grossRevenue": 211041.74,
@@ -3401,6 +3580,7 @@
     "reviews": 122
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-29",
     "gmv": 244930.53,
     "grossRevenue": 266909.71,
@@ -3420,6 +3600,7 @@
     "reviews": 162
   },
   {
+    "clientId": "client-1",
     "date": "2025-06-30",
     "gmv": 216907.9,
     "grossRevenue": 233413.39,
@@ -3439,6 +3620,7 @@
     "reviews": 153
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-01",
     "gmv": 141597.73,
     "grossRevenue": 156328.88,
@@ -3458,6 +3640,7 @@
     "reviews": 175
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-02",
     "gmv": 202639.51,
     "grossRevenue": 213791.16,
@@ -3477,6 +3660,7 @@
     "reviews": 146
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-03",
     "gmv": 143644.85,
     "grossRevenue": 152630.64,
@@ -3496,6 +3680,7 @@
     "reviews": 191
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-04",
     "gmv": 211263.9,
     "grossRevenue": 224512.64,
@@ -3515,6 +3700,7 @@
     "reviews": 113
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-05",
     "gmv": 212967.17,
     "grossRevenue": 229883.65,
@@ -3534,6 +3720,7 @@
     "reviews": 167
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-06",
     "gmv": 259485.45,
     "grossRevenue": 287960.05,
@@ -3553,6 +3740,7 @@
     "reviews": 123
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-07",
     "gmv": 155853.88,
     "grossRevenue": 178875.24,
@@ -3572,6 +3760,7 @@
     "reviews": 95
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-08",
     "gmv": 177345.72,
     "grossRevenue": 192112.68,
@@ -3591,6 +3780,7 @@
     "reviews": 137
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-09",
     "gmv": 208212.7,
     "grossRevenue": 221635.18,
@@ -3610,6 +3800,7 @@
     "reviews": 70
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-10",
     "gmv": 141916.14,
     "grossRevenue": 156375.8,
@@ -3629,6 +3820,7 @@
     "reviews": 124
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-11",
     "gmv": 192990.05,
     "grossRevenue": 202819.09,
@@ -3648,6 +3840,7 @@
     "reviews": 144
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-12",
     "gmv": 231252.29,
     "grossRevenue": 257774.83,
@@ -3667,6 +3860,7 @@
     "reviews": 152
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-13",
     "gmv": 212900.98,
     "grossRevenue": 233626.29,
@@ -3686,6 +3880,7 @@
     "reviews": 178
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-14",
     "gmv": 180005.03,
     "grossRevenue": 195626.94,
@@ -3705,6 +3900,7 @@
     "reviews": 50
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-15",
     "gmv": 144695.54,
     "grossRevenue": 157312.86,
@@ -3724,6 +3920,7 @@
     "reviews": 132
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-16",
     "gmv": 206859.03,
     "grossRevenue": 235496.62,
@@ -3743,6 +3940,7 @@
     "reviews": 66
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-17",
     "gmv": 166049.62,
     "grossRevenue": 179421.71,
@@ -3762,6 +3960,7 @@
     "reviews": 146
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-18",
     "gmv": 187062.39,
     "grossRevenue": 211381.11,
@@ -3781,6 +3980,7 @@
     "reviews": 189
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-19",
     "gmv": 201162.41,
     "grossRevenue": 213440.64,
@@ -3800,6 +4000,7 @@
     "reviews": 64
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-20",
     "gmv": 207082.75,
     "grossRevenue": 229826.18,
@@ -3819,6 +4020,7 @@
     "reviews": 160
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-21",
     "gmv": 172490.14,
     "grossRevenue": 185704,
@@ -3838,6 +4040,7 @@
     "reviews": 156
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-22",
     "gmv": 208964.54,
     "grossRevenue": 223040.97,
@@ -3857,6 +4060,7 @@
     "reviews": 142
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-23",
     "gmv": 188063.9,
     "grossRevenue": 212139.24,
@@ -3876,6 +4080,7 @@
     "reviews": 64
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-24",
     "gmv": 186638.02,
     "grossRevenue": 197577.27,
@@ -3895,6 +4100,7 @@
     "reviews": 168
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-25",
     "gmv": 193066.24,
     "grossRevenue": 209564.03,
@@ -3914,6 +4120,7 @@
     "reviews": 103
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-26",
     "gmv": 258875.59,
     "grossRevenue": 283764.62,
@@ -3933,6 +4140,7 @@
     "reviews": 79
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-27",
     "gmv": 187466.3,
     "grossRevenue": 213251.2,
@@ -3952,6 +4160,7 @@
     "reviews": 246
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-28",
     "gmv": 174798.76,
     "grossRevenue": 195920.03,
@@ -3971,6 +4180,7 @@
     "reviews": 114
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-29",
     "gmv": 181128.62,
     "grossRevenue": 199717.38,
@@ -3990,6 +4200,7 @@
     "reviews": 102
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-30",
     "gmv": 158215.66,
     "grossRevenue": 173647.88,
@@ -4009,6 +4220,7 @@
     "reviews": 69
   },
   {
+    "clientId": "client-1",
     "date": "2025-07-31",
     "gmv": 214131.56,
     "grossRevenue": 226310.36,
@@ -4028,6 +4240,7 @@
     "reviews": 66
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-01",
     "gmv": 157325.99,
     "grossRevenue": 173356.33,
@@ -4047,6 +4260,7 @@
     "reviews": 79
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-02",
     "gmv": 260685.58,
     "grossRevenue": 276073.69,
@@ -4066,6 +4280,7 @@
     "reviews": 163
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-03",
     "gmv": 249069.67,
     "grossRevenue": 271579.45,
@@ -4085,6 +4300,7 @@
     "reviews": 212
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-04",
     "gmv": 182706.05,
     "grossRevenue": 196663.54,
@@ -4104,6 +4320,7 @@
     "reviews": 43
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-05",
     "gmv": 190894.37,
     "grossRevenue": 204429.05,
@@ -4123,6 +4340,7 @@
     "reviews": 74
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-06",
     "gmv": 159311.2,
     "grossRevenue": 181899,
@@ -4142,6 +4360,7 @@
     "reviews": 71
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-07",
     "gmv": 177210.3,
     "grossRevenue": 197778.17,
@@ -4161,6 +4380,7 @@
     "reviews": 88
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-08",
     "gmv": 168649.24,
     "grossRevenue": 184861.55,
@@ -4180,6 +4400,7 @@
     "reviews": 109
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-09",
     "gmv": 192524.23,
     "grossRevenue": 209130.34,
@@ -4199,6 +4420,7 @@
     "reviews": 219
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-10",
     "gmv": 185137.86,
     "grossRevenue": 202984.88,
@@ -4218,6 +4440,7 @@
     "reviews": 181
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-11",
     "gmv": 203956.64,
     "grossRevenue": 215137.54,
@@ -4237,6 +4460,7 @@
     "reviews": 78
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-12",
     "gmv": 156793.75,
     "grossRevenue": 171460.64,
@@ -4256,6 +4480,7 @@
     "reviews": 171
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-13",
     "gmv": 144401.05,
     "grossRevenue": 151978.12,
@@ -4275,6 +4500,7 @@
     "reviews": 182
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-14",
     "gmv": 143940.94,
     "grossRevenue": 159797.19,
@@ -4294,6 +4520,7 @@
     "reviews": 113
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-15",
     "gmv": 216103.49,
     "grossRevenue": 231903.92,
@@ -4313,6 +4540,7 @@
     "reviews": 106
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-16",
     "gmv": 262432.27,
     "grossRevenue": 281467.02,
@@ -4332,6 +4560,7 @@
     "reviews": 170
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-17",
     "gmv": 251584.69,
     "grossRevenue": 278827.57,
@@ -4351,6 +4580,7 @@
     "reviews": 184
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-18",
     "gmv": 158693.86,
     "grossRevenue": 170877.57,
@@ -4370,6 +4600,7 @@
     "reviews": 76
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-19",
     "gmv": 219834.78,
     "grossRevenue": 242344.99,
@@ -4389,6 +4620,7 @@
     "reviews": 128
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-20",
     "gmv": 199979.07,
     "grossRevenue": 218721.32,
@@ -4408,6 +4640,7 @@
     "reviews": 105
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-21",
     "gmv": 152719.92,
     "grossRevenue": 175012.35,
@@ -4427,6 +4660,7 @@
     "reviews": 69
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-22",
     "gmv": 200749.04,
     "grossRevenue": 229313.06,
@@ -4446,6 +4680,7 @@
     "reviews": 191
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-23",
     "gmv": 225941.73,
     "grossRevenue": 259616.42,
@@ -4465,6 +4700,7 @@
     "reviews": 124
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-24",
     "gmv": 229910.33,
     "grossRevenue": 249676.91,
@@ -4484,6 +4720,7 @@
     "reviews": 252
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-25",
     "gmv": 148073.79,
     "grossRevenue": 157244.57,
@@ -4503,6 +4740,7 @@
     "reviews": 84
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-26",
     "gmv": 153569.45,
     "grossRevenue": 173872.34,
@@ -4522,6 +4760,7 @@
     "reviews": 102
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-27",
     "gmv": 198724.87,
     "grossRevenue": 225666.8,
@@ -4541,6 +4780,7 @@
     "reviews": 112
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-28",
     "gmv": 145083.04,
     "grossRevenue": 165275.24,
@@ -4560,6 +4800,7 @@
     "reviews": 176
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-29",
     "gmv": 195205.21,
     "grossRevenue": 222251.9,
@@ -4579,6 +4820,7 @@
     "reviews": 74
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-30",
     "gmv": 274118.54,
     "grossRevenue": 290542.91,
@@ -4598,6 +4840,7 @@
     "reviews": 160
   },
   {
+    "clientId": "client-1",
     "date": "2025-08-31",
     "gmv": 209651.57,
     "grossRevenue": 224981.48,
@@ -4617,6 +4860,7 @@
     "reviews": 181
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-01",
     "gmv": 219081.69,
     "grossRevenue": 236224.6,
@@ -4636,6 +4880,7 @@
     "reviews": 151
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-02",
     "gmv": 142893.31,
     "grossRevenue": 151075.95,
@@ -4655,6 +4900,7 @@
     "reviews": 190
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-03",
     "gmv": 167335.43,
     "grossRevenue": 186800.47,
@@ -4674,6 +4920,7 @@
     "reviews": 150
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-04",
     "gmv": 200664.75,
     "grossRevenue": 213733.06,
@@ -4693,6 +4940,7 @@
     "reviews": 130
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-05",
     "gmv": 205004.85,
     "grossRevenue": 229283.12,
@@ -4712,6 +4960,7 @@
     "reviews": 120
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-06",
     "gmv": 235205.39,
     "grossRevenue": 268811.72,
@@ -4731,6 +4980,7 @@
     "reviews": 258
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-07",
     "gmv": 234957.21,
     "grossRevenue": 268027.4,
@@ -4750,6 +5000,7 @@
     "reviews": 149
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-08",
     "gmv": 219271.51,
     "grossRevenue": 250475.2,
@@ -4769,6 +5020,7 @@
     "reviews": 192
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-09",
     "gmv": 201469.32,
     "grossRevenue": 221976.3,
@@ -4788,6 +5040,7 @@
     "reviews": 136
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-10",
     "gmv": 148635.24,
     "grossRevenue": 169325.55,
@@ -4807,6 +5060,7 @@
     "reviews": 153
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-11",
     "gmv": 150918.33,
     "grossRevenue": 161948.62,
@@ -4826,6 +5080,7 @@
     "reviews": 99
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-12",
     "gmv": 148895.39,
     "grossRevenue": 168083.73,
@@ -4845,6 +5100,7 @@
     "reviews": 71
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-13",
     "gmv": 259652.22,
     "grossRevenue": 289515.11,
@@ -4864,6 +5120,7 @@
     "reviews": 118
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-14",
     "gmv": 274822.14,
     "grossRevenue": 306656.32,
@@ -4883,6 +5140,7 @@
     "reviews": 105
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-15",
     "gmv": 148977.41,
     "grossRevenue": 161967.49,
@@ -4902,6 +5160,7 @@
     "reviews": 149
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-16",
     "gmv": 158371.69,
     "grossRevenue": 180539.92,
@@ -4921,6 +5180,7 @@
     "reviews": 113
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-17",
     "gmv": 209732.53,
     "grossRevenue": 228276.67,
@@ -4940,6 +5200,7 @@
     "reviews": 52
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-18",
     "gmv": 177661.64,
     "grossRevenue": 196544.86,
@@ -4959,6 +5220,7 @@
     "reviews": 130
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-19",
     "gmv": 166572.79,
     "grossRevenue": 184153.49,
@@ -4978,6 +5240,7 @@
     "reviews": 105
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-20",
     "gmv": 181076.11,
     "grossRevenue": 201073.29,
@@ -4997,6 +5260,7 @@
     "reviews": 220
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-21",
     "gmv": 239111.56,
     "grossRevenue": 257339.9,
@@ -5016,6 +5280,7 @@
     "reviews": 225
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-22",
     "gmv": 145499.04,
     "grossRevenue": 156745.71,
@@ -5035,6 +5300,7 @@
     "reviews": 107
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-23",
     "gmv": 153373.48,
     "grossRevenue": 167962.19,
@@ -5054,6 +5320,7 @@
     "reviews": 64
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-24",
     "gmv": 143692.43,
     "grossRevenue": 151550.18,
@@ -5073,6 +5340,7 @@
     "reviews": 147
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-25",
     "gmv": 150090.78,
     "grossRevenue": 167818.68,
@@ -5092,6 +5360,7 @@
     "reviews": 137
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-26",
     "gmv": 206787.71,
     "grossRevenue": 233550.94,
@@ -5111,6 +5380,7 @@
     "reviews": 166
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-27",
     "gmv": 228601.94,
     "grossRevenue": 261650.28,
@@ -5130,6 +5400,7 @@
     "reviews": 278
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-28",
     "gmv": 179010.56,
     "grossRevenue": 189391.48,
@@ -5149,6 +5420,7 @@
     "reviews": 185
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-29",
     "gmv": 198840.81,
     "grossRevenue": 215130.19,
@@ -5168,6 +5440,7 @@
     "reviews": 148
   },
   {
+    "clientId": "client-1",
     "date": "2025-09-30",
     "gmv": 142255.04,
     "grossRevenue": 160589.09,
@@ -5187,6 +5460,7 @@
     "reviews": 140
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-01",
     "gmv": 216025.8,
     "grossRevenue": 242509.47,
@@ -5206,6 +5480,7 @@
     "reviews": 120
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-02",
     "gmv": 184607.52,
     "grossRevenue": 202867.44,
@@ -5225,6 +5500,7 @@
     "reviews": 122
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-03",
     "gmv": 191341.69,
     "grossRevenue": 208130.77,
@@ -5244,6 +5520,7 @@
     "reviews": 124
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-04",
     "gmv": 215352.17,
     "grossRevenue": 230561.81,
@@ -5263,6 +5540,7 @@
     "reviews": 224
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-05",
     "gmv": 237194.41,
     "grossRevenue": 265092.42,
@@ -5282,6 +5560,7 @@
     "reviews": 114
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-06",
     "gmv": 186788.43,
     "grossRevenue": 206029.78,
@@ -5301,6 +5580,7 @@
     "reviews": 88
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-07",
     "gmv": 153588.14,
     "grossRevenue": 170969.9,
@@ -5320,6 +5600,7 @@
     "reviews": 126
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-08",
     "gmv": 144245.58,
     "grossRevenue": 154731.2,
@@ -5339,6 +5620,7 @@
     "reviews": 159
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-09",
     "gmv": 190634.31,
     "grossRevenue": 201815.7,
@@ -5358,6 +5640,7 @@
     "reviews": 108
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-10",
     "gmv": 216193.87,
     "grossRevenue": 243826.62,
@@ -5377,6 +5660,7 @@
     "reviews": 129
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-11",
     "gmv": 199826.25,
     "grossRevenue": 215776.03,
@@ -5396,6 +5680,7 @@
     "reviews": 149
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-12",
     "gmv": 256081.47,
     "grossRevenue": 282144.52,
@@ -5415,6 +5700,7 @@
     "reviews": 83
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-13",
     "gmv": 153433.72,
     "grossRevenue": 171459.45,
@@ -5434,6 +5720,7 @@
     "reviews": 87
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-14",
     "gmv": 161654.28,
     "grossRevenue": 174428.7,
@@ -5453,6 +5740,7 @@
     "reviews": 132
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-15",
     "gmv": 213821.01,
     "grossRevenue": 239714.24,
@@ -5472,6 +5760,7 @@
     "reviews": 139
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-16",
     "gmv": 157543.67,
     "grossRevenue": 178035.93,
@@ -5491,6 +5780,7 @@
     "reviews": 183
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-17",
     "gmv": 204727.09,
     "grossRevenue": 223568.61,
@@ -5510,6 +5800,7 @@
     "reviews": 157
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-18",
     "gmv": 217789.37,
     "grossRevenue": 230415.47,
@@ -5529,6 +5820,7 @@
     "reviews": 126
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-19",
     "gmv": 268253.18,
     "grossRevenue": 303459.75,
@@ -5548,6 +5840,7 @@
     "reviews": 212
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-20",
     "gmv": 144712.58,
     "grossRevenue": 162565.1,
@@ -5567,6 +5860,7 @@
     "reviews": 98
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-21",
     "gmv": 211483.26,
     "grossRevenue": 226506.2,
@@ -5586,6 +5880,7 @@
     "reviews": 98
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-22",
     "gmv": 192062.6,
     "grossRevenue": 219018.84,
@@ -5605,6 +5900,7 @@
     "reviews": 121
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-23",
     "gmv": 167907.36,
     "grossRevenue": 183956.94,
@@ -5624,6 +5920,7 @@
     "reviews": 88
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-24",
     "gmv": 175175.43,
     "grossRevenue": 185748.02,
@@ -5643,6 +5940,7 @@
     "reviews": 182
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-25",
     "gmv": 268325.43,
     "grossRevenue": 289771.54,
@@ -5662,6 +5960,7 @@
     "reviews": 170
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-26",
     "gmv": 187754.46,
     "grossRevenue": 203929.01,
@@ -5681,6 +5980,7 @@
     "reviews": 142
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-27",
     "gmv": 162098.33,
     "grossRevenue": 178643.97,
@@ -5700,6 +6000,7 @@
     "reviews": 83
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-28",
     "gmv": 176451.63,
     "grossRevenue": 191141.18,
@@ -5719,6 +6020,7 @@
     "reviews": 76
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-29",
     "gmv": 147799.43,
     "grossRevenue": 163759.2,
@@ -5738,6 +6040,7 @@
     "reviews": 140
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-30",
     "gmv": 155473.1,
     "grossRevenue": 168046.64,
@@ -5757,6 +6060,7 @@
     "reviews": 93
   },
   {
+    "clientId": "client-1",
     "date": "2025-10-31",
     "gmv": 189293.23,
     "grossRevenue": 214666.17,
@@ -5776,6 +6080,7 @@
     "reviews": 108
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-01",
     "gmv": 215150.14,
     "grossRevenue": 232277,
@@ -5795,6 +6100,7 @@
     "reviews": 219
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-02",
     "gmv": 250772.99,
     "grossRevenue": 280047.05,
@@ -5814,6 +6120,7 @@
     "reviews": 173
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-03",
     "gmv": 146296.35,
     "grossRevenue": 162099.02,
@@ -5833,6 +6140,7 @@
     "reviews": 88
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-04",
     "gmv": 211458.45,
     "grossRevenue": 241960.73,
@@ -5852,6 +6160,7 @@
     "reviews": 94
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-05",
     "gmv": 184163.14,
     "grossRevenue": 201732.13,
@@ -5871,6 +6180,7 @@
     "reviews": 85
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-06",
     "gmv": 147605.61,
     "grossRevenue": 166736.5,
@@ -5890,6 +6200,7 @@
     "reviews": 107
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-07",
     "gmv": 157548.64,
     "grossRevenue": 165861.68,
@@ -5909,6 +6220,7 @@
     "reviews": 112
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-08",
     "gmv": 189378.48,
     "grossRevenue": 210235.73,
@@ -5928,6 +6240,7 @@
     "reviews": 127
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-09",
     "gmv": 225387.59,
     "grossRevenue": 243279,
@@ -5947,6 +6260,7 @@
     "reviews": 246
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-10",
     "gmv": 201613.7,
     "grossRevenue": 222343.55,
@@ -5966,6 +6280,7 @@
     "reviews": 83
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-11",
     "gmv": 150399.25,
     "grossRevenue": 170995.78,
@@ -5985,6 +6300,7 @@
     "reviews": 157
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-12",
     "gmv": 209371.14,
     "grossRevenue": 224102.59,
@@ -6004,6 +6320,7 @@
     "reviews": 171
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-13",
     "gmv": 146381.06,
     "grossRevenue": 154965.72,
@@ -6023,6 +6340,7 @@
     "reviews": 91
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-14",
     "gmv": 192453.31,
     "grossRevenue": 207374.4,
@@ -6042,6 +6360,7 @@
     "reviews": 127
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-15",
     "gmv": 258943.95,
     "grossRevenue": 281020.46,
@@ -6061,6 +6380,7 @@
     "reviews": 114
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-16",
     "gmv": 178922.9,
     "grossRevenue": 204430.85,
@@ -6080,6 +6400,7 @@
     "reviews": 109
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-17",
     "gmv": 203630.82,
     "grossRevenue": 233254.85,
@@ -6099,6 +6420,7 @@
     "reviews": 156
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-18",
     "gmv": 190486.83,
     "grossRevenue": 212058.38,
@@ -6118,6 +6440,7 @@
     "reviews": 69
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-19",
     "gmv": 211104.8,
     "grossRevenue": 237010.43,
@@ -6137,6 +6460,7 @@
     "reviews": 148
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-20",
     "gmv": 155102.76,
     "grossRevenue": 174086.73,
@@ -6156,6 +6480,7 @@
     "reviews": 79
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-21",
     "gmv": 211092.43,
     "grossRevenue": 227016.51,
@@ -6175,6 +6500,7 @@
     "reviews": 137
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-22",
     "gmv": 219027.71,
     "grossRevenue": 241467.41,
@@ -6194,6 +6520,7 @@
     "reviews": 173
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-23",
     "gmv": 264202.22,
     "grossRevenue": 291514.07,
@@ -6213,6 +6540,7 @@
     "reviews": 81
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-24",
     "gmv": 182880.26,
     "grossRevenue": 194546.11,
@@ -6232,6 +6560,7 @@
     "reviews": 139
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-25",
     "gmv": 212920.98,
     "grossRevenue": 229248.5,
@@ -6251,6 +6580,7 @@
     "reviews": 88
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-26",
     "gmv": 188906.49,
     "grossRevenue": 201474.82,
@@ -6270,6 +6600,7 @@
     "reviews": 106
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-27",
     "gmv": 192708.66,
     "grossRevenue": 206253.27,
@@ -6289,6 +6620,7 @@
     "reviews": 207
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-28",
     "gmv": 155497.79,
     "grossRevenue": 177342.6,
@@ -6308,6 +6640,7 @@
     "reviews": 85
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-29",
     "gmv": 263421.8,
     "grossRevenue": 282014.08,
@@ -6327,6 +6660,7 @@
     "reviews": 199
   },
   {
+    "clientId": "client-1",
     "date": "2025-11-30",
     "gmv": 218899.95,
     "grossRevenue": 247992.2,
@@ -6346,6 +6680,7 @@
     "reviews": 150
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-01",
     "gmv": 210440.7,
     "grossRevenue": 241312.63,
@@ -6365,6 +6700,7 @@
     "reviews": 198
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-02",
     "gmv": 174487.16,
     "grossRevenue": 189980.69,
@@ -6384,6 +6720,7 @@
     "reviews": 80
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-03",
     "gmv": 140972.3,
     "grossRevenue": 155565.19,
@@ -6403,6 +6740,7 @@
     "reviews": 114
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-04",
     "gmv": 142369.5,
     "grossRevenue": 155668.57,
@@ -6422,6 +6760,7 @@
     "reviews": 115
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-05",
     "gmv": 170209.6,
     "grossRevenue": 180174.47,
@@ -6441,6 +6780,7 @@
     "reviews": 66
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-06",
     "gmv": 274973.54,
     "grossRevenue": 311172.48,
@@ -6460,6 +6800,7 @@
     "reviews": 175
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-07",
     "gmv": 271511.76,
     "grossRevenue": 301377.69,
@@ -6479,6 +6820,7 @@
     "reviews": 275
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-08",
     "gmv": 172682.56,
     "grossRevenue": 197548.36,
@@ -6498,6 +6840,7 @@
     "reviews": 75
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-09",
     "gmv": 212867.26,
     "grossRevenue": 231624.27,
@@ -6517,6 +6860,7 @@
     "reviews": 127
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-10",
     "gmv": 181795.66,
     "grossRevenue": 197035.86,
@@ -6536,6 +6880,7 @@
     "reviews": 132
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-11",
     "gmv": 197529.65,
     "grossRevenue": 218662.76,
@@ -6555,6 +6900,7 @@
     "reviews": 88
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-12",
     "gmv": 195200.82,
     "grossRevenue": 215808.59,
@@ -6574,6 +6920,7 @@
     "reviews": 188
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-13",
     "gmv": 230386.9,
     "grossRevenue": 243992.32,
@@ -6593,6 +6940,7 @@
     "reviews": 121
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-14",
     "gmv": 269433.29,
     "grossRevenue": 306763.38,
@@ -6612,6 +6960,7 @@
     "reviews": 270
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-15",
     "gmv": 216854.76,
     "grossRevenue": 242764.28,
@@ -6631,6 +6980,7 @@
     "reviews": 150
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-16",
     "gmv": 164773.99,
     "grossRevenue": 185565.72,
@@ -6650,6 +7000,7 @@
     "reviews": 154
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-17",
     "gmv": 190319.93,
     "grossRevenue": 200321.29,
@@ -6669,6 +7020,7 @@
     "reviews": 145
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-18",
     "gmv": 143720.59,
     "grossRevenue": 163147.54,
@@ -6688,6 +7040,7 @@
     "reviews": 126
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-19",
     "gmv": 144291.03,
     "grossRevenue": 164108.73,
@@ -6707,6 +7060,7 @@
     "reviews": 113
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-20",
     "gmv": 206941.9,
     "grossRevenue": 220270.01,
@@ -6726,6 +7080,7 @@
     "reviews": 67
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-21",
     "gmv": 195516.83,
     "grossRevenue": 206231.79,
@@ -6745,6 +7100,7 @@
     "reviews": 156
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-22",
     "gmv": 141780.03,
     "grossRevenue": 157129.35,
@@ -6764,6 +7120,7 @@
     "reviews": 206
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-23",
     "gmv": 185473.07,
     "grossRevenue": 204654.51,
@@ -6783,6 +7140,7 @@
     "reviews": 217
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-24",
     "gmv": 199586.38,
     "grossRevenue": 210361.84,
@@ -6802,6 +7160,7 @@
     "reviews": 67
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-25",
     "gmv": 152680.31,
     "grossRevenue": 173404.54,
@@ -6821,6 +7180,7 @@
     "reviews": 174
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-26",
     "gmv": 149254.84,
     "grossRevenue": 166845.47,
@@ -6840,6 +7200,7 @@
     "reviews": 101
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-27",
     "gmv": 212384.45,
     "grossRevenue": 240595.02,
@@ -6859,6 +7220,7 @@
     "reviews": 211
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-28",
     "gmv": 175511,
     "grossRevenue": 201795.86,
@@ -6878,6 +7240,7 @@
     "reviews": 130
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-29",
     "gmv": 203629.58,
     "grossRevenue": 215634.4,
@@ -6897,6 +7260,7 @@
     "reviews": 91
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-30",
     "gmv": 165836.03,
     "grossRevenue": 175949.66,
@@ -6916,6 +7280,7 @@
     "reviews": 162
   },
   {
+    "clientId": "client-1",
     "date": "2025-12-31",
     "gmv": 163317.01,
     "grossRevenue": 173701.05,
@@ -6935,6 +7300,7 @@
     "reviews": 98
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-01",
     "gmv": 171640.01,
     "grossRevenue": 181041.53,
@@ -6954,6 +7320,7 @@
     "reviews": 103
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-02",
     "gmv": 143033.11,
     "grossRevenue": 160619.97,
@@ -6973,6 +7340,7 @@
     "reviews": 49
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-03",
     "gmv": 190586.84,
     "grossRevenue": 202869.45,
@@ -6992,6 +7360,7 @@
     "reviews": 107
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-04",
     "gmv": 206229.37,
     "grossRevenue": 234773.56,
@@ -7011,6 +7380,7 @@
     "reviews": 102
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-05",
     "gmv": 190575.99,
     "grossRevenue": 215103.19,
@@ -7030,6 +7400,7 @@
     "reviews": 111
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-06",
     "gmv": 153769.15,
     "grossRevenue": 174312.25,
@@ -7049,6 +7420,7 @@
     "reviews": 180
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-07",
     "gmv": 177449.72,
     "grossRevenue": 187888.16,
@@ -7068,6 +7440,7 @@
     "reviews": 162
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-08",
     "gmv": 170092.4,
     "grossRevenue": 190136.69,
@@ -7087,6 +7460,7 @@
     "reviews": 139
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-09",
     "gmv": 176783.25,
     "grossRevenue": 190480.94,
@@ -7106,6 +7480,7 @@
     "reviews": 76
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-10",
     "gmv": 190832.71,
     "grossRevenue": 211403.56,
@@ -7125,6 +7500,7 @@
     "reviews": 217
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-11",
     "gmv": 209392.07,
     "grossRevenue": 237402.81,
@@ -7144,6 +7520,7 @@
     "reviews": 152
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-12",
     "gmv": 197076.2,
     "grossRevenue": 221623.04,
@@ -7163,6 +7540,7 @@
     "reviews": 140
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-13",
     "gmv": 165692.54,
     "grossRevenue": 186277.42,
@@ -7182,6 +7560,7 @@
     "reviews": 147
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-14",
     "gmv": 180346.57,
     "grossRevenue": 199913.65,
@@ -7201,6 +7580,7 @@
     "reviews": 100
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-15",
     "gmv": 143934.34,
     "grossRevenue": 154661.03,
@@ -7220,6 +7600,7 @@
     "reviews": 80
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-16",
     "gmv": 199958.17,
     "grossRevenue": 223741.67,
@@ -7239,6 +7620,7 @@
     "reviews": 100
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-17",
     "gmv": 183990.79,
     "grossRevenue": 195285.7,
@@ -7258,6 +7640,7 @@
     "reviews": 83
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-18",
     "gmv": 245088.07,
     "grossRevenue": 272265.03,
@@ -7277,6 +7660,7 @@
     "reviews": 210
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-19",
     "gmv": 143614.68,
     "grossRevenue": 155058.26,
@@ -7296,6 +7680,7 @@
     "reviews": 142
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-20",
     "gmv": 185696.18,
     "grossRevenue": 205373.51,
@@ -7315,6 +7700,7 @@
     "reviews": 112
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-21",
     "gmv": 209224.03,
     "grossRevenue": 226817.44,
@@ -7334,6 +7720,7 @@
     "reviews": 71
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-22",
     "gmv": 157579.37,
     "grossRevenue": 173312.97,
@@ -7353,6 +7740,7 @@
     "reviews": 90
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-23",
     "gmv": 145181.24,
     "grossRevenue": 153925.06,
@@ -7372,6 +7760,7 @@
     "reviews": 109
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-24",
     "gmv": 270657.98,
     "grossRevenue": 290478.48,
@@ -7391,6 +7780,7 @@
     "reviews": 218
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-25",
     "gmv": 257965.97,
     "grossRevenue": 285013.14,
@@ -7410,6 +7800,7 @@
     "reviews": 150
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-26",
     "gmv": 145940.06,
     "grossRevenue": 160339.35,
@@ -7429,6 +7820,7 @@
     "reviews": 230
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-27",
     "gmv": 160077.97,
     "grossRevenue": 179254.98,
@@ -7448,6 +7840,7 @@
     "reviews": 134
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-28",
     "gmv": 217307.05,
     "grossRevenue": 230417.26,
@@ -7467,6 +7860,7 @@
     "reviews": 77
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-29",
     "gmv": 153464.15,
     "grossRevenue": 176397.77,
@@ -7486,6 +7880,7 @@
     "reviews": 113
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-30",
     "gmv": 215388.21,
     "grossRevenue": 243175.26,
@@ -7505,6 +7900,7 @@
     "reviews": 136
   },
   {
+    "clientId": "client-1",
     "date": "2026-01-31",
     "gmv": 210824.9,
     "grossRevenue": 235326.17,
@@ -7524,6 +7920,7 @@
     "reviews": 105
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-01",
     "gmv": 184827.78,
     "grossRevenue": 195811.05,
@@ -7543,6 +7940,7 @@
     "reviews": 134
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-02",
     "gmv": 144156.46,
     "grossRevenue": 163480.59,
@@ -7562,6 +7960,7 @@
     "reviews": 107
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-03",
     "gmv": 208172.21,
     "grossRevenue": 229430.54,
@@ -7581,6 +7980,7 @@
     "reviews": 57
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-04",
     "gmv": 141287.06,
     "grossRevenue": 156017.2,
@@ -7600,6 +8000,7 @@
     "reviews": 224
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-05",
     "gmv": 140325.56,
     "grossRevenue": 160964.5,
@@ -7619,6 +8020,7 @@
     "reviews": 155
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-06",
     "gmv": 194534.74,
     "grossRevenue": 218593.53,
@@ -7638,6 +8040,7 @@
     "reviews": 108
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-07",
     "gmv": 217996.09,
     "grossRevenue": 248794.72,
@@ -7657,6 +8060,7 @@
     "reviews": 105
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-08",
     "gmv": 180522.47,
     "grossRevenue": 191294.72,
@@ -7676,6 +8080,7 @@
     "reviews": 140
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-09",
     "gmv": 201484,
     "grossRevenue": 231173.02,
@@ -7695,6 +8100,7 @@
     "reviews": 87
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-10",
     "gmv": 171704.56,
     "grossRevenue": 184026.89,
@@ -7714,6 +8120,7 @@
     "reviews": 122
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-11",
     "gmv": 196867.23,
     "grossRevenue": 223549.22,
@@ -7733,6 +8140,7 @@
     "reviews": 93
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-12",
     "gmv": 211703.63,
     "grossRevenue": 229585.74,
@@ -7752,6 +8160,7 @@
     "reviews": 181
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-13",
     "gmv": 200121.59,
     "grossRevenue": 225362.47,
@@ -7771,6 +8180,7 @@
     "reviews": 89
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-14",
     "gmv": 259232.18,
     "grossRevenue": 295818.55,
@@ -7790,6 +8200,7 @@
     "reviews": 55
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-15",
     "gmv": 226165.32,
     "grossRevenue": 254351.96,
@@ -7809,6 +8220,7 @@
     "reviews": 166
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-16",
     "gmv": 140081.14,
     "grossRevenue": 153167.6,
@@ -7828,6 +8240,7 @@
     "reviews": 179
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-17",
     "gmv": 219363.15,
     "grossRevenue": 244963.96,
@@ -7847,6 +8260,7 @@
     "reviews": 125
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-18",
     "gmv": 156506.11,
     "grossRevenue": 173110.73,
@@ -7866,6 +8280,7 @@
     "reviews": 146
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-19",
     "gmv": 169328.6,
     "grossRevenue": 188842.91,
@@ -7885,6 +8300,7 @@
     "reviews": 70
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-20",
     "gmv": 170867.48,
     "grossRevenue": 184854.39,
@@ -7904,6 +8320,7 @@
     "reviews": 78
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-21",
     "gmv": 192522.66,
     "grossRevenue": 207275.98,
@@ -7923,6 +8340,7 @@
     "reviews": 144
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-22",
     "gmv": 225994.04,
     "grossRevenue": 256699.82,
@@ -7942,6 +8360,7 @@
     "reviews": 132
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-23",
     "gmv": 142024.39,
     "grossRevenue": 160266.97,
@@ -7961,6 +8380,7 @@
     "reviews": 101
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-24",
     "gmv": 155853.27,
     "grossRevenue": 167492.23,
@@ -7980,6 +8400,7 @@
     "reviews": 147
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-25",
     "gmv": 152924.24,
     "grossRevenue": 164514.35,
@@ -7999,6 +8420,7 @@
     "reviews": 141
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-26",
     "gmv": 217378.22,
     "grossRevenue": 230252.94,
@@ -8018,6 +8440,7 @@
     "reviews": 80
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-27",
     "gmv": 181062.91,
     "grossRevenue": 195257.19,
@@ -8037,6 +8460,7 @@
     "reviews": 110
   },
   {
+    "clientId": "client-1",
     "date": "2026-02-28",
     "gmv": 210495.64,
     "grossRevenue": 222415.18,
@@ -8056,6 +8480,7 @@
     "reviews": 160
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-01",
     "gmv": 182864.13,
     "grossRevenue": 204027.7,
@@ -8075,6 +8500,7 @@
     "reviews": 236
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-02",
     "gmv": 172369.42,
     "grossRevenue": 191397.16,
@@ -8094,6 +8520,7 @@
     "reviews": 101
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-03",
     "gmv": 200406.43,
     "grossRevenue": 216901.04,
@@ -8113,6 +8540,7 @@
     "reviews": 218
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-04",
     "gmv": 159516.35,
     "grossRevenue": 172885.62,
@@ -8132,6 +8560,7 @@
     "reviews": 145
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-05",
     "gmv": 218044.95,
     "grossRevenue": 235548.42,
@@ -8151,6 +8580,7 @@
     "reviews": 137
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-06",
     "gmv": 199466.18,
     "grossRevenue": 210671.46,
@@ -8170,6 +8600,7 @@
     "reviews": 185
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-07",
     "gmv": 250974.84,
     "grossRevenue": 276491.2,
@@ -8189,6 +8620,7 @@
     "reviews": 225
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-08",
     "gmv": 223733.48,
     "grossRevenue": 240846.44,
@@ -8208,6 +8640,7 @@
     "reviews": 94
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-09",
     "gmv": 143170.37,
     "grossRevenue": 159966.55,
@@ -8227,6 +8660,7 @@
     "reviews": 101
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-10",
     "gmv": 183542.62,
     "grossRevenue": 202705.57,
@@ -8246,6 +8680,7 @@
     "reviews": 129
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-11",
     "gmv": 169514.65,
     "grossRevenue": 188958.16,
@@ -8265,6 +8700,7 @@
     "reviews": 128
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-12",
     "gmv": 201430.48,
     "grossRevenue": 220178.73,
@@ -8284,6 +8720,7 @@
     "reviews": 55
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-13",
     "gmv": 170056.08,
     "grossRevenue": 178889,
@@ -8303,6 +8740,7 @@
     "reviews": 134
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-14",
     "gmv": 236554.21,
     "grossRevenue": 258681.89,
@@ -8322,6 +8760,7 @@
     "reviews": 158
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-15",
     "gmv": 231740.42,
     "grossRevenue": 259563.09,
@@ -8341,6 +8780,7 @@
     "reviews": 84
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-16",
     "gmv": 197412.47,
     "grossRevenue": 214277.61,
@@ -8360,6 +8800,7 @@
     "reviews": 112
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-17",
     "gmv": 167837.69,
     "grossRevenue": 189782.12,
@@ -8379,6 +8820,7 @@
     "reviews": 74
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-18",
     "gmv": 194577.3,
     "grossRevenue": 206950.66,
@@ -8398,6 +8840,7 @@
     "reviews": 52
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-19",
     "gmv": 168488.46,
     "grossRevenue": 180586.64,
@@ -8417,6 +8860,7 @@
     "reviews": 210
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-20",
     "gmv": 209533.91,
     "grossRevenue": 237899.4,
@@ -8436,6 +8880,7 @@
     "reviews": 63
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-21",
     "gmv": 223426.98,
     "grossRevenue": 245196.57,
@@ -8455,6 +8900,7 @@
     "reviews": 101
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-22",
     "gmv": 186889.12,
     "grossRevenue": 207120.63,
@@ -8474,6 +8920,7 @@
     "reviews": 188
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-23",
     "gmv": 155016.26,
     "grossRevenue": 177587.67,
@@ -8493,6 +8940,7 @@
     "reviews": 170
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-24",
     "gmv": 193525.85,
     "grossRevenue": 207548.84,
@@ -8512,6 +8960,7 @@
     "reviews": 195
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-25",
     "gmv": 215428.76,
     "grossRevenue": 236893.56,
@@ -8531,6 +8980,7 @@
     "reviews": 111
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-26",
     "gmv": 199564.01,
     "grossRevenue": 221181.26,
@@ -8550,6 +9000,7 @@
     "reviews": 87
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-27",
     "gmv": 217170.39,
     "grossRevenue": 246751.75,
@@ -8569,6 +9020,7 @@
     "reviews": 155
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-28",
     "gmv": 230428.73,
     "grossRevenue": 247251.04,
@@ -8588,6 +9040,7 @@
     "reviews": 159
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-29",
     "gmv": 229173.14,
     "grossRevenue": 258281.38,
@@ -8607,6 +9060,7 @@
     "reviews": 180
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-30",
     "gmv": 194399.6,
     "grossRevenue": 222845.42,
@@ -8626,6 +9080,7 @@
     "reviews": 81
   },
   {
+    "clientId": "client-1",
     "date": "2026-03-31",
     "gmv": 187970.74,
     "grossRevenue": 204164.77,
@@ -8645,6 +9100,7 @@
     "reviews": 94
   },
   {
+    "clientId": "client-1",
     "date": "2026-04-01",
     "gmv": 147257.36,
     "grossRevenue": 167925.3,
@@ -8664,6 +9120,7 @@
     "reviews": 84
   },
   {
+    "clientId": "client-1",
     "date": "2026-04-02",
     "gmv": 168032.22,
     "grossRevenue": 181572.5,
@@ -8683,6 +9140,7 @@
     "reviews": 146
   },
   {
+    "clientId": "client-1",
     "date": "2026-04-03",
     "gmv": 161421.48,
     "grossRevenue": 177956.74,
@@ -8702,6 +9160,7 @@
     "reviews": 145
   },
   {
+    "clientId": "client-1",
     "date": "2026-04-04",
     "gmv": 188882.62,
     "grossRevenue": 216402.73,
@@ -8721,6 +9180,7 @@
     "reviews": 216
   },
   {
+    "clientId": "client-1",
     "date": "2026-04-05",
     "gmv": 192440.23,
     "grossRevenue": 205219.73,
@@ -8740,6 +9200,7 @@
     "reviews": 95
   },
   {
+    "clientId": "client-1",
     "date": "2026-04-06",
     "gmv": 207537.06,
     "grossRevenue": 222749.7,
@@ -8759,6 +9220,7 @@
     "reviews": 150
   },
   {
+    "clientId": "client-1",
     "date": "2026-04-07",
     "gmv": 144366.05,
     "grossRevenue": 163365.18,
@@ -8778,6 +9240,7 @@
     "reviews": 136
   },
   {
+    "clientId": "client-1",
     "date": "2026-04-08",
     "gmv": 175777.99,
     "grossRevenue": 187043.11,
@@ -8797,6 +9260,7 @@
     "reviews": 117
   },
   {
+    "clientId": "client-1",
     "date": "2026-04-09",
     "gmv": 163615.53,
     "grossRevenue": 175788.84,
@@ -8816,6 +9280,7 @@
     "reviews": 49
   },
   {
+    "clientId": "client-1",
     "date": "2026-04-10",
     "gmv": 189689.8,
     "grossRevenue": 201434.29,
@@ -8835,6 +9300,7 @@
     "reviews": 103
   },
   {
+    "clientId": "client-1",
     "date": "2026-04-11",
     "gmv": 258620.64,
     "grossRevenue": 290165.13,
@@ -8854,6 +9320,7 @@
     "reviews": 136
   },
   {
+    "clientId": "client-1",
     "date": "2026-04-12",
     "gmv": 220680.44,
     "grossRevenue": 245388.63,
@@ -8873,6 +9340,7 @@
     "reviews": 149
   },
   {
+    "clientId": "client-1",
     "date": "2026-04-13",
     "gmv": 209034.12,
     "grossRevenue": 238909.3,

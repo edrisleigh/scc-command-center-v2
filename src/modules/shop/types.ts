@@ -1,4 +1,5 @@
 export interface ShopDailyMetric {
+  clientId: string
   date: string
   gmv: number
   grossRevenue: number
