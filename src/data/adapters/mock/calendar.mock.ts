@@ -14,7 +14,7 @@ function getStore(orgId: string, clientId: string): Store {
     const scope: Scope = { kind: 'client', orgId, clientId }
     store = createScopedStore<CalendarEvent[]>(scope, 'calendar.events', () =>
       (calendarData.events as CalendarEvent[])
-        .filter((e) => (e as CalendarEvent & { clientId?: string }).clientId === clientId)
+        .filter((e) => e.clientId === clientId)
         .map((e) => ({
           ...e,
           createdAt: e.createdAt ?? new Date('2026-01-01').toISOString(),

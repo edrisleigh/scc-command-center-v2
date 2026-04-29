@@ -14,7 +14,7 @@ function getStore(orgId: string, clientId: string): Store {
     const scope: Scope = { kind: 'client', orgId, clientId }
     store = createScopedStore<WorkflowTask[]>(scope, 'workflow.tasks', () =>
       (workflowData.tasks as WorkflowTask[])
-        .filter((t) => (t as WorkflowTask & { clientId?: string }).clientId === clientId)
+        .filter((t) => t.clientId === clientId)
         .map((t) => ({
           ...t,
           createdAt: t.createdAt ?? new Date('2026-01-01').toISOString(),
