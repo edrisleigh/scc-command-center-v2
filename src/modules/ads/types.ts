@@ -1,4 +1,5 @@
 export interface AdsDailyMetric {
+  clientId: string
   date: string
   adDrivenGmv: number
   adSpend: number
