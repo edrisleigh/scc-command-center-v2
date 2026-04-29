@@ -2,6 +2,7 @@ export type WorkflowRole = 'affiliate_comms' | 'media_buyer' | 'scs'
 export type WorkflowFrequency = 'daily' | 'weekly'
 
 export interface WorkflowTask {
+  clientId: string
   id: string
   role: WorkflowRole
   taskName: string

@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import { createMockShopRepository } from '../shop.mock'
+import { createMockWorkflowRepository } from '../workflow.mock'
 import { createMockVideoRepository } from '../video.mock'
 import { createMockAdsRepository } from '../ads.mock'
 import { createMockCreatorRepository } from '../creators.mock'
@@ -83,5 +84,14 @@ describe('scorecards adapter tenant scoping', () => {
     expect((await repo.getWeeklyScorecard('client-1')).length).toBeGreaterThan(0)
     expect(await repo.getWeeklyScorecard('client-999')).toEqual([])
     expect(await repo.getMonthlyScorecard('client-999')).toEqual([])
+  })
+})
+
+describe('workflow adapter tenant scoping', () => {
+  it('seeds only tasks matching the clientId', async () => {
+    if (typeof window !== 'undefined') window.localStorage.clear()
+    const repo = createMockWorkflowRepository()
+    expect((await repo.getWorkflowTasks('client-1')).length).toBeGreaterThan(0)
+    expect(await repo.getWorkflowTasks('client-999')).toEqual([])
   })
 })
