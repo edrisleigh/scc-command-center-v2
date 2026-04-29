@@ -42,6 +42,7 @@ export function createMockCalendarRepository(): CalendarRepository {
       const store = getStore(ridOrgId(clientId), clientId)
       const now = new Date().toISOString()
       const next: CalendarEvent = {
+        clientId,
         ...input,
         id: generateId('cal'),
         createdAt: now,

@@ -42,6 +42,7 @@ export function createMockWorkflowRepository(): WorkflowRepository {
       const store = getStore(ridOrgId(clientId), clientId)
       const now = new Date().toISOString()
       const next: WorkflowTask = {
+        clientId,
         ...input,
         id: generateId('wf'),
         completedThisWeek: [false, false, false, false, false],

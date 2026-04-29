@@ -17,5 +17,5 @@ export interface WorkflowTask {
 
 export type WorkflowTaskInput = Omit<
   WorkflowTask,
-  'id' | 'completedThisWeek' | 'createdAt' | 'updatedAt' | 'updatedBy'
+  'clientId' | 'id' | 'completedThisWeek' | 'createdAt' | 'updatedAt' | 'updatedBy'
 >
