@@ -1,4 +1,5 @@
 export interface WeeklyScorecard {
+  clientId: string
   weekStarting: string
   weekEnding: string
   gmv: number
@@ -18,6 +19,7 @@ export interface WeeklyScorecard {
 }
 
 export interface MonthlyScorecard {
+  clientId: string
   month: number
   year: number
   gmv: number

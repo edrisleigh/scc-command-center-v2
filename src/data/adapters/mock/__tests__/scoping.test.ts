@@ -5,6 +5,7 @@ import { createMockAdsRepository } from '../ads.mock'
 import { createMockCreatorRepository } from '../creators.mock'
 import { createMockContentRepository } from '../content.mock'
 import { createMockSamplesRepository } from '../samples.mock'
+import { createMockScorecardsRepository } from '../scorecards.mock'
 
 const range = { from: new Date('2025-01-01'), to: new Date('2026-12-31') }
 
@@ -73,5 +74,14 @@ describe('samples adapter tenant scoping', () => {
     expect(await repo.getSampleOrders('client-999')).toEqual([])
     expect(await repo.getHeroProducts('client-999')).toEqual([])
     expect(await repo.getRestocks('client-999')).toEqual([])
+  })
+})
+
+describe('scorecards adapter tenant scoping', () => {
+  it('filters weekly and monthly by clientId', async () => {
+    const repo = createMockScorecardsRepository()
+    expect((await repo.getWeeklyScorecard('client-1')).length).toBeGreaterThan(0)
+    expect(await repo.getWeeklyScorecard('client-999')).toEqual([])
+    expect(await repo.getMonthlyScorecard('client-999')).toEqual([])
   })
 })
