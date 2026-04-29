@@ -4,6 +4,7 @@ import { createMockVideoRepository } from '../video.mock'
 import { createMockAdsRepository } from '../ads.mock'
 import { createMockCreatorRepository } from '../creators.mock'
 import { createMockContentRepository } from '../content.mock'
+import { createMockSamplesRepository } from '../samples.mock'
 
 const range = { from: new Date('2025-01-01'), to: new Date('2026-12-31') }
 
@@ -61,5 +62,16 @@ describe('content adapter tenant scoping', () => {
     expect((await repo.getContentSubmissions('client-1')).length).toBeGreaterThan(0)
     expect(await repo.getContentSubmissions('client-999')).toEqual([])
     expect(await repo.getSparkCodes('client-999')).toEqual([])
+  })
+})
+
+describe('samples adapter tenant scoping', () => {
+  it('filters every getter by clientId', async () => {
+    const repo = createMockSamplesRepository()
+    expect((await repo.getProducts('client-1')).length).toBeGreaterThan(0)
+    expect(await repo.getProducts('client-999')).toEqual([])
+    expect(await repo.getSampleOrders('client-999')).toEqual([])
+    expect(await repo.getHeroProducts('client-999')).toEqual([])
+    expect(await repo.getRestocks('client-999')).toEqual([])
   })
 })

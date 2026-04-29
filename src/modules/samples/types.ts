@@ -1,4 +1,5 @@
 export interface Product {
+  clientId: string
   id: string
   shortSku: string
   productId: string
@@ -11,6 +12,7 @@ export interface Product {
 }
 
 export interface SampleOrder {
+  clientId: string
   id: string
   orderId: string
   status: 'pending' | 'shipped' | 'delivered' | 'completed' | 'cancelled'
@@ -27,6 +29,7 @@ export interface SampleOrder {
 }
 
 export interface HeroProduct {
+  clientId: string
   id: string
   productName: string
   shortSku: string
@@ -38,6 +41,7 @@ export interface HeroProduct {
 }
 
 export interface Restock {
+  clientId: string
   id: string
   productName: string
   shortSku: string

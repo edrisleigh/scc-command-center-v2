@@ -1,6 +1,7 @@
 {
   "products": [
     {
+      "clientId": "client-1",
       "id": "prod-001",
       "shortSku": "WALLY-WHT-M9",
       "productId": "7398421650123",
@@ -12,6 +13,7 @@
       "retailPrice": 49.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-002",
       "shortSku": "WALLY-NVY-M10",
       "productId": "7398421650124",
@@ -23,6 +25,7 @@
       "retailPrice": 49.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-003",
       "shortSku": "WALLY-GRY-M11",
       "productId": "7398421650125",
@@ -34,6 +37,7 @@
       "retailPrice": 49.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-004",
       "shortSku": "WENDY-WHT-W8",
       "productId": "7398421650126",
@@ -45,6 +49,7 @@
       "retailPrice": 49.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-005",
       "shortSku": "WENDY-BLK-W9",
       "productId": "7398421650127",
@@ -56,6 +61,7 @@
       "retailPrice": 49.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-006",
       "shortSku": "WENDY-PNK-W7",
       "productId": "7398421650128",
@@ -67,6 +73,7 @@
       "retailPrice": 54.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-007",
       "shortSku": "BRAD-BRN-M10",
       "productId": "7398421650129",
@@ -78,6 +85,7 @@
       "retailPrice": 74.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-008",
       "shortSku": "BRAD-TAN-M11",
       "productId": "7398421650130",
@@ -89,6 +97,7 @@
       "retailPrice": 74.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-009",
       "shortSku": "PAUL-WHT-M9",
       "productId": "7398421650131",
@@ -100,6 +109,7 @@
       "retailPrice": 59.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-010",
       "shortSku": "PAUL-BLK-M10",
       "productId": "7398421650132",
@@ -111,6 +121,7 @@
       "retailPrice": 59.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-011",
       "shortSku": "AUSTIN-WHT-M10",
       "productId": "7398421650133",
@@ -122,6 +133,7 @@
       "retailPrice": 69.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-012",
       "shortSku": "AUSTIN-BLK-M11",
       "productId": "7398421650134",
@@ -133,6 +145,7 @@
       "retailPrice": 69.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-013",
       "shortSku": "CAMDEN-NVY-M9",
       "productId": "7398421650135",
@@ -144,6 +157,7 @@
       "retailPrice": 64.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-014",
       "shortSku": "CAMDEN-GRN-M10",
       "productId": "7398421650136",
@@ -155,6 +169,7 @@
       "retailPrice": 64.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-015",
       "shortSku": "KARINA-WHT-W8",
       "productId": "7398421650137",
@@ -166,6 +181,7 @@
       "retailPrice": 59.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-016",
       "shortSku": "KARINA-BLU-W9",
       "productId": "7398421650138",
@@ -177,6 +193,7 @@
       "retailPrice": 59.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-017",
       "shortSku": "KARINA-PNK-W7",
       "productId": "7398421650139",
@@ -188,6 +205,7 @@
       "retailPrice": 59.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-018",
       "shortSku": "WALLY-SPORT-M10",
       "productId": "7398421650140",
@@ -199,6 +217,7 @@
       "retailPrice": 54.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-019",
       "shortSku": "WALLY-SPORT-M9",
       "productId": "7398421650141",
@@ -210,6 +229,7 @@
       "retailPrice": 54.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-020",
       "shortSku": "WENDY-RISE-W8",
       "productId": "7398421650142",
@@ -221,6 +241,7 @@
       "retailPrice": 64.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-021",
       "shortSku": "WENDY-RISE-W10",
       "productId": "7398421650143",
@@ -232,6 +253,7 @@
       "retailPrice": 64.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-022",
       "shortSku": "BRAD-SPORT-M10",
       "productId": "7398421650144",
@@ -243,6 +265,7 @@
       "retailPrice": 79.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-023",
       "shortSku": "PAUL-KNIT-M9",
       "productId": "7398421650145",
@@ -254,6 +277,7 @@
       "retailPrice": 69.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-024",
       "shortSku": "CAMDEN-SUEDE-M11",
       "productId": "7398421650146",
@@ -265,6 +289,7 @@
       "retailPrice": 84.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-025",
       "shortSku": "KARINA-CHIC-W8",
       "productId": "7398421650147",
@@ -276,6 +301,7 @@
       "retailPrice": 74.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-026",
       "shortSku": "WALLY-NATURAL-M10",
       "productId": "7398421650148",
@@ -287,6 +313,7 @@
       "retailPrice": 44.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-027",
       "shortSku": "WENDY-CORK-W9",
       "productId": "7398421650149",
@@ -298,6 +325,7 @@
       "retailPrice": 54.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-028",
       "shortSku": "AUSTIN-TRVL-M10",
       "productId": "7398421650150",
@@ -309,6 +337,7 @@
       "retailPrice": 74.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-029",
       "shortSku": "KARINA-WEDGE-W8",
       "productId": "7398421650151",
@@ -320,6 +349,7 @@
       "retailPrice": 89.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-030",
       "shortSku": "BRAD-LACE-M9",
       "productId": "7398421650152",
@@ -333,6 +363,7 @@
   ],
   "sampleOrders": [
     {
+      "clientId": "client-1",
       "id": "so-001",
       "orderId": "ORD-20251001-00421",
       "status": "completed",
@@ -348,6 +379,7 @@
       "shippingProvider": "UPS"
     },
     {
+      "clientId": "client-1",
       "id": "so-002",
       "orderId": "ORD-20251003-00422",
       "status": "completed",
@@ -363,6 +395,7 @@
       "shippingProvider": "USPS"
     },
     {
+      "clientId": "client-1",
       "id": "so-003",
       "orderId": "ORD-20251005-00423",
       "status": "delivered",
@@ -378,6 +411,7 @@
       "shippingProvider": "FedEx"
     },
     {
+      "clientId": "client-1",
       "id": "so-004",
       "orderId": "ORD-20251008-00424",
       "status": "shipped",
@@ -393,6 +427,7 @@
       "shippingProvider": "UPS"
     },
     {
+      "clientId": "client-1",
       "id": "so-005",
       "orderId": "ORD-20251010-00425",
       "status": "pending",
@@ -408,6 +443,7 @@
       "shippingProvider": ""
     },
     {
+      "clientId": "client-1",
       "id": "so-006",
       "orderId": "ORD-20251012-00426",
       "status": "completed",
@@ -423,6 +459,7 @@
       "shippingProvider": "USPS"
     },
     {
+      "clientId": "client-1",
       "id": "so-007",
       "orderId": "ORD-20251015-00427",
       "status": "cancelled",
@@ -438,6 +475,7 @@
       "shippingProvider": ""
     },
     {
+      "clientId": "client-1",
       "id": "so-008",
       "orderId": "ORD-20251017-00428",
       "status": "delivered",
@@ -453,6 +491,7 @@
       "shippingProvider": "FedEx"
     },
     {
+      "clientId": "client-1",
       "id": "so-009",
       "orderId": "ORD-20251020-00429",
       "status": "shipped",
@@ -468,6 +507,7 @@
       "shippingProvider": "UPS"
     },
     {
+      "clientId": "client-1",
       "id": "so-010",
       "orderId": "ORD-20251022-00430",
       "status": "completed",
@@ -483,6 +523,7 @@
       "shippingProvider": "USPS"
     },
     {
+      "clientId": "client-1",
       "id": "so-011",
       "orderId": "ORD-20251025-00431",
       "status": "pending",
@@ -498,6 +539,7 @@
       "shippingProvider": ""
     },
     {
+      "clientId": "client-1",
       "id": "so-012",
       "orderId": "ORD-20251027-00432",
       "status": "delivered",
@@ -513,6 +555,7 @@
       "shippingProvider": "FedEx"
     },
     {
+      "clientId": "client-1",
       "id": "so-013",
       "orderId": "ORD-20251030-00433",
       "status": "shipped",
@@ -528,6 +571,7 @@
       "shippingProvider": "UPS"
     },
     {
+      "clientId": "client-1",
       "id": "so-014",
       "orderId": "ORD-20251101-00434",
       "status": "completed",
@@ -543,6 +587,7 @@
       "shippingProvider": "USPS"
     },
     {
+      "clientId": "client-1",
       "id": "so-015",
       "orderId": "ORD-20251103-00435",
       "status": "pending",
@@ -558,6 +603,7 @@
       "shippingProvider": ""
     },
     {
+      "clientId": "client-1",
       "id": "so-016",
       "orderId": "ORD-20251105-00436",
       "status": "delivered",
@@ -573,6 +619,7 @@
       "shippingProvider": "FedEx"
     },
     {
+      "clientId": "client-1",
       "id": "so-017",
       "orderId": "ORD-20251107-00437",
       "status": "cancelled",
@@ -588,6 +635,7 @@
       "shippingProvider": ""
     },
     {
+      "clientId": "client-1",
       "id": "so-018",
       "orderId": "ORD-20251109-00438",
       "status": "shipped",
@@ -603,6 +651,7 @@
       "shippingProvider": "UPS"
     },
     {
+      "clientId": "client-1",
       "id": "so-019",
       "orderId": "ORD-20251112-00439",
       "status": "completed",
@@ -618,6 +667,7 @@
       "shippingProvider": "USPS"
     },
     {
+      "clientId": "client-1",
       "id": "so-020",
       "orderId": "ORD-20251114-00440",
       "status": "pending",
@@ -633,6 +683,7 @@
       "shippingProvider": ""
     },
     {
+      "clientId": "client-1",
       "id": "so-021",
       "orderId": "ORD-20251116-00441",
       "status": "delivered",
@@ -648,6 +699,7 @@
       "shippingProvider": "FedEx"
     },
     {
+      "clientId": "client-1",
       "id": "so-022",
       "orderId": "ORD-20251118-00442",
       "status": "shipped",
@@ -663,6 +715,7 @@
       "shippingProvider": "UPS"
     },
     {
+      "clientId": "client-1",
       "id": "so-023",
       "orderId": "ORD-20251120-00443",
       "status": "completed",
@@ -678,6 +731,7 @@
       "shippingProvider": "USPS"
     },
     {
+      "clientId": "client-1",
       "id": "so-024",
       "orderId": "ORD-20251122-00444",
       "status": "pending",
@@ -693,6 +747,7 @@
       "shippingProvider": ""
     },
     {
+      "clientId": "client-1",
       "id": "so-025",
       "orderId": "ORD-20251125-00445",
       "status": "shipped",
@@ -710,108 +765,119 @@
   ],
   "heroProducts": [
     {
+      "clientId": "client-1",
       "id": "hero-001",
       "productName": "HEYDUDE Wally Classic White",
       "shortSku": "WALLY-WHT-M9",
       "category": "Men's Shoes",
       "isHero": true,
-      "p28dGmv": 78450.00,
+      "p28dGmv": 78450,
       "p28dOrders": 1569,
       "p28dViews": 2340000
     },
     {
+      "clientId": "client-1",
       "id": "hero-002",
       "productName": "HEYDUDE Wendy Classic White",
       "shortSku": "WENDY-WHT-W8",
       "category": "Women's Shoes",
       "isHero": true,
-      "p28dGmv": 62180.00,
+      "p28dGmv": 62180,
       "p28dOrders": 1244,
       "p28dViews": 1890000
     },
     {
+      "clientId": "client-1",
       "id": "hero-003",
       "productName": "HEYDUDE Wally Classic Navy",
       "shortSku": "WALLY-NVY-M10",
       "category": "Men's Shoes",
       "isHero": true,
-      "p28dGmv": 45320.00,
+      "p28dGmv": 45320,
       "p28dOrders": 907,
       "p28dViews": 1120000
     },
     {
+      "clientId": "client-1",
       "id": "hero-004",
       "productName": "HEYDUDE Austin Lift White",
       "shortSku": "AUSTIN-WHT-M10",
       "category": "Men's Shoes",
       "isHero": true,
-      "p28dGmv": 38750.00,
+      "p28dGmv": 38750,
       "p28dOrders": 554,
       "p28dViews": 980000
     },
     {
+      "clientId": "client-1",
       "id": "hero-005",
       "productName": "HEYDUDE Wendy Classic Black",
       "shortSku": "WENDY-BLK-W9",
       "category": "Women's Shoes",
       "isHero": true,
-      "p28dGmv": 31240.00,
+      "p28dGmv": 31240,
       "p28dOrders": 625,
       "p28dViews": 875000
     },
     {
+      "clientId": "client-1",
       "id": "hero-006",
       "productName": "HEYDUDE Bradley Leather Brown",
       "shortSku": "BRAD-BRN-M10",
       "category": "Men's Shoes",
       "isHero": true,
-      "p28dGmv": 22180.00,
+      "p28dGmv": 22180,
       "p28dOrders": 296,
       "p28dViews": 640000
     },
     {
+      "clientId": "client-1",
       "id": "hero-007",
       "productName": "HEYDUDE Karina Canvas White",
       "shortSku": "KARINA-WHT-W8",
       "category": "Women's Shoes",
       "isHero": true,
-      "p28dGmv": 14960.00,
+      "p28dGmv": 14960,
       "p28dOrders": 249,
       "p28dViews": 520000
     },
     {
+      "clientId": "client-1",
       "id": "hero-008",
       "productName": "HEYDUDE Camden Canvas Navy",
       "shortSku": "CAMDEN-NVY-M9",
       "category": "Men's Shoes",
       "isHero": false,
-      "p28dGmv": 9750.00,
+      "p28dGmv": 9750,
       "p28dOrders": 150,
       "p28dViews": 310000
     },
     {
+      "clientId": "client-1",
       "id": "hero-009",
       "productName": "HEYDUDE Wally Sport Mesh",
       "shortSku": "WALLY-SPORT-M10",
       "category": "Men's Shoes",
       "isHero": false,
-      "p28dGmv": 7420.00,
+      "p28dGmv": 7420,
       "p28dOrders": 135,
       "p28dViews": 245000
     },
     {
+      "clientId": "client-1",
       "id": "hero-010",
       "productName": "HEYDUDE Wendy Rise",
       "shortSku": "WENDY-RISE-W8",
       "category": "Women's Shoes",
       "isHero": false,
-      "p28dGmv": 5180.00,
+      "p28dGmv": 5180,
       "p28dOrders": 80,
       "p28dViews": 198000
     }
   ],
   "restocks": [
     {
+      "clientId": "client-1",
       "id": "restock-001",
       "productName": "HEYDUDE Wally Classic White",
       "shortSku": "WALLY-WHT-M9",
@@ -820,6 +886,7 @@
       "notes": "500 units incoming from factory. Priority restock for hero SKU."
     },
     {
+      "clientId": "client-1",
       "id": "restock-002",
       "productName": "HEYDUDE Wendy Classic White",
       "shortSku": "WENDY-WHT-W8",
@@ -828,6 +895,7 @@
       "notes": "350 units. Coordinate with ops team for receiving."
     },
     {
+      "clientId": "client-1",
       "id": "restock-003",
       "productName": "HEYDUDE Wally Classic Navy",
       "shortSku": "WALLY-NVY-M10",
@@ -836,6 +904,7 @@
       "notes": "Nothing to update"
     },
     {
+      "clientId": "client-1",
       "id": "restock-004",
       "productName": "HEYDUDE Austin Lift White",
       "shortSku": "AUSTIN-WHT-M10",
@@ -844,6 +913,7 @@
       "notes": "200 units. Running low on sizes 9-11."
     },
     {
+      "clientId": "client-1",
       "id": "restock-005",
       "productName": "HEYDUDE Wendy Classic Black",
       "shortSku": "WENDY-BLK-W9",
@@ -852,6 +922,7 @@
       "notes": "Nothing to update"
     },
     {
+      "clientId": "client-1",
       "id": "restock-006",
       "productName": "HEYDUDE Bradley Leather Brown",
       "shortSku": "BRAD-BRN-M10",
@@ -860,6 +931,7 @@
       "notes": "150 units. Leather sourcing delay from supplier."
     },
     {
+      "clientId": "client-1",
       "id": "restock-007",
       "productName": "HEYDUDE Karina Canvas White",
       "shortSku": "KARINA-WHT-W8",
@@ -868,6 +940,7 @@
       "notes": "Nothing to update"
     },
     {
+      "clientId": "client-1",
       "id": "restock-008",
       "productName": "HEYDUDE Camden Canvas Navy",
       "shortSku": "CAMDEN-NVY-M9",
