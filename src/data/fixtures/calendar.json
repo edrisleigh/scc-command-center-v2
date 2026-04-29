@@ -350,6 +350,51 @@
       "type": "internal",
       "owner": "ACT Team",
       "notes": "April mid-month check-in. Review Q2 pacing and adjust creator incentive strategy."
+    },
+    {
+      "clientId": "client-2",
+      "id": "cal-apex-1",
+      "date": "2025-10-01",
+      "title": "Apex Q4 Campaign Launch",
+      "type": "campaign",
+      "owner": "Halo Agency",
+      "notes": "Kick off Q4 Apex Outdoors creator campaign. Coordinate with top 4 live creators for simultaneous launch posts."
+    },
+    {
+      "clientId": "client-2",
+      "id": "cal-apex-2",
+      "date": "2025-10-15",
+      "title": "Trailhead Boot Drop",
+      "type": "launch",
+      "owner": "Apex Brand Team",
+      "notes": "New colorway launch for Apex Trailhead Boot. Coordinate with trail_jess and ridgerunner_riley for launch day live streams."
+    },
+    {
+      "clientId": "client-2",
+      "id": "cal-apex-3",
+      "date": "2025-10-22",
+      "title": "TikTok Shop Promo - Apex Outdoors",
+      "type": "tt_promo",
+      "owner": "Media Buyer",
+      "notes": "Flash sale promotion on TikTok Shop. Ad spend increase approved. 20% off Canyon Sandal and Summit Pack."
+    },
+    {
+      "clientId": "client-2",
+      "id": "cal-apex-4",
+      "date": "2025-11-03",
+      "title": "Creator Strategy Sync",
+      "type": "internal",
+      "owner": "ACT Team",
+      "notes": "Internal review of Apex creator performance for October. Identify top performers for November incentive tiers."
+    },
+    {
+      "clientId": "client-2",
+      "id": "cal-apex-5",
+      "date": "2025-11-18",
+      "title": "Black Friday Prep - Apex",
+      "type": "campaign",
+      "owner": "Halo Agency",
+      "notes": "Final creator briefing before Black Friday. Align all 8 creators on key SKUs, promo codes, and content timing."
     }
   ]
 }

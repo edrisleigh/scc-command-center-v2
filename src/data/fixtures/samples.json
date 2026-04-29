@@ -359,6 +359,102 @@
       "skuId": "SKU-BRAD-LACE-001",
       "variation": "Black / Men's 9",
       "retailPrice": 64.99
+    },
+    {
+      "clientId": "client-2",
+      "id": "prod-apex-001",
+      "shortSku": "APEX-TRAIL-001",
+      "productId": "8201110001234",
+      "sellerSku": "APEX-TRAIL-BOOT-TAN-M10-2025",
+      "category": "Footwear",
+      "productName": "Apex Trailhead Boot",
+      "skuId": "SKU-APEX-001",
+      "variation": "Tan / Men's 10",
+      "retailPrice": 89.99
+    },
+    {
+      "clientId": "client-2",
+      "id": "prod-apex-002",
+      "shortSku": "APEX-SUMMIT-001",
+      "productId": "8201110002345",
+      "sellerSku": "APEX-SUMMIT-PACK-BLK-OS-2025",
+      "category": "Bags & Packs",
+      "productName": "Apex Summit Pack",
+      "skuId": "SKU-APEX-002",
+      "variation": "Black / One Size",
+      "retailPrice": 74.99
+    },
+    {
+      "clientId": "client-2",
+      "id": "prod-apex-003",
+      "shortSku": "APEX-RIDGE-001",
+      "productId": "8201110003456",
+      "sellerSku": "APEX-RIDGE-VEST-OLV-M-2025",
+      "category": "Apparel",
+      "productName": "Apex Ridge Vest",
+      "skuId": "SKU-APEX-003",
+      "variation": "Olive / Medium",
+      "retailPrice": 59.99
+    },
+    {
+      "clientId": "client-2",
+      "id": "prod-apex-004",
+      "shortSku": "APEX-CANYON-001",
+      "productId": "8201110004567",
+      "sellerSku": "APEX-CANYON-SANDAL-BRN-M10-2025",
+      "category": "Footwear",
+      "productName": "Apex Canyon Sandal",
+      "skuId": "SKU-APEX-004",
+      "variation": "Brown / Men's 10",
+      "retailPrice": 54.99
+    },
+    {
+      "clientId": "client-2",
+      "id": "prod-apex-005",
+      "shortSku": "APEX-ALPINE-001",
+      "productId": "8201110005678",
+      "sellerSku": "APEX-ALPINE-FLEECE-GRY-L-2025",
+      "category": "Apparel",
+      "productName": "Apex Alpine Fleece",
+      "skuId": "SKU-APEX-005",
+      "variation": "Grey / Large",
+      "retailPrice": 64.99
+    },
+    {
+      "clientId": "client-2",
+      "id": "prod-apex-006",
+      "shortSku": "APEX-MESA-001",
+      "productId": "8201110006789",
+      "sellerSku": "APEX-MESA-HIKER-SLT-M10-2025",
+      "category": "Footwear",
+      "productName": "Apex Mesa Hiker",
+      "skuId": "SKU-APEX-006",
+      "variation": "Slate / Men's 10",
+      "retailPrice": 94.99
+    },
+    {
+      "clientId": "client-2",
+      "id": "prod-apex-007",
+      "shortSku": "APEX-CREEK-001",
+      "productId": "8201110007890",
+      "sellerSku": "APEX-CREEK-SHOE-NVY-M10-2025",
+      "category": "Footwear",
+      "productName": "Apex Creek Shoe",
+      "skuId": "SKU-APEX-007",
+      "variation": "Navy / Men's 10",
+      "retailPrice": 49.99
+    },
+    {
+      "clientId": "client-2",
+      "id": "prod-apex-008",
+      "shortSku": "APEX-PEAK-001",
+      "productId": "8201110008901",
+      "sellerSku": "APEX-PEAK-CAP-RED-OS-2025",
+      "category": "Accessories",
+      "productName": "Apex Peak Cap",
+      "skuId": "SKU-APEX-008",
+      "variation": "Red / One Size",
+      "retailPrice": 29.99
     }
   ],
   "sampleOrders": [
@@ -761,6 +857,102 @@
       "deliveredTime": null,
       "trackingId": "776857930115",
       "shippingProvider": "FedEx"
+    },
+    {
+      "clientId": "client-2",
+      "id": "so-apex-001",
+      "orderId": "ORD-20251005-00801",
+      "status": "completed",
+      "creatorUsername": "@trail_jess",
+      "productName": "Apex Trailhead Boot",
+      "productSku": "APEX-TRAIL-001",
+      "variation": "Tan / Men's 10",
+      "quantity": 1,
+      "createdTime": "2025-10-05T08:30:00Z",
+      "shippedTime": "2025-10-07T13:00:00Z",
+      "deliveredTime": "2025-10-11T10:20:00Z",
+      "trackingId": "1Z888BB10234567891",
+      "shippingProvider": "UPS"
+    },
+    {
+      "clientId": "client-2",
+      "id": "so-apex-002",
+      "orderId": "ORD-20251007-00802",
+      "status": "delivered",
+      "creatorUsername": "@ridgerunner_riley",
+      "productName": "Apex Summit Pack",
+      "productSku": "APEX-SUMMIT-001",
+      "variation": "Black / One Size",
+      "quantity": 1,
+      "createdTime": "2025-10-07T09:15:00Z",
+      "shippedTime": "2025-10-09T14:30:00Z",
+      "deliveredTime": "2025-10-14T09:45:00Z",
+      "trackingId": "1Z888BB10234567892",
+      "shippingProvider": "UPS"
+    },
+    {
+      "clientId": "client-2",
+      "id": "so-apex-003",
+      "orderId": "ORD-20251010-00803",
+      "status": "shipped",
+      "creatorUsername": "@summit_sienna",
+      "productName": "Apex Ridge Vest",
+      "productSku": "APEX-RIDGE-001",
+      "variation": "Olive / Medium",
+      "quantity": 2,
+      "createdTime": "2025-10-10T11:00:00Z",
+      "shippedTime": "2025-10-13T16:00:00Z",
+      "deliveredTime": null,
+      "trackingId": "9400111202570741530614",
+      "shippingProvider": "USPS"
+    },
+    {
+      "clientId": "client-2",
+      "id": "so-apex-004",
+      "orderId": "ORD-20251015-00804",
+      "status": "pending",
+      "creatorUsername": "@hike_with_hank",
+      "productName": "Apex Mesa Hiker",
+      "productSku": "APEX-MESA-001",
+      "variation": "Slate / Men's 10",
+      "quantity": 1,
+      "createdTime": "2025-10-15T14:20:00Z",
+      "shippedTime": null,
+      "deliveredTime": null,
+      "trackingId": "",
+      "shippingProvider": "FedEx"
+    },
+    {
+      "clientId": "client-2",
+      "id": "so-apex-005",
+      "orderId": "ORD-20251020-00805",
+      "status": "completed",
+      "creatorUsername": "@sole_explorer",
+      "productName": "Apex Trailhead Boot",
+      "productSku": "APEX-TRAIL-001",
+      "variation": "Tan / Men's 10",
+      "quantity": 1,
+      "createdTime": "2025-10-20T10:00:00Z",
+      "shippedTime": "2025-10-22T12:00:00Z",
+      "deliveredTime": "2025-10-26T08:30:00Z",
+      "trackingId": "1Z888BB10234567895",
+      "shippingProvider": "UPS"
+    },
+    {
+      "clientId": "client-2",
+      "id": "so-apex-006",
+      "orderId": "ORD-20251025-00806",
+      "status": "delivered",
+      "creatorUsername": "@boots_n_blair",
+      "productName": "Apex Canyon Sandal",
+      "productSku": "APEX-CANYON-001",
+      "variation": "Brown / Men's 10",
+      "quantity": 1,
+      "createdTime": "2025-10-25T09:45:00Z",
+      "shippedTime": "2025-10-27T11:30:00Z",
+      "deliveredTime": "2025-11-01T14:00:00Z",
+      "trackingId": "9400111202570741530615",
+      "shippingProvider": "USPS"
     }
   ],
   "heroProducts": [
@@ -873,6 +1065,39 @@
       "p28dGmv": 5180,
       "p28dOrders": 80,
       "p28dViews": 198000
+    },
+    {
+      "clientId": "client-2",
+      "id": "hero-apex-001",
+      "productName": "Apex Trailhead Boot",
+      "shortSku": "APEX-TRAIL-001",
+      "category": "Footwear",
+      "isHero": true,
+      "p28dGmv": 48200,
+      "p28dOrders": 536,
+      "p28dViews": 1240000
+    },
+    {
+      "clientId": "client-2",
+      "id": "hero-apex-002",
+      "productName": "Apex Summit Pack",
+      "shortSku": "APEX-SUMMIT-001",
+      "category": "Bags & Packs",
+      "isHero": true,
+      "p28dGmv": 34800,
+      "p28dOrders": 464,
+      "p28dViews": 890000
+    },
+    {
+      "clientId": "client-2",
+      "id": "hero-apex-003",
+      "productName": "Apex Mesa Hiker",
+      "shortSku": "APEX-MESA-001",
+      "category": "Footwear",
+      "isHero": false,
+      "p28dGmv": 27600,
+      "p28dOrders": 291,
+      "p28dViews": 680000
     }
   ],
   "restocks": [
@@ -947,6 +1172,24 @@
       "hasRestock": true,
       "eta": "2025-12-20",
       "notes": "100 units. New colorway also arriving same shipment."
+    },
+    {
+      "clientId": "client-2",
+      "id": "restock-apex-001",
+      "productName": "Apex Trailhead Boot",
+      "shortSku": "APEX-TRAIL-001",
+      "hasRestock": true,
+      "eta": "2025-12-10",
+      "notes": "300 units inbound from factory. Priority SKU for Q4 campaign."
+    },
+    {
+      "clientId": "client-2",
+      "id": "restock-apex-002",
+      "productName": "Apex Summit Pack",
+      "shortSku": "APEX-SUMMIT-001",
+      "hasRestock": false,
+      "eta": null,
+      "notes": "Currently on backorder. No confirmed restock date yet."
     }
   ]
 }

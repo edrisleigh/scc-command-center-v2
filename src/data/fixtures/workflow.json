@@ -251,6 +251,76 @@
         false
       ],
       "goal": 1
+    },
+    {
+      "clientId": "client-2",
+      "id": "wf-apex-1",
+      "role": "affiliate_comms",
+      "taskName": "Daily Creator Outreach - Apex Outdoors",
+      "frequency": "daily",
+      "dayOfWeek": [],
+      "completedThisWeek": [
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "goal": 5
+    },
+    {
+      "clientId": "client-2",
+      "id": "wf-apex-2",
+      "role": "media_buyer",
+      "taskName": "Weekly Ad Spend Review",
+      "frequency": "weekly",
+      "dayOfWeek": [
+        1
+      ],
+      "completedThisWeek": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "goal": 1
+    },
+    {
+      "clientId": "client-2",
+      "id": "wf-apex-3",
+      "role": "scs",
+      "taskName": "Sample Fulfillment Check",
+      "frequency": "weekly",
+      "dayOfWeek": [
+        3
+      ],
+      "completedThisWeek": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "goal": 1
+    },
+    {
+      "clientId": "client-2",
+      "id": "wf-apex-4",
+      "role": "affiliate_comms",
+      "taskName": "Live Creator Performance Review",
+      "frequency": "weekly",
+      "dayOfWeek": [
+        5
+      ],
+      "completedThisWeek": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "goal": 1
     }
   ]
 }

@@ -389,6 +389,110 @@
       "fee": null,
       "status": "submitted",
       "brandNotes": ""
+    },
+    {
+      "clientId": "client-2",
+      "id": "cs-apex-001",
+      "type": "paid",
+      "submissionDate": "2025-10-05",
+      "creatorName": "Jessica Park",
+      "creatorHandle": "@trail_jess",
+      "videoUrl": "https://www.tiktok.com/@trail_jess/video/7401234000001",
+      "productName": "Apex Trailhead Boot",
+      "fee": 420,
+      "status": "approved",
+      "brandNotes": "Excellent outdoor setting, authentic review drove strong conversions."
+    },
+    {
+      "clientId": "client-2",
+      "id": "cs-apex-002",
+      "type": "paid",
+      "submissionDate": "2025-10-08",
+      "creatorName": "Riley Chen",
+      "creatorHandle": "@ridgerunner_riley",
+      "videoUrl": "https://www.tiktok.com/@ridgerunner_riley/video/7401234000002",
+      "productName": "Apex Summit Pack",
+      "fee": 380,
+      "status": "approved",
+      "brandNotes": "Great unboxing content, hashtag usage on point."
+    },
+    {
+      "clientId": "client-2",
+      "id": "cs-apex-003",
+      "type": "free",
+      "submissionDate": "2025-10-12",
+      "creatorName": "Sienna Walsh",
+      "creatorHandle": "@summit_sienna",
+      "videoUrl": "https://www.tiktok.com/@summit_sienna/video/7401234000003",
+      "productName": "Apex Ridge Vest",
+      "fee": null,
+      "status": "submitted",
+      "brandNotes": ""
+    },
+    {
+      "clientId": "client-2",
+      "id": "cs-apex-004",
+      "type": "paid",
+      "submissionDate": "2025-10-15",
+      "creatorName": "Hannah Blair",
+      "creatorHandle": "@boots_n_blair",
+      "videoUrl": "https://www.tiktok.com/@boots_n_blair/video/7401234000004",
+      "productName": "Apex Canyon Sandal",
+      "fee": 280,
+      "status": "in_progress",
+      "brandNotes": "Needs updated CTA in caption before approval."
+    },
+    {
+      "clientId": "client-2",
+      "id": "cs-apex-005",
+      "type": "free",
+      "submissionDate": "2025-10-18",
+      "creatorName": "Hank Okafor",
+      "creatorHandle": "@hike_with_hank",
+      "videoUrl": "https://www.tiktok.com/@hike_with_hank/video/7401234000005",
+      "productName": "Apex Trailhead Boot",
+      "fee": null,
+      "status": "approved",
+      "brandNotes": "Strong trail footage, brand logo clearly visible."
+    },
+    {
+      "clientId": "client-2",
+      "id": "cs-apex-006",
+      "type": "paid",
+      "submissionDate": "2025-10-22",
+      "creatorName": "Marcus Vega",
+      "creatorHandle": "@wandermarcus",
+      "videoUrl": "https://www.tiktok.com/@wandermarcus/video/7401234000006",
+      "productName": "Apex Alpine Fleece",
+      "fee": 320,
+      "status": "denied",
+      "brandNotes": "Video did not meet minimum length requirement. Please resubmit with 60s+ content."
+    },
+    {
+      "clientId": "client-2",
+      "id": "cs-apex-007",
+      "type": "paid",
+      "submissionDate": "2025-11-02",
+      "creatorName": "Jessica Park",
+      "creatorHandle": "@trail_jess",
+      "videoUrl": "https://www.tiktok.com/@trail_jess/video/7401234000007",
+      "productName": "Apex Summit Pack",
+      "fee": 400,
+      "status": "completed",
+      "brandNotes": "Live stream integration was excellent. Exceeded GMV targets."
+    },
+    {
+      "clientId": "client-2",
+      "id": "cs-apex-008",
+      "type": "free",
+      "submissionDate": "2025-11-05",
+      "creatorName": "Alex Reyes",
+      "creatorHandle": "@sole_explorer",
+      "videoUrl": "https://www.tiktok.com/@sole_explorer/video/7401234000008",
+      "productName": "Apex Trailhead Boot",
+      "fee": null,
+      "status": "submitted",
+      "brandNotes": ""
     }
   ],
   "sparkCodes": [
@@ -591,6 +695,56 @@
       "productName": "HEYDUDE Wally Sox",
       "expirationDate": "2026-05-05",
       "hasPermission": true
+    },
+    {
+      "clientId": "client-2",
+      "id": "sc-apex-001",
+      "creatorName": "Jessica Park",
+      "creatorHandle": "@trail_jess",
+      "videoUrl": "https://www.tiktok.com/@trail_jess/video/7401234000001",
+      "productName": "Apex Trailhead Boot",
+      "expirationDate": "2026-01-05",
+      "hasPermission": true
+    },
+    {
+      "clientId": "client-2",
+      "id": "sc-apex-002",
+      "creatorName": "Riley Chen",
+      "creatorHandle": "@ridgerunner_riley",
+      "videoUrl": "https://www.tiktok.com/@ridgerunner_riley/video/7401234000002",
+      "productName": "Apex Summit Pack",
+      "expirationDate": "2026-01-08",
+      "hasPermission": true
+    },
+    {
+      "clientId": "client-2",
+      "id": "sc-apex-003",
+      "creatorName": "Hank Okafor",
+      "creatorHandle": "@hike_with_hank",
+      "videoUrl": "https://www.tiktok.com/@hike_with_hank/video/7401234000005",
+      "productName": "Apex Trailhead Boot",
+      "expirationDate": "2026-01-18",
+      "hasPermission": false
+    },
+    {
+      "clientId": "client-2",
+      "id": "sc-apex-004",
+      "creatorName": "Sienna Walsh",
+      "creatorHandle": "@summit_sienna",
+      "videoUrl": "https://www.tiktok.com/@summit_sienna/video/7401234000003",
+      "productName": "Apex Ridge Vest",
+      "expirationDate": "2026-01-12",
+      "hasPermission": true
+    },
+    {
+      "clientId": "client-2",
+      "id": "sc-apex-005",
+      "creatorName": "Alex Reyes",
+      "creatorHandle": "@sole_explorer",
+      "videoUrl": "https://www.tiktok.com/@sole_explorer/video/7401234000008",
+      "productName": "Apex Trailhead Boot",
+      "expirationDate": "2026-02-05",
+      "hasPermission": false
     }
   ]
 }
