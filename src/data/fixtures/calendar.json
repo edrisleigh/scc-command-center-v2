@@ -1,6 +1,7 @@
 {
   "events": [
     {
+      "clientId": "client-1",
       "id": "cal-1",
       "date": "2025-10-01",
       "title": "Q4 Kickoff",
@@ -9,6 +10,7 @@
       "notes": "Kick off Q4 strategy session with full team. Review targets and assign ownership."
     },
     {
+      "clientId": "client-1",
       "id": "cal-2",
       "date": "2025-10-06",
       "title": "New Arrivals Campaign",
@@ -17,6 +19,7 @@
       "notes": "Launch new fall arrivals campaign on TikTok Shop. Focus on boosting GMV with creator-driven content."
     },
     {
+      "clientId": "client-1",
       "id": "cal-3",
       "date": "2025-10-10",
       "title": "Jelly Roll Boot Launch",
@@ -25,6 +28,7 @@
       "notes": "Official launch of the Jelly Roll collab boot. Coordinate creator seeding and TT Live."
     },
     {
+      "clientId": "client-1",
       "id": "cal-4",
       "date": "2025-10-14",
       "title": "Monthly Planning Meeting",
@@ -33,6 +37,7 @@
       "notes": "Monthly sync to review performance, align on priorities, and update the strategy levers."
     },
     {
+      "clientId": "client-1",
       "id": "cal-5",
       "date": "2025-10-17",
       "title": "TikTok Shop Super Sale",
@@ -41,6 +46,7 @@
       "notes": "TikTok platform-wide super sale event. Increase ad spend and boost creator incentives."
     },
     {
+      "clientId": "client-1",
       "id": "cal-6",
       "date": "2025-10-22",
       "title": "Slip Camp Release",
@@ -49,6 +55,7 @@
       "notes": "New slip-on camp moc style release. Bundle with sample seeding to key affiliates."
     },
     {
+      "clientId": "client-1",
       "id": "cal-7",
       "date": "2025-10-28",
       "title": "Creator Review",
@@ -57,6 +64,7 @@
       "notes": "Quarterly review of creator performance. Identify top affiliates for Q4 push."
     },
     {
+      "clientId": "client-1",
       "id": "cal-8",
       "date": "2025-11-03",
       "title": "Holiday Push",
@@ -65,6 +73,7 @@
       "notes": "Holiday season campaign kickoff. Prep creatives, finalize creator list, set up TT ads."
     },
     {
+      "clientId": "client-1",
       "id": "cal-9",
       "date": "2025-11-10",
       "title": "Monthly Planning Meeting",
@@ -73,6 +82,7 @@
       "notes": "November planning sync. Review October performance and confirm holiday campaign readiness."
     },
     {
+      "clientId": "client-1",
       "id": "cal-10",
       "date": "2025-11-17",
       "title": "Buffalo Plaid Contest",
@@ -81,6 +91,7 @@
       "notes": "UGC contest around the buffalo plaid collection. Incentivize creators with gift cards and increased commission."
     },
     {
+      "clientId": "client-1",
       "id": "cal-11",
       "date": "2025-11-24",
       "title": "Black Friday Mega Deal",
@@ -89,6 +100,7 @@
       "notes": "Black Friday TikTok Shop mega sale. Maximize ad spend efficiency and push top SKUs."
     },
     {
+      "clientId": "client-1",
       "id": "cal-12",
       "date": "2025-11-27",
       "title": "Cyber Monday Promo",
@@ -97,6 +109,7 @@
       "notes": "Cyber Monday deals extension. Activate flash coupons and creator live streams."
     },
     {
+      "clientId": "client-1",
       "id": "cal-13",
       "date": "2025-12-01",
       "title": "Creator Review",
@@ -105,6 +118,7 @@
       "notes": "End-of-year creator audit. Identify top performers and plan retention strategy."
     },
     {
+      "clientId": "client-1",
       "id": "cal-14",
       "date": "2025-12-05",
       "title": "Holiday Gift Guide Launch",
@@ -113,6 +127,7 @@
       "notes": "Push HEYDUDE as holiday gift option. Coordinate with creators on gift guide content."
     },
     {
+      "clientId": "client-1",
       "id": "cal-15",
       "date": "2025-12-08",
       "title": "Monthly Planning Meeting",
@@ -121,6 +136,7 @@
       "notes": "December strategy sync. Final Q4 push review and Q1 2026 planning kickoff."
     },
     {
+      "clientId": "client-1",
       "id": "cal-16",
       "date": "2025-12-12",
       "title": "12.12 TikTok Super Sale",
@@ -129,6 +145,7 @@
       "notes": "Annual 12.12 TikTok platform sale event. Double-down on top affiliate deals."
     },
     {
+      "clientId": "client-1",
       "id": "cal-17",
       "date": "2025-12-15",
       "title": "New Arrivals Campaign",
@@ -137,6 +154,7 @@
       "notes": "Late holiday new arrivals drop. Target gifting audience with fast shipping messaging."
     },
     {
+      "clientId": "client-1",
       "id": "cal-18",
       "date": "2025-12-19",
       "title": "Winter Clearance Campaign",
@@ -145,6 +163,7 @@
       "notes": "End of season clearance push. Clear excess inventory through TikTok Shop flash deals."
     },
     {
+      "clientId": "client-1",
       "id": "cal-19",
       "date": "2025-12-22",
       "title": "Year-End Review",
@@ -153,6 +172,7 @@
       "notes": "Full year performance review. Document learnings, celebrate wins, set targets for 2026."
     },
     {
+      "clientId": "client-1",
       "id": "cal-20",
       "date": "2025-12-29",
       "title": "New Year Teaser Launch",
@@ -161,6 +181,7 @@
       "notes": "Tease new 2026 spring collection via TikTok Live. Seed to select creators for early buzz."
     },
     {
+      "clientId": "client-1",
       "id": "cal-21",
       "date": "2026-01-05",
       "title": "Q1 2026 Kickoff",
@@ -169,6 +190,7 @@
       "notes": "Kick off Q1 2026. Align on GMV targets, creator rosters, and spring campaign calendar."
     },
     {
+      "clientId": "client-1",
       "id": "cal-22",
       "date": "2026-01-09",
       "title": "Spring Collection Launch",
@@ -177,6 +199,7 @@
       "notes": "Launch the 2026 Spring Collection. Coordinate influencer seeding and TikTok Shop product listings."
     },
     {
+      "clientId": "client-1",
       "id": "cal-23",
       "date": "2026-01-14",
       "title": "New Year New Kicks Campaign",
@@ -185,6 +208,7 @@
       "notes": "January campaign targeting resolution shoppers. Focus on fresh starts and lifestyle content."
     },
     {
+      "clientId": "client-1",
       "id": "cal-24",
       "date": "2026-01-19",
       "title": "TikTok Shop Flash Sale",
@@ -193,6 +217,7 @@
       "notes": "Platform-wide flash sale. Increase CPC bids and activate top affiliate discount codes."
     },
     {
+      "clientId": "client-1",
       "id": "cal-25",
       "date": "2026-01-26",
       "title": "Monthly Planning Meeting",
@@ -201,6 +226,7 @@
       "notes": "January recap and February campaign planning. Review early Q1 pacing vs targets."
     },
     {
+      "clientId": "client-1",
       "id": "cal-26",
       "date": "2026-02-02",
       "title": "Valentine's Day Campaign",
@@ -209,6 +235,7 @@
       "notes": "Valentine's gifting push. Activate lifestyle creators for couples content and gift-guide videos."
     },
     {
+      "clientId": "client-1",
       "id": "cal-27",
       "date": "2026-02-09",
       "title": "HEYDUDE x Creator Collab Drop",
@@ -217,6 +244,7 @@
       "notes": "Limited-edition collab with top TikTok creator. Exclusive colorway reveal and live selling event."
     },
     {
+      "clientId": "client-1",
       "id": "cal-28",
       "date": "2026-02-14",
       "title": "Valentine's Flash Promo",
@@ -225,6 +253,7 @@
       "notes": "Valentine's Day TikTok Shop exclusive promo. Push coupon codes and creator live streams."
     },
     {
+      "clientId": "client-1",
       "id": "cal-29",
       "date": "2026-02-23",
       "title": "Monthly Planning Meeting",
@@ -233,6 +262,7 @@
       "notes": "February close and March planning. Prep for spring break and St. Patrick's Day moments."
     },
     {
+      "clientId": "client-1",
       "id": "cal-30",
       "date": "2026-03-02",
       "title": "Spring Break Campaign",
@@ -241,6 +271,7 @@
       "notes": "Spring break lifestyle campaign. Target college-age shoppers with beach and outdoor content."
     },
     {
+      "clientId": "client-1",
       "id": "cal-31",
       "date": "2026-03-09",
       "title": "St. Patrick's Day Launch",
@@ -249,6 +280,7 @@
       "notes": "Limited green colorway drop for St. Patrick's Day. Flash release via TikTok Live."
     },
     {
+      "clientId": "client-1",
       "id": "cal-32",
       "date": "2026-03-16",
       "title": "TikTok Shop Deals Week",
@@ -257,6 +289,7 @@
       "notes": "Platform-wide deals week event. Coordinated ad push with category-level promotions."
     },
     {
+      "clientId": "client-1",
       "id": "cal-33",
       "date": "2026-03-23",
       "title": "Monthly Planning Meeting",
@@ -265,6 +298,7 @@
       "notes": "March close. Q1 final push review and Q2 planning preview."
     },
     {
+      "clientId": "client-1",
       "id": "cal-34",
       "date": "2026-03-30",
       "title": "Creator Review",
@@ -273,6 +307,7 @@
       "notes": "Q1 creator performance review. Identify MVPs for Q2 VIP tier. Offboard underperformers."
     },
     {
+      "clientId": "client-1",
       "id": "cal-35",
       "date": "2026-04-01",
       "title": "Q2 2026 Kickoff",
@@ -281,6 +316,7 @@
       "notes": "Q2 strategy kickoff. Introduce summer campaign themes, set GMV pacing milestones."
     },
     {
+      "clientId": "client-1",
       "id": "cal-36",
       "date": "2026-04-03",
       "title": "Easter Campaign",
@@ -289,6 +325,7 @@
       "notes": "Easter weekend shopping push. Activate gift-giving content with family lifestyle creators."
     },
     {
+      "clientId": "client-1",
       "id": "cal-37",
       "date": "2026-04-07",
       "title": "Spring Refresh Launch",
@@ -297,6 +334,7 @@
       "notes": "New pastel colorways drop for spring. Seed to 20 top lifestyle creators ahead of launch day."
     },
     {
+      "clientId": "client-1",
       "id": "cal-38",
       "date": "2026-04-10",
       "title": "TikTok Spring Sale",
@@ -305,6 +343,7 @@
       "notes": "TikTok Shop spring sale event. Platform coupons plus creator-specific discount codes."
     },
     {
+      "clientId": "client-1",
       "id": "cal-39",
       "date": "2026-04-13",
       "title": "Monthly Planning Meeting",

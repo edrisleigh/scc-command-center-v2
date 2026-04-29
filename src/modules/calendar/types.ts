@@ -1,6 +1,7 @@
 export type CalendarEventType = 'campaign' | 'launch' | 'tt_promo' | 'internal'
 
 export interface CalendarEvent {
+  clientId: string
   id: string
   date: string
   title: string
