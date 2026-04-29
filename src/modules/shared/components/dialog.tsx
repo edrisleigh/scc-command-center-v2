@@ -1,38 +1,16 @@
-import { useEffect, useRef, type ReactNode } from 'react'
+import { useEffect, useRef, type ReactNode, type RefObject } from 'react'
 import { createPortal } from 'react-dom'
 import { X } from 'lucide-react'
 import { cn } from '@/lib/utils'
 
-interface DialogProps {
-  open: boolean
-  onClose: () => void
-  children: ReactNode
-  size?: 'sm' | 'md' | 'lg' | 'xl'
-  closeOnBackdropClick?: boolean
-  'aria-label'?: string
-}
-
-const SIZE_CLASSES: Record<NonNullable<DialogProps['size']>, string> = {
-  sm: 'max-w-sm',
-  md: 'max-w-lg',
-  lg: 'max-w-2xl',
-  xl: 'max-w-4xl',
-}
-
-export function Dialog({
-  open,
-  onClose,
-  children,
-  size = 'md',
-  closeOnBackdropClick = true,
-  'aria-label': ariaLabel,
-}: DialogProps) {
-  const contentRef = useRef<HTMLDivElement>(null)
-  const previousFocusRef = useRef<HTMLElement | null>(null)
-
+export function useModalBehavior(
+  open: boolean,
+  onClose: () => void,
+  contentRef: RefObject<HTMLElement | null>,
+) {
   useEffect(() => {
     if (!open) return
-    previousFocusRef.current = document.activeElement as HTMLElement | null
+    const previousFocus = document.activeElement as HTMLElement | null
 
     const handleKey = (e: KeyboardEvent) => {
       if (e.key === 'Escape') {
@@ -76,9 +54,37 @@ export function Dialog({
       document.removeEventListener('keydown', handleKey)
       document.body.style.overflow = originalOverflow
       window.clearTimeout(focusTimer)
-      previousFocusRef.current?.focus?.()
+      previousFocus?.focus?.()
     }
-  }, [open, onClose])
+  }, [open, onClose, contentRef])
+}
+
+interface DialogProps {
+  open: boolean
+  onClose: () => void
+  children: ReactNode
+  size?: 'sm' | 'md' | 'lg' | 'xl'
+  closeOnBackdropClick?: boolean
+  'aria-label'?: string
+}
+
+const SIZE_CLASSES: Record<NonNullable<DialogProps['size']>, string> = {
+  sm: 'max-w-sm',
+  md: 'max-w-lg',
+  lg: 'max-w-2xl',
+  xl: 'max-w-4xl',
+}
+
+export function Dialog({
+  open,
+  onClose,
+  children,
+  size = 'md',
+  closeOnBackdropClick = true,
+  'aria-label': ariaLabel,
+}: DialogProps) {
+  const contentRef = useRef<HTMLDivElement>(null)
+  useModalBehavior(open, onClose, contentRef)
 
   if (!open) return null
   if (typeof document === 'undefined') return null

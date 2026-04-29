@@ -14,13 +14,16 @@ import { Route as OrgSlugRouteRouteImport } from './routes/$orgSlug/route'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as OrgSlugOverviewRouteImport } from './routes/$orgSlug/overview'
 import { Route as OrgSlugClientSlugRouteRouteImport } from './routes/$orgSlug/$clientSlug/route'
+import { Route as OrgSlugLaunchScenariosIndexRouteImport } from './routes/$orgSlug/launch-scenarios/index'
 import { Route as OrgSlugClientSlugIndexRouteImport } from './routes/$orgSlug/$clientSlug/index'
+import { Route as OrgSlugLaunchScenariosScenarioIdRouteImport } from './routes/$orgSlug/launch-scenarios/$scenarioId'
 import { Route as OrgSlugClientSlugWorkflowRouteImport } from './routes/$orgSlug/$clientSlug/workflow'
 import { Route as OrgSlugClientSlugVideosRouteImport } from './routes/$orgSlug/$clientSlug/videos'
 import { Route as OrgSlugClientSlugShopRouteImport } from './routes/$orgSlug/$clientSlug/shop'
 import { Route as OrgSlugClientSlugSettingsRouteImport } from './routes/$orgSlug/$clientSlug/settings'
 import { Route as OrgSlugClientSlugScorecardsRouteImport } from './routes/$orgSlug/$clientSlug/scorecards'
 import { Route as OrgSlugClientSlugSamplesRouteImport } from './routes/$orgSlug/$clientSlug/samples'
+import { Route as OrgSlugClientSlugLaunchRouteImport } from './routes/$orgSlug/$clientSlug/launch'
 import { Route as OrgSlugClientSlugImportRouteImport } from './routes/$orgSlug/$clientSlug/import'
 import { Route as OrgSlugClientSlugFlagsRouteImport } from './routes/$orgSlug/$clientSlug/flags'
 import { Route as OrgSlugClientSlugCreatorsRouteImport } from './routes/$orgSlug/$clientSlug/creators'
@@ -53,11 +56,23 @@ const OrgSlugClientSlugRouteRoute = OrgSlugClientSlugRouteRouteImport.update({
   path: '/$clientSlug',
   getParentRoute: () => OrgSlugRouteRoute,
 } as any)
+const OrgSlugLaunchScenariosIndexRoute =
+  OrgSlugLaunchScenariosIndexRouteImport.update({
+    id: '/launch-scenarios/',
+    path: '/launch-scenarios/',
+    getParentRoute: () => OrgSlugRouteRoute,
+  } as any)
 const OrgSlugClientSlugIndexRoute = OrgSlugClientSlugIndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => OrgSlugClientSlugRouteRoute,
 } as any)
+const OrgSlugLaunchScenariosScenarioIdRoute =
+  OrgSlugLaunchScenariosScenarioIdRouteImport.update({
+    id: '/launch-scenarios/$scenarioId',
+    path: '/launch-scenarios/$scenarioId',
+    getParentRoute: () => OrgSlugRouteRoute,
+  } as any)
 const OrgSlugClientSlugWorkflowRoute =
   OrgSlugClientSlugWorkflowRouteImport.update({
     id: '/workflow',
@@ -92,6 +107,11 @@ const OrgSlugClientSlugSamplesRoute =
     path: '/samples',
     getParentRoute: () => OrgSlugClientSlugRouteRoute,
   } as any)
+const OrgSlugClientSlugLaunchRoute = OrgSlugClientSlugLaunchRouteImport.update({
+  id: '/launch',
+  path: '/launch',
+  getParentRoute: () => OrgSlugClientSlugRouteRoute,
+} as any)
 const OrgSlugClientSlugImportRoute = OrgSlugClientSlugImportRouteImport.update({
   id: '/import',
   path: '/import',
@@ -138,13 +158,16 @@ export interface FileRoutesByFullPath {
   '/$orgSlug/$clientSlug/creators': typeof OrgSlugClientSlugCreatorsRoute
   '/$orgSlug/$clientSlug/flags': typeof OrgSlugClientSlugFlagsRoute
   '/$orgSlug/$clientSlug/import': typeof OrgSlugClientSlugImportRoute
+  '/$orgSlug/$clientSlug/launch': typeof OrgSlugClientSlugLaunchRoute
   '/$orgSlug/$clientSlug/samples': typeof OrgSlugClientSlugSamplesRoute
   '/$orgSlug/$clientSlug/scorecards': typeof OrgSlugClientSlugScorecardsRoute
   '/$orgSlug/$clientSlug/settings': typeof OrgSlugClientSlugSettingsRoute
   '/$orgSlug/$clientSlug/shop': typeof OrgSlugClientSlugShopRoute
   '/$orgSlug/$clientSlug/videos': typeof OrgSlugClientSlugVideosRoute
   '/$orgSlug/$clientSlug/workflow': typeof OrgSlugClientSlugWorkflowRoute
+  '/$orgSlug/launch-scenarios/$scenarioId': typeof OrgSlugLaunchScenariosScenarioIdRoute
   '/$orgSlug/$clientSlug/': typeof OrgSlugClientSlugIndexRoute
+  '/$orgSlug/launch-scenarios/': typeof OrgSlugLaunchScenariosIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -157,13 +180,16 @@ export interface FileRoutesByTo {
   '/$orgSlug/$clientSlug/creators': typeof OrgSlugClientSlugCreatorsRoute
   '/$orgSlug/$clientSlug/flags': typeof OrgSlugClientSlugFlagsRoute
   '/$orgSlug/$clientSlug/import': typeof OrgSlugClientSlugImportRoute
+  '/$orgSlug/$clientSlug/launch': typeof OrgSlugClientSlugLaunchRoute
   '/$orgSlug/$clientSlug/samples': typeof OrgSlugClientSlugSamplesRoute
   '/$orgSlug/$clientSlug/scorecards': typeof OrgSlugClientSlugScorecardsRoute
   '/$orgSlug/$clientSlug/settings': typeof OrgSlugClientSlugSettingsRoute
   '/$orgSlug/$clientSlug/shop': typeof OrgSlugClientSlugShopRoute
   '/$orgSlug/$clientSlug/videos': typeof OrgSlugClientSlugVideosRoute
   '/$orgSlug/$clientSlug/workflow': typeof OrgSlugClientSlugWorkflowRoute
+  '/$orgSlug/launch-scenarios/$scenarioId': typeof OrgSlugLaunchScenariosScenarioIdRoute
   '/$orgSlug/$clientSlug': typeof OrgSlugClientSlugIndexRoute
+  '/$orgSlug/launch-scenarios': typeof OrgSlugLaunchScenariosIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -178,13 +204,16 @@ export interface FileRoutesById {
   '/$orgSlug/$clientSlug/creators': typeof OrgSlugClientSlugCreatorsRoute
   '/$orgSlug/$clientSlug/flags': typeof OrgSlugClientSlugFlagsRoute
   '/$orgSlug/$clientSlug/import': typeof OrgSlugClientSlugImportRoute
+  '/$orgSlug/$clientSlug/launch': typeof OrgSlugClientSlugLaunchRoute
   '/$orgSlug/$clientSlug/samples': typeof OrgSlugClientSlugSamplesRoute
   '/$orgSlug/$clientSlug/scorecards': typeof OrgSlugClientSlugScorecardsRoute
   '/$orgSlug/$clientSlug/settings': typeof OrgSlugClientSlugSettingsRoute
   '/$orgSlug/$clientSlug/shop': typeof OrgSlugClientSlugShopRoute
   '/$orgSlug/$clientSlug/videos': typeof OrgSlugClientSlugVideosRoute
   '/$orgSlug/$clientSlug/workflow': typeof OrgSlugClientSlugWorkflowRoute
+  '/$orgSlug/launch-scenarios/$scenarioId': typeof OrgSlugLaunchScenariosScenarioIdRoute
   '/$orgSlug/$clientSlug/': typeof OrgSlugClientSlugIndexRoute
+  '/$orgSlug/launch-scenarios/': typeof OrgSlugLaunchScenariosIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -200,13 +229,16 @@ export interface FileRouteTypes {
     | '/$orgSlug/$clientSlug/creators'
     | '/$orgSlug/$clientSlug/flags'
     | '/$orgSlug/$clientSlug/import'
+    | '/$orgSlug/$clientSlug/launch'
     | '/$orgSlug/$clientSlug/samples'
     | '/$orgSlug/$clientSlug/scorecards'
     | '/$orgSlug/$clientSlug/settings'
     | '/$orgSlug/$clientSlug/shop'
     | '/$orgSlug/$clientSlug/videos'
     | '/$orgSlug/$clientSlug/workflow'
+    | '/$orgSlug/launch-scenarios/$scenarioId'
     | '/$orgSlug/$clientSlug/'
+    | '/$orgSlug/launch-scenarios/'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -219,13 +251,16 @@ export interface FileRouteTypes {
     | '/$orgSlug/$clientSlug/creators'
     | '/$orgSlug/$clientSlug/flags'
     | '/$orgSlug/$clientSlug/import'
+    | '/$orgSlug/$clientSlug/launch'
     | '/$orgSlug/$clientSlug/samples'
     | '/$orgSlug/$clientSlug/scorecards'
     | '/$orgSlug/$clientSlug/settings'
     | '/$orgSlug/$clientSlug/shop'
     | '/$orgSlug/$clientSlug/videos'
     | '/$orgSlug/$clientSlug/workflow'
+    | '/$orgSlug/launch-scenarios/$scenarioId'
     | '/$orgSlug/$clientSlug'
+    | '/$orgSlug/launch-scenarios'
   id:
     | '__root__'
     | '/'
@@ -239,13 +274,16 @@ export interface FileRouteTypes {
     | '/$orgSlug/$clientSlug/creators'
     | '/$orgSlug/$clientSlug/flags'
     | '/$orgSlug/$clientSlug/import'
+    | '/$orgSlug/$clientSlug/launch'
     | '/$orgSlug/$clientSlug/samples'
     | '/$orgSlug/$clientSlug/scorecards'
     | '/$orgSlug/$clientSlug/settings'
     | '/$orgSlug/$clientSlug/shop'
     | '/$orgSlug/$clientSlug/videos'
     | '/$orgSlug/$clientSlug/workflow'
+    | '/$orgSlug/launch-scenarios/$scenarioId'
     | '/$orgSlug/$clientSlug/'
+    | '/$orgSlug/launch-scenarios/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -291,12 +329,26 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof OrgSlugClientSlugRouteRouteImport
       parentRoute: typeof OrgSlugRouteRoute
     }
+    '/$orgSlug/launch-scenarios/': {
+      id: '/$orgSlug/launch-scenarios/'
+      path: '/launch-scenarios'
+      fullPath: '/$orgSlug/launch-scenarios/'
+      preLoaderRoute: typeof OrgSlugLaunchScenariosIndexRouteImport
+      parentRoute: typeof OrgSlugRouteRoute
+    }
     '/$orgSlug/$clientSlug/': {
       id: '/$orgSlug/$clientSlug/'
       path: '/'
       fullPath: '/$orgSlug/$clientSlug/'
       preLoaderRoute: typeof OrgSlugClientSlugIndexRouteImport
       parentRoute: typeof OrgSlugClientSlugRouteRoute
+    }
+    '/$orgSlug/launch-scenarios/$scenarioId': {
+      id: '/$orgSlug/launch-scenarios/$scenarioId'
+      path: '/launch-scenarios/$scenarioId'
+      fullPath: '/$orgSlug/launch-scenarios/$scenarioId'
+      preLoaderRoute: typeof OrgSlugLaunchScenariosScenarioIdRouteImport
+      parentRoute: typeof OrgSlugRouteRoute
     }
     '/$orgSlug/$clientSlug/workflow': {
       id: '/$orgSlug/$clientSlug/workflow'
@@ -338,6 +390,13 @@ declare module '@tanstack/react-router' {
       path: '/samples'
       fullPath: '/$orgSlug/$clientSlug/samples'
       preLoaderRoute: typeof OrgSlugClientSlugSamplesRouteImport
+      parentRoute: typeof OrgSlugClientSlugRouteRoute
+    }
+    '/$orgSlug/$clientSlug/launch': {
+      id: '/$orgSlug/$clientSlug/launch'
+      path: '/launch'
+      fullPath: '/$orgSlug/$clientSlug/launch'
+      preLoaderRoute: typeof OrgSlugClientSlugLaunchRouteImport
       parentRoute: typeof OrgSlugClientSlugRouteRoute
     }
     '/$orgSlug/$clientSlug/import': {
@@ -392,6 +451,7 @@ interface OrgSlugClientSlugRouteRouteChildren {
   OrgSlugClientSlugCreatorsRoute: typeof OrgSlugClientSlugCreatorsRoute
   OrgSlugClientSlugFlagsRoute: typeof OrgSlugClientSlugFlagsRoute
   OrgSlugClientSlugImportRoute: typeof OrgSlugClientSlugImportRoute
+  OrgSlugClientSlugLaunchRoute: typeof OrgSlugClientSlugLaunchRoute
   OrgSlugClientSlugSamplesRoute: typeof OrgSlugClientSlugSamplesRoute
   OrgSlugClientSlugScorecardsRoute: typeof OrgSlugClientSlugScorecardsRoute
   OrgSlugClientSlugSettingsRoute: typeof OrgSlugClientSlugSettingsRoute
@@ -409,6 +469,7 @@ const OrgSlugClientSlugRouteRouteChildren: OrgSlugClientSlugRouteRouteChildren =
     OrgSlugClientSlugCreatorsRoute: OrgSlugClientSlugCreatorsRoute,
     OrgSlugClientSlugFlagsRoute: OrgSlugClientSlugFlagsRoute,
     OrgSlugClientSlugImportRoute: OrgSlugClientSlugImportRoute,
+    OrgSlugClientSlugLaunchRoute: OrgSlugClientSlugLaunchRoute,
     OrgSlugClientSlugSamplesRoute: OrgSlugClientSlugSamplesRoute,
     OrgSlugClientSlugScorecardsRoute: OrgSlugClientSlugScorecardsRoute,
     OrgSlugClientSlugSettingsRoute: OrgSlugClientSlugSettingsRoute,
@@ -426,11 +487,15 @@ const OrgSlugClientSlugRouteRouteWithChildren =
 interface OrgSlugRouteRouteChildren {
   OrgSlugClientSlugRouteRoute: typeof OrgSlugClientSlugRouteRouteWithChildren
   OrgSlugOverviewRoute: typeof OrgSlugOverviewRoute
+  OrgSlugLaunchScenariosScenarioIdRoute: typeof OrgSlugLaunchScenariosScenarioIdRoute
+  OrgSlugLaunchScenariosIndexRoute: typeof OrgSlugLaunchScenariosIndexRoute
 }
 
 const OrgSlugRouteRouteChildren: OrgSlugRouteRouteChildren = {
   OrgSlugClientSlugRouteRoute: OrgSlugClientSlugRouteRouteWithChildren,
   OrgSlugOverviewRoute: OrgSlugOverviewRoute,
+  OrgSlugLaunchScenariosScenarioIdRoute: OrgSlugLaunchScenariosScenarioIdRoute,
+  OrgSlugLaunchScenariosIndexRoute: OrgSlugLaunchScenariosIndexRoute,
 }
 
 const OrgSlugRouteRouteWithChildren = OrgSlugRouteRoute._addFileChildren(

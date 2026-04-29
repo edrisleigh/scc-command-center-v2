@@ -9,6 +9,7 @@ import { createMockScorecardsRepository } from './adapters/mock/scorecards.mock'
 
 import { createMockCalendarRepository } from './adapters/mock/calendar.mock'
 import { createMockWorkflowRepository } from './adapters/mock/workflow.mock'
+import { createMockLaunchRepository } from './adapters/mock/launch.mock'
 import { createMockFreshnessRepository } from './adapters/mock/freshness.mock'
 import { createMockFlagsRepository } from './adapters/mock/flags.mock'
 
@@ -24,6 +25,7 @@ export const repositories = {
 
   calendar: createMockCalendarRepository(),
   workflow: createMockWorkflowRepository(),
+  launch: createMockLaunchRepository(),
   freshness: createMockFreshnessRepository(),
   flags: createMockFlagsRepository(),
 }
