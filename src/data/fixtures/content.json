@@ -1,6 +1,7 @@
 {
   "contentSubmissions": [
     {
+      "clientId": "client-1",
       "id": "cs-001",
       "type": "paid",
       "submissionDate": "2026-03-28",
@@ -13,6 +14,7 @@
       "brandNotes": "Great product showcase, lighting was excellent."
     },
     {
+      "clientId": "client-1",
       "id": "cs-002",
       "type": "free",
       "submissionDate": "2026-03-25",
@@ -25,6 +27,7 @@
       "brandNotes": "Organic post, strong engagement."
     },
     {
+      "clientId": "client-1",
       "id": "cs-003",
       "type": "paid",
       "submissionDate": "2026-03-30",
@@ -37,6 +40,7 @@
       "brandNotes": ""
     },
     {
+      "clientId": "client-1",
       "id": "cs-004",
       "type": "paid",
       "submissionDate": "2026-03-22",
@@ -49,6 +53,7 @@
       "brandNotes": "Awaiting second revision."
     },
     {
+      "clientId": "client-1",
       "id": "cs-005",
       "type": "free",
       "submissionDate": "2026-03-18",
@@ -61,6 +66,7 @@
       "brandNotes": "Content did not meet brand guidelines."
     },
     {
+      "clientId": "client-1",
       "id": "cs-006",
       "type": "paid",
       "submissionDate": "2026-04-01",
@@ -73,6 +79,7 @@
       "brandNotes": ""
     },
     {
+      "clientId": "client-1",
       "id": "cs-007",
       "type": "free",
       "submissionDate": "2026-03-15",
@@ -85,6 +92,7 @@
       "brandNotes": "Excellent organic reach."
     },
     {
+      "clientId": "client-1",
       "id": "cs-008",
       "type": "paid",
       "submissionDate": "2026-03-10",
@@ -97,6 +105,7 @@
       "brandNotes": "Clean edit, good call-to-action."
     },
     {
+      "clientId": "client-1",
       "id": "cs-009",
       "type": "paid",
       "submissionDate": "2026-03-05",
@@ -109,6 +118,7 @@
       "brandNotes": "Delivered on time, great aesthetic."
     },
     {
+      "clientId": "client-1",
       "id": "cs-010",
       "type": "free",
       "submissionDate": "2026-04-02",
@@ -121,6 +131,7 @@
       "brandNotes": ""
     },
     {
+      "clientId": "client-1",
       "id": "cs-011",
       "type": "paid",
       "submissionDate": "2026-02-28",
@@ -133,6 +144,7 @@
       "brandNotes": "Top performer — high GMV."
     },
     {
+      "clientId": "client-1",
       "id": "cs-012",
       "type": "paid",
       "submissionDate": "2026-03-20",
@@ -145,6 +157,7 @@
       "brandNotes": "First draft under review."
     },
     {
+      "clientId": "client-1",
       "id": "cs-013",
       "type": "free",
       "submissionDate": "2026-02-20",
@@ -157,6 +170,7 @@
       "brandNotes": "Strong style-driven content."
     },
     {
+      "clientId": "client-1",
       "id": "cs-014",
       "type": "paid",
       "submissionDate": "2026-04-04",
@@ -169,6 +183,7 @@
       "brandNotes": ""
     },
     {
+      "clientId": "client-1",
       "id": "cs-015",
       "type": "free",
       "submissionDate": "2026-03-12",
@@ -181,6 +196,7 @@
       "brandNotes": "Poor video quality."
     },
     {
+      "clientId": "client-1",
       "id": "cs-016",
       "type": "paid",
       "submissionDate": "2026-03-08",
@@ -193,6 +209,7 @@
       "brandNotes": "Consistent with brand voice."
     },
     {
+      "clientId": "client-1",
       "id": "cs-017",
       "type": "free",
       "submissionDate": "2026-04-05",
@@ -205,6 +222,7 @@
       "brandNotes": ""
     },
     {
+      "clientId": "client-1",
       "id": "cs-018",
       "type": "paid",
       "submissionDate": "2026-02-14",
@@ -217,6 +235,7 @@
       "brandNotes": "High performance. Reuse for spark ads."
     },
     {
+      "clientId": "client-1",
       "id": "cs-019",
       "type": "paid",
       "submissionDate": "2026-03-27",
@@ -229,6 +248,7 @@
       "brandNotes": "Script needs minor adjustments."
     },
     {
+      "clientId": "client-1",
       "id": "cs-020",
       "type": "free",
       "submissionDate": "2026-03-03",
@@ -241,6 +261,7 @@
       "brandNotes": "Great organic integration."
     },
     {
+      "clientId": "client-1",
       "id": "cs-021",
       "type": "paid",
       "submissionDate": "2026-02-10",
@@ -253,6 +274,7 @@
       "brandNotes": "Best performing paid post this quarter."
     },
     {
+      "clientId": "client-1",
       "id": "cs-022",
       "type": "free",
       "submissionDate": "2026-04-06",
@@ -265,6 +287,7 @@
       "brandNotes": ""
     },
     {
+      "clientId": "client-1",
       "id": "cs-023",
       "type": "paid",
       "submissionDate": "2026-03-14",
@@ -277,6 +300,7 @@
       "brandNotes": "Clean format, good hook."
     },
     {
+      "clientId": "client-1",
       "id": "cs-024",
       "type": "free",
       "submissionDate": "2026-03-02",
@@ -289,6 +313,7 @@
       "brandNotes": "Natural unboxing feel."
     },
     {
+      "clientId": "client-1",
       "id": "cs-025",
       "type": "paid",
       "submissionDate": "2026-04-07",
@@ -301,6 +326,7 @@
       "brandNotes": ""
     },
     {
+      "clientId": "client-1",
       "id": "cs-026",
       "type": "free",
       "submissionDate": "2026-02-25",
@@ -313,6 +339,7 @@
       "brandNotes": "Disclosed affiliate incorrectly."
     },
     {
+      "clientId": "client-1",
       "id": "cs-027",
       "type": "paid",
       "submissionDate": "2026-03-17",
@@ -325,6 +352,7 @@
       "brandNotes": "Revisions requested on caption."
     },
     {
+      "clientId": "client-1",
       "id": "cs-028",
       "type": "free",
       "submissionDate": "2026-03-24",
@@ -337,6 +365,7 @@
       "brandNotes": "Authentic style review."
     },
     {
+      "clientId": "client-1",
       "id": "cs-029",
       "type": "paid",
       "submissionDate": "2026-02-05",
@@ -349,6 +378,7 @@
       "brandNotes": "Used in spark ad campaign."
     },
     {
+      "clientId": "client-1",
       "id": "cs-030",
       "type": "free",
       "submissionDate": "2026-04-08",
@@ -363,6 +393,7 @@
   ],
   "sparkCodes": [
     {
+      "clientId": "client-1",
       "id": "sc-001",
       "creatorName": "Mia Torres",
       "creatorHandle": "@miatorreszz",
@@ -372,6 +403,7 @@
       "hasPermission": true
     },
     {
+      "clientId": "client-1",
       "id": "sc-002",
       "creatorName": "Hana Kim",
       "creatorHandle": "@hanakimvibes",
@@ -381,6 +413,7 @@
       "hasPermission": true
     },
     {
+      "clientId": "client-1",
       "id": "sc-003",
       "creatorName": "Priya Sharma",
       "creatorHandle": "@priyasharmafit",
@@ -390,6 +423,7 @@
       "hasPermission": true
     },
     {
+      "clientId": "client-1",
       "id": "sc-004",
       "creatorName": "Ryder James",
       "creatorHandle": "@ryderjamesfit",
@@ -399,6 +433,7 @@
       "hasPermission": true
     },
     {
+      "clientId": "client-1",
       "id": "sc-005",
       "creatorName": "Isabelle Grant",
       "creatorHandle": "@isabellegrantco",
@@ -408,6 +443,7 @@
       "hasPermission": false
     },
     {
+      "clientId": "client-1",
       "id": "sc-006",
       "creatorName": "Marcus Webb",
       "creatorHandle": "@marcuswebbstyle",
@@ -417,6 +453,7 @@
       "hasPermission": true
     },
     {
+      "clientId": "client-1",
       "id": "sc-007",
       "creatorName": "Theo Walsh",
       "creatorHandle": "@theowalshcreates",
@@ -426,6 +463,7 @@
       "hasPermission": true
     },
     {
+      "clientId": "client-1",
       "id": "sc-008",
       "creatorName": "Zara Ahmed",
       "creatorHandle": "@zaraahmeddaily",
@@ -435,6 +473,7 @@
       "hasPermission": false
     },
     {
+      "clientId": "client-1",
       "id": "sc-009",
       "creatorName": "Nadia Okafor",
       "creatorHandle": "@nadiaokaforstyle",
@@ -444,6 +483,7 @@
       "hasPermission": true
     },
     {
+      "clientId": "client-1",
       "id": "sc-010",
       "creatorName": "Bella Santos",
       "creatorHandle": "@bellasantosstyle",
@@ -453,6 +493,7 @@
       "hasPermission": true
     },
     {
+      "clientId": "client-1",
       "id": "sc-011",
       "creatorName": "Eli Patterson",
       "creatorHandle": "@elipattersoncreates",
@@ -462,6 +503,7 @@
       "hasPermission": true
     },
     {
+      "clientId": "client-1",
       "id": "sc-012",
       "creatorName": "Jake Brennan",
       "creatorHandle": "@jakebrennanfit",
@@ -471,6 +513,7 @@
       "hasPermission": true
     },
     {
+      "clientId": "client-1",
       "id": "sc-013",
       "creatorName": "Alexis Moon",
       "creatorHandle": "@alexismoonlife",
@@ -480,6 +523,7 @@
       "hasPermission": true
     },
     {
+      "clientId": "client-1",
       "id": "sc-014",
       "creatorName": "Owen Clarke",
       "creatorHandle": "@owenclarkeofficial",
@@ -489,6 +533,7 @@
       "hasPermission": false
     },
     {
+      "clientId": "client-1",
       "id": "sc-015",
       "creatorName": "Luna Park",
       "creatorHandle": "@lunaparkdaily",
@@ -498,6 +543,7 @@
       "hasPermission": true
     },
     {
+      "clientId": "client-1",
       "id": "sc-016",
       "creatorName": "Caleb Stone",
       "creatorHandle": "@calebstonecreates",
@@ -507,6 +553,7 @@
       "hasPermission": true
     },
     {
+      "clientId": "client-1",
       "id": "sc-017",
       "creatorName": "Camille Dupont",
       "creatorHandle": "@camilledupontlife",
@@ -516,6 +563,7 @@
       "hasPermission": false
     },
     {
+      "clientId": "client-1",
       "id": "sc-018",
       "creatorName": "Kylie Patel",
       "creatorHandle": "@kyliepatelfit",
@@ -525,6 +573,7 @@
       "hasPermission": true
     },
     {
+      "clientId": "client-1",
       "id": "sc-019",
       "creatorName": "Sage Monroe",
       "creatorHandle": "@sagemonroecreates",
@@ -534,6 +583,7 @@
       "hasPermission": true
     },
     {
+      "clientId": "client-1",
       "id": "sc-020",
       "creatorName": "River Hayes",
       "creatorHandle": "@riverhayesofficial",

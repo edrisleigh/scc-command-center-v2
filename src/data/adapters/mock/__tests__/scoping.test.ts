@@ -3,6 +3,7 @@ import { createMockShopRepository } from '../shop.mock'
 import { createMockVideoRepository } from '../video.mock'
 import { createMockAdsRepository } from '../ads.mock'
 import { createMockCreatorRepository } from '../creators.mock'
+import { createMockContentRepository } from '../content.mock'
 
 const range = { from: new Date('2025-01-01'), to: new Date('2026-12-31') }
 
@@ -51,5 +52,14 @@ describe('creators adapter tenant scoping', () => {
     expect(await repo.getTargetCollabs('client-999')).toEqual([])
     expect(await repo.getCollaborationData('client-999')).toEqual([])
     expect(await repo.getCreatorIncentives('client-999')).toEqual([])
+  })
+})
+
+describe('content adapter tenant scoping', () => {
+  it('returns only submissions/spark codes for the requested clientId', async () => {
+    const repo = createMockContentRepository()
+    expect((await repo.getContentSubmissions('client-1')).length).toBeGreaterThan(0)
+    expect(await repo.getContentSubmissions('client-999')).toEqual([])
+    expect(await repo.getSparkCodes('client-999')).toEqual([])
   })
 })

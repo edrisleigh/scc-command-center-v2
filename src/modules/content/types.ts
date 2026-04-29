@@ -1,4 +1,5 @@
 export interface ContentSubmission {
+  clientId: string
   id: string
   type: 'paid' | 'free'
   submissionDate: string
@@ -12,6 +13,7 @@ export interface ContentSubmission {
 }
 
 export interface SparkCode {
+  clientId: string
   id: string
   creatorName: string
   creatorHandle: string

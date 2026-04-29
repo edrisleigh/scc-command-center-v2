@@ -4,11 +4,13 @@ import type { ContentSubmission, SparkCode } from '@/modules/content/types'
 
 export function createMockContentRepository(): ContentRepository {
   return {
-    async getContentSubmissions(_clientId: string): Promise<ContentSubmission[]> {
-      return contentData.contentSubmissions as ContentSubmission[]
+    async getContentSubmissions(clientId: string): Promise<ContentSubmission[]> {
+      return (contentData.contentSubmissions as ContentSubmission[]).filter(
+        (c) => c.clientId === clientId,
+      )
     },
-    async getSparkCodes(_clientId: string): Promise<SparkCode[]> {
-      return contentData.sparkCodes as SparkCode[]
+    async getSparkCodes(clientId: string): Promise<SparkCode[]> {
+      return (contentData.sparkCodes as SparkCode[]).filter((c) => c.clientId === clientId)
     },
   }
 }
