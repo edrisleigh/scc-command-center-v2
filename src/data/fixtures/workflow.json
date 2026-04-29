@@ -321,6 +321,58 @@
         false
       ],
       "goal": 1
+    },
+    {
+      "clientId": "client-3",
+      "id": "wf-nova-1",
+      "role": "affiliate_comms",
+      "taskName": "Daily Creator Outreach - Nova Skincare",
+      "frequency": "daily",
+      "dayOfWeek": [],
+      "completedThisWeek": [
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "goal": 5
+    },
+    {
+      "clientId": "client-3",
+      "id": "wf-nova-2",
+      "role": "media_buyer",
+      "taskName": "Weekly Video Performance Review",
+      "frequency": "weekly",
+      "dayOfWeek": [
+        1
+      ],
+      "completedThisWeek": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "goal": 1
+    },
+    {
+      "clientId": "client-3",
+      "id": "wf-nova-3",
+      "role": "scs",
+      "taskName": "Content Submission QA",
+      "frequency": "weekly",
+      "dayOfWeek": [
+        3
+      ],
+      "completedThisWeek": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "goal": 1
     }
   ]
 }

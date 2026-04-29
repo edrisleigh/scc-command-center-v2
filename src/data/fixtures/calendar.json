@@ -395,6 +395,42 @@
       "type": "campaign",
       "owner": "Halo Agency",
       "notes": "Final creator briefing before Black Friday. Align all 8 creators on key SKUs, promo codes, and content timing."
+    },
+    {
+      "clientId": "client-3",
+      "id": "cal-nova-1",
+      "date": "2025-10-01",
+      "title": "Nova Q4 Glow Campaign Launch",
+      "type": "campaign",
+      "owner": "Beam Collective",
+      "notes": "Kick off Q4 Nova Skincare creator campaign. Coordinate top 3 video creators for simultaneous launch content."
+    },
+    {
+      "clientId": "client-3",
+      "id": "cal-nova-2",
+      "date": "2025-10-20",
+      "title": "Nova Hydra Serum Restock Drop",
+      "type": "launch",
+      "owner": "Nova Brand Team",
+      "notes": "New batch of Hydra Serum live on TikTok Shop. glow_with_amy and spf_savannah anchoring launch day videos."
+    },
+    {
+      "clientId": "client-3",
+      "id": "cal-nova-3",
+      "date": "2025-11-11",
+      "title": "11.11 TikTok Shop Promo",
+      "type": "tt_promo",
+      "owner": "Beam Collective",
+      "notes": "Major platform sale event. Coordinate video-heavy push \u2014 target 60+ posts across all creators."
+    },
+    {
+      "clientId": "client-3",
+      "id": "cal-nova-4",
+      "date": "2025-11-28",
+      "title": "Black Friday Live Stream Marathon",
+      "type": "internal",
+      "owner": "Beam Collective",
+      "notes": "8-hour live stream with spf_savannah and glow_with_amy rotating. Finalize product offers and live scripts."
     }
   ]
 }

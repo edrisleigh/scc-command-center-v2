@@ -141,7 +141,7 @@
       "productName": "HEYDUDE Wally Sox",
       "fee": 800,
       "status": "completed",
-      "brandNotes": "Top performer — high GMV."
+      "brandNotes": "Top performer \u2014 high GMV."
     },
     {
       "clientId": "client-1",
@@ -493,6 +493,84 @@
       "fee": null,
       "status": "submitted",
       "brandNotes": ""
+    },
+    {
+      "clientId": "client-3",
+      "id": "cs-nova-001",
+      "type": "paid",
+      "submissionDate": "2025-10-04",
+      "creatorName": "Amy Chen",
+      "creatorHandle": "@glow_with_amy",
+      "videoUrl": "https://www.tiktok.com/@glow_with_amy/video/7401235000001",
+      "productName": "Nova Hydra Serum",
+      "fee": 280,
+      "status": "approved",
+      "brandNotes": "Excellent morning routine integration. Authentic glow result showcased beautifully."
+    },
+    {
+      "clientId": "client-3",
+      "id": "cs-nova-002",
+      "type": "paid",
+      "submissionDate": "2025-10-09",
+      "creatorName": "Savannah Torres",
+      "creatorHandle": "@spf_savannah",
+      "videoUrl": "https://www.tiktok.com/@spf_savannah/video/7401235000002",
+      "productName": "Nova SPF Mineral Stick",
+      "fee": 240,
+      "status": "approved",
+      "brandNotes": "Great outdoor application demo. Hashtag usage and CTA well executed."
+    },
+    {
+      "clientId": "client-3",
+      "id": "cs-nova-003",
+      "type": "free",
+      "submissionDate": "2025-10-14",
+      "creatorName": "Dani Park",
+      "creatorHandle": "@dewy_dani",
+      "videoUrl": "https://www.tiktok.com/@dewy_dani/video/7401235000003",
+      "productName": "Nova Glow Cleanser",
+      "fee": null,
+      "status": "approved",
+      "brandNotes": "Love the dewy finish GRWM. Organic feel drove high engagement."
+    },
+    {
+      "clientId": "client-3",
+      "id": "cs-nova-004",
+      "type": "paid",
+      "submissionDate": "2025-10-19",
+      "creatorName": "Olivia Nguyen",
+      "creatorHandle": "@beautybyolivia_n",
+      "videoUrl": "https://www.tiktok.com/@beautybyolivia_n/video/7401235000004",
+      "productName": "Nova Niacinamide Toner",
+      "fee": 200,
+      "status": "in_progress",
+      "brandNotes": "Waiting on final edit. Usage rights pending."
+    },
+    {
+      "clientId": "client-3",
+      "id": "cs-nova-005",
+      "type": "free",
+      "submissionDate": "2025-10-23",
+      "creatorName": "Celeste Wang",
+      "creatorHandle": "@cleanskin_celeste",
+      "videoUrl": "https://www.tiktok.com/@cleanskin_celeste/video/7401235000005",
+      "productName": "Nova SPF Mineral Stick",
+      "fee": null,
+      "status": "submitted",
+      "brandNotes": ""
+    },
+    {
+      "clientId": "client-3",
+      "id": "cs-nova-006",
+      "type": "paid",
+      "submissionDate": "2025-11-01",
+      "creatorName": "Sara Kim",
+      "creatorHandle": "@serum_specialist_sara",
+      "videoUrl": "https://www.tiktok.com/@serum_specialist_sara/video/7401235000006",
+      "productName": "Nova Hydra Serum",
+      "fee": 160,
+      "status": "approved",
+      "brandNotes": "Strong before/after comparison. Long-form review performed well."
     }
   ],
   "sparkCodes": [
@@ -744,6 +822,46 @@
       "videoUrl": "https://www.tiktok.com/@sole_explorer/video/7401234000008",
       "productName": "Apex Trailhead Boot",
       "expirationDate": "2026-02-05",
+      "hasPermission": false
+    },
+    {
+      "clientId": "client-3",
+      "id": "sc-nova-001",
+      "creatorName": "Amy Chen",
+      "creatorHandle": "@glow_with_amy",
+      "videoUrl": "https://www.tiktok.com/@glow_with_amy/video/7401235000001",
+      "productName": "Nova Hydra Serum",
+      "expirationDate": "2026-01-04",
+      "hasPermission": true
+    },
+    {
+      "clientId": "client-3",
+      "id": "sc-nova-002",
+      "creatorName": "Savannah Torres",
+      "creatorHandle": "@spf_savannah",
+      "videoUrl": "https://www.tiktok.com/@spf_savannah/video/7401235000002",
+      "productName": "Nova SPF Mineral Stick",
+      "expirationDate": "2026-01-09",
+      "hasPermission": true
+    },
+    {
+      "clientId": "client-3",
+      "id": "sc-nova-003",
+      "creatorName": "Sara Kim",
+      "creatorHandle": "@serum_specialist_sara",
+      "videoUrl": "https://www.tiktok.com/@serum_specialist_sara/video/7401235000006",
+      "productName": "Nova Hydra Serum",
+      "expirationDate": "2026-02-01",
+      "hasPermission": true
+    },
+    {
+      "clientId": "client-3",
+      "id": "sc-nova-004",
+      "creatorName": "Dani Park",
+      "creatorHandle": "@dewy_dani",
+      "videoUrl": "https://www.tiktok.com/@dewy_dani/video/7401235000003",
+      "productName": "Nova Glow Cleanser",
+      "expirationDate": "2026-01-14",
       "hasPermission": false
     }
   ]

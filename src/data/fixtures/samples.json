@@ -455,6 +455,78 @@
       "skuId": "SKU-APEX-008",
       "variation": "Red / One Size",
       "retailPrice": 29.99
+    },
+    {
+      "clientId": "client-3",
+      "id": "prod-nova-001",
+      "shortSku": "NOVA-SERUM-001",
+      "productId": "8301110001001",
+      "sellerSku": "NOVA-HYDRA-SERUM-30ML-2025",
+      "category": "Skincare",
+      "productName": "Nova Hydra Serum",
+      "skuId": "SKU-NOVA-001",
+      "variation": "30ml / Standard",
+      "retailPrice": 34.99
+    },
+    {
+      "clientId": "client-3",
+      "id": "prod-nova-002",
+      "shortSku": "NOVA-CLEANSER-001",
+      "productId": "8301110001002",
+      "sellerSku": "NOVA-GLOW-CLEANSER-150ML-2025",
+      "category": "Skincare",
+      "productName": "Nova Glow Cleanser",
+      "skuId": "SKU-NOVA-002",
+      "variation": "150ml / Standard",
+      "retailPrice": 24.99
+    },
+    {
+      "clientId": "client-3",
+      "id": "prod-nova-003",
+      "shortSku": "NOVA-SPF-001",
+      "productId": "8301110001003",
+      "sellerSku": "NOVA-SPF-MINERAL-STICK-2025",
+      "category": "Sun Care",
+      "productName": "Nova SPF Mineral Stick",
+      "skuId": "SKU-NOVA-003",
+      "variation": "SPF 50 / Standard",
+      "retailPrice": 28.99
+    },
+    {
+      "clientId": "client-3",
+      "id": "prod-nova-004",
+      "shortSku": "NOVA-TONER-001",
+      "productId": "8301110001004",
+      "sellerSku": "NOVA-NIACINAMIDE-TONER-200ML-2025",
+      "category": "Skincare",
+      "productName": "Nova Niacinamide Toner",
+      "skuId": "SKU-NOVA-004",
+      "variation": "200ml / Standard",
+      "retailPrice": 29.99
+    },
+    {
+      "clientId": "client-3",
+      "id": "prod-nova-005",
+      "shortSku": "NOVA-CREAM-001",
+      "productId": "8301110001005",
+      "sellerSku": "NOVA-BARRIER-CREAM-50ML-2025",
+      "category": "Skincare",
+      "productName": "Nova Barrier Repair Cream",
+      "skuId": "SKU-NOVA-005",
+      "variation": "50ml / Standard",
+      "retailPrice": 38.99
+    },
+    {
+      "clientId": "client-3",
+      "id": "prod-nova-006",
+      "shortSku": "NOVA-MASK-001",
+      "productId": "8301110001006",
+      "sellerSku": "NOVA-GLOW-MASK-60ML-2025",
+      "category": "Skincare",
+      "productName": "Nova Overnight Glow Mask",
+      "skuId": "SKU-NOVA-006",
+      "variation": "60ml / Standard",
+      "retailPrice": 42.99
     }
   ],
   "sampleOrders": [
@@ -953,6 +1025,70 @@
       "deliveredTime": "2025-11-01T14:00:00Z",
       "trackingId": "9400111202570741530615",
       "shippingProvider": "USPS"
+    },
+    {
+      "clientId": "client-3",
+      "id": "so-nova-001",
+      "orderId": "ORD-20251006-01001",
+      "status": "completed",
+      "creatorUsername": "@glow_with_amy",
+      "productName": "Nova Hydra Serum",
+      "productSku": "NOVA-SERUM-001",
+      "variation": "30ml / Standard",
+      "quantity": 2,
+      "createdTime": "2025-10-06T09:00:00Z",
+      "shippedTime": "2025-10-08T12:00:00Z",
+      "deliveredTime": "2025-10-12T10:00:00Z",
+      "trackingId": "1Z999CC10300000001",
+      "shippingProvider": "UPS"
+    },
+    {
+      "clientId": "client-3",
+      "id": "so-nova-002",
+      "orderId": "ORD-20251009-01002",
+      "status": "delivered",
+      "creatorUsername": "@spf_savannah",
+      "productName": "Nova SPF Mineral Stick",
+      "productSku": "NOVA-SPF-001",
+      "variation": "SPF 50 / Standard",
+      "quantity": 3,
+      "createdTime": "2025-10-09T10:30:00Z",
+      "shippedTime": "2025-10-11T14:00:00Z",
+      "deliveredTime": "2025-10-15T09:30:00Z",
+      "trackingId": "1Z999CC10300000002",
+      "shippingProvider": "UPS"
+    },
+    {
+      "clientId": "client-3",
+      "id": "so-nova-003",
+      "orderId": "ORD-20251012-01003",
+      "status": "shipped",
+      "creatorUsername": "@dewy_dani",
+      "productName": "Nova Glow Cleanser",
+      "productSku": "NOVA-CLEANSER-001",
+      "variation": "150ml / Standard",
+      "quantity": 2,
+      "createdTime": "2025-10-12T08:00:00Z",
+      "shippedTime": "2025-10-14T11:00:00Z",
+      "deliveredTime": null,
+      "trackingId": "1Z999CC10300000003",
+      "shippingProvider": "FedEx"
+    },
+    {
+      "clientId": "client-3",
+      "id": "so-nova-004",
+      "orderId": "ORD-20251018-01004",
+      "status": "pending",
+      "creatorUsername": "@beautybyolivia_n",
+      "productName": "Nova Niacinamide Toner",
+      "productSku": "NOVA-TONER-001",
+      "variation": "200ml / Standard",
+      "quantity": 1,
+      "createdTime": "2025-10-18T14:00:00Z",
+      "shippedTime": null,
+      "deliveredTime": null,
+      "trackingId": "",
+      "shippingProvider": ""
     }
   ],
   "heroProducts": [
@@ -1098,6 +1234,28 @@
       "p28dGmv": 27600,
       "p28dOrders": 291,
       "p28dViews": 680000
+    },
+    {
+      "clientId": "client-3",
+      "id": "hero-nova-001",
+      "productName": "Nova Hydra Serum",
+      "shortSku": "NOVA-SERUM-001",
+      "category": "Skincare",
+      "isHero": true,
+      "p28dGmv": 19200,
+      "p28dOrders": 549,
+      "p28dViews": 480000
+    },
+    {
+      "clientId": "client-3",
+      "id": "hero-nova-002",
+      "productName": "Nova SPF Mineral Stick",
+      "shortSku": "NOVA-SPF-001",
+      "category": "Sun Care",
+      "isHero": true,
+      "p28dGmv": 14700,
+      "p28dOrders": 507,
+      "p28dViews": 362000
     }
   ],
   "restocks": [
@@ -1190,6 +1348,15 @@
       "hasRestock": false,
       "eta": null,
       "notes": "Currently on backorder. No confirmed restock date yet."
+    },
+    {
+      "clientId": "client-3",
+      "id": "restock-nova-001",
+      "productName": "Nova Hydra Serum",
+      "shortSku": "NOVA-SERUM-001",
+      "hasRestock": true,
+      "eta": "2025-12-15",
+      "notes": "500 units inbound. Priority SKU ahead of Q4 holiday gifting push."
     }
   ]
 }
