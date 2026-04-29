@@ -18,7 +18,7 @@ function getStore(orgId: string, clientId: string): Store {
 }
 
 function ridOrgId(_clientId: string): string {
-  return 'org-1'
+  return 'org-1' // temporary: until FlagsRepository receives orgId in Phase 4
 }
 
 export function createMockFlagsRepository(): FlagsRepository {
