@@ -52,8 +52,6 @@ export function LaunchReadonlyPage() {
                 ? 0
                 : outputs[k].tts.contributionMargin.reduce((a, b) => a + b, 0) / outputs[k].totals.ttsGmv
             }
-            onEdit={() => {}}
-            onPick={() => {}}
           />
         ))}
       </div>

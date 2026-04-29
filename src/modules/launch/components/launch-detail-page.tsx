@@ -166,8 +166,8 @@ export function LaunchDetailPage() {
                   ? 0
                   : sumArr(outputs[k].tts.contributionMargin) / outputs[k].totals.ttsGmv
               }
-              onEdit={() => !isLocked && setEditing(k)}
-              onPick={() => handlePick(k)}
+              onEdit={isLocked ? undefined : () => setEditing(k)}
+              onPick={isLocked ? undefined : () => handlePick(k)}
             />
           ))}
         </div>

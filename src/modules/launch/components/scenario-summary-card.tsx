@@ -8,8 +8,8 @@ interface ScenarioSummaryCardProps {
   outputs: ScenarioOutputs
   isChosen: boolean
   contributionPctTotal: number
-  onEdit: () => void
-  onPick: () => void
+  onEdit?: () => void
+  onPick?: () => void
 }
 
 export function ScenarioSummaryCard({
@@ -20,6 +20,7 @@ export function ScenarioSummaryCard({
   onEdit,
   onPick,
 }: ScenarioSummaryCardProps) {
+  const showActions = !!(onEdit || onPick)
   return (
     <div
       className={cn(
@@ -42,25 +43,31 @@ export function ScenarioSummaryCard({
         <Kpi label="CM%" value={formatPercent(contributionPctTotal)} />
       </div>
       <Sparkline values={outputs.netProfit} />
-      <div className="flex gap-2 mt-1">
-        <button
-          onClick={onEdit}
-          className="flex-1 rounded-md border border-border bg-accent/40 px-2 py-1.5 text-xs hover:bg-accent"
-        >
-          Edit
-        </button>
-        <button
-          onClick={onPick}
-          className={cn(
-            'flex-1 rounded-md px-2 py-1.5 text-xs font-medium',
-            isChosen
-              ? 'border border-success/40 bg-success/15 text-success'
-              : 'border border-primary/40 bg-primary/15 text-primary hover:bg-primary/25',
+      {showActions && (
+        <div className="flex gap-2 mt-1">
+          {onEdit && (
+            <button
+              onClick={onEdit}
+              className="flex-1 rounded-md border border-border bg-accent/40 px-2 py-1.5 text-xs hover:bg-accent"
+            >
+              Edit
+            </button>
           )}
-        >
-          {isChosen ? '★ Picked' : 'Pick'}
-        </button>
-      </div>
+          {onPick && (
+            <button
+              onClick={onPick}
+              className={cn(
+                'flex-1 rounded-md px-2 py-1.5 text-xs font-medium',
+                isChosen
+                  ? 'border border-success/40 bg-success/15 text-success'
+                  : 'border border-primary/40 bg-primary/15 text-primary hover:bg-primary/25',
+              )}
+            >
+              {isChosen ? '★ Picked' : 'Pick'}
+            </button>
+          )}
+        </div>
+      )}
     </div>
   )
 }
