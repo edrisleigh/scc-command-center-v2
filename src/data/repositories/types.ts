@@ -11,6 +11,7 @@ import type { CalendarEvent, CalendarEventInput } from '@/modules/calendar/types
 import type { WorkflowTask, WorkflowTaskInput } from '@/modules/workflow/types'
 import type { FreshnessRecord, DataSource } from '@/modules/freshness/types'
 import type { Flag, FlagInput, FlagStatus } from '@/modules/flags/types'
+import type { LaunchScenario } from '@/modules/launch/types'
 
 export interface AuthRepository {
   login(email: string, password: string): Promise<{ user: User; token: string }>
@@ -98,4 +99,14 @@ export interface FlagsRepository {
   assignFlag(clientId: string, id: string, assignee: string): Promise<Flag>
   addComment(clientId: string, id: string, body: string, actor: string): Promise<Flag>
   deleteFlag(clientId: string, id: string): Promise<void>
+}
+
+export interface LaunchRepository {
+  list(orgSlug: string): Promise<LaunchScenario[]>
+  getById(scenarioId: string): Promise<LaunchScenario | null>
+  getByClientSlug(orgSlug: string, clientSlug: string): Promise<LaunchScenario | null>
+  create(input: { orgSlug: string; prospectName: string; name: string }): Promise<LaunchScenario>
+  save(scenario: LaunchScenario): Promise<LaunchScenario>
+  lock(scenarioId: string, chosenScenarioKey: import('@/modules/launch/types').ScenarioKey): Promise<LaunchScenario>
+  linkToClient(scenarioId: string, clientSlug: string): Promise<LaunchScenario>
 }
