@@ -373,6 +373,76 @@
         false
       ],
       "goal": 1
+    },
+    {
+      "clientId": "client-4",
+      "id": "wf-pulse-1",
+      "role": "affiliate_comms",
+      "taskName": "Daily Creator Outreach - Pulse Audio",
+      "frequency": "daily",
+      "dayOfWeek": [],
+      "completedThisWeek": [
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "goal": 5
+    },
+    {
+      "clientId": "client-4",
+      "id": "wf-pulse-2",
+      "role": "media_buyer",
+      "taskName": "Weekly Ad Performance Review",
+      "frequency": "weekly",
+      "dayOfWeek": [
+        1
+      ],
+      "completedThisWeek": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "goal": 1
+    },
+    {
+      "clientId": "client-4",
+      "id": "wf-pulse-3",
+      "role": "scs",
+      "taskName": "Content Submission QA",
+      "frequency": "weekly",
+      "dayOfWeek": [
+        3
+      ],
+      "completedThisWeek": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "goal": 1
+    },
+    {
+      "clientId": "client-4",
+      "id": "wf-pulse-4",
+      "role": "affiliate_comms",
+      "taskName": "Weekly Sample Order Tracking",
+      "frequency": "weekly",
+      "dayOfWeek": [
+        2
+      ],
+      "completedThisWeek": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "goal": 1
     }
   ]
 }

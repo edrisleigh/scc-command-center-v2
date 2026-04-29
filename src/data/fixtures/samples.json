@@ -527,6 +527,90 @@
       "skuId": "SKU-NOVA-006",
       "variation": "60ml / Standard",
       "retailPrice": 42.99
+    },
+    {
+      "clientId": "client-4",
+      "id": "prod-pulse-001",
+      "shortSku": "PULSE-EARBUD-001",
+      "productId": "8401110001001",
+      "sellerSku": "PULSE-BASS-PLUS-EARBUDS-BLK-2025",
+      "category": "Earbuds",
+      "productName": "Pulse Bass+ Earbuds",
+      "skuId": "SKU-PULSE-001",
+      "variation": "Black / Standard",
+      "retailPrice": 89.99
+    },
+    {
+      "clientId": "client-4",
+      "id": "prod-pulse-002",
+      "shortSku": "PULSE-HEADPHONE-001",
+      "productId": "8401110001002",
+      "sellerSku": "PULSE-STUDIO-HEADPHONES-BLK-2025",
+      "category": "Headphones",
+      "productName": "Pulse Studio Headphones",
+      "skuId": "SKU-PULSE-002",
+      "variation": "Midnight Black / Standard",
+      "retailPrice": 179.99
+    },
+    {
+      "clientId": "client-4",
+      "id": "prod-pulse-003",
+      "shortSku": "PULSE-SPEAKER-001",
+      "productId": "8401110001003",
+      "sellerSku": "PULSE-SUB-BOOM-SPEAKER-BLK-2025",
+      "category": "Speakers",
+      "productName": "Pulse Sub Boom Speaker",
+      "skuId": "SKU-PULSE-003",
+      "variation": "Carbon Black / Standard",
+      "retailPrice": 249.99
+    },
+    {
+      "clientId": "client-4",
+      "id": "prod-pulse-004",
+      "shortSku": "PULSE-ANC-001",
+      "productId": "8401110001004",
+      "sellerSku": "PULSE-ANC-PRO-HEADPHONES-WHT-2025",
+      "category": "Headphones",
+      "productName": "Pulse ANC Pro Headphones",
+      "skuId": "SKU-PULSE-004",
+      "variation": "Pearl White / Standard",
+      "retailPrice": 229.99
+    },
+    {
+      "clientId": "client-4",
+      "id": "prod-pulse-005",
+      "shortSku": "PULSE-EARBUD-002",
+      "productId": "8401110001005",
+      "sellerSku": "PULSE-WIRELESS-EARBUDS-LITE-WHT-2025",
+      "category": "Earbuds",
+      "productName": "Pulse Wireless Earbuds Lite",
+      "skuId": "SKU-PULSE-005",
+      "variation": "White / Standard",
+      "retailPrice": 79.99
+    },
+    {
+      "clientId": "client-4",
+      "id": "prod-pulse-006",
+      "shortSku": "PULSE-SPEAKER-002",
+      "productId": "8401110001006",
+      "sellerSku": "PULSE-MINI-BLAST-SPEAKER-RED-2025",
+      "category": "Speakers",
+      "productName": "Pulse Mini Blast Speaker",
+      "skuId": "SKU-PULSE-006",
+      "variation": "Crimson Red / Standard",
+      "retailPrice": 129.99
+    },
+    {
+      "clientId": "client-4",
+      "id": "prod-pulse-007",
+      "shortSku": "PULSE-NECKBAND-001",
+      "productId": "8401110001007",
+      "sellerSku": "PULSE-NECKBAND-SPORT-BLK-2025",
+      "category": "Earbuds",
+      "productName": "Pulse Neckband Sport Earphones",
+      "skuId": "SKU-PULSE-007",
+      "variation": "Black / Standard",
+      "retailPrice": 99.99
     }
   ],
   "sampleOrders": [
@@ -1089,6 +1173,86 @@
       "deliveredTime": null,
       "trackingId": "",
       "shippingProvider": ""
+    },
+    {
+      "clientId": "client-4",
+      "id": "so-pulse-001",
+      "orderId": "ORD-20251005-02001",
+      "status": "completed",
+      "creatorUsername": "@beats_and_bass",
+      "productName": "Pulse Bass+ Earbuds",
+      "productSku": "PULSE-EARBUD-001",
+      "variation": "Black / Standard",
+      "quantity": 2,
+      "createdTime": "2025-10-05T09:00:00Z",
+      "shippedTime": "2025-10-07T13:00:00Z",
+      "deliveredTime": "2025-10-11T10:00:00Z",
+      "trackingId": "1Z777DD10400000001",
+      "shippingProvider": "UPS"
+    },
+    {
+      "clientId": "client-4",
+      "id": "so-pulse-002",
+      "orderId": "ORD-20251008-02002",
+      "status": "delivered",
+      "creatorUsername": "@studio_sam",
+      "productName": "Pulse Studio Headphones",
+      "productSku": "PULSE-HEADPHONE-001",
+      "variation": "Midnight Black / Standard",
+      "quantity": 1,
+      "createdTime": "2025-10-08T10:00:00Z",
+      "shippedTime": "2025-10-10T14:00:00Z",
+      "deliveredTime": "2025-10-14T09:00:00Z",
+      "trackingId": "1Z777DD10400000002",
+      "shippingProvider": "FedEx"
+    },
+    {
+      "clientId": "client-4",
+      "id": "so-pulse-003",
+      "orderId": "ORD-20251014-02003",
+      "status": "shipped",
+      "creatorUsername": "@bass_face_brad",
+      "productName": "Pulse Sub Boom Speaker",
+      "productSku": "PULSE-SPEAKER-001",
+      "variation": "Carbon Black / Standard",
+      "quantity": 1,
+      "createdTime": "2025-10-14T11:00:00Z",
+      "shippedTime": "2025-10-16T15:00:00Z",
+      "deliveredTime": null,
+      "trackingId": "1Z777DD10400000003",
+      "shippingProvider": "UPS"
+    },
+    {
+      "clientId": "client-4",
+      "id": "so-pulse-004",
+      "orderId": "ORD-20251019-02004",
+      "status": "pending",
+      "creatorUsername": "@gear_with_grace",
+      "productName": "Pulse ANC Pro Headphones",
+      "productSku": "PULSE-ANC-001",
+      "variation": "Pearl White / Standard",
+      "quantity": 1,
+      "createdTime": "2025-10-19T09:30:00Z",
+      "shippedTime": null,
+      "deliveredTime": null,
+      "trackingId": "",
+      "shippingProvider": ""
+    },
+    {
+      "clientId": "client-4",
+      "id": "so-pulse-005",
+      "orderId": "ORD-20251025-02005",
+      "status": "delivered",
+      "creatorUsername": "@headphone_henry",
+      "productName": "Pulse Bass+ Earbuds",
+      "productSku": "PULSE-EARBUD-001",
+      "variation": "Black / Standard",
+      "quantity": 2,
+      "createdTime": "2025-10-25T10:00:00Z",
+      "shippedTime": "2025-10-27T12:00:00Z",
+      "deliveredTime": "2025-10-31T10:30:00Z",
+      "trackingId": "1Z777DD10400000005",
+      "shippingProvider": "UPS"
     }
   ],
   "heroProducts": [
@@ -1256,6 +1420,28 @@
       "p28dGmv": 14700,
       "p28dOrders": 507,
       "p28dViews": 362000
+    },
+    {
+      "clientId": "client-4",
+      "id": "hero-pulse-001",
+      "productName": "Pulse Bass+ Earbuds",
+      "shortSku": "PULSE-EARBUD-001",
+      "category": "Earbuds",
+      "isHero": true,
+      "p28dGmv": 24600,
+      "p28dOrders": 274,
+      "p28dViews": 520000
+    },
+    {
+      "clientId": "client-4",
+      "id": "hero-pulse-002",
+      "productName": "Pulse Studio Headphones",
+      "shortSku": "PULSE-HEADPHONE-001",
+      "category": "Headphones",
+      "isHero": true,
+      "p28dGmv": 31400,
+      "p28dOrders": 175,
+      "p28dViews": 380000
     }
   ],
   "restocks": [
@@ -1357,6 +1543,24 @@
       "hasRestock": true,
       "eta": "2025-12-15",
       "notes": "500 units inbound. Priority SKU ahead of Q4 holiday gifting push."
+    },
+    {
+      "clientId": "client-4",
+      "id": "restock-pulse-001",
+      "productName": "Pulse Studio Headphones",
+      "shortSku": "PULSE-HEADPHONE-001",
+      "hasRestock": true,
+      "eta": "2025-12-08",
+      "notes": "200 units inbound. Priority SKU for holiday gifting campaign."
+    },
+    {
+      "clientId": "client-4",
+      "id": "restock-pulse-002",
+      "productName": "Pulse Sub Boom Speaker",
+      "shortSku": "PULSE-SPEAKER-001",
+      "hasRestock": false,
+      "eta": null,
+      "notes": "Supply chain delay from manufacturer. ETA not confirmed."
     }
   ]
 }

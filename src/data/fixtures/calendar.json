@@ -431,6 +431,51 @@
       "type": "internal",
       "owner": "Beam Collective",
       "notes": "8-hour live stream with spf_savannah and glow_with_amy rotating. Finalize product offers and live scripts."
+    },
+    {
+      "clientId": "client-4",
+      "id": "cal-pulse-1",
+      "date": "2025-10-01",
+      "title": "Pulse Audio Q4 Campaign Kickoff",
+      "type": "campaign",
+      "owner": "Beam Collective",
+      "notes": "Launch Q4 Pulse Audio creator campaign. beats_and_bass and studio_sam anchoring first-week live content."
+    },
+    {
+      "clientId": "client-4",
+      "id": "cal-pulse-2",
+      "date": "2025-10-10",
+      "title": "Pulse Bass+ Earbuds Bundle Launch",
+      "type": "launch",
+      "owner": "Pulse Brand Team",
+      "notes": "New limited bundle with carrying case. Coordinate with headphone_henry for exclusive unboxing."
+    },
+    {
+      "clientId": "client-4",
+      "id": "cal-pulse-3",
+      "date": "2025-11-01",
+      "title": "Holiday Gift Guide Push",
+      "type": "campaign",
+      "owner": "Beam Collective",
+      "notes": "All 7 creators posting gift guide content featuring Pulse audio gear. Coordinate timing for same-day push."
+    },
+    {
+      "clientId": "client-4",
+      "id": "cal-pulse-4",
+      "date": "2025-11-11",
+      "title": "11.11 TikTok Shop Promo",
+      "type": "tt_promo",
+      "owner": "Beam Collective",
+      "notes": "Platform sale event. Target 40% GMV lift vs prior week. studio_sam hosting 3-hour live."
+    },
+    {
+      "clientId": "client-4",
+      "id": "cal-pulse-5",
+      "date": "2025-11-29",
+      "title": "Cyber Weekend Live Blitz",
+      "type": "internal",
+      "owner": "Beam Collective",
+      "notes": "Coordinated weekend live push across beats_and_bass and studio_sam. Finalize flash deal pricing with Pulse team."
     }
   ]
 }

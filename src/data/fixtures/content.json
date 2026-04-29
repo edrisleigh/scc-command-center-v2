@@ -571,6 +571,97 @@
       "fee": 160,
       "status": "approved",
       "brandNotes": "Strong before/after comparison. Long-form review performed well."
+    },
+    {
+      "clientId": "client-4",
+      "id": "cs-pulse-001",
+      "type": "paid",
+      "submissionDate": "2025-10-05",
+      "creatorName": "Brandon Williams",
+      "creatorHandle": "@beats_and_bass",
+      "videoUrl": "https://www.tiktok.com/@beats_and_bass/video/7401236000001",
+      "productName": "Pulse Bass+ Earbuds",
+      "fee": 450,
+      "status": "approved",
+      "brandNotes": "Excellent sound test demo with real-world commute scenario. Drove strong add-to-cart."
+    },
+    {
+      "clientId": "client-4",
+      "id": "cs-pulse-002",
+      "type": "paid",
+      "submissionDate": "2025-10-09",
+      "creatorName": "Sam Rivera",
+      "creatorHandle": "@studio_sam",
+      "videoUrl": "https://www.tiktok.com/@studio_sam/video/7401236000002",
+      "productName": "Pulse Studio Headphones",
+      "fee": 420,
+      "status": "approved",
+      "brandNotes": "Pro audio studio comparison performed well with audiophile audience."
+    },
+    {
+      "clientId": "client-4",
+      "id": "cs-pulse-003",
+      "type": "free",
+      "submissionDate": "2025-10-13",
+      "creatorName": "Aiden Cruz",
+      "creatorHandle": "@audio_aiden",
+      "videoUrl": "https://www.tiktok.com/@audio_aiden/video/7401236000003",
+      "productName": "Pulse Wireless Earbuds Lite",
+      "fee": null,
+      "status": "approved",
+      "brandNotes": "Organic unboxing with honest review. High trust factor with followers."
+    },
+    {
+      "clientId": "client-4",
+      "id": "cs-pulse-004",
+      "type": "paid",
+      "submissionDate": "2025-10-18",
+      "creatorName": "Grace Okafor",
+      "creatorHandle": "@gear_with_grace",
+      "videoUrl": "https://www.tiktok.com/@gear_with_grace/video/7401236000004",
+      "productName": "Pulse ANC Pro Headphones",
+      "fee": 380,
+      "status": "in_progress",
+      "brandNotes": "Awaiting final cut. Noise-cancellation demo looks promising."
+    },
+    {
+      "clientId": "client-4",
+      "id": "cs-pulse-005",
+      "type": "paid",
+      "submissionDate": "2025-10-22",
+      "creatorName": "Brad Mitchell",
+      "creatorHandle": "@bass_face_brad",
+      "videoUrl": "https://www.tiktok.com/@bass_face_brad/video/7401236000005",
+      "productName": "Pulse Sub Boom Speaker",
+      "fee": 340,
+      "status": "approved",
+      "brandNotes": "Outdoor festival-style demo resonated. High share rate on this one."
+    },
+    {
+      "clientId": "client-4",
+      "id": "cs-pulse-006",
+      "type": "free",
+      "submissionDate": "2025-10-28",
+      "creatorName": "Dom Hernandez",
+      "creatorHandle": "@deep_cuts_dom",
+      "videoUrl": "https://www.tiktok.com/@deep_cuts_dom/video/7401236000006",
+      "productName": "Pulse Sub Boom Speaker",
+      "fee": null,
+      "status": "submitted",
+      "brandNotes": ""
+    },
+    {
+      "clientId": "client-4",
+      "id": "cs-pulse-007",
+      "type": "paid",
+      "submissionDate": "2025-11-04",
+      "creatorName": "Henry Park",
+      "creatorHandle": "@headphone_henry",
+      "videoUrl": "https://www.tiktok.com/@headphone_henry/video/7401236000007",
+      "productName": "Pulse Bass+ Earbuds",
+      "fee": 280,
+      "status": "approved",
+      "brandNotes": "Side-by-side competitor comparison. Good conversion uplift observed."
     }
   ],
   "sparkCodes": [
@@ -862,6 +953,46 @@
       "videoUrl": "https://www.tiktok.com/@dewy_dani/video/7401235000003",
       "productName": "Nova Glow Cleanser",
       "expirationDate": "2026-01-14",
+      "hasPermission": false
+    },
+    {
+      "clientId": "client-4",
+      "id": "sc-pulse-001",
+      "creatorName": "Brandon Williams",
+      "creatorHandle": "@beats_and_bass",
+      "videoUrl": "https://www.tiktok.com/@beats_and_bass/video/7401236000001",
+      "productName": "Pulse Bass+ Earbuds",
+      "expirationDate": "2026-01-05",
+      "hasPermission": true
+    },
+    {
+      "clientId": "client-4",
+      "id": "sc-pulse-002",
+      "creatorName": "Sam Rivera",
+      "creatorHandle": "@studio_sam",
+      "videoUrl": "https://www.tiktok.com/@studio_sam/video/7401236000002",
+      "productName": "Pulse Studio Headphones",
+      "expirationDate": "2026-01-09",
+      "hasPermission": true
+    },
+    {
+      "clientId": "client-4",
+      "id": "sc-pulse-003",
+      "creatorName": "Brad Mitchell",
+      "creatorHandle": "@bass_face_brad",
+      "videoUrl": "https://www.tiktok.com/@bass_face_brad/video/7401236000005",
+      "productName": "Pulse Sub Boom Speaker",
+      "expirationDate": "2026-01-22",
+      "hasPermission": true
+    },
+    {
+      "clientId": "client-4",
+      "id": "sc-pulse-004",
+      "creatorName": "Henry Park",
+      "creatorHandle": "@headphone_henry",
+      "videoUrl": "https://www.tiktok.com/@headphone_henry/video/7401236000007",
+      "productName": "Pulse Bass+ Earbuds",
+      "expirationDate": "2026-02-04",
       "hasPermission": false
     }
   ]
