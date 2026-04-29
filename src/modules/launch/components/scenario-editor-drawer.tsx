@@ -1,10 +1,11 @@
-import { useState } from 'react'
+import { useRef, useState } from 'react'
 import { X } from 'lucide-react'
 import { computeScenario } from '@/modules/launch/calc'
 import { SCENARIO_LABELS, MONTHS } from '@/modules/launch/constants'
 import type { ScenarioInputs, SharedInputs, ScenarioKey } from '@/modules/launch/types'
 import { formatCurrency, formatNumber, cn } from '@/lib/utils'
 import { NumInput } from './num-input'
+import { useModalBehavior } from '@/modules/shared/components/dialog'
 
 type Tab = 'tts' | 'dtc' | 'amazon' | 'outputs'
 
@@ -31,6 +32,8 @@ function DrawerInner({
 }: ScenarioEditorDrawerProps) {
   const [tab, setTab] = useState<Tab>('tts')
   const outputs = computeScenario(inputs, shared)
+  const contentRef = useRef<HTMLDivElement>(null)
+  useModalBehavior(true, onClose, contentRef)
 
   const updateArr = (
     section: 'tts' | 'dtc',
@@ -47,13 +50,14 @@ function DrawerInner({
   }
 
   return (
-    <div className="fixed inset-0 z-50 flex" role="dialog" aria-modal="true">
+    <div className="fixed inset-0 z-50 flex" role="dialog" aria-modal="true" aria-label={`Edit ${SCENARIO_LABELS[scenarioKey]}`}>
       <button
+        type="button"
         aria-label="Close drawer overlay"
         onClick={onClose}
         className="flex-1 bg-black/40"
       />
-      <div className="w-full max-w-3xl bg-card border-l border-border flex flex-col">
+      <div ref={contentRef} className="w-full max-w-3xl bg-card border-l border-border flex flex-col">
         <header className="flex items-center justify-between px-5 py-3 border-b border-border">
           <div>
             <h2 className="text-sm font-semibold text-card-foreground">
@@ -61,7 +65,7 @@ function DrawerInner({
             </h2>
             <p className="text-xs text-muted">live recalc</p>
           </div>
-          <button onClick={onClose} aria-label="Close drawer" className="text-muted hover:text-card-foreground">
+          <button type="button" onClick={onClose} aria-label="Close drawer" className="text-muted hover:text-card-foreground">
             <X className="h-4 w-4" />
           </button>
         </header>
@@ -70,6 +74,7 @@ function DrawerInner({
           {(['tts', 'dtc', 'amazon', 'outputs'] as Tab[]).map((t) => (
             <button
               key={t}
+              type="button"
               role="tab"
               aria-selected={tab === t}
               onClick={() => setTab(t)}
@@ -125,10 +130,10 @@ function DrawerInner({
         </div>
 
         <footer className="flex justify-end gap-2 px-5 py-3 border-t border-border">
-          <button onClick={onResetToTemplate} className="rounded-md border border-border bg-accent/40 px-3 py-1.5 text-xs hover:bg-accent">
+          <button type="button" onClick={onResetToTemplate} className="rounded-md border border-border bg-accent/40 px-3 py-1.5 text-xs hover:bg-accent">
             Reset to template
           </button>
-          <button onClick={onApply} className="rounded-md border border-primary/40 bg-primary/15 px-3 py-1.5 text-xs font-medium text-primary hover:bg-primary/25">
+          <button type="button" onClick={onApply} className="rounded-md border border-primary/40 bg-primary/15 px-3 py-1.5 text-xs font-medium text-primary hover:bg-primary/25">
             Apply
           </button>
         </footer>

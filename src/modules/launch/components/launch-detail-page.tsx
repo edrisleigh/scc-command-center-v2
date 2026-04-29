@@ -44,7 +44,7 @@ export function LaunchDetailPage() {
     return (
       <AgencyShell orgSlug={orgSlug} title="Launch Scenario">
         <div className="rounded-md border border-danger/40 bg-danger/10 p-4 text-sm text-danger">
-          Couldn't load this launch scenario. <button onClick={() => location.reload()} className="underline">Retry</button>
+          Couldn't load this launch scenario. <button type="button" onClick={() => location.reload()} className="underline">Retry</button>
         </div>
       </AgencyShell>
     )
@@ -119,6 +119,7 @@ export function LaunchDetailPage() {
           <ExportButton onClick={handleExportCsv} />
           {!isLocked && dirty && (
             <button
+              type="button"
               onClick={handleSave}
               disabled={save.isPending}
               className="rounded-md border border-border bg-accent/40 px-3 py-1.5 text-sm hover:bg-accent disabled:opacity-50"
@@ -128,6 +129,7 @@ export function LaunchDetailPage() {
           )}
           {!isLocked && (
             <button
+              type="button"
               onClick={() => setConfirmingLock(true)}
               disabled={!current.chosenScenarioKey || dirty || lock.isPending}
               className="rounded-md border border-primary/40 bg-primary/15 px-3 py-1.5 text-sm font-medium text-primary hover:bg-primary/25 disabled:opacity-50"

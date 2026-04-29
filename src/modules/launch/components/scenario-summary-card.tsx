@@ -47,6 +47,7 @@ export function ScenarioSummaryCard({
         <div className="flex gap-2 mt-1">
           {onEdit && (
             <button
+              type="button"
               onClick={onEdit}
               className="flex-1 rounded-md border border-border bg-accent/40 px-2 py-1.5 text-xs hover:bg-accent"
             >
@@ -55,6 +56,7 @@ export function ScenarioSummaryCard({
           )}
           {onPick && (
             <button
+              type="button"
               onClick={onPick}
               className={cn(
                 'flex-1 rounded-md px-2 py-1.5 text-xs font-medium',

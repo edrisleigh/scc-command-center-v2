@@ -71,6 +71,7 @@ export function LaunchListPage() {
           </p>
         </div>
         <button
+          type="button"
           onClick={() => setCreating(true)}
           className="inline-flex items-center gap-1.5 rounded-md border border-primary/40 bg-primary/15 px-3 py-1.5 text-sm font-medium text-primary hover:bg-primary/25"
         >
