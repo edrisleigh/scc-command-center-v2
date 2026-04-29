@@ -16,9 +16,7 @@ export function LoginPage() {
     setLoading(true)
     try {
       const result = await repositories.auth.login(email, password)
-      console.log('Login result:', result)
-      useAuthStore.getState().login(result.user)
-      console.log('Auth state after login:', useAuthStore.getState().isAuthenticated)
+      useAuthStore.getState().setFakeUser(result.user.id)
       window.location.href = '/halo/heydude/shop'
     } catch (err) {
       console.error('Login error:', err)
