@@ -1,4 +1,5 @@
 import { useVideoMetrics } from '@/modules/videos/hooks'
+import { useTenant } from '@/modules/shared/hooks/use-tenant'
 import { VideoKpis } from '@/modules/videos/components/video-kpis'
 import { VideoChart } from '@/modules/videos/components/video-chart'
 import { VideoFunnel } from '@/modules/videos/components/video-funnel'
@@ -9,7 +10,8 @@ import { FreshnessBadge } from '@/modules/freshness/components/freshness-badge'
 import { FlagButton } from '@/modules/flags/components/flag-button'
 
 export function VideosPage() {
-  const { data, isLoading } = useVideoMetrics('client-1')
+  const { client } = useTenant()
+  const { data, isLoading } = useVideoMetrics(client.id)
 
   if (isLoading) {
     return (

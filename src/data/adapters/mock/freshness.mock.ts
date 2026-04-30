@@ -1,19 +1,34 @@
 import type { FreshnessRepository } from '@/data/repositories/types'
 import type { FreshnessRecord, DataSource } from '@/modules/freshness/types'
-import { createPersistedStore } from './persist'
+import { createScopedStore, type Scope } from './persist'
 
-const store = createPersistedStore<FreshnessRecord[]>('freshness.records', () => [])
+type Store = ReturnType<typeof createScopedStore<FreshnessRecord[]>>
+
+const stores = new Map<string, Store>()
+
+function getStore(orgId: string, clientId: string): Store {
+  const key = `${orgId}:${clientId}`
+  let store = stores.get(key)
+  if (!store) {
+    const scope: Scope = { kind: 'client', orgId, clientId }
+    store = createScopedStore<FreshnessRecord[]>(scope, 'freshness.records', () => [])
+    stores.set(key, store)
+  }
+  return store
+}
 
 export function createMockFreshnessRepository(): FreshnessRepository {
   return {
-    async getFreshness(clientId: string): Promise<FreshnessRecord[]> {
-      return store.read().filter((r) => r.clientId === clientId)
+    async getFreshness(orgId: string, clientId: string): Promise<FreshnessRecord[]> {
+      return getStore(orgId, clientId).read()
     },
     async recordRefresh(
+      orgId: string,
       clientId: string,
       dataSource: DataSource,
       actor: string,
     ): Promise<FreshnessRecord> {
+      const store = getStore(orgId, clientId)
       const now = new Date().toISOString()
       const record: FreshnessRecord = {
         clientId,
@@ -22,9 +37,7 @@ export function createMockFreshnessRepository(): FreshnessRepository {
         updatedBy: actor,
       }
       const current = store.read()
-      const filtered = current.filter(
-        (r) => !(r.clientId === clientId && r.dataSource === dataSource),
-      )
+      const filtered = current.filter((r) => r.dataSource !== dataSource)
       store.write([...filtered, record])
       return record
     },

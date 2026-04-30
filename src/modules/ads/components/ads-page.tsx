@@ -1,4 +1,5 @@
 import { useAdsMetrics } from '@/modules/ads/hooks'
+import { useTenant } from '@/modules/shared/hooks/use-tenant'
 import { AdsKpis } from '@/modules/ads/components/ads-kpis'
 import { RoasChart } from '@/modules/ads/components/roas-chart'
 import { CollabsComparison } from '@/modules/ads/components/collabs-comparison'
@@ -9,7 +10,8 @@ import { FreshnessBadge } from '@/modules/freshness/components/freshness-badge'
 import { FlagButton } from '@/modules/flags/components/flag-button'
 
 export function AdsPage() {
-  const { data, isLoading } = useAdsMetrics('client-1')
+  const { client } = useTenant()
+  const { data, isLoading } = useAdsMetrics(client.id)
 
   if (isLoading) {
     return (

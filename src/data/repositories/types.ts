@@ -59,46 +59,64 @@ export interface ScorecardsRepository {
 
 
 export interface CalendarRepository {
-  getEvents(clientId: string): Promise<CalendarEvent[]>
-  createEvent(clientId: string, input: CalendarEventInput, actor: string): Promise<CalendarEvent>
+  getEvents(orgId: string, clientId: string): Promise<CalendarEvent[]>
+  createEvent(
+    orgId: string,
+    clientId: string,
+    input: CalendarEventInput,
+    actor: string,
+  ): Promise<CalendarEvent>
   updateEvent(
+    orgId: string,
     clientId: string,
     id: string,
     patch: Partial<CalendarEventInput>,
     actor: string,
   ): Promise<CalendarEvent>
-  deleteEvent(clientId: string, id: string): Promise<void>
+  deleteEvent(orgId: string, clientId: string, id: string): Promise<void>
 }
 
 export interface WorkflowRepository {
-  getWorkflowTasks(clientId: string): Promise<WorkflowTask[]>
-  createTask(clientId: string, input: WorkflowTaskInput, actor: string): Promise<WorkflowTask>
+  getWorkflowTasks(orgId: string, clientId: string): Promise<WorkflowTask[]>
+  createTask(
+    orgId: string,
+    clientId: string,
+    input: WorkflowTaskInput,
+    actor: string,
+  ): Promise<WorkflowTask>
   updateTask(
+    orgId: string,
     clientId: string,
     id: string,
     patch: Partial<Omit<WorkflowTask, 'id' | 'createdAt'>>,
     actor: string,
   ): Promise<WorkflowTask>
-  deleteTask(clientId: string, id: string): Promise<void>
+  deleteTask(orgId: string, clientId: string, id: string): Promise<void>
 }
 
 export interface FreshnessRepository {
-  getFreshness(clientId: string): Promise<FreshnessRecord[]>
-  recordRefresh(clientId: string, dataSource: DataSource, actor: string): Promise<FreshnessRecord>
+  getFreshness(orgId: string, clientId: string): Promise<FreshnessRecord[]>
+  recordRefresh(
+    orgId: string,
+    clientId: string,
+    dataSource: DataSource,
+    actor: string,
+  ): Promise<FreshnessRecord>
 }
 
 export interface FlagsRepository {
-  getFlags(clientId: string): Promise<Flag[]>
-  createFlag(clientId: string, input: FlagInput, actor: string): Promise<Flag>
+  getFlags(orgId: string, clientId: string): Promise<Flag[]>
+  createFlag(orgId: string, clientId: string, input: FlagInput, actor: string): Promise<Flag>
   updateFlagStatus(
+    orgId: string,
     clientId: string,
     id: string,
     status: FlagStatus,
     actor: string,
   ): Promise<Flag>
-  assignFlag(clientId: string, id: string, assignee: string): Promise<Flag>
-  addComment(clientId: string, id: string, body: string, actor: string): Promise<Flag>
-  deleteFlag(clientId: string, id: string): Promise<void>
+  assignFlag(orgId: string, clientId: string, id: string, assignee: string): Promise<Flag>
+  addComment(orgId: string, clientId: string, id: string, body: string, actor: string): Promise<Flag>
+  deleteFlag(orgId: string, clientId: string, id: string): Promise<void>
 }
 
 export interface LaunchRepository {

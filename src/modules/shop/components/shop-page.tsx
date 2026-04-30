@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Settings2 } from 'lucide-react'
 import { useShopMetrics } from '@/modules/shop/hooks'
+import { useTenant } from '@/modules/shared/hooks/use-tenant'
 import { ShopKpis } from '@/modules/shop/components/shop-kpis'
 import { ShopChart } from '@/modules/shop/components/shop-chart'
 import { ChannelBreakdown } from '@/modules/shop/components/channel-breakdown'
@@ -60,7 +61,8 @@ function SectionHeader({
 }
 
 export function ShopPage() {
-  const { data, isLoading, isError } = useShopMetrics('client-1')
+  const { client } = useTenant()
+  const { data, isLoading, isError } = useShopMetrics(client.id)
   const prefs = useAppStore((s) => s.shopMetricPrefs)
   const setPrefs = useAppStore((s) => s.setShopMetricPrefs)
   const [openSection, setOpenSection] = useState<SectionKey>(null)

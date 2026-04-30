@@ -2,6 +2,7 @@ import type { LaunchRepository } from '@/data/repositories/types'
 import type { LaunchScenario, ScenarioKey } from '@/modules/launch/types'
 import { defaultScenarioInputs, defaultSharedInputs } from '@/modules/launch/defaults'
 import seed from '@/data/fixtures/launch-scenarios.json'
+import organizationsData from '@/data/fixtures/organizations.json'
 
 export function createMockLaunchRepository(): LaunchRepository {
   const store = new Map<string, LaunchScenario>(
@@ -28,8 +29,11 @@ export function createMockLaunchRepository(): LaunchRepository {
     },
     async create({ orgSlug, prospectName, name }) {
       const id = `ls-${Math.random().toString(36).slice(2, 10)}`
+      const org = organizationsData.organizations.find((o) => o.slug === orgSlug)
+      const orgId = org?.id ?? 'org-1'
       const created: LaunchScenario = {
         id,
+        orgId,
         orgSlug,
         clientSlug: null,
         prospectName,

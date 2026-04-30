@@ -15,6 +15,7 @@ import { parseCsv, validateImport } from '@/lib/csv-import'
 import type { ImportDataType, ParsedData, ColumnMapping, ValidationError } from '@/lib/csv-import'
 import { useRecordRefresh } from '@/modules/freshness/hooks'
 import type { DataSource } from '@/modules/freshness/types'
+import { useTenant } from '@/modules/shared/hooks/use-tenant'
 
 const IMPORT_TO_DATA_SOURCE: Record<ImportDataType, DataSource> = {
   shop: 'shop-daily',
@@ -85,6 +86,7 @@ const TARGET_FIELDS: Record<ImportDataType, { field: string; label: string }[]> 
 const STEP_LABELS = ['Data Type', 'Upload', 'Map Columns', 'Preview', 'Confirm']
 
 export function CsvImportWizard() {
+  const { org, client } = useTenant()
   const [step, setStep] = useState(0)
   const [dataType, setDataType] = useState<ImportDataType | null>(null)
   const [parsedData, setParsedData] = useState<ParsedData | null>(null)
@@ -95,7 +97,7 @@ export function CsvImportWizard() {
   const [importComplete, setImportComplete] = useState(false)
   const [isDragging, setIsDragging] = useState(false)
   const fileInputRef = useRef<HTMLInputElement>(null)
-  const recordRefresh = useRecordRefresh('client-1')
+  const recordRefresh = useRecordRefresh(org.id, client.id)
 
   const handleFileSelect = useCallback(
     async (file: File) => {

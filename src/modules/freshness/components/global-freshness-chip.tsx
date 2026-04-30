@@ -3,11 +3,8 @@ import { formatDistanceToNow, parseISO, format } from 'date-fns'
 import { Activity } from 'lucide-react'
 import { useFreshness } from '@/modules/freshness/hooks'
 import { DATA_SOURCE_LABELS, type DataSource } from '@/modules/freshness/types'
+import { useTenant } from '@/modules/shared/hooks/use-tenant'
 import { cn } from '@/lib/utils'
-
-interface GlobalFreshnessChipProps {
-  clientId?: string
-}
 
 const SOURCE_ORDER: DataSource[] = [
   'shop-daily',
@@ -21,8 +18,9 @@ const SOURCE_ORDER: DataSource[] = [
   'workflow',
 ]
 
-export function GlobalFreshnessChip({ clientId = 'client-1' }: GlobalFreshnessChipProps) {
-  const { data } = useFreshness(clientId)
+export function GlobalFreshnessChip() {
+  const { org, client } = useTenant()
+  const { data } = useFreshness(org.id, client.id)
   const [open, setOpen] = useState(false)
   const ref = useRef<HTMLDivElement>(null)
 

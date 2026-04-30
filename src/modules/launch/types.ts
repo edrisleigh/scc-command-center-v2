@@ -30,6 +30,7 @@ export interface ScenarioInputs {
 
 export interface LaunchScenario {
   id: string
+  orgId: string
   orgSlug: string
   clientSlug: string | null
   prospectName: string

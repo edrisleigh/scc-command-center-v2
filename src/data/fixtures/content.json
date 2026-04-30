@@ -1,6 +1,7 @@
 {
   "contentSubmissions": [
     {
+      "clientId": "client-1",
       "id": "cs-001",
       "type": "paid",
       "submissionDate": "2026-03-28",
@@ -13,6 +14,7 @@
       "brandNotes": "Great product showcase, lighting was excellent."
     },
     {
+      "clientId": "client-1",
       "id": "cs-002",
       "type": "free",
       "submissionDate": "2026-03-25",
@@ -25,6 +27,7 @@
       "brandNotes": "Organic post, strong engagement."
     },
     {
+      "clientId": "client-1",
       "id": "cs-003",
       "type": "paid",
       "submissionDate": "2026-03-30",
@@ -37,6 +40,7 @@
       "brandNotes": ""
     },
     {
+      "clientId": "client-1",
       "id": "cs-004",
       "type": "paid",
       "submissionDate": "2026-03-22",
@@ -49,6 +53,7 @@
       "brandNotes": "Awaiting second revision."
     },
     {
+      "clientId": "client-1",
       "id": "cs-005",
       "type": "free",
       "submissionDate": "2026-03-18",
@@ -61,6 +66,7 @@
       "brandNotes": "Content did not meet brand guidelines."
     },
     {
+      "clientId": "client-1",
       "id": "cs-006",
       "type": "paid",
       "submissionDate": "2026-04-01",
@@ -73,6 +79,7 @@
       "brandNotes": ""
     },
     {
+      "clientId": "client-1",
       "id": "cs-007",
       "type": "free",
       "submissionDate": "2026-03-15",
@@ -85,6 +92,7 @@
       "brandNotes": "Excellent organic reach."
     },
     {
+      "clientId": "client-1",
       "id": "cs-008",
       "type": "paid",
       "submissionDate": "2026-03-10",
@@ -97,6 +105,7 @@
       "brandNotes": "Clean edit, good call-to-action."
     },
     {
+      "clientId": "client-1",
       "id": "cs-009",
       "type": "paid",
       "submissionDate": "2026-03-05",
@@ -109,6 +118,7 @@
       "brandNotes": "Delivered on time, great aesthetic."
     },
     {
+      "clientId": "client-1",
       "id": "cs-010",
       "type": "free",
       "submissionDate": "2026-04-02",
@@ -121,6 +131,7 @@
       "brandNotes": ""
     },
     {
+      "clientId": "client-1",
       "id": "cs-011",
       "type": "paid",
       "submissionDate": "2026-02-28",
@@ -130,9 +141,10 @@
       "productName": "HEYDUDE Wally Sox",
       "fee": 800,
       "status": "completed",
-      "brandNotes": "Top performer — high GMV."
+      "brandNotes": "Top performer \u2014 high GMV."
     },
     {
+      "clientId": "client-1",
       "id": "cs-012",
       "type": "paid",
       "submissionDate": "2026-03-20",
@@ -145,6 +157,7 @@
       "brandNotes": "First draft under review."
     },
     {
+      "clientId": "client-1",
       "id": "cs-013",
       "type": "free",
       "submissionDate": "2026-02-20",
@@ -157,6 +170,7 @@
       "brandNotes": "Strong style-driven content."
     },
     {
+      "clientId": "client-1",
       "id": "cs-014",
       "type": "paid",
       "submissionDate": "2026-04-04",
@@ -169,6 +183,7 @@
       "brandNotes": ""
     },
     {
+      "clientId": "client-1",
       "id": "cs-015",
       "type": "free",
       "submissionDate": "2026-03-12",
@@ -181,6 +196,7 @@
       "brandNotes": "Poor video quality."
     },
     {
+      "clientId": "client-1",
       "id": "cs-016",
       "type": "paid",
       "submissionDate": "2026-03-08",
@@ -193,6 +209,7 @@
       "brandNotes": "Consistent with brand voice."
     },
     {
+      "clientId": "client-1",
       "id": "cs-017",
       "type": "free",
       "submissionDate": "2026-04-05",
@@ -205,6 +222,7 @@
       "brandNotes": ""
     },
     {
+      "clientId": "client-1",
       "id": "cs-018",
       "type": "paid",
       "submissionDate": "2026-02-14",
@@ -217,6 +235,7 @@
       "brandNotes": "High performance. Reuse for spark ads."
     },
     {
+      "clientId": "client-1",
       "id": "cs-019",
       "type": "paid",
       "submissionDate": "2026-03-27",
@@ -229,6 +248,7 @@
       "brandNotes": "Script needs minor adjustments."
     },
     {
+      "clientId": "client-1",
       "id": "cs-020",
       "type": "free",
       "submissionDate": "2026-03-03",
@@ -241,6 +261,7 @@
       "brandNotes": "Great organic integration."
     },
     {
+      "clientId": "client-1",
       "id": "cs-021",
       "type": "paid",
       "submissionDate": "2026-02-10",
@@ -253,6 +274,7 @@
       "brandNotes": "Best performing paid post this quarter."
     },
     {
+      "clientId": "client-1",
       "id": "cs-022",
       "type": "free",
       "submissionDate": "2026-04-06",
@@ -265,6 +287,7 @@
       "brandNotes": ""
     },
     {
+      "clientId": "client-1",
       "id": "cs-023",
       "type": "paid",
       "submissionDate": "2026-03-14",
@@ -277,6 +300,7 @@
       "brandNotes": "Clean format, good hook."
     },
     {
+      "clientId": "client-1",
       "id": "cs-024",
       "type": "free",
       "submissionDate": "2026-03-02",
@@ -289,6 +313,7 @@
       "brandNotes": "Natural unboxing feel."
     },
     {
+      "clientId": "client-1",
       "id": "cs-025",
       "type": "paid",
       "submissionDate": "2026-04-07",
@@ -301,6 +326,7 @@
       "brandNotes": ""
     },
     {
+      "clientId": "client-1",
       "id": "cs-026",
       "type": "free",
       "submissionDate": "2026-02-25",
@@ -313,6 +339,7 @@
       "brandNotes": "Disclosed affiliate incorrectly."
     },
     {
+      "clientId": "client-1",
       "id": "cs-027",
       "type": "paid",
       "submissionDate": "2026-03-17",
@@ -325,6 +352,7 @@
       "brandNotes": "Revisions requested on caption."
     },
     {
+      "clientId": "client-1",
       "id": "cs-028",
       "type": "free",
       "submissionDate": "2026-03-24",
@@ -337,6 +365,7 @@
       "brandNotes": "Authentic style review."
     },
     {
+      "clientId": "client-1",
       "id": "cs-029",
       "type": "paid",
       "submissionDate": "2026-02-05",
@@ -349,6 +378,7 @@
       "brandNotes": "Used in spark ad campaign."
     },
     {
+      "clientId": "client-1",
       "id": "cs-030",
       "type": "free",
       "submissionDate": "2026-04-08",
@@ -359,10 +389,284 @@
       "fee": null,
       "status": "submitted",
       "brandNotes": ""
+    },
+    {
+      "clientId": "client-2",
+      "id": "cs-apex-001",
+      "type": "paid",
+      "submissionDate": "2025-10-05",
+      "creatorName": "Jessica Park",
+      "creatorHandle": "@trail_jess",
+      "videoUrl": "https://www.tiktok.com/@trail_jess/video/7401234000001",
+      "productName": "Apex Trailhead Boot",
+      "fee": 420,
+      "status": "approved",
+      "brandNotes": "Excellent outdoor setting, authentic review drove strong conversions."
+    },
+    {
+      "clientId": "client-2",
+      "id": "cs-apex-002",
+      "type": "paid",
+      "submissionDate": "2025-10-08",
+      "creatorName": "Riley Chen",
+      "creatorHandle": "@ridgerunner_riley",
+      "videoUrl": "https://www.tiktok.com/@ridgerunner_riley/video/7401234000002",
+      "productName": "Apex Summit Pack",
+      "fee": 380,
+      "status": "approved",
+      "brandNotes": "Great unboxing content, hashtag usage on point."
+    },
+    {
+      "clientId": "client-2",
+      "id": "cs-apex-003",
+      "type": "free",
+      "submissionDate": "2025-10-12",
+      "creatorName": "Sienna Walsh",
+      "creatorHandle": "@summit_sienna",
+      "videoUrl": "https://www.tiktok.com/@summit_sienna/video/7401234000003",
+      "productName": "Apex Ridge Vest",
+      "fee": null,
+      "status": "submitted",
+      "brandNotes": ""
+    },
+    {
+      "clientId": "client-2",
+      "id": "cs-apex-004",
+      "type": "paid",
+      "submissionDate": "2025-10-15",
+      "creatorName": "Hannah Blair",
+      "creatorHandle": "@boots_n_blair",
+      "videoUrl": "https://www.tiktok.com/@boots_n_blair/video/7401234000004",
+      "productName": "Apex Canyon Sandal",
+      "fee": 280,
+      "status": "in_progress",
+      "brandNotes": "Needs updated CTA in caption before approval."
+    },
+    {
+      "clientId": "client-2",
+      "id": "cs-apex-005",
+      "type": "free",
+      "submissionDate": "2025-10-18",
+      "creatorName": "Hank Okafor",
+      "creatorHandle": "@hike_with_hank",
+      "videoUrl": "https://www.tiktok.com/@hike_with_hank/video/7401234000005",
+      "productName": "Apex Trailhead Boot",
+      "fee": null,
+      "status": "approved",
+      "brandNotes": "Strong trail footage, brand logo clearly visible."
+    },
+    {
+      "clientId": "client-2",
+      "id": "cs-apex-006",
+      "type": "paid",
+      "submissionDate": "2025-10-22",
+      "creatorName": "Marcus Vega",
+      "creatorHandle": "@wandermarcus",
+      "videoUrl": "https://www.tiktok.com/@wandermarcus/video/7401234000006",
+      "productName": "Apex Alpine Fleece",
+      "fee": 320,
+      "status": "denied",
+      "brandNotes": "Video did not meet minimum length requirement. Please resubmit with 60s+ content."
+    },
+    {
+      "clientId": "client-2",
+      "id": "cs-apex-007",
+      "type": "paid",
+      "submissionDate": "2025-11-02",
+      "creatorName": "Jessica Park",
+      "creatorHandle": "@trail_jess",
+      "videoUrl": "https://www.tiktok.com/@trail_jess/video/7401234000007",
+      "productName": "Apex Summit Pack",
+      "fee": 400,
+      "status": "completed",
+      "brandNotes": "Live stream integration was excellent. Exceeded GMV targets."
+    },
+    {
+      "clientId": "client-2",
+      "id": "cs-apex-008",
+      "type": "free",
+      "submissionDate": "2025-11-05",
+      "creatorName": "Alex Reyes",
+      "creatorHandle": "@sole_explorer",
+      "videoUrl": "https://www.tiktok.com/@sole_explorer/video/7401234000008",
+      "productName": "Apex Trailhead Boot",
+      "fee": null,
+      "status": "submitted",
+      "brandNotes": ""
+    },
+    {
+      "clientId": "client-3",
+      "id": "cs-nova-001",
+      "type": "paid",
+      "submissionDate": "2025-10-04",
+      "creatorName": "Amy Chen",
+      "creatorHandle": "@glow_with_amy",
+      "videoUrl": "https://www.tiktok.com/@glow_with_amy/video/7401235000001",
+      "productName": "Nova Hydra Serum",
+      "fee": 280,
+      "status": "approved",
+      "brandNotes": "Excellent morning routine integration. Authentic glow result showcased beautifully."
+    },
+    {
+      "clientId": "client-3",
+      "id": "cs-nova-002",
+      "type": "paid",
+      "submissionDate": "2025-10-09",
+      "creatorName": "Savannah Torres",
+      "creatorHandle": "@spf_savannah",
+      "videoUrl": "https://www.tiktok.com/@spf_savannah/video/7401235000002",
+      "productName": "Nova SPF Mineral Stick",
+      "fee": 240,
+      "status": "approved",
+      "brandNotes": "Great outdoor application demo. Hashtag usage and CTA well executed."
+    },
+    {
+      "clientId": "client-3",
+      "id": "cs-nova-003",
+      "type": "free",
+      "submissionDate": "2025-10-14",
+      "creatorName": "Dani Park",
+      "creatorHandle": "@dewy_dani",
+      "videoUrl": "https://www.tiktok.com/@dewy_dani/video/7401235000003",
+      "productName": "Nova Glow Cleanser",
+      "fee": null,
+      "status": "approved",
+      "brandNotes": "Love the dewy finish GRWM. Organic feel drove high engagement."
+    },
+    {
+      "clientId": "client-3",
+      "id": "cs-nova-004",
+      "type": "paid",
+      "submissionDate": "2025-10-19",
+      "creatorName": "Olivia Nguyen",
+      "creatorHandle": "@beautybyolivia_n",
+      "videoUrl": "https://www.tiktok.com/@beautybyolivia_n/video/7401235000004",
+      "productName": "Nova Niacinamide Toner",
+      "fee": 200,
+      "status": "in_progress",
+      "brandNotes": "Waiting on final edit. Usage rights pending."
+    },
+    {
+      "clientId": "client-3",
+      "id": "cs-nova-005",
+      "type": "free",
+      "submissionDate": "2025-10-23",
+      "creatorName": "Celeste Wang",
+      "creatorHandle": "@cleanskin_celeste",
+      "videoUrl": "https://www.tiktok.com/@cleanskin_celeste/video/7401235000005",
+      "productName": "Nova SPF Mineral Stick",
+      "fee": null,
+      "status": "submitted",
+      "brandNotes": ""
+    },
+    {
+      "clientId": "client-3",
+      "id": "cs-nova-006",
+      "type": "paid",
+      "submissionDate": "2025-11-01",
+      "creatorName": "Sara Kim",
+      "creatorHandle": "@serum_specialist_sara",
+      "videoUrl": "https://www.tiktok.com/@serum_specialist_sara/video/7401235000006",
+      "productName": "Nova Hydra Serum",
+      "fee": 160,
+      "status": "approved",
+      "brandNotes": "Strong before/after comparison. Long-form review performed well."
+    },
+    {
+      "clientId": "client-4",
+      "id": "cs-pulse-001",
+      "type": "paid",
+      "submissionDate": "2025-10-05",
+      "creatorName": "Brandon Williams",
+      "creatorHandle": "@beats_and_bass",
+      "videoUrl": "https://www.tiktok.com/@beats_and_bass/video/7401236000001",
+      "productName": "Pulse Bass+ Earbuds",
+      "fee": 450,
+      "status": "approved",
+      "brandNotes": "Excellent sound test demo with real-world commute scenario. Drove strong add-to-cart."
+    },
+    {
+      "clientId": "client-4",
+      "id": "cs-pulse-002",
+      "type": "paid",
+      "submissionDate": "2025-10-09",
+      "creatorName": "Sam Rivera",
+      "creatorHandle": "@studio_sam",
+      "videoUrl": "https://www.tiktok.com/@studio_sam/video/7401236000002",
+      "productName": "Pulse Studio Headphones",
+      "fee": 420,
+      "status": "approved",
+      "brandNotes": "Pro audio studio comparison performed well with audiophile audience."
+    },
+    {
+      "clientId": "client-4",
+      "id": "cs-pulse-003",
+      "type": "free",
+      "submissionDate": "2025-10-13",
+      "creatorName": "Aiden Cruz",
+      "creatorHandle": "@audio_aiden",
+      "videoUrl": "https://www.tiktok.com/@audio_aiden/video/7401236000003",
+      "productName": "Pulse Wireless Earbuds Lite",
+      "fee": null,
+      "status": "approved",
+      "brandNotes": "Organic unboxing with honest review. High trust factor with followers."
+    },
+    {
+      "clientId": "client-4",
+      "id": "cs-pulse-004",
+      "type": "paid",
+      "submissionDate": "2025-10-18",
+      "creatorName": "Grace Okafor",
+      "creatorHandle": "@gear_with_grace",
+      "videoUrl": "https://www.tiktok.com/@gear_with_grace/video/7401236000004",
+      "productName": "Pulse ANC Pro Headphones",
+      "fee": 380,
+      "status": "in_progress",
+      "brandNotes": "Awaiting final cut. Noise-cancellation demo looks promising."
+    },
+    {
+      "clientId": "client-4",
+      "id": "cs-pulse-005",
+      "type": "paid",
+      "submissionDate": "2025-10-22",
+      "creatorName": "Brad Mitchell",
+      "creatorHandle": "@bass_face_brad",
+      "videoUrl": "https://www.tiktok.com/@bass_face_brad/video/7401236000005",
+      "productName": "Pulse Sub Boom Speaker",
+      "fee": 340,
+      "status": "approved",
+      "brandNotes": "Outdoor festival-style demo resonated. High share rate on this one."
+    },
+    {
+      "clientId": "client-4",
+      "id": "cs-pulse-006",
+      "type": "free",
+      "submissionDate": "2025-10-28",
+      "creatorName": "Dom Hernandez",
+      "creatorHandle": "@deep_cuts_dom",
+      "videoUrl": "https://www.tiktok.com/@deep_cuts_dom/video/7401236000006",
+      "productName": "Pulse Sub Boom Speaker",
+      "fee": null,
+      "status": "submitted",
+      "brandNotes": ""
+    },
+    {
+      "clientId": "client-4",
+      "id": "cs-pulse-007",
+      "type": "paid",
+      "submissionDate": "2025-11-04",
+      "creatorName": "Henry Park",
+      "creatorHandle": "@headphone_henry",
+      "videoUrl": "https://www.tiktok.com/@headphone_henry/video/7401236000007",
+      "productName": "Pulse Bass+ Earbuds",
+      "fee": 280,
+      "status": "approved",
+      "brandNotes": "Side-by-side competitor comparison. Good conversion uplift observed."
     }
   ],
   "sparkCodes": [
     {
+      "clientId": "client-1",
       "id": "sc-001",
       "creatorName": "Mia Torres",
       "creatorHandle": "@miatorreszz",
@@ -372,6 +676,7 @@
       "hasPermission": true
     },
     {
+      "clientId": "client-1",
       "id": "sc-002",
       "creatorName": "Hana Kim",
       "creatorHandle": "@hanakimvibes",
@@ -381,6 +686,7 @@
       "hasPermission": true
     },
     {
+      "clientId": "client-1",
       "id": "sc-003",
       "creatorName": "Priya Sharma",
       "creatorHandle": "@priyasharmafit",
@@ -390,6 +696,7 @@
       "hasPermission": true
     },
     {
+      "clientId": "client-1",
       "id": "sc-004",
       "creatorName": "Ryder James",
       "creatorHandle": "@ryderjamesfit",
@@ -399,6 +706,7 @@
       "hasPermission": true
     },
     {
+      "clientId": "client-1",
       "id": "sc-005",
       "creatorName": "Isabelle Grant",
       "creatorHandle": "@isabellegrantco",
@@ -408,6 +716,7 @@
       "hasPermission": false
     },
     {
+      "clientId": "client-1",
       "id": "sc-006",
       "creatorName": "Marcus Webb",
       "creatorHandle": "@marcuswebbstyle",
@@ -417,6 +726,7 @@
       "hasPermission": true
     },
     {
+      "clientId": "client-1",
       "id": "sc-007",
       "creatorName": "Theo Walsh",
       "creatorHandle": "@theowalshcreates",
@@ -426,6 +736,7 @@
       "hasPermission": true
     },
     {
+      "clientId": "client-1",
       "id": "sc-008",
       "creatorName": "Zara Ahmed",
       "creatorHandle": "@zaraahmeddaily",
@@ -435,6 +746,7 @@
       "hasPermission": false
     },
     {
+      "clientId": "client-1",
       "id": "sc-009",
       "creatorName": "Nadia Okafor",
       "creatorHandle": "@nadiaokaforstyle",
@@ -444,6 +756,7 @@
       "hasPermission": true
     },
     {
+      "clientId": "client-1",
       "id": "sc-010",
       "creatorName": "Bella Santos",
       "creatorHandle": "@bellasantosstyle",
@@ -453,6 +766,7 @@
       "hasPermission": true
     },
     {
+      "clientId": "client-1",
       "id": "sc-011",
       "creatorName": "Eli Patterson",
       "creatorHandle": "@elipattersoncreates",
@@ -462,6 +776,7 @@
       "hasPermission": true
     },
     {
+      "clientId": "client-1",
       "id": "sc-012",
       "creatorName": "Jake Brennan",
       "creatorHandle": "@jakebrennanfit",
@@ -471,6 +786,7 @@
       "hasPermission": true
     },
     {
+      "clientId": "client-1",
       "id": "sc-013",
       "creatorName": "Alexis Moon",
       "creatorHandle": "@alexismoonlife",
@@ -480,6 +796,7 @@
       "hasPermission": true
     },
     {
+      "clientId": "client-1",
       "id": "sc-014",
       "creatorName": "Owen Clarke",
       "creatorHandle": "@owenclarkeofficial",
@@ -489,6 +806,7 @@
       "hasPermission": false
     },
     {
+      "clientId": "client-1",
       "id": "sc-015",
       "creatorName": "Luna Park",
       "creatorHandle": "@lunaparkdaily",
@@ -498,6 +816,7 @@
       "hasPermission": true
     },
     {
+      "clientId": "client-1",
       "id": "sc-016",
       "creatorName": "Caleb Stone",
       "creatorHandle": "@calebstonecreates",
@@ -507,6 +826,7 @@
       "hasPermission": true
     },
     {
+      "clientId": "client-1",
       "id": "sc-017",
       "creatorName": "Camille Dupont",
       "creatorHandle": "@camilledupontlife",
@@ -516,6 +836,7 @@
       "hasPermission": false
     },
     {
+      "clientId": "client-1",
       "id": "sc-018",
       "creatorName": "Kylie Patel",
       "creatorHandle": "@kyliepatelfit",
@@ -525,6 +846,7 @@
       "hasPermission": true
     },
     {
+      "clientId": "client-1",
       "id": "sc-019",
       "creatorName": "Sage Monroe",
       "creatorHandle": "@sagemonroecreates",
@@ -534,6 +856,7 @@
       "hasPermission": true
     },
     {
+      "clientId": "client-1",
       "id": "sc-020",
       "creatorName": "River Hayes",
       "creatorHandle": "@riverhayesofficial",
@@ -541,6 +864,136 @@
       "productName": "HEYDUDE Wally Sox",
       "expirationDate": "2026-05-05",
       "hasPermission": true
+    },
+    {
+      "clientId": "client-2",
+      "id": "sc-apex-001",
+      "creatorName": "Jessica Park",
+      "creatorHandle": "@trail_jess",
+      "videoUrl": "https://www.tiktok.com/@trail_jess/video/7401234000001",
+      "productName": "Apex Trailhead Boot",
+      "expirationDate": "2026-01-05",
+      "hasPermission": true
+    },
+    {
+      "clientId": "client-2",
+      "id": "sc-apex-002",
+      "creatorName": "Riley Chen",
+      "creatorHandle": "@ridgerunner_riley",
+      "videoUrl": "https://www.tiktok.com/@ridgerunner_riley/video/7401234000002",
+      "productName": "Apex Summit Pack",
+      "expirationDate": "2026-01-08",
+      "hasPermission": true
+    },
+    {
+      "clientId": "client-2",
+      "id": "sc-apex-003",
+      "creatorName": "Hank Okafor",
+      "creatorHandle": "@hike_with_hank",
+      "videoUrl": "https://www.tiktok.com/@hike_with_hank/video/7401234000005",
+      "productName": "Apex Trailhead Boot",
+      "expirationDate": "2026-01-18",
+      "hasPermission": false
+    },
+    {
+      "clientId": "client-2",
+      "id": "sc-apex-004",
+      "creatorName": "Sienna Walsh",
+      "creatorHandle": "@summit_sienna",
+      "videoUrl": "https://www.tiktok.com/@summit_sienna/video/7401234000003",
+      "productName": "Apex Ridge Vest",
+      "expirationDate": "2026-01-12",
+      "hasPermission": true
+    },
+    {
+      "clientId": "client-2",
+      "id": "sc-apex-005",
+      "creatorName": "Alex Reyes",
+      "creatorHandle": "@sole_explorer",
+      "videoUrl": "https://www.tiktok.com/@sole_explorer/video/7401234000008",
+      "productName": "Apex Trailhead Boot",
+      "expirationDate": "2026-02-05",
+      "hasPermission": false
+    },
+    {
+      "clientId": "client-3",
+      "id": "sc-nova-001",
+      "creatorName": "Amy Chen",
+      "creatorHandle": "@glow_with_amy",
+      "videoUrl": "https://www.tiktok.com/@glow_with_amy/video/7401235000001",
+      "productName": "Nova Hydra Serum",
+      "expirationDate": "2026-01-04",
+      "hasPermission": true
+    },
+    {
+      "clientId": "client-3",
+      "id": "sc-nova-002",
+      "creatorName": "Savannah Torres",
+      "creatorHandle": "@spf_savannah",
+      "videoUrl": "https://www.tiktok.com/@spf_savannah/video/7401235000002",
+      "productName": "Nova SPF Mineral Stick",
+      "expirationDate": "2026-01-09",
+      "hasPermission": true
+    },
+    {
+      "clientId": "client-3",
+      "id": "sc-nova-003",
+      "creatorName": "Sara Kim",
+      "creatorHandle": "@serum_specialist_sara",
+      "videoUrl": "https://www.tiktok.com/@serum_specialist_sara/video/7401235000006",
+      "productName": "Nova Hydra Serum",
+      "expirationDate": "2026-02-01",
+      "hasPermission": true
+    },
+    {
+      "clientId": "client-3",
+      "id": "sc-nova-004",
+      "creatorName": "Dani Park",
+      "creatorHandle": "@dewy_dani",
+      "videoUrl": "https://www.tiktok.com/@dewy_dani/video/7401235000003",
+      "productName": "Nova Glow Cleanser",
+      "expirationDate": "2026-01-14",
+      "hasPermission": false
+    },
+    {
+      "clientId": "client-4",
+      "id": "sc-pulse-001",
+      "creatorName": "Brandon Williams",
+      "creatorHandle": "@beats_and_bass",
+      "videoUrl": "https://www.tiktok.com/@beats_and_bass/video/7401236000001",
+      "productName": "Pulse Bass+ Earbuds",
+      "expirationDate": "2026-01-05",
+      "hasPermission": true
+    },
+    {
+      "clientId": "client-4",
+      "id": "sc-pulse-002",
+      "creatorName": "Sam Rivera",
+      "creatorHandle": "@studio_sam",
+      "videoUrl": "https://www.tiktok.com/@studio_sam/video/7401236000002",
+      "productName": "Pulse Studio Headphones",
+      "expirationDate": "2026-01-09",
+      "hasPermission": true
+    },
+    {
+      "clientId": "client-4",
+      "id": "sc-pulse-003",
+      "creatorName": "Brad Mitchell",
+      "creatorHandle": "@bass_face_brad",
+      "videoUrl": "https://www.tiktok.com/@bass_face_brad/video/7401236000005",
+      "productName": "Pulse Sub Boom Speaker",
+      "expirationDate": "2026-01-22",
+      "hasPermission": true
+    },
+    {
+      "clientId": "client-4",
+      "id": "sc-pulse-004",
+      "creatorName": "Henry Park",
+      "creatorHandle": "@headphone_henry",
+      "videoUrl": "https://www.tiktok.com/@headphone_henry/video/7401236000007",
+      "productName": "Pulse Bass+ Earbuds",
+      "expirationDate": "2026-02-04",
+      "hasPermission": false
     }
   ]
 }

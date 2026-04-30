@@ -1,6 +1,7 @@
 {
   "products": [
     {
+      "clientId": "client-1",
       "id": "prod-001",
       "shortSku": "WALLY-WHT-M9",
       "productId": "7398421650123",
@@ -12,6 +13,7 @@
       "retailPrice": 49.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-002",
       "shortSku": "WALLY-NVY-M10",
       "productId": "7398421650124",
@@ -23,6 +25,7 @@
       "retailPrice": 49.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-003",
       "shortSku": "WALLY-GRY-M11",
       "productId": "7398421650125",
@@ -34,6 +37,7 @@
       "retailPrice": 49.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-004",
       "shortSku": "WENDY-WHT-W8",
       "productId": "7398421650126",
@@ -45,6 +49,7 @@
       "retailPrice": 49.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-005",
       "shortSku": "WENDY-BLK-W9",
       "productId": "7398421650127",
@@ -56,6 +61,7 @@
       "retailPrice": 49.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-006",
       "shortSku": "WENDY-PNK-W7",
       "productId": "7398421650128",
@@ -67,6 +73,7 @@
       "retailPrice": 54.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-007",
       "shortSku": "BRAD-BRN-M10",
       "productId": "7398421650129",
@@ -78,6 +85,7 @@
       "retailPrice": 74.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-008",
       "shortSku": "BRAD-TAN-M11",
       "productId": "7398421650130",
@@ -89,6 +97,7 @@
       "retailPrice": 74.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-009",
       "shortSku": "PAUL-WHT-M9",
       "productId": "7398421650131",
@@ -100,6 +109,7 @@
       "retailPrice": 59.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-010",
       "shortSku": "PAUL-BLK-M10",
       "productId": "7398421650132",
@@ -111,6 +121,7 @@
       "retailPrice": 59.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-011",
       "shortSku": "AUSTIN-WHT-M10",
       "productId": "7398421650133",
@@ -122,6 +133,7 @@
       "retailPrice": 69.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-012",
       "shortSku": "AUSTIN-BLK-M11",
       "productId": "7398421650134",
@@ -133,6 +145,7 @@
       "retailPrice": 69.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-013",
       "shortSku": "CAMDEN-NVY-M9",
       "productId": "7398421650135",
@@ -144,6 +157,7 @@
       "retailPrice": 64.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-014",
       "shortSku": "CAMDEN-GRN-M10",
       "productId": "7398421650136",
@@ -155,6 +169,7 @@
       "retailPrice": 64.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-015",
       "shortSku": "KARINA-WHT-W8",
       "productId": "7398421650137",
@@ -166,6 +181,7 @@
       "retailPrice": 59.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-016",
       "shortSku": "KARINA-BLU-W9",
       "productId": "7398421650138",
@@ -177,6 +193,7 @@
       "retailPrice": 59.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-017",
       "shortSku": "KARINA-PNK-W7",
       "productId": "7398421650139",
@@ -188,6 +205,7 @@
       "retailPrice": 59.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-018",
       "shortSku": "WALLY-SPORT-M10",
       "productId": "7398421650140",
@@ -199,6 +217,7 @@
       "retailPrice": 54.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-019",
       "shortSku": "WALLY-SPORT-M9",
       "productId": "7398421650141",
@@ -210,6 +229,7 @@
       "retailPrice": 54.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-020",
       "shortSku": "WENDY-RISE-W8",
       "productId": "7398421650142",
@@ -221,6 +241,7 @@
       "retailPrice": 64.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-021",
       "shortSku": "WENDY-RISE-W10",
       "productId": "7398421650143",
@@ -232,6 +253,7 @@
       "retailPrice": 64.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-022",
       "shortSku": "BRAD-SPORT-M10",
       "productId": "7398421650144",
@@ -243,6 +265,7 @@
       "retailPrice": 79.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-023",
       "shortSku": "PAUL-KNIT-M9",
       "productId": "7398421650145",
@@ -254,6 +277,7 @@
       "retailPrice": 69.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-024",
       "shortSku": "CAMDEN-SUEDE-M11",
       "productId": "7398421650146",
@@ -265,6 +289,7 @@
       "retailPrice": 84.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-025",
       "shortSku": "KARINA-CHIC-W8",
       "productId": "7398421650147",
@@ -276,6 +301,7 @@
       "retailPrice": 74.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-026",
       "shortSku": "WALLY-NATURAL-M10",
       "productId": "7398421650148",
@@ -287,6 +313,7 @@
       "retailPrice": 44.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-027",
       "shortSku": "WENDY-CORK-W9",
       "productId": "7398421650149",
@@ -298,6 +325,7 @@
       "retailPrice": 54.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-028",
       "shortSku": "AUSTIN-TRVL-M10",
       "productId": "7398421650150",
@@ -309,6 +337,7 @@
       "retailPrice": 74.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-029",
       "shortSku": "KARINA-WEDGE-W8",
       "productId": "7398421650151",
@@ -320,6 +349,7 @@
       "retailPrice": 89.99
     },
     {
+      "clientId": "client-1",
       "id": "prod-030",
       "shortSku": "BRAD-LACE-M9",
       "productId": "7398421650152",
@@ -329,10 +359,263 @@
       "skuId": "SKU-BRAD-LACE-001",
       "variation": "Black / Men's 9",
       "retailPrice": 64.99
+    },
+    {
+      "clientId": "client-2",
+      "id": "prod-apex-001",
+      "shortSku": "APEX-TRAIL-001",
+      "productId": "8201110001234",
+      "sellerSku": "APEX-TRAIL-BOOT-TAN-M10-2025",
+      "category": "Footwear",
+      "productName": "Apex Trailhead Boot",
+      "skuId": "SKU-APEX-001",
+      "variation": "Tan / Men's 10",
+      "retailPrice": 89.99
+    },
+    {
+      "clientId": "client-2",
+      "id": "prod-apex-002",
+      "shortSku": "APEX-SUMMIT-001",
+      "productId": "8201110002345",
+      "sellerSku": "APEX-SUMMIT-PACK-BLK-OS-2025",
+      "category": "Bags & Packs",
+      "productName": "Apex Summit Pack",
+      "skuId": "SKU-APEX-002",
+      "variation": "Black / One Size",
+      "retailPrice": 74.99
+    },
+    {
+      "clientId": "client-2",
+      "id": "prod-apex-003",
+      "shortSku": "APEX-RIDGE-001",
+      "productId": "8201110003456",
+      "sellerSku": "APEX-RIDGE-VEST-OLV-M-2025",
+      "category": "Apparel",
+      "productName": "Apex Ridge Vest",
+      "skuId": "SKU-APEX-003",
+      "variation": "Olive / Medium",
+      "retailPrice": 59.99
+    },
+    {
+      "clientId": "client-2",
+      "id": "prod-apex-004",
+      "shortSku": "APEX-CANYON-001",
+      "productId": "8201110004567",
+      "sellerSku": "APEX-CANYON-SANDAL-BRN-M10-2025",
+      "category": "Footwear",
+      "productName": "Apex Canyon Sandal",
+      "skuId": "SKU-APEX-004",
+      "variation": "Brown / Men's 10",
+      "retailPrice": 54.99
+    },
+    {
+      "clientId": "client-2",
+      "id": "prod-apex-005",
+      "shortSku": "APEX-ALPINE-001",
+      "productId": "8201110005678",
+      "sellerSku": "APEX-ALPINE-FLEECE-GRY-L-2025",
+      "category": "Apparel",
+      "productName": "Apex Alpine Fleece",
+      "skuId": "SKU-APEX-005",
+      "variation": "Grey / Large",
+      "retailPrice": 64.99
+    },
+    {
+      "clientId": "client-2",
+      "id": "prod-apex-006",
+      "shortSku": "APEX-MESA-001",
+      "productId": "8201110006789",
+      "sellerSku": "APEX-MESA-HIKER-SLT-M10-2025",
+      "category": "Footwear",
+      "productName": "Apex Mesa Hiker",
+      "skuId": "SKU-APEX-006",
+      "variation": "Slate / Men's 10",
+      "retailPrice": 94.99
+    },
+    {
+      "clientId": "client-2",
+      "id": "prod-apex-007",
+      "shortSku": "APEX-CREEK-001",
+      "productId": "8201110007890",
+      "sellerSku": "APEX-CREEK-SHOE-NVY-M10-2025",
+      "category": "Footwear",
+      "productName": "Apex Creek Shoe",
+      "skuId": "SKU-APEX-007",
+      "variation": "Navy / Men's 10",
+      "retailPrice": 49.99
+    },
+    {
+      "clientId": "client-2",
+      "id": "prod-apex-008",
+      "shortSku": "APEX-PEAK-001",
+      "productId": "8201110008901",
+      "sellerSku": "APEX-PEAK-CAP-RED-OS-2025",
+      "category": "Accessories",
+      "productName": "Apex Peak Cap",
+      "skuId": "SKU-APEX-008",
+      "variation": "Red / One Size",
+      "retailPrice": 29.99
+    },
+    {
+      "clientId": "client-3",
+      "id": "prod-nova-001",
+      "shortSku": "NOVA-SERUM-001",
+      "productId": "8301110001001",
+      "sellerSku": "NOVA-HYDRA-SERUM-30ML-2025",
+      "category": "Skincare",
+      "productName": "Nova Hydra Serum",
+      "skuId": "SKU-NOVA-001",
+      "variation": "30ml / Standard",
+      "retailPrice": 34.99
+    },
+    {
+      "clientId": "client-3",
+      "id": "prod-nova-002",
+      "shortSku": "NOVA-CLEANSER-001",
+      "productId": "8301110001002",
+      "sellerSku": "NOVA-GLOW-CLEANSER-150ML-2025",
+      "category": "Skincare",
+      "productName": "Nova Glow Cleanser",
+      "skuId": "SKU-NOVA-002",
+      "variation": "150ml / Standard",
+      "retailPrice": 24.99
+    },
+    {
+      "clientId": "client-3",
+      "id": "prod-nova-003",
+      "shortSku": "NOVA-SPF-001",
+      "productId": "8301110001003",
+      "sellerSku": "NOVA-SPF-MINERAL-STICK-2025",
+      "category": "Sun Care",
+      "productName": "Nova SPF Mineral Stick",
+      "skuId": "SKU-NOVA-003",
+      "variation": "SPF 50 / Standard",
+      "retailPrice": 28.99
+    },
+    {
+      "clientId": "client-3",
+      "id": "prod-nova-004",
+      "shortSku": "NOVA-TONER-001",
+      "productId": "8301110001004",
+      "sellerSku": "NOVA-NIACINAMIDE-TONER-200ML-2025",
+      "category": "Skincare",
+      "productName": "Nova Niacinamide Toner",
+      "skuId": "SKU-NOVA-004",
+      "variation": "200ml / Standard",
+      "retailPrice": 29.99
+    },
+    {
+      "clientId": "client-3",
+      "id": "prod-nova-005",
+      "shortSku": "NOVA-CREAM-001",
+      "productId": "8301110001005",
+      "sellerSku": "NOVA-BARRIER-CREAM-50ML-2025",
+      "category": "Skincare",
+      "productName": "Nova Barrier Repair Cream",
+      "skuId": "SKU-NOVA-005",
+      "variation": "50ml / Standard",
+      "retailPrice": 38.99
+    },
+    {
+      "clientId": "client-3",
+      "id": "prod-nova-006",
+      "shortSku": "NOVA-MASK-001",
+      "productId": "8301110001006",
+      "sellerSku": "NOVA-GLOW-MASK-60ML-2025",
+      "category": "Skincare",
+      "productName": "Nova Overnight Glow Mask",
+      "skuId": "SKU-NOVA-006",
+      "variation": "60ml / Standard",
+      "retailPrice": 42.99
+    },
+    {
+      "clientId": "client-4",
+      "id": "prod-pulse-001",
+      "shortSku": "PULSE-EARBUD-001",
+      "productId": "8401110001001",
+      "sellerSku": "PULSE-BASS-PLUS-EARBUDS-BLK-2025",
+      "category": "Earbuds",
+      "productName": "Pulse Bass+ Earbuds",
+      "skuId": "SKU-PULSE-001",
+      "variation": "Black / Standard",
+      "retailPrice": 89.99
+    },
+    {
+      "clientId": "client-4",
+      "id": "prod-pulse-002",
+      "shortSku": "PULSE-HEADPHONE-001",
+      "productId": "8401110001002",
+      "sellerSku": "PULSE-STUDIO-HEADPHONES-BLK-2025",
+      "category": "Headphones",
+      "productName": "Pulse Studio Headphones",
+      "skuId": "SKU-PULSE-002",
+      "variation": "Midnight Black / Standard",
+      "retailPrice": 179.99
+    },
+    {
+      "clientId": "client-4",
+      "id": "prod-pulse-003",
+      "shortSku": "PULSE-SPEAKER-001",
+      "productId": "8401110001003",
+      "sellerSku": "PULSE-SUB-BOOM-SPEAKER-BLK-2025",
+      "category": "Speakers",
+      "productName": "Pulse Sub Boom Speaker",
+      "skuId": "SKU-PULSE-003",
+      "variation": "Carbon Black / Standard",
+      "retailPrice": 249.99
+    },
+    {
+      "clientId": "client-4",
+      "id": "prod-pulse-004",
+      "shortSku": "PULSE-ANC-001",
+      "productId": "8401110001004",
+      "sellerSku": "PULSE-ANC-PRO-HEADPHONES-WHT-2025",
+      "category": "Headphones",
+      "productName": "Pulse ANC Pro Headphones",
+      "skuId": "SKU-PULSE-004",
+      "variation": "Pearl White / Standard",
+      "retailPrice": 229.99
+    },
+    {
+      "clientId": "client-4",
+      "id": "prod-pulse-005",
+      "shortSku": "PULSE-EARBUD-002",
+      "productId": "8401110001005",
+      "sellerSku": "PULSE-WIRELESS-EARBUDS-LITE-WHT-2025",
+      "category": "Earbuds",
+      "productName": "Pulse Wireless Earbuds Lite",
+      "skuId": "SKU-PULSE-005",
+      "variation": "White / Standard",
+      "retailPrice": 79.99
+    },
+    {
+      "clientId": "client-4",
+      "id": "prod-pulse-006",
+      "shortSku": "PULSE-SPEAKER-002",
+      "productId": "8401110001006",
+      "sellerSku": "PULSE-MINI-BLAST-SPEAKER-RED-2025",
+      "category": "Speakers",
+      "productName": "Pulse Mini Blast Speaker",
+      "skuId": "SKU-PULSE-006",
+      "variation": "Crimson Red / Standard",
+      "retailPrice": 129.99
+    },
+    {
+      "clientId": "client-4",
+      "id": "prod-pulse-007",
+      "shortSku": "PULSE-NECKBAND-001",
+      "productId": "8401110001007",
+      "sellerSku": "PULSE-NECKBAND-SPORT-BLK-2025",
+      "category": "Earbuds",
+      "productName": "Pulse Neckband Sport Earphones",
+      "skuId": "SKU-PULSE-007",
+      "variation": "Black / Standard",
+      "retailPrice": 99.99
     }
   ],
   "sampleOrders": [
     {
+      "clientId": "client-1",
       "id": "so-001",
       "orderId": "ORD-20251001-00421",
       "status": "completed",
@@ -348,6 +631,7 @@
       "shippingProvider": "UPS"
     },
     {
+      "clientId": "client-1",
       "id": "so-002",
       "orderId": "ORD-20251003-00422",
       "status": "completed",
@@ -363,6 +647,7 @@
       "shippingProvider": "USPS"
     },
     {
+      "clientId": "client-1",
       "id": "so-003",
       "orderId": "ORD-20251005-00423",
       "status": "delivered",
@@ -378,6 +663,7 @@
       "shippingProvider": "FedEx"
     },
     {
+      "clientId": "client-1",
       "id": "so-004",
       "orderId": "ORD-20251008-00424",
       "status": "shipped",
@@ -393,6 +679,7 @@
       "shippingProvider": "UPS"
     },
     {
+      "clientId": "client-1",
       "id": "so-005",
       "orderId": "ORD-20251010-00425",
       "status": "pending",
@@ -408,6 +695,7 @@
       "shippingProvider": ""
     },
     {
+      "clientId": "client-1",
       "id": "so-006",
       "orderId": "ORD-20251012-00426",
       "status": "completed",
@@ -423,6 +711,7 @@
       "shippingProvider": "USPS"
     },
     {
+      "clientId": "client-1",
       "id": "so-007",
       "orderId": "ORD-20251015-00427",
       "status": "cancelled",
@@ -438,6 +727,7 @@
       "shippingProvider": ""
     },
     {
+      "clientId": "client-1",
       "id": "so-008",
       "orderId": "ORD-20251017-00428",
       "status": "delivered",
@@ -453,6 +743,7 @@
       "shippingProvider": "FedEx"
     },
     {
+      "clientId": "client-1",
       "id": "so-009",
       "orderId": "ORD-20251020-00429",
       "status": "shipped",
@@ -468,6 +759,7 @@
       "shippingProvider": "UPS"
     },
     {
+      "clientId": "client-1",
       "id": "so-010",
       "orderId": "ORD-20251022-00430",
       "status": "completed",
@@ -483,6 +775,7 @@
       "shippingProvider": "USPS"
     },
     {
+      "clientId": "client-1",
       "id": "so-011",
       "orderId": "ORD-20251025-00431",
       "status": "pending",
@@ -498,6 +791,7 @@
       "shippingProvider": ""
     },
     {
+      "clientId": "client-1",
       "id": "so-012",
       "orderId": "ORD-20251027-00432",
       "status": "delivered",
@@ -513,6 +807,7 @@
       "shippingProvider": "FedEx"
     },
     {
+      "clientId": "client-1",
       "id": "so-013",
       "orderId": "ORD-20251030-00433",
       "status": "shipped",
@@ -528,6 +823,7 @@
       "shippingProvider": "UPS"
     },
     {
+      "clientId": "client-1",
       "id": "so-014",
       "orderId": "ORD-20251101-00434",
       "status": "completed",
@@ -543,6 +839,7 @@
       "shippingProvider": "USPS"
     },
     {
+      "clientId": "client-1",
       "id": "so-015",
       "orderId": "ORD-20251103-00435",
       "status": "pending",
@@ -558,6 +855,7 @@
       "shippingProvider": ""
     },
     {
+      "clientId": "client-1",
       "id": "so-016",
       "orderId": "ORD-20251105-00436",
       "status": "delivered",
@@ -573,6 +871,7 @@
       "shippingProvider": "FedEx"
     },
     {
+      "clientId": "client-1",
       "id": "so-017",
       "orderId": "ORD-20251107-00437",
       "status": "cancelled",
@@ -588,6 +887,7 @@
       "shippingProvider": ""
     },
     {
+      "clientId": "client-1",
       "id": "so-018",
       "orderId": "ORD-20251109-00438",
       "status": "shipped",
@@ -603,6 +903,7 @@
       "shippingProvider": "UPS"
     },
     {
+      "clientId": "client-1",
       "id": "so-019",
       "orderId": "ORD-20251112-00439",
       "status": "completed",
@@ -618,6 +919,7 @@
       "shippingProvider": "USPS"
     },
     {
+      "clientId": "client-1",
       "id": "so-020",
       "orderId": "ORD-20251114-00440",
       "status": "pending",
@@ -633,6 +935,7 @@
       "shippingProvider": ""
     },
     {
+      "clientId": "client-1",
       "id": "so-021",
       "orderId": "ORD-20251116-00441",
       "status": "delivered",
@@ -648,6 +951,7 @@
       "shippingProvider": "FedEx"
     },
     {
+      "clientId": "client-1",
       "id": "so-022",
       "orderId": "ORD-20251118-00442",
       "status": "shipped",
@@ -663,6 +967,7 @@
       "shippingProvider": "UPS"
     },
     {
+      "clientId": "client-1",
       "id": "so-023",
       "orderId": "ORD-20251120-00443",
       "status": "completed",
@@ -678,6 +983,7 @@
       "shippingProvider": "USPS"
     },
     {
+      "clientId": "client-1",
       "id": "so-024",
       "orderId": "ORD-20251122-00444",
       "status": "pending",
@@ -693,6 +999,7 @@
       "shippingProvider": ""
     },
     {
+      "clientId": "client-1",
       "id": "so-025",
       "orderId": "ORD-20251125-00445",
       "status": "shipped",
@@ -706,112 +1013,440 @@
       "deliveredTime": null,
       "trackingId": "776857930115",
       "shippingProvider": "FedEx"
+    },
+    {
+      "clientId": "client-2",
+      "id": "so-apex-001",
+      "orderId": "ORD-20251005-00801",
+      "status": "completed",
+      "creatorUsername": "@trail_jess",
+      "productName": "Apex Trailhead Boot",
+      "productSku": "APEX-TRAIL-001",
+      "variation": "Tan / Men's 10",
+      "quantity": 1,
+      "createdTime": "2025-10-05T08:30:00Z",
+      "shippedTime": "2025-10-07T13:00:00Z",
+      "deliveredTime": "2025-10-11T10:20:00Z",
+      "trackingId": "1Z888BB10234567891",
+      "shippingProvider": "UPS"
+    },
+    {
+      "clientId": "client-2",
+      "id": "so-apex-002",
+      "orderId": "ORD-20251007-00802",
+      "status": "delivered",
+      "creatorUsername": "@ridgerunner_riley",
+      "productName": "Apex Summit Pack",
+      "productSku": "APEX-SUMMIT-001",
+      "variation": "Black / One Size",
+      "quantity": 1,
+      "createdTime": "2025-10-07T09:15:00Z",
+      "shippedTime": "2025-10-09T14:30:00Z",
+      "deliveredTime": "2025-10-14T09:45:00Z",
+      "trackingId": "1Z888BB10234567892",
+      "shippingProvider": "UPS"
+    },
+    {
+      "clientId": "client-2",
+      "id": "so-apex-003",
+      "orderId": "ORD-20251010-00803",
+      "status": "shipped",
+      "creatorUsername": "@summit_sienna",
+      "productName": "Apex Ridge Vest",
+      "productSku": "APEX-RIDGE-001",
+      "variation": "Olive / Medium",
+      "quantity": 2,
+      "createdTime": "2025-10-10T11:00:00Z",
+      "shippedTime": "2025-10-13T16:00:00Z",
+      "deliveredTime": null,
+      "trackingId": "9400111202570741530614",
+      "shippingProvider": "USPS"
+    },
+    {
+      "clientId": "client-2",
+      "id": "so-apex-004",
+      "orderId": "ORD-20251015-00804",
+      "status": "pending",
+      "creatorUsername": "@hike_with_hank",
+      "productName": "Apex Mesa Hiker",
+      "productSku": "APEX-MESA-001",
+      "variation": "Slate / Men's 10",
+      "quantity": 1,
+      "createdTime": "2025-10-15T14:20:00Z",
+      "shippedTime": null,
+      "deliveredTime": null,
+      "trackingId": "",
+      "shippingProvider": "FedEx"
+    },
+    {
+      "clientId": "client-2",
+      "id": "so-apex-005",
+      "orderId": "ORD-20251020-00805",
+      "status": "completed",
+      "creatorUsername": "@sole_explorer",
+      "productName": "Apex Trailhead Boot",
+      "productSku": "APEX-TRAIL-001",
+      "variation": "Tan / Men's 10",
+      "quantity": 1,
+      "createdTime": "2025-10-20T10:00:00Z",
+      "shippedTime": "2025-10-22T12:00:00Z",
+      "deliveredTime": "2025-10-26T08:30:00Z",
+      "trackingId": "1Z888BB10234567895",
+      "shippingProvider": "UPS"
+    },
+    {
+      "clientId": "client-2",
+      "id": "so-apex-006",
+      "orderId": "ORD-20251025-00806",
+      "status": "delivered",
+      "creatorUsername": "@boots_n_blair",
+      "productName": "Apex Canyon Sandal",
+      "productSku": "APEX-CANYON-001",
+      "variation": "Brown / Men's 10",
+      "quantity": 1,
+      "createdTime": "2025-10-25T09:45:00Z",
+      "shippedTime": "2025-10-27T11:30:00Z",
+      "deliveredTime": "2025-11-01T14:00:00Z",
+      "trackingId": "9400111202570741530615",
+      "shippingProvider": "USPS"
+    },
+    {
+      "clientId": "client-3",
+      "id": "so-nova-001",
+      "orderId": "ORD-20251006-01001",
+      "status": "completed",
+      "creatorUsername": "@glow_with_amy",
+      "productName": "Nova Hydra Serum",
+      "productSku": "NOVA-SERUM-001",
+      "variation": "30ml / Standard",
+      "quantity": 2,
+      "createdTime": "2025-10-06T09:00:00Z",
+      "shippedTime": "2025-10-08T12:00:00Z",
+      "deliveredTime": "2025-10-12T10:00:00Z",
+      "trackingId": "1Z999CC10300000001",
+      "shippingProvider": "UPS"
+    },
+    {
+      "clientId": "client-3",
+      "id": "so-nova-002",
+      "orderId": "ORD-20251009-01002",
+      "status": "delivered",
+      "creatorUsername": "@spf_savannah",
+      "productName": "Nova SPF Mineral Stick",
+      "productSku": "NOVA-SPF-001",
+      "variation": "SPF 50 / Standard",
+      "quantity": 3,
+      "createdTime": "2025-10-09T10:30:00Z",
+      "shippedTime": "2025-10-11T14:00:00Z",
+      "deliveredTime": "2025-10-15T09:30:00Z",
+      "trackingId": "1Z999CC10300000002",
+      "shippingProvider": "UPS"
+    },
+    {
+      "clientId": "client-3",
+      "id": "so-nova-003",
+      "orderId": "ORD-20251012-01003",
+      "status": "shipped",
+      "creatorUsername": "@dewy_dani",
+      "productName": "Nova Glow Cleanser",
+      "productSku": "NOVA-CLEANSER-001",
+      "variation": "150ml / Standard",
+      "quantity": 2,
+      "createdTime": "2025-10-12T08:00:00Z",
+      "shippedTime": "2025-10-14T11:00:00Z",
+      "deliveredTime": null,
+      "trackingId": "1Z999CC10300000003",
+      "shippingProvider": "FedEx"
+    },
+    {
+      "clientId": "client-3",
+      "id": "so-nova-004",
+      "orderId": "ORD-20251018-01004",
+      "status": "pending",
+      "creatorUsername": "@beautybyolivia_n",
+      "productName": "Nova Niacinamide Toner",
+      "productSku": "NOVA-TONER-001",
+      "variation": "200ml / Standard",
+      "quantity": 1,
+      "createdTime": "2025-10-18T14:00:00Z",
+      "shippedTime": null,
+      "deliveredTime": null,
+      "trackingId": "",
+      "shippingProvider": ""
+    },
+    {
+      "clientId": "client-4",
+      "id": "so-pulse-001",
+      "orderId": "ORD-20251005-02001",
+      "status": "completed",
+      "creatorUsername": "@beats_and_bass",
+      "productName": "Pulse Bass+ Earbuds",
+      "productSku": "PULSE-EARBUD-001",
+      "variation": "Black / Standard",
+      "quantity": 2,
+      "createdTime": "2025-10-05T09:00:00Z",
+      "shippedTime": "2025-10-07T13:00:00Z",
+      "deliveredTime": "2025-10-11T10:00:00Z",
+      "trackingId": "1Z777DD10400000001",
+      "shippingProvider": "UPS"
+    },
+    {
+      "clientId": "client-4",
+      "id": "so-pulse-002",
+      "orderId": "ORD-20251008-02002",
+      "status": "delivered",
+      "creatorUsername": "@studio_sam",
+      "productName": "Pulse Studio Headphones",
+      "productSku": "PULSE-HEADPHONE-001",
+      "variation": "Midnight Black / Standard",
+      "quantity": 1,
+      "createdTime": "2025-10-08T10:00:00Z",
+      "shippedTime": "2025-10-10T14:00:00Z",
+      "deliveredTime": "2025-10-14T09:00:00Z",
+      "trackingId": "1Z777DD10400000002",
+      "shippingProvider": "FedEx"
+    },
+    {
+      "clientId": "client-4",
+      "id": "so-pulse-003",
+      "orderId": "ORD-20251014-02003",
+      "status": "shipped",
+      "creatorUsername": "@bass_face_brad",
+      "productName": "Pulse Sub Boom Speaker",
+      "productSku": "PULSE-SPEAKER-001",
+      "variation": "Carbon Black / Standard",
+      "quantity": 1,
+      "createdTime": "2025-10-14T11:00:00Z",
+      "shippedTime": "2025-10-16T15:00:00Z",
+      "deliveredTime": null,
+      "trackingId": "1Z777DD10400000003",
+      "shippingProvider": "UPS"
+    },
+    {
+      "clientId": "client-4",
+      "id": "so-pulse-004",
+      "orderId": "ORD-20251019-02004",
+      "status": "pending",
+      "creatorUsername": "@gear_with_grace",
+      "productName": "Pulse ANC Pro Headphones",
+      "productSku": "PULSE-ANC-001",
+      "variation": "Pearl White / Standard",
+      "quantity": 1,
+      "createdTime": "2025-10-19T09:30:00Z",
+      "shippedTime": null,
+      "deliveredTime": null,
+      "trackingId": "",
+      "shippingProvider": ""
+    },
+    {
+      "clientId": "client-4",
+      "id": "so-pulse-005",
+      "orderId": "ORD-20251025-02005",
+      "status": "delivered",
+      "creatorUsername": "@headphone_henry",
+      "productName": "Pulse Bass+ Earbuds",
+      "productSku": "PULSE-EARBUD-001",
+      "variation": "Black / Standard",
+      "quantity": 2,
+      "createdTime": "2025-10-25T10:00:00Z",
+      "shippedTime": "2025-10-27T12:00:00Z",
+      "deliveredTime": "2025-10-31T10:30:00Z",
+      "trackingId": "1Z777DD10400000005",
+      "shippingProvider": "UPS"
     }
   ],
   "heroProducts": [
     {
+      "clientId": "client-1",
       "id": "hero-001",
       "productName": "HEYDUDE Wally Classic White",
       "shortSku": "WALLY-WHT-M9",
       "category": "Men's Shoes",
       "isHero": true,
-      "p28dGmv": 78450.00,
+      "p28dGmv": 78450,
       "p28dOrders": 1569,
       "p28dViews": 2340000
     },
     {
+      "clientId": "client-1",
       "id": "hero-002",
       "productName": "HEYDUDE Wendy Classic White",
       "shortSku": "WENDY-WHT-W8",
       "category": "Women's Shoes",
       "isHero": true,
-      "p28dGmv": 62180.00,
+      "p28dGmv": 62180,
       "p28dOrders": 1244,
       "p28dViews": 1890000
     },
     {
+      "clientId": "client-1",
       "id": "hero-003",
       "productName": "HEYDUDE Wally Classic Navy",
       "shortSku": "WALLY-NVY-M10",
       "category": "Men's Shoes",
       "isHero": true,
-      "p28dGmv": 45320.00,
+      "p28dGmv": 45320,
       "p28dOrders": 907,
       "p28dViews": 1120000
     },
     {
+      "clientId": "client-1",
       "id": "hero-004",
       "productName": "HEYDUDE Austin Lift White",
       "shortSku": "AUSTIN-WHT-M10",
       "category": "Men's Shoes",
       "isHero": true,
-      "p28dGmv": 38750.00,
+      "p28dGmv": 38750,
       "p28dOrders": 554,
       "p28dViews": 980000
     },
     {
+      "clientId": "client-1",
       "id": "hero-005",
       "productName": "HEYDUDE Wendy Classic Black",
       "shortSku": "WENDY-BLK-W9",
       "category": "Women's Shoes",
       "isHero": true,
-      "p28dGmv": 31240.00,
+      "p28dGmv": 31240,
       "p28dOrders": 625,
       "p28dViews": 875000
     },
     {
+      "clientId": "client-1",
       "id": "hero-006",
       "productName": "HEYDUDE Bradley Leather Brown",
       "shortSku": "BRAD-BRN-M10",
       "category": "Men's Shoes",
       "isHero": true,
-      "p28dGmv": 22180.00,
+      "p28dGmv": 22180,
       "p28dOrders": 296,
       "p28dViews": 640000
     },
     {
+      "clientId": "client-1",
       "id": "hero-007",
       "productName": "HEYDUDE Karina Canvas White",
       "shortSku": "KARINA-WHT-W8",
       "category": "Women's Shoes",
       "isHero": true,
-      "p28dGmv": 14960.00,
+      "p28dGmv": 14960,
       "p28dOrders": 249,
       "p28dViews": 520000
     },
     {
+      "clientId": "client-1",
       "id": "hero-008",
       "productName": "HEYDUDE Camden Canvas Navy",
       "shortSku": "CAMDEN-NVY-M9",
       "category": "Men's Shoes",
       "isHero": false,
-      "p28dGmv": 9750.00,
+      "p28dGmv": 9750,
       "p28dOrders": 150,
       "p28dViews": 310000
     },
     {
+      "clientId": "client-1",
       "id": "hero-009",
       "productName": "HEYDUDE Wally Sport Mesh",
       "shortSku": "WALLY-SPORT-M10",
       "category": "Men's Shoes",
       "isHero": false,
-      "p28dGmv": 7420.00,
+      "p28dGmv": 7420,
       "p28dOrders": 135,
       "p28dViews": 245000
     },
     {
+      "clientId": "client-1",
       "id": "hero-010",
       "productName": "HEYDUDE Wendy Rise",
       "shortSku": "WENDY-RISE-W8",
       "category": "Women's Shoes",
       "isHero": false,
-      "p28dGmv": 5180.00,
+      "p28dGmv": 5180,
       "p28dOrders": 80,
       "p28dViews": 198000
+    },
+    {
+      "clientId": "client-2",
+      "id": "hero-apex-001",
+      "productName": "Apex Trailhead Boot",
+      "shortSku": "APEX-TRAIL-001",
+      "category": "Footwear",
+      "isHero": true,
+      "p28dGmv": 48200,
+      "p28dOrders": 536,
+      "p28dViews": 1240000
+    },
+    {
+      "clientId": "client-2",
+      "id": "hero-apex-002",
+      "productName": "Apex Summit Pack",
+      "shortSku": "APEX-SUMMIT-001",
+      "category": "Bags & Packs",
+      "isHero": true,
+      "p28dGmv": 34800,
+      "p28dOrders": 464,
+      "p28dViews": 890000
+    },
+    {
+      "clientId": "client-2",
+      "id": "hero-apex-003",
+      "productName": "Apex Mesa Hiker",
+      "shortSku": "APEX-MESA-001",
+      "category": "Footwear",
+      "isHero": false,
+      "p28dGmv": 27600,
+      "p28dOrders": 291,
+      "p28dViews": 680000
+    },
+    {
+      "clientId": "client-3",
+      "id": "hero-nova-001",
+      "productName": "Nova Hydra Serum",
+      "shortSku": "NOVA-SERUM-001",
+      "category": "Skincare",
+      "isHero": true,
+      "p28dGmv": 19200,
+      "p28dOrders": 549,
+      "p28dViews": 480000
+    },
+    {
+      "clientId": "client-3",
+      "id": "hero-nova-002",
+      "productName": "Nova SPF Mineral Stick",
+      "shortSku": "NOVA-SPF-001",
+      "category": "Sun Care",
+      "isHero": true,
+      "p28dGmv": 14700,
+      "p28dOrders": 507,
+      "p28dViews": 362000
+    },
+    {
+      "clientId": "client-4",
+      "id": "hero-pulse-001",
+      "productName": "Pulse Bass+ Earbuds",
+      "shortSku": "PULSE-EARBUD-001",
+      "category": "Earbuds",
+      "isHero": true,
+      "p28dGmv": 24600,
+      "p28dOrders": 274,
+      "p28dViews": 520000
+    },
+    {
+      "clientId": "client-4",
+      "id": "hero-pulse-002",
+      "productName": "Pulse Studio Headphones",
+      "shortSku": "PULSE-HEADPHONE-001",
+      "category": "Headphones",
+      "isHero": true,
+      "p28dGmv": 31400,
+      "p28dOrders": 175,
+      "p28dViews": 380000
     }
   ],
   "restocks": [
     {
+      "clientId": "client-1",
       "id": "restock-001",
       "productName": "HEYDUDE Wally Classic White",
       "shortSku": "WALLY-WHT-M9",
@@ -820,6 +1455,7 @@
       "notes": "500 units incoming from factory. Priority restock for hero SKU."
     },
     {
+      "clientId": "client-1",
       "id": "restock-002",
       "productName": "HEYDUDE Wendy Classic White",
       "shortSku": "WENDY-WHT-W8",
@@ -828,6 +1464,7 @@
       "notes": "350 units. Coordinate with ops team for receiving."
     },
     {
+      "clientId": "client-1",
       "id": "restock-003",
       "productName": "HEYDUDE Wally Classic Navy",
       "shortSku": "WALLY-NVY-M10",
@@ -836,6 +1473,7 @@
       "notes": "Nothing to update"
     },
     {
+      "clientId": "client-1",
       "id": "restock-004",
       "productName": "HEYDUDE Austin Lift White",
       "shortSku": "AUSTIN-WHT-M10",
@@ -844,6 +1482,7 @@
       "notes": "200 units. Running low on sizes 9-11."
     },
     {
+      "clientId": "client-1",
       "id": "restock-005",
       "productName": "HEYDUDE Wendy Classic Black",
       "shortSku": "WENDY-BLK-W9",
@@ -852,6 +1491,7 @@
       "notes": "Nothing to update"
     },
     {
+      "clientId": "client-1",
       "id": "restock-006",
       "productName": "HEYDUDE Bradley Leather Brown",
       "shortSku": "BRAD-BRN-M10",
@@ -860,6 +1500,7 @@
       "notes": "150 units. Leather sourcing delay from supplier."
     },
     {
+      "clientId": "client-1",
       "id": "restock-007",
       "productName": "HEYDUDE Karina Canvas White",
       "shortSku": "KARINA-WHT-W8",
@@ -868,12 +1509,58 @@
       "notes": "Nothing to update"
     },
     {
+      "clientId": "client-1",
       "id": "restock-008",
       "productName": "HEYDUDE Camden Canvas Navy",
       "shortSku": "CAMDEN-NVY-M9",
       "hasRestock": true,
       "eta": "2025-12-20",
       "notes": "100 units. New colorway also arriving same shipment."
+    },
+    {
+      "clientId": "client-2",
+      "id": "restock-apex-001",
+      "productName": "Apex Trailhead Boot",
+      "shortSku": "APEX-TRAIL-001",
+      "hasRestock": true,
+      "eta": "2025-12-10",
+      "notes": "300 units inbound from factory. Priority SKU for Q4 campaign."
+    },
+    {
+      "clientId": "client-2",
+      "id": "restock-apex-002",
+      "productName": "Apex Summit Pack",
+      "shortSku": "APEX-SUMMIT-001",
+      "hasRestock": false,
+      "eta": null,
+      "notes": "Currently on backorder. No confirmed restock date yet."
+    },
+    {
+      "clientId": "client-3",
+      "id": "restock-nova-001",
+      "productName": "Nova Hydra Serum",
+      "shortSku": "NOVA-SERUM-001",
+      "hasRestock": true,
+      "eta": "2025-12-15",
+      "notes": "500 units inbound. Priority SKU ahead of Q4 holiday gifting push."
+    },
+    {
+      "clientId": "client-4",
+      "id": "restock-pulse-001",
+      "productName": "Pulse Studio Headphones",
+      "shortSku": "PULSE-HEADPHONE-001",
+      "hasRestock": true,
+      "eta": "2025-12-08",
+      "notes": "200 units inbound. Priority SKU for holiday gifting campaign."
+    },
+    {
+      "clientId": "client-4",
+      "id": "restock-pulse-002",
+      "productName": "Pulse Sub Boom Speaker",
+      "shortSku": "PULSE-SPEAKER-001",
+      "hasRestock": false,
+      "eta": null,
+      "notes": "Supply chain delay from manufacturer. ETA not confirmed."
     }
   ]
 }

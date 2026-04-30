@@ -1,6 +1,7 @@
 {
   "creators": [
     {
+      "clientId": "client-1",
       "id": "creator-001",
       "username": "sneakersteph",
       "isVip": true,
@@ -19,6 +20,7 @@
       "gmvPerSample": 4758
     },
     {
+      "clientId": "client-1",
       "id": "creator-002",
       "username": "lifewithlauren_k",
       "isVip": true,
@@ -37,6 +39,7 @@
       "gmvPerSample": 5211
     },
     {
+      "clientId": "client-1",
       "id": "creator-003",
       "username": "trendyjordan99",
       "isVip": true,
@@ -55,6 +58,7 @@
       "gmvPerSample": 3572
     },
     {
+      "clientId": "client-1",
       "id": "creator-004",
       "username": "marcusonfeet",
       "isVip": false,
@@ -73,6 +77,7 @@
       "gmvPerSample": 3925
     },
     {
+      "clientId": "client-1",
       "id": "creator-005",
       "username": "fitchelsea",
       "isVip": true,
@@ -91,6 +96,7 @@
       "gmvPerSample": 3900
     },
     {
+      "clientId": "client-1",
       "id": "creator-006",
       "username": "dxvid_styles",
       "isVip": false,
@@ -109,6 +115,7 @@
       "gmvPerSample": 3225
     },
     {
+      "clientId": "client-1",
       "id": "creator-007",
       "username": "hailey_walks",
       "isVip": false,
@@ -127,6 +134,7 @@
       "gmvPerSample": 3744
     },
     {
+      "clientId": "client-1",
       "id": "creator-008",
       "username": "sneakrheadz",
       "isVip": true,
@@ -145,6 +153,7 @@
       "gmvPerSample": 3676
     },
     {
+      "clientId": "client-1",
       "id": "creator-009",
       "username": "priya_inpink",
       "isVip": false,
@@ -163,6 +172,7 @@
       "gmvPerSample": 3038
     },
     {
+      "clientId": "client-1",
       "id": "creator-010",
       "username": "ryanthriftdrip",
       "isVip": false,
@@ -181,6 +191,7 @@
       "gmvPerSample": 3633
     },
     {
+      "clientId": "client-1",
       "id": "creator-011",
       "username": "kacewithkate",
       "isVip": true,
@@ -199,6 +210,7 @@
       "gmvPerSample": 3208
     },
     {
+      "clientId": "client-1",
       "id": "creator-012",
       "username": "tevin_fits",
       "isVip": false,
@@ -217,6 +229,7 @@
       "gmvPerSample": 3120
     },
     {
+      "clientId": "client-1",
       "id": "creator-013",
       "username": "brooklynbootcamp",
       "isVip": true,
@@ -235,6 +248,7 @@
       "gmvPerSample": 3953
     },
     {
+      "clientId": "client-1",
       "id": "creator-014",
       "username": "nikki_oncloud",
       "isVip": false,
@@ -253,6 +267,7 @@
       "gmvPerSample": 3681
     },
     {
+      "clientId": "client-1",
       "id": "creator-015",
       "username": "zoecomfyvibes",
       "isVip": false,
@@ -271,6 +286,7 @@
       "gmvPerSample": 4020
     },
     {
+      "clientId": "client-1",
       "id": "creator-016",
       "username": "anthonyathletic",
       "isVip": true,
@@ -289,6 +305,7 @@
       "gmvPerSample": 4011
     },
     {
+      "clientId": "client-1",
       "id": "creator-017",
       "username": "mia_streetstyled",
       "isVip": false,
@@ -307,6 +324,7 @@
       "gmvPerSample": 3815
     },
     {
+      "clientId": "client-1",
       "id": "creator-018",
       "username": "footwearkev",
       "isVip": false,
@@ -325,6 +343,7 @@
       "gmvPerSample": 3067
     },
     {
+      "clientId": "client-1",
       "id": "creator-019",
       "username": "taylored_toes",
       "isVip": true,
@@ -343,6 +362,7 @@
       "gmvPerSample": 3982
     },
     {
+      "clientId": "client-1",
       "id": "creator-020",
       "username": "carla_kicks",
       "isVip": false,
@@ -361,6 +381,7 @@
       "gmvPerSample": 3479
     },
     {
+      "clientId": "client-1",
       "id": "creator-021",
       "username": "jacoblacedaily",
       "isVip": false,
@@ -379,6 +400,7 @@
       "gmvPerSample": 3343
     },
     {
+      "clientId": "client-1",
       "id": "creator-022",
       "username": "sierrasolesister",
       "isVip": true,
@@ -397,6 +419,7 @@
       "gmvPerSample": 3900
     },
     {
+      "clientId": "client-1",
       "id": "creator-023",
       "username": "devonthecourt",
       "isVip": false,
@@ -415,6 +438,7 @@
       "gmvPerSample": 3777
     },
     {
+      "clientId": "client-1",
       "id": "creator-024",
       "username": "paigepavement",
       "isVip": false,
@@ -433,6 +457,7 @@
       "gmvPerSample": 3218
     },
     {
+      "clientId": "client-1",
       "id": "creator-025",
       "username": "xandriasteps",
       "isVip": true,
@@ -449,10 +474,410 @@
       "affiliateFollowers": 444000,
       "gpm": 80.2,
       "gmvPerSample": 4134
+    },
+    {
+      "clientId": "client-2",
+      "id": "creator-apex-001",
+      "username": "trail_jess",
+      "isVip": true,
+      "isBrandPod": false,
+      "samplesThisYear": 24,
+      "p28dAffiliateGmv": 124800,
+      "deltaVsPriorPeriod": 8400,
+      "affiliateLivePct": 0.71,
+      "affiliateProductsSold": 980,
+      "blendedCommissionRate": 0.14,
+      "avgOrderValue": 127,
+      "ctr": 0.041,
+      "productImpressions": 320000,
+      "affiliateFollowers": 286000,
+      "gpm": 64.2,
+      "gmvPerSample": 5200
+    },
+    {
+      "clientId": "client-2",
+      "id": "creator-apex-002",
+      "username": "sole_explorer",
+      "isVip": true,
+      "isBrandPod": true,
+      "samplesThisYear": 18,
+      "p28dAffiliateGmv": 98500,
+      "deltaVsPriorPeriod": 6200,
+      "affiliateLivePct": 0.65,
+      "affiliateProductsSold": 780,
+      "blendedCommissionRate": 0.15,
+      "avgOrderValue": 126,
+      "ctr": 0.038,
+      "productImpressions": 275000,
+      "affiliateFollowers": 241000,
+      "gpm": 58.7,
+      "gmvPerSample": 5472
+    },
+    {
+      "clientId": "client-2",
+      "id": "creator-apex-003",
+      "username": "hike_with_hank",
+      "isVip": false,
+      "isBrandPod": false,
+      "samplesThisYear": 14,
+      "p28dAffiliateGmv": 74200,
+      "deltaVsPriorPeriod": 3100,
+      "affiliateLivePct": 0.58,
+      "affiliateProductsSold": 610,
+      "blendedCommissionRate": 0.12,
+      "avgOrderValue": 121,
+      "ctr": 0.034,
+      "productImpressions": 198000,
+      "affiliateFollowers": 174000,
+      "gpm": 51.3,
+      "gmvPerSample": 5300
+    },
+    {
+      "clientId": "client-2",
+      "id": "creator-apex-004",
+      "username": "summit_sienna",
+      "isVip": true,
+      "isBrandPod": false,
+      "samplesThisYear": 20,
+      "p28dAffiliateGmv": 87600,
+      "deltaVsPriorPeriod": 4800,
+      "affiliateLivePct": 0.74,
+      "affiliateProductsSold": 720,
+      "blendedCommissionRate": 0.13,
+      "avgOrderValue": 121,
+      "ctr": 0.036,
+      "productImpressions": 230000,
+      "affiliateFollowers": 208000,
+      "gpm": 55.1,
+      "gmvPerSample": 4380
+    },
+    {
+      "clientId": "client-2",
+      "id": "creator-apex-005",
+      "username": "boots_n_blair",
+      "isVip": false,
+      "isBrandPod": false,
+      "samplesThisYear": 10,
+      "p28dAffiliateGmv": 52400,
+      "deltaVsPriorPeriod": 1900,
+      "affiliateLivePct": 0.48,
+      "affiliateProductsSold": 430,
+      "blendedCommissionRate": 0.11,
+      "avgOrderValue": 121,
+      "ctr": 0.029,
+      "productImpressions": 142000,
+      "affiliateFollowers": 128000,
+      "gpm": 41.8,
+      "gmvPerSample": 5240
+    },
+    {
+      "clientId": "client-2",
+      "id": "creator-apex-006",
+      "username": "desertdave",
+      "isVip": false,
+      "isBrandPod": false,
+      "samplesThisYear": 8,
+      "p28dAffiliateGmv": 38900,
+      "deltaVsPriorPeriod": 1200,
+      "affiliateLivePct": 0.45,
+      "affiliateProductsSold": 320,
+      "blendedCommissionRate": 0.1,
+      "avgOrderValue": 121,
+      "ctr": 0.026,
+      "productImpressions": 104000,
+      "affiliateFollowers": 89000,
+      "gpm": 36.4,
+      "gmvPerSample": 4863
+    },
+    {
+      "clientId": "client-2",
+      "id": "creator-apex-007",
+      "username": "wandermarcus",
+      "isVip": false,
+      "isBrandPod": false,
+      "samplesThisYear": 12,
+      "p28dAffiliateGmv": 61700,
+      "deltaVsPriorPeriod": 2400,
+      "affiliateLivePct": 0.52,
+      "affiliateProductsSold": 510,
+      "blendedCommissionRate": 0.12,
+      "avgOrderValue": 121,
+      "ctr": 0.031,
+      "productImpressions": 167000,
+      "affiliateFollowers": 149000,
+      "gpm": 44.9,
+      "gmvPerSample": 5142
+    },
+    {
+      "clientId": "client-2",
+      "id": "creator-apex-008",
+      "username": "ridgerunner_riley",
+      "isVip": true,
+      "isBrandPod": true,
+      "samplesThisYear": 22,
+      "p28dAffiliateGmv": 113200,
+      "deltaVsPriorPeriod": 7600,
+      "affiliateLivePct": 0.68,
+      "affiliateProductsSold": 890,
+      "blendedCommissionRate": 0.14,
+      "avgOrderValue": 127,
+      "ctr": 0.039,
+      "productImpressions": 298000,
+      "affiliateFollowers": 263000,
+      "gpm": 60.8,
+      "gmvPerSample": 5145
+    },
+    {
+      "clientId": "client-3",
+      "id": "creator-nova-001",
+      "username": "glow_with_amy",
+      "isVip": true,
+      "isBrandPod": true,
+      "samplesThisYear": 19,
+      "p28dAffiliateGmv": 91400,
+      "deltaVsPriorPeriod": 5700,
+      "affiliateLivePct": 0.58,
+      "affiliateProductsSold": 740,
+      "blendedCommissionRate": 0.16,
+      "avgOrderValue": 48,
+      "ctr": 0.046,
+      "productImpressions": 198000,
+      "affiliateFollowers": 167000,
+      "gpm": 31.4,
+      "gmvPerSample": 4810
+    },
+    {
+      "clientId": "client-3",
+      "id": "creator-nova-002",
+      "username": "dewy_dani",
+      "isVip": true,
+      "isBrandPod": false,
+      "samplesThisYear": 14,
+      "p28dAffiliateGmv": 75200,
+      "deltaVsPriorPeriod": -3200,
+      "affiliateLivePct": 0.43,
+      "affiliateProductsSold": 612,
+      "blendedCommissionRate": 0.15,
+      "avgOrderValue": 46,
+      "ctr": 0.039,
+      "productImpressions": 148000,
+      "affiliateFollowers": 121000,
+      "gpm": 26.8,
+      "gmvPerSample": 5371
+    },
+    {
+      "clientId": "client-3",
+      "id": "creator-nova-003",
+      "username": "spf_savannah",
+      "isVip": true,
+      "isBrandPod": true,
+      "samplesThisYear": 24,
+      "p28dAffiliateGmv": 85800,
+      "deltaVsPriorPeriod": 9100,
+      "affiliateLivePct": 0.7,
+      "affiliateProductsSold": 784,
+      "blendedCommissionRate": 0.17,
+      "avgOrderValue": 44,
+      "ctr": 0.051,
+      "productImpressions": 214000,
+      "affiliateFollowers": 199000,
+      "gpm": 32.9,
+      "gmvPerSample": 3575
+    },
+    {
+      "clientId": "client-3",
+      "id": "creator-nova-004",
+      "username": "serum_specialist_sara",
+      "isVip": false,
+      "isBrandPod": false,
+      "samplesThisYear": 10,
+      "p28dAffiliateGmv": 37600,
+      "deltaVsPriorPeriod": 1400,
+      "affiliateLivePct": 0.27,
+      "affiliateProductsSold": 328,
+      "blendedCommissionRate": 0.13,
+      "avgOrderValue": 45,
+      "ctr": 0.03,
+      "productImpressions": 84000,
+      "affiliateFollowers": 54000,
+      "gpm": 19.4,
+      "gmvPerSample": 3760
+    },
+    {
+      "clientId": "client-3",
+      "id": "creator-nova-005",
+      "username": "beautybyolivia_n",
+      "isVip": false,
+      "isBrandPod": true,
+      "samplesThisYear": 16,
+      "p28dAffiliateGmv": 65500,
+      "deltaVsPriorPeriod": 3900,
+      "affiliateLivePct": 0.52,
+      "affiliateProductsSold": 536,
+      "blendedCommissionRate": 0.15,
+      "avgOrderValue": 47,
+      "ctr": 0.041,
+      "productImpressions": 128000,
+      "affiliateFollowers": 98000,
+      "gpm": 28.1,
+      "gmvPerSample": 4094
+    },
+    {
+      "clientId": "client-3",
+      "id": "creator-nova-006",
+      "username": "cleanskin_celeste",
+      "isVip": false,
+      "isBrandPod": false,
+      "samplesThisYear": 8,
+      "p28dAffiliateGmv": 28900,
+      "deltaVsPriorPeriod": 2200,
+      "affiliateLivePct": 0.31,
+      "affiliateProductsSold": 256,
+      "blendedCommissionRate": 0.12,
+      "avgOrderValue": 43,
+      "ctr": 0.026,
+      "productImpressions": 62000,
+      "affiliateFollowers": 41000,
+      "gpm": 15.6,
+      "gmvPerSample": 3613
+    },
+    {
+      "clientId": "client-4",
+      "id": "creator-pulse-001",
+      "username": "beats_and_bass",
+      "isVip": true,
+      "isBrandPod": true,
+      "samplesThisYear": 24,
+      "p28dAffiliateGmv": 114200,
+      "deltaVsPriorPeriod": 7100,
+      "affiliateLivePct": 0.6,
+      "affiliateProductsSold": 460,
+      "blendedCommissionRate": 0.14,
+      "avgOrderValue": 186,
+      "ctr": 0.044,
+      "productImpressions": 248000,
+      "affiliateFollowers": 207000,
+      "gpm": 47.8,
+      "gmvPerSample": 4758
+    },
+    {
+      "clientId": "client-4",
+      "id": "creator-pulse-002",
+      "username": "audio_aiden",
+      "isVip": true,
+      "isBrandPod": false,
+      "samplesThisYear": 18,
+      "p28dAffiliateGmv": 93800,
+      "deltaVsPriorPeriod": 5400,
+      "affiliateLivePct": 0.45,
+      "affiliateProductsSold": 380,
+      "blendedCommissionRate": 0.15,
+      "avgOrderValue": 188,
+      "ctr": 0.041,
+      "productImpressions": 206000,
+      "affiliateFollowers": 181000,
+      "gpm": 43.2,
+      "gmvPerSample": 5211
+    },
+    {
+      "clientId": "client-4",
+      "id": "creator-pulse-003",
+      "username": "studio_sam",
+      "isVip": true,
+      "isBrandPod": true,
+      "samplesThisYear": 30,
+      "p28dAffiliateGmv": 107200,
+      "deltaVsPriorPeriod": 11100,
+      "affiliateLivePct": 0.73,
+      "affiliateProductsSold": 490,
+      "blendedCommissionRate": 0.16,
+      "avgOrderValue": 181,
+      "ctr": 0.052,
+      "productImpressions": 261000,
+      "affiliateFollowers": 249000,
+      "gpm": 50.4,
+      "gmvPerSample": 3572
+    },
+    {
+      "clientId": "client-4",
+      "id": "creator-pulse-004",
+      "username": "headphone_henry",
+      "isVip": false,
+      "isBrandPod": true,
+      "samplesThisYear": 12,
+      "p28dAffiliateGmv": 47100,
+      "deltaVsPriorPeriod": 1700,
+      "affiliateLivePct": 0.29,
+      "affiliateProductsSold": 205,
+      "blendedCommissionRate": 0.13,
+      "avgOrderValue": 177,
+      "ctr": 0.033,
+      "productImpressions": 105000,
+      "affiliateFollowers": 67000,
+      "gpm": 24.3,
+      "gmvPerSample": 3925
+    },
+    {
+      "clientId": "client-4",
+      "id": "creator-pulse-005",
+      "username": "bass_face_brad",
+      "isVip": false,
+      "isBrandPod": false,
+      "samplesThisYear": 21,
+      "p28dAffiliateGmv": 81900,
+      "deltaVsPriorPeriod": 4900,
+      "affiliateLivePct": 0.54,
+      "affiliateProductsSold": 335,
+      "blendedCommissionRate": 0.14,
+      "avgOrderValue": 183,
+      "ctr": 0.042,
+      "productImpressions": 155000,
+      "affiliateFollowers": 123000,
+      "gpm": 35.2,
+      "gmvPerSample": 3900
+    },
+    {
+      "clientId": "client-4",
+      "id": "creator-pulse-006",
+      "username": "gear_with_grace",
+      "isVip": false,
+      "isBrandPod": true,
+      "samplesThisYear": 15,
+      "p28dAffiliateGmv": 69400,
+      "deltaVsPriorPeriod": 3800,
+      "affiliateLivePct": 0.47,
+      "affiliateProductsSold": 286,
+      "blendedCommissionRate": 0.14,
+      "avgOrderValue": 184,
+      "ctr": 0.038,
+      "productImpressions": 136000,
+      "affiliateFollowers": 104000,
+      "gpm": 31.6,
+      "gmvPerSample": 4627
+    },
+    {
+      "clientId": "client-4",
+      "id": "creator-pulse-007",
+      "username": "deep_cuts_dom",
+      "isVip": false,
+      "isBrandPod": false,
+      "samplesThisYear": 9,
+      "p28dAffiliateGmv": 36100,
+      "deltaVsPriorPeriod": 2300,
+      "affiliateLivePct": 0.33,
+      "affiliateProductsSold": 160,
+      "blendedCommissionRate": 0.12,
+      "avgOrderValue": 179,
+      "ctr": 0.028,
+      "productImpressions": 74000,
+      "affiliateFollowers": 52000,
+      "gpm": 19.7,
+      "gmvPerSample": 4011
     }
   ],
   "liveCreators": [
     {
+      "clientId": "client-1",
       "id": "creator-001",
       "username": "sneakersteph",
       "isVip": true,
@@ -478,6 +903,7 @@
       "affiliateLiveStreams": 18
     },
     {
+      "clientId": "client-1",
       "id": "creator-003",
       "username": "trendyjordan99",
       "isVip": true,
@@ -503,6 +929,7 @@
       "affiliateLiveStreams": 24
     },
     {
+      "clientId": "client-1",
       "id": "creator-008",
       "username": "sneakrheadz",
       "isVip": true,
@@ -528,6 +955,7 @@
       "affiliateLiveStreams": 20
     },
     {
+      "clientId": "client-1",
       "id": "creator-011",
       "username": "kacewithkate",
       "isVip": true,
@@ -553,6 +981,7 @@
       "affiliateLiveStreams": 28
     },
     {
+      "clientId": "client-1",
       "id": "creator-025",
       "username": "xandriasteps",
       "isVip": true,
@@ -578,6 +1007,7 @@
       "affiliateLiveStreams": 22
     },
     {
+      "clientId": "client-1",
       "id": "creator-005",
       "username": "fitchelsea",
       "isVip": true,
@@ -603,6 +1033,7 @@
       "affiliateLiveStreams": 14
     },
     {
+      "clientId": "client-1",
       "id": "creator-016",
       "username": "anthonyathletic",
       "isVip": true,
@@ -628,6 +1059,7 @@
       "affiliateLiveStreams": 12
     },
     {
+      "clientId": "client-1",
       "id": "creator-013",
       "username": "brooklynbootcamp",
       "isVip": true,
@@ -653,6 +1085,7 @@
       "affiliateLiveStreams": 8
     },
     {
+      "clientId": "client-1",
       "id": "creator-004",
       "username": "marcusonfeet",
       "isVip": false,
@@ -678,6 +1111,7 @@
       "affiliateLiveStreams": 6
     },
     {
+      "clientId": "client-1",
       "id": "creator-017",
       "username": "mia_streetstyled",
       "isVip": false,
@@ -701,10 +1135,245 @@
       "liveGrowth": 1300,
       "liveGrowthPct": 0.073,
       "affiliateLiveStreams": 4
+    },
+    {
+      "clientId": "client-2",
+      "id": "creator-apex-001",
+      "username": "trail_jess",
+      "isVip": true,
+      "isBrandPod": false,
+      "samplesThisYear": 24,
+      "p28dAffiliateGmv": 124800,
+      "deltaVsPriorPeriod": 8400,
+      "affiliateLivePct": 0.71,
+      "affiliateProductsSold": 980,
+      "blendedCommissionRate": 0.14,
+      "avgOrderValue": 127,
+      "ctr": 0.041,
+      "productImpressions": 320000,
+      "affiliateFollowers": 286000,
+      "gpm": 64.2,
+      "gmvPerSample": 5200,
+      "level": "L4",
+      "liveExclusives": true,
+      "interestedBrandHandleLives": false,
+      "liveGmvP28d": 88608,
+      "liveGrowth": 5400,
+      "liveGrowthPct": 0.065,
+      "affiliateLiveStreams": 14
+    },
+    {
+      "clientId": "client-2",
+      "id": "creator-apex-002",
+      "username": "sole_explorer",
+      "isVip": true,
+      "isBrandPod": true,
+      "samplesThisYear": 18,
+      "p28dAffiliateGmv": 98500,
+      "deltaVsPriorPeriod": 6200,
+      "affiliateLivePct": 0.65,
+      "affiliateProductsSold": 780,
+      "blendedCommissionRate": 0.15,
+      "avgOrderValue": 126,
+      "ctr": 0.038,
+      "productImpressions": 275000,
+      "affiliateFollowers": 241000,
+      "gpm": 58.7,
+      "gmvPerSample": 5472,
+      "level": "L3",
+      "liveExclusives": false,
+      "interestedBrandHandleLives": true,
+      "liveGmvP28d": 64025,
+      "liveGrowth": 3800,
+      "liveGrowthPct": 0.063,
+      "affiliateLiveStreams": 10
+    },
+    {
+      "clientId": "client-2",
+      "id": "creator-apex-004",
+      "username": "summit_sienna",
+      "isVip": true,
+      "isBrandPod": false,
+      "samplesThisYear": 20,
+      "p28dAffiliateGmv": 87600,
+      "deltaVsPriorPeriod": 4800,
+      "affiliateLivePct": 0.74,
+      "affiliateProductsSold": 720,
+      "blendedCommissionRate": 0.13,
+      "avgOrderValue": 121,
+      "ctr": 0.036,
+      "productImpressions": 230000,
+      "affiliateFollowers": 208000,
+      "gpm": 55.1,
+      "gmvPerSample": 4380,
+      "level": "L3",
+      "liveExclusives": true,
+      "interestedBrandHandleLives": true,
+      "liveGmvP28d": 64824,
+      "liveGrowth": 3200,
+      "liveGrowthPct": 0.052,
+      "affiliateLiveStreams": 12
+    },
+    {
+      "clientId": "client-2",
+      "id": "creator-apex-008",
+      "username": "ridgerunner_riley",
+      "isVip": true,
+      "isBrandPod": true,
+      "samplesThisYear": 22,
+      "p28dAffiliateGmv": 113200,
+      "deltaVsPriorPeriod": 7600,
+      "affiliateLivePct": 0.68,
+      "affiliateProductsSold": 890,
+      "blendedCommissionRate": 0.14,
+      "avgOrderValue": 127,
+      "ctr": 0.039,
+      "productImpressions": 298000,
+      "affiliateFollowers": 263000,
+      "gpm": 60.8,
+      "gmvPerSample": 5145,
+      "level": "L5",
+      "liveExclusives": true,
+      "interestedBrandHandleLives": false,
+      "liveGmvP28d": 76976,
+      "liveGrowth": 5100,
+      "liveGrowthPct": 0.071,
+      "affiliateLiveStreams": 16
+    },
+    {
+      "clientId": "client-3",
+      "id": "creator-nova-001",
+      "username": "glow_with_amy",
+      "isVip": true,
+      "isBrandPod": true,
+      "samplesThisYear": 19,
+      "p28dAffiliateGmv": 91400,
+      "deltaVsPriorPeriod": 5700,
+      "affiliateLivePct": 0.58,
+      "affiliateProductsSold": 740,
+      "blendedCommissionRate": 0.16,
+      "avgOrderValue": 48,
+      "ctr": 0.046,
+      "productImpressions": 198000,
+      "affiliateFollowers": 167000,
+      "gpm": 31.4,
+      "gmvPerSample": 4810,
+      "level": "L4",
+      "liveExclusives": true,
+      "interestedBrandHandleLives": false,
+      "liveGmvP28d": 53012,
+      "liveGrowth": 3400,
+      "liveGrowthPct": 0.068,
+      "affiliateLiveStreams": 11
+    },
+    {
+      "clientId": "client-3",
+      "id": "creator-nova-003",
+      "username": "spf_savannah",
+      "isVip": true,
+      "isBrandPod": true,
+      "samplesThisYear": 24,
+      "p28dAffiliateGmv": 85800,
+      "deltaVsPriorPeriod": 9100,
+      "affiliateLivePct": 0.7,
+      "affiliateProductsSold": 784,
+      "blendedCommissionRate": 0.17,
+      "avgOrderValue": 44,
+      "ctr": 0.051,
+      "productImpressions": 214000,
+      "affiliateFollowers": 199000,
+      "gpm": 32.9,
+      "gmvPerSample": 3575,
+      "level": "L3",
+      "liveExclusives": false,
+      "interestedBrandHandleLives": true,
+      "liveGmvP28d": 60060,
+      "liveGrowth": 6400,
+      "liveGrowthPct": 0.112,
+      "affiliateLiveStreams": 13
+    },
+    {
+      "clientId": "client-4",
+      "id": "creator-pulse-001",
+      "username": "beats_and_bass",
+      "isVip": true,
+      "isBrandPod": true,
+      "samplesThisYear": 24,
+      "p28dAffiliateGmv": 114200,
+      "deltaVsPriorPeriod": 7100,
+      "affiliateLivePct": 0.6,
+      "affiliateProductsSold": 460,
+      "blendedCommissionRate": 0.14,
+      "avgOrderValue": 186,
+      "ctr": 0.044,
+      "productImpressions": 248000,
+      "affiliateFollowers": 207000,
+      "gpm": 47.8,
+      "gmvPerSample": 4758,
+      "level": "L4",
+      "liveExclusives": true,
+      "interestedBrandHandleLives": false,
+      "liveGmvP28d": 68520,
+      "liveGrowth": 4300,
+      "liveGrowthPct": 0.067,
+      "affiliateLiveStreams": 12
+    },
+    {
+      "clientId": "client-4",
+      "id": "creator-pulse-003",
+      "username": "studio_sam",
+      "isVip": true,
+      "isBrandPod": true,
+      "samplesThisYear": 30,
+      "p28dAffiliateGmv": 107200,
+      "deltaVsPriorPeriod": 11100,
+      "affiliateLivePct": 0.73,
+      "affiliateProductsSold": 490,
+      "blendedCommissionRate": 0.16,
+      "avgOrderValue": 181,
+      "ctr": 0.052,
+      "productImpressions": 261000,
+      "affiliateFollowers": 249000,
+      "gpm": 50.4,
+      "gmvPerSample": 3572,
+      "level": "L5",
+      "liveExclusives": true,
+      "interestedBrandHandleLives": false,
+      "liveGmvP28d": 78258,
+      "liveGrowth": 8100,
+      "liveGrowthPct": 0.115,
+      "affiliateLiveStreams": 15
+    },
+    {
+      "clientId": "client-4",
+      "id": "creator-pulse-005",
+      "username": "bass_face_brad",
+      "isVip": false,
+      "isBrandPod": false,
+      "samplesThisYear": 21,
+      "p28dAffiliateGmv": 81900,
+      "deltaVsPriorPeriod": 4900,
+      "affiliateLivePct": 0.54,
+      "affiliateProductsSold": 335,
+      "blendedCommissionRate": 0.14,
+      "avgOrderValue": 183,
+      "ctr": 0.042,
+      "productImpressions": 155000,
+      "affiliateFollowers": 123000,
+      "gpm": 35.2,
+      "gmvPerSample": 3900,
+      "level": "L3",
+      "liveExclusives": false,
+      "interestedBrandHandleLives": true,
+      "liveGmvP28d": 44226,
+      "liveGrowth": 2600,
+      "liveGrowthPct": 0.062,
+      "affiliateLiveStreams": 9
     }
   ],
   "targetCollabs": [
     {
+      "clientId": "client-1",
       "id": "tc-001",
       "creatorId": "creator-006",
       "creatorUsername": "dxvid_styles",
@@ -713,6 +1382,7 @@
       "notes": "Reached out via TikTok DM, awaiting response."
     },
     {
+      "clientId": "client-1",
       "id": "tc-002",
       "creatorId": "creator-009",
       "creatorUsername": "priya_inpink",
@@ -721,6 +1391,7 @@
       "notes": "Sample shipped 2026-03-18, content due by end of month."
     },
     {
+      "clientId": "client-1",
       "id": "tc-003",
       "creatorId": "creator-010",
       "creatorUsername": "ryanthriftdrip",
@@ -729,6 +1400,7 @@
       "notes": "Manager contacted, negotiating rate."
     },
     {
+      "clientId": "client-1",
       "id": "tc-004",
       "creatorId": "creator-012",
       "creatorUsername": "tevin_fits",
@@ -737,6 +1409,7 @@
       "notes": "Video posted 2026-03-01, generated $4,200 GMV."
     },
     {
+      "clientId": "client-1",
       "id": "tc-005",
       "creatorId": "creator-015",
       "creatorUsername": "zoecomfyvibes",
@@ -745,6 +1418,7 @@
       "notes": "Creator not interested in shoe content."
     },
     {
+      "clientId": "client-1",
       "id": "tc-006",
       "creatorId": "creator-018",
       "creatorUsername": "footwearkev",
@@ -753,6 +1427,7 @@
       "notes": "Brief sent, awaiting content draft."
     },
     {
+      "clientId": "client-1",
       "id": "tc-007",
       "creatorId": "creator-020",
       "creatorUsername": "carla_kicks",
@@ -761,6 +1436,7 @@
       "notes": "High follower growth recently, priority outreach."
     },
     {
+      "clientId": "client-1",
       "id": "tc-008",
       "creatorId": "creator-021",
       "creatorUsername": "jacoblacedaily",
@@ -769,6 +1445,7 @@
       "notes": "Strong CTR on recent shoe reviews."
     },
     {
+      "clientId": "client-1",
       "id": "tc-009",
       "creatorId": "creator-024",
       "creatorUsername": "paigepavement",
@@ -777,16 +1454,153 @@
       "notes": "Two videos in production."
     },
     {
+      "clientId": "client-1",
       "id": "tc-010",
       "creatorId": "creator-002",
       "creatorUsername": "lifewithlauren_k",
       "status": "completed",
       "product": "HEYDUDE Wendy Shine",
       "notes": "Dedicated review video, $18,400 GMV in first 14 days."
+    },
+    {
+      "clientId": "client-2",
+      "id": "tc-apex-001",
+      "creatorId": "creator-apex-003",
+      "creatorUsername": "hike_with_hank",
+      "status": "pending",
+      "product": "Apex Trailhead Boot",
+      "notes": "Reached out via TikTok DM, awaiting response."
+    },
+    {
+      "clientId": "client-2",
+      "id": "tc-apex-002",
+      "creatorId": "creator-apex-005",
+      "creatorUsername": "boots_n_blair",
+      "status": "in_progress",
+      "product": "Apex Summit Pack",
+      "notes": "Gifted product, video in production."
+    },
+    {
+      "clientId": "client-2",
+      "id": "tc-apex-003",
+      "creatorId": "creator-apex-006",
+      "creatorUsername": "desertdave",
+      "status": "completed",
+      "product": "Apex Ridge Vest",
+      "notes": "Video live, 42K views in first 48 hours."
+    },
+    {
+      "clientId": "client-2",
+      "id": "tc-apex-004",
+      "creatorId": "creator-apex-007",
+      "creatorUsername": "wandermarcus",
+      "status": "pending",
+      "product": "Apex Canyon Sandal",
+      "notes": "Negotiating rate for sponsored post."
+    },
+    {
+      "clientId": "client-2",
+      "id": "tc-apex-005",
+      "creatorId": "creator-apex-001",
+      "creatorUsername": "trail_jess",
+      "status": "completed",
+      "product": "Apex Trailhead Boot",
+      "notes": "Live stream exclusive, exceeded GMV target by 18%."
+    },
+    {
+      "clientId": "client-2",
+      "id": "tc-apex-006",
+      "creatorId": "creator-apex-004",
+      "creatorUsername": "summit_sienna",
+      "status": "in_progress",
+      "product": "Apex Alpine Fleece",
+      "notes": "Content calendar scheduled for mid-October launch."
+    },
+    {
+      "clientId": "client-3",
+      "id": "tc-nova-001",
+      "creatorId": "creator-nova-004",
+      "creatorUsername": "serum_specialist_sara",
+      "status": "pending",
+      "product": "Nova Hydra Serum",
+      "notes": "Reached out via DM, awaiting response."
+    },
+    {
+      "clientId": "client-3",
+      "id": "tc-nova-002",
+      "creatorId": "creator-nova-005",
+      "creatorUsername": "beautybyolivia_n",
+      "status": "in_progress",
+      "product": "Nova Glow Cleanser",
+      "notes": "Gifted product, video in production."
+    },
+    {
+      "clientId": "client-3",
+      "id": "tc-nova-003",
+      "creatorId": "creator-nova-006",
+      "creatorUsername": "cleanskin_celeste",
+      "status": "completed",
+      "product": "Nova SPF Mineral Stick",
+      "notes": "Video posted Oct 22 \u2014 48K views, strong CVR."
+    },
+    {
+      "clientId": "client-3",
+      "id": "tc-nova-004",
+      "creatorId": "creator-nova-002",
+      "creatorUsername": "dewy_dani",
+      "status": "declined",
+      "product": "Nova Niacinamide Toner",
+      "notes": "Creator not taking new partnerships this quarter."
+    },
+    {
+      "clientId": "client-4",
+      "id": "tc-pulse-001",
+      "creatorId": "creator-pulse-004",
+      "creatorUsername": "headphone_henry",
+      "status": "pending",
+      "product": "Pulse Bass+ Earbuds",
+      "notes": "Reached out via TikTok DM, awaiting response."
+    },
+    {
+      "clientId": "client-4",
+      "id": "tc-pulse-002",
+      "creatorId": "creator-pulse-005",
+      "creatorUsername": "bass_face_brad",
+      "status": "in_progress",
+      "product": "Pulse Studio Headphones",
+      "notes": "Gifted headphones shipped. Unboxing content in production."
+    },
+    {
+      "clientId": "client-4",
+      "id": "tc-pulse-003",
+      "creatorId": "creator-pulse-007",
+      "creatorUsername": "deep_cuts_dom",
+      "status": "completed",
+      "product": "Pulse Sub Boom Speaker",
+      "notes": "Video live Oct 28 \u2014 62K views, strong add-to-cart rate."
+    },
+    {
+      "clientId": "client-4",
+      "id": "tc-pulse-004",
+      "creatorId": "creator-pulse-006",
+      "creatorUsername": "gear_with_grace",
+      "status": "in_progress",
+      "product": "Pulse ANC Pro Headphones",
+      "notes": "Review script approved. Filming this week."
+    },
+    {
+      "clientId": "client-4",
+      "id": "tc-pulse-005",
+      "creatorId": "creator-pulse-002",
+      "creatorUsername": "audio_aiden",
+      "status": "pending",
+      "product": "Pulse Wireless Earbuds Lite",
+      "notes": "Negotiating fee. Creator requested $400 for dedicated post."
     }
   ],
   "collaborationData": [
     {
+      "clientId": "client-1",
       "id": "collab-001",
       "creatorId": "creator-001",
       "creatorUsername": "sneakersteph",
@@ -795,6 +1609,7 @@
       "period": "2026-03"
     },
     {
+      "clientId": "client-1",
       "id": "collab-002",
       "creatorId": "creator-002",
       "creatorUsername": "lifewithlauren_k",
@@ -803,6 +1618,7 @@
       "period": "2026-03"
     },
     {
+      "clientId": "client-1",
       "id": "collab-003",
       "creatorId": "creator-003",
       "creatorUsername": "trendyjordan99",
@@ -811,6 +1627,7 @@
       "period": "2026-03"
     },
     {
+      "clientId": "client-1",
       "id": "collab-004",
       "creatorId": "creator-011",
       "creatorUsername": "kacewithkate",
@@ -819,6 +1636,7 @@
       "period": "2026-03"
     },
     {
+      "clientId": "client-1",
       "id": "collab-005",
       "creatorId": "creator-025",
       "creatorUsername": "xandriasteps",
@@ -827,6 +1645,7 @@
       "period": "2026-03"
     },
     {
+      "clientId": "client-1",
       "id": "collab-006",
       "creatorId": "creator-004",
       "creatorUsername": "marcusonfeet",
@@ -835,6 +1654,7 @@
       "period": "2026-03"
     },
     {
+      "clientId": "client-1",
       "id": "collab-007",
       "creatorId": "creator-007",
       "creatorUsername": "hailey_walks",
@@ -843,6 +1663,7 @@
       "period": "2026-03"
     },
     {
+      "clientId": "client-1",
       "id": "collab-008",
       "creatorId": "creator-014",
       "creatorUsername": "nikki_oncloud",
@@ -851,6 +1672,7 @@
       "period": "2026-03"
     },
     {
+      "clientId": "client-1",
       "id": "collab-009",
       "creatorId": "creator-023",
       "creatorUsername": "devonthecourt",
@@ -859,6 +1681,7 @@
       "period": "2026-03"
     },
     {
+      "clientId": "client-1",
       "id": "collab-010",
       "creatorId": "creator-019",
       "creatorUsername": "taylored_toes",
@@ -867,6 +1690,7 @@
       "period": "2026-03"
     },
     {
+      "clientId": "client-1",
       "id": "collab-011",
       "creatorId": "creator-005",
       "creatorUsername": "fitchelsea",
@@ -875,6 +1699,7 @@
       "period": "2026-02"
     },
     {
+      "clientId": "client-1",
       "id": "collab-012",
       "creatorId": "creator-008",
       "creatorUsername": "sneakrheadz",
@@ -883,6 +1708,7 @@
       "period": "2026-02"
     },
     {
+      "clientId": "client-1",
       "id": "collab-013",
       "creatorId": "creator-013",
       "creatorUsername": "brooklynbootcamp",
@@ -891,6 +1717,7 @@
       "period": "2026-02"
     },
     {
+      "clientId": "client-1",
       "id": "collab-014",
       "creatorId": "creator-022",
       "creatorUsername": "sierrasolesister",
@@ -899,16 +1726,153 @@
       "period": "2026-02"
     },
     {
+      "clientId": "client-1",
       "id": "collab-015",
       "creatorId": "creator-016",
       "creatorUsername": "anthonyathletic",
       "type": "target",
       "gmv": 152400,
       "period": "2026-02"
+    },
+    {
+      "clientId": "client-2",
+      "id": "collab-apex-001",
+      "creatorId": "creator-apex-001",
+      "creatorUsername": "trail_jess",
+      "type": "target",
+      "gmv": 124800,
+      "period": "2025-10"
+    },
+    {
+      "clientId": "client-2",
+      "id": "collab-apex-002",
+      "creatorId": "creator-apex-002",
+      "creatorUsername": "sole_explorer",
+      "type": "target",
+      "gmv": 98500,
+      "period": "2025-10"
+    },
+    {
+      "clientId": "client-2",
+      "id": "collab-apex-003",
+      "creatorId": "creator-apex-008",
+      "creatorUsername": "ridgerunner_riley",
+      "type": "target",
+      "gmv": 113200,
+      "period": "2025-10"
+    },
+    {
+      "clientId": "client-2",
+      "id": "collab-apex-004",
+      "creatorId": "creator-apex-004",
+      "creatorUsername": "summit_sienna",
+      "type": "open",
+      "gmv": 87600,
+      "period": "2025-10"
+    },
+    {
+      "clientId": "client-2",
+      "id": "collab-apex-005",
+      "creatorId": "creator-apex-003",
+      "creatorUsername": "hike_with_hank",
+      "type": "open",
+      "gmv": 74200,
+      "period": "2025-10"
+    },
+    {
+      "clientId": "client-2",
+      "id": "collab-apex-006",
+      "creatorId": "creator-apex-007",
+      "creatorUsername": "wandermarcus",
+      "type": "open",
+      "gmv": 61700,
+      "period": "2025-10"
+    },
+    {
+      "clientId": "client-3",
+      "id": "collab-nova-001",
+      "creatorId": "creator-nova-001",
+      "creatorUsername": "glow_with_amy",
+      "type": "target",
+      "gmv": 91400,
+      "period": "2025-10"
+    },
+    {
+      "clientId": "client-3",
+      "id": "collab-nova-002",
+      "creatorId": "creator-nova-003",
+      "creatorUsername": "spf_savannah",
+      "type": "target",
+      "gmv": 85800,
+      "period": "2025-10"
+    },
+    {
+      "clientId": "client-3",
+      "id": "collab-nova-003",
+      "creatorId": "creator-nova-002",
+      "creatorUsername": "dewy_dani",
+      "type": "open",
+      "gmv": 75200,
+      "period": "2025-10"
+    },
+    {
+      "clientId": "client-3",
+      "id": "collab-nova-004",
+      "creatorId": "creator-nova-005",
+      "creatorUsername": "beautybyolivia_n",
+      "type": "open",
+      "gmv": 65500,
+      "period": "2025-10"
+    },
+    {
+      "clientId": "client-4",
+      "id": "collab-pulse-001",
+      "creatorId": "creator-pulse-001",
+      "creatorUsername": "beats_and_bass",
+      "type": "target",
+      "gmv": 114200,
+      "period": "2025-10"
+    },
+    {
+      "clientId": "client-4",
+      "id": "collab-pulse-002",
+      "creatorId": "creator-pulse-003",
+      "creatorUsername": "studio_sam",
+      "type": "target",
+      "gmv": 107200,
+      "period": "2025-10"
+    },
+    {
+      "clientId": "client-4",
+      "id": "collab-pulse-003",
+      "creatorId": "creator-pulse-002",
+      "creatorUsername": "audio_aiden",
+      "type": "open",
+      "gmv": 93800,
+      "period": "2025-10"
+    },
+    {
+      "clientId": "client-4",
+      "id": "collab-pulse-004",
+      "creatorId": "creator-pulse-005",
+      "creatorUsername": "bass_face_brad",
+      "type": "open",
+      "gmv": 81900,
+      "period": "2025-10"
+    },
+    {
+      "clientId": "client-4",
+      "id": "collab-pulse-005",
+      "creatorId": "creator-pulse-006",
+      "creatorUsername": "gear_with_grace",
+      "type": "target",
+      "gmv": 69400,
+      "period": "2025-10"
     }
   ],
   "creatorIncentives": [
     {
+      "clientId": "client-1",
       "id": "incentive-001",
       "creatorId": "creator-001",
       "creatorUsername": "sneakersteph",
@@ -917,6 +1881,7 @@
       "period": "2026-Q1"
     },
     {
+      "clientId": "client-1",
       "id": "incentive-002",
       "creatorId": "creator-003",
       "creatorUsername": "trendyjordan99",
@@ -925,6 +1890,7 @@
       "period": "2026-Q1"
     },
     {
+      "clientId": "client-1",
       "id": "incentive-003",
       "creatorId": "creator-011",
       "creatorUsername": "kacewithkate",
@@ -933,6 +1899,7 @@
       "period": "2026-Q1"
     },
     {
+      "clientId": "client-1",
       "id": "incentive-004",
       "creatorId": "creator-025",
       "creatorUsername": "xandriasteps",
@@ -941,6 +1908,7 @@
       "period": "2026-Q1"
     },
     {
+      "clientId": "client-1",
       "id": "incentive-005",
       "creatorId": "creator-008",
       "creatorUsername": "sneakrheadz",
@@ -949,6 +1917,7 @@
       "period": "2026-Q1"
     },
     {
+      "clientId": "client-1",
       "id": "incentive-006",
       "creatorId": "creator-005",
       "creatorUsername": "fitchelsea",
@@ -957,6 +1926,7 @@
       "period": "2026-Q1"
     },
     {
+      "clientId": "client-1",
       "id": "incentive-007",
       "creatorId": "creator-019",
       "creatorUsername": "taylored_toes",
@@ -965,12 +1935,76 @@
       "period": "2026-Q1"
     },
     {
+      "clientId": "client-1",
       "id": "incentive-008",
       "creatorId": "creator-002",
       "creatorUsername": "lifewithlauren_k",
       "type": "VIP Gift Package",
       "amount": 900,
       "period": "2026-Q1"
+    },
+    {
+      "clientId": "client-2",
+      "id": "incentive-apex-001",
+      "creatorId": "creator-apex-001",
+      "creatorUsername": "trail_jess",
+      "type": "GMV Bonus",
+      "amount": 1800,
+      "period": "2025-Q4"
+    },
+    {
+      "clientId": "client-2",
+      "id": "incentive-apex-002",
+      "creatorId": "creator-apex-008",
+      "creatorUsername": "ridgerunner_riley",
+      "type": "Live Bonus",
+      "amount": 1200,
+      "period": "2025-Q4"
+    },
+    {
+      "clientId": "client-2",
+      "id": "incentive-apex-003",
+      "creatorId": "creator-apex-002",
+      "creatorUsername": "sole_explorer",
+      "type": "Brand Pod Fee",
+      "amount": 2000,
+      "period": "2025-10"
+    },
+    {
+      "clientId": "client-3",
+      "id": "incentive-nova-001",
+      "creatorId": "creator-nova-001",
+      "creatorUsername": "glow_with_amy",
+      "type": "GMV Bonus",
+      "amount": 700,
+      "period": "2025-Q4"
+    },
+    {
+      "clientId": "client-3",
+      "id": "incentive-nova-002",
+      "creatorId": "creator-nova-003",
+      "creatorUsername": "spf_savannah",
+      "type": "Live Bonus",
+      "amount": 500,
+      "period": "2025-Q4"
+    },
+    {
+      "clientId": "client-4",
+      "id": "incentive-pulse-001",
+      "creatorId": "creator-pulse-001",
+      "creatorUsername": "beats_and_bass",
+      "type": "GMV Bonus",
+      "amount": 900,
+      "period": "2025-Q4"
+    },
+    {
+      "clientId": "client-4",
+      "id": "incentive-pulse-002",
+      "creatorId": "creator-pulse-003",
+      "creatorUsername": "studio_sam",
+      "type": "Live Bonus",
+      "amount": 750,
+      "period": "2025-Q4"
     }
   ]
 }

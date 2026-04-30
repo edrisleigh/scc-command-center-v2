@@ -1,27 +1,45 @@
 import type { CalendarRepository } from '@/data/repositories/types'
 import calendarData from '@/data/fixtures/calendar.json'
 import type { CalendarEvent, CalendarEventInput } from '@/modules/calendar/types'
-import { createPersistedStore, generateId } from './persist'
+import { createScopedStore, generateId, type Scope } from './persist'
 
-const store = createPersistedStore<CalendarEvent[]>('calendar.events', () =>
-  (calendarData.events as CalendarEvent[]).map((e) => ({
-    ...e,
-    createdAt: e.createdAt ?? new Date('2026-01-01').toISOString(),
-  })),
-)
+type Store = ReturnType<typeof createScopedStore<CalendarEvent[]>>
+
+const stores = new Map<string, Store>()
+
+function getStore(orgId: string, clientId: string): Store {
+  const key = `${orgId}:${clientId}`
+  let store = stores.get(key)
+  if (!store) {
+    const scope: Scope = { kind: 'client', orgId, clientId }
+    store = createScopedStore<CalendarEvent[]>(scope, 'calendar.events', () =>
+      (calendarData.events as CalendarEvent[])
+        .filter((e) => e.clientId === clientId)
+        .map((e) => ({
+          ...e,
+          createdAt: e.createdAt ?? new Date('2026-01-01').toISOString(),
+        })),
+    )
+    stores.set(key, store)
+  }
+  return store
+}
 
 export function createMockCalendarRepository(): CalendarRepository {
   return {
-    async getEvents(_clientId: string): Promise<CalendarEvent[]> {
-      return store.read()
+    async getEvents(orgId: string, clientId: string): Promise<CalendarEvent[]> {
+      return getStore(orgId, clientId).read()
     },
     async createEvent(
-      _clientId: string,
+      orgId: string,
+      clientId: string,
       input: CalendarEventInput,
       actor: string,
     ): Promise<CalendarEvent> {
+      const store = getStore(orgId, clientId)
       const now = new Date().toISOString()
       const next: CalendarEvent = {
+        clientId,
         ...input,
         id: generateId('cal'),
         createdAt: now,
@@ -32,11 +50,13 @@ export function createMockCalendarRepository(): CalendarRepository {
       return next
     },
     async updateEvent(
-      _clientId: string,
+      orgId: string,
+      clientId: string,
       id: string,
       patch: Partial<CalendarEventInput>,
       actor: string,
     ): Promise<CalendarEvent> {
+      const store = getStore(orgId, clientId)
       const current = store.read()
       const idx = current.findIndex((e) => e.id === id)
       if (idx === -1) throw new Error(`Calendar event not found: ${id}`)
@@ -51,7 +71,8 @@ export function createMockCalendarRepository(): CalendarRepository {
       store.write(next)
       return updated
     },
-    async deleteEvent(_clientId: string, id: string): Promise<void> {
+    async deleteEvent(orgId: string, clientId: string, id: string): Promise<void> {
+      const store = getStore(orgId, clientId)
       store.write(store.read().filter((e) => e.id !== id))
     },
   }

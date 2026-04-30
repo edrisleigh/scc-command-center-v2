@@ -4,26 +4,26 @@ import { CircleCheck, CircleSlash, RefreshCcw } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { useFreshness, useRecordRefresh } from '@/modules/freshness/hooks'
 import { useCurrentUser } from '@/modules/shared/hooks/use-current-user'
+import { useTenant } from '@/modules/shared/hooks/use-tenant'
 import type { DataSource } from '@/modules/freshness/types'
 
 interface FreshnessBadgeProps {
   source: DataSource
-  clientId?: string
   allowRefresh?: boolean
   size?: 'sm' | 'md'
 }
 
 export function FreshnessBadge({
   source,
-  clientId = 'client-1',
   allowRefresh = true,
   size = 'md',
 }: FreshnessBadgeProps) {
-  const { data } = useFreshness(clientId)
+  const { org, client } = useTenant()
+  const { data } = useFreshness(org.id, client.id)
   const record = data?.find((r) => r.dataSource === source) ?? null
   const user = useCurrentUser()
   const canRefresh = allowRefresh && user.role === 'admin'
-  const refresh = useRecordRefresh(clientId)
+  const refresh = useRecordRefresh(org.id, client.id)
 
   const baseClass = cn(
     'inline-flex items-center gap-1.5 rounded-full border px-2 py-0.5',

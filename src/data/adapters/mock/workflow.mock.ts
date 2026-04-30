@@ -1,27 +1,45 @@
 import type { WorkflowRepository } from '@/data/repositories/types'
 import workflowData from '@/data/fixtures/workflow.json'
 import type { WorkflowTask, WorkflowTaskInput } from '@/modules/workflow/types'
-import { createPersistedStore, generateId } from './persist'
+import { createScopedStore, generateId, type Scope } from './persist'
 
-const store = createPersistedStore<WorkflowTask[]>('workflow.tasks', () =>
-  (workflowData.tasks as WorkflowTask[]).map((t) => ({
-    ...t,
-    createdAt: t.createdAt ?? new Date('2026-01-01').toISOString(),
-  })),
-)
+type Store = ReturnType<typeof createScopedStore<WorkflowTask[]>>
+
+const stores = new Map<string, Store>()
+
+function getStore(orgId: string, clientId: string): Store {
+  const key = `${orgId}:${clientId}`
+  let store = stores.get(key)
+  if (!store) {
+    const scope: Scope = { kind: 'client', orgId, clientId }
+    store = createScopedStore<WorkflowTask[]>(scope, 'workflow.tasks', () =>
+      (workflowData.tasks as WorkflowTask[])
+        .filter((t) => t.clientId === clientId)
+        .map((t) => ({
+          ...t,
+          createdAt: t.createdAt ?? new Date('2026-01-01').toISOString(),
+        })),
+    )
+    stores.set(key, store)
+  }
+  return store
+}
 
 export function createMockWorkflowRepository(): WorkflowRepository {
   return {
-    async getWorkflowTasks(_clientId: string): Promise<WorkflowTask[]> {
-      return store.read()
+    async getWorkflowTasks(orgId: string, clientId: string): Promise<WorkflowTask[]> {
+      return getStore(orgId, clientId).read()
     },
     async createTask(
-      _clientId: string,
+      orgId: string,
+      clientId: string,
       input: WorkflowTaskInput,
       actor: string,
     ): Promise<WorkflowTask> {
+      const store = getStore(orgId, clientId)
       const now = new Date().toISOString()
       const next: WorkflowTask = {
+        clientId,
         ...input,
         id: generateId('wf'),
         completedThisWeek: [false, false, false, false, false],
@@ -33,11 +51,13 @@ export function createMockWorkflowRepository(): WorkflowRepository {
       return next
     },
     async updateTask(
-      _clientId: string,
+      orgId: string,
+      clientId: string,
       id: string,
       patch: Partial<Omit<WorkflowTask, 'id' | 'createdAt'>>,
       actor: string,
     ): Promise<WorkflowTask> {
+      const store = getStore(orgId, clientId)
       const current = store.read()
       const idx = current.findIndex((t) => t.id === id)
       if (idx === -1) throw new Error(`Workflow task not found: ${id}`)
@@ -52,7 +72,8 @@ export function createMockWorkflowRepository(): WorkflowRepository {
       store.write(next)
       return updated
     },
-    async deleteTask(_clientId: string, id: string): Promise<void> {
+    async deleteTask(orgId: string, clientId: string, id: string): Promise<void> {
+      const store = getStore(orgId, clientId)
       store.write(store.read().filter((t) => t.id !== id))
     },
   }

@@ -68,6 +68,7 @@ const shopDaily: ShopDailyMetric[] = dates.map((date) => {
   const reviews = Math.round(orders * randBetween(0.05, 0.15))
 
   return {
+    clientId: 'client-1',
     date,
     gmv,
     grossRevenue,
@@ -108,6 +109,7 @@ const videoDaily: VideoDailyMetric[] = dates.map((date) => {
   const videosPosted = Math.round(randBetween(3, 15))
 
   return {
+    clientId: 'client-1',
     date,
     videoGmv,
     videoViews,
@@ -139,6 +141,7 @@ const adsDaily: AdsDailyMetric[] = dates.map((date) => {
   const openCollabsGmv = roundTo(affiliateGmv - targetCollabsGmv)
 
   return {
+    clientId: 'client-1',
     date,
     adDrivenGmv,
     adSpend,

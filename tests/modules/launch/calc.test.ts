@@ -283,6 +283,7 @@ describe('computeAllScenarios', () => {
   it('dispatches each key to its own scenario inputs', () => {
     const baseDoc = (overrides: Partial<LaunchScenario> = {}): LaunchScenario => ({
       id: 'test',
+      orgId: 'org-1',
       orgSlug: 'halo',
       clientSlug: null,
       prospectName: 'Test',

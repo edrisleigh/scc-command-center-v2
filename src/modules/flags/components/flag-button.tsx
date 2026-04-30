@@ -2,14 +2,15 @@ import { useState } from 'react'
 import { Flag as FlagIcon } from 'lucide-react'
 import { FlagDialog } from '@/modules/flags/components/flag-dialog'
 import type { FlagSection } from '@/modules/flags/types'
+import { useTenant } from '@/modules/shared/hooks/use-tenant'
 
 interface FlagButtonProps {
   section: FlagSection
   dataPointRef?: string
-  clientId?: string
 }
 
-export function FlagButton({ section, dataPointRef, clientId }: FlagButtonProps) {
+export function FlagButton({ section, dataPointRef }: FlagButtonProps) {
+  const { org, client } = useTenant()
   const [open, setOpen] = useState(false)
   return (
     <>
@@ -28,7 +29,8 @@ export function FlagButton({ section, dataPointRef, clientId }: FlagButtonProps)
         onClose={() => setOpen(false)}
         section={section}
         dataPointRef={dataPointRef}
-        clientId={clientId}
+        orgId={org.id}
+        clientId={client.id}
       />
     </>
   )

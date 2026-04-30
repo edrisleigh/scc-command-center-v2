@@ -1,12 +1,16 @@
 {
   "organizations": [
-    { "id": "org-1", "name": "Halo Agency", "slug": "halo" }
+    { "id": "org-1", "name": "Halo Agency", "slug": "halo" },
+    { "id": "org-2", "name": "Beam Collective", "slug": "beam" }
   ],
   "clients": [
     { "id": "client-1", "organizationId": "org-1", "name": "HEYDUDE", "slug": "heydude", "platform": "tiktok" },
-    { "id": "client-2", "organizationId": "org-1", "name": "Brand B", "slug": "brand-b", "platform": "tiktok" }
+    { "id": "client-2", "organizationId": "org-1", "name": "Apex Outdoors", "slug": "apex", "platform": "tiktok" },
+    { "id": "client-3", "organizationId": "org-2", "name": "Nova Skincare", "slug": "nova", "platform": "tiktok" },
+    { "id": "client-4", "organizationId": "org-2", "name": "Pulse Audio", "slug": "pulse", "platform": "tiktok" }
   ],
   "users": [
-    { "id": "user-1", "name": "Edris Aleigh", "email": "edris@halo.com", "role": "admin", "organizationId": "org-1" }
+    { "id": "user-1", "name": "Edris Aleigh", "email": "edris@halo.com", "role": "admin", "organizationId": "org-1" },
+    { "id": "user-2", "name": "Jordan Taylor", "email": "jordan@beam.com", "role": "admin", "organizationId": "org-2" }
   ]
 }
