@@ -1,4 +1,8 @@
+import { useTenant } from '@/modules/shared/hooks/use-tenant'
+
 export function SettingsPage() {
+  const { org, client } = useTenant()
+
   return (
     <div className="max-w-2xl space-y-6">
       {/* Organization Info */}
@@ -7,11 +11,11 @@ export function SettingsPage() {
         <div className="space-y-3">
           <div className="flex items-center justify-between">
             <span className="text-xs text-muted">Name</span>
-            <span className="text-sm text-card-foreground font-medium">Halo Agency</span>
+            <span className="text-sm text-card-foreground font-medium">{org.name}</span>
           </div>
           <div className="flex items-center justify-between">
             <span className="text-xs text-muted">Slug</span>
-            <span className="font-mono text-xs text-muted bg-muted/10 rounded px-2 py-0.5">halo</span>
+            <span className="font-mono text-xs text-muted bg-muted/10 rounded px-2 py-0.5">{org.slug}</span>
           </div>
         </div>
       </div>
@@ -22,7 +26,7 @@ export function SettingsPage() {
         <div className="space-y-3">
           <div className="flex items-center justify-between">
             <span className="text-xs text-muted">Name</span>
-            <span className="text-sm text-card-foreground font-medium">HEYDUDE</span>
+            <span className="text-sm text-card-foreground font-medium">{client.name}</span>
           </div>
           <div className="flex items-center justify-between">
             <span className="text-xs text-muted">Platform</span>
@@ -32,7 +36,7 @@ export function SettingsPage() {
           </div>
           <div className="flex items-center justify-between">
             <span className="text-xs text-muted">Slug</span>
-            <span className="font-mono text-xs text-muted bg-muted/10 rounded px-2 py-0.5">heydude</span>
+            <span className="font-mono text-xs text-muted bg-muted/10 rounded px-2 py-0.5">{client.slug}</span>
           </div>
         </div>
       </div>

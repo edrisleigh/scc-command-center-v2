@@ -17,7 +17,16 @@ export function LoginPage() {
     try {
       const result = await repositories.auth.login(email, password)
       useAuthStore.getState().setFakeUser(result.user.id)
-      window.location.href = '/halo/heydude/shop'
+      const user = useAuthStore.getState().user
+      const orgs = await repositories.auth.getOrganizations()
+      const org = orgs.find((o) => o.id === user?.organizationId)
+      if (!org) return
+      const clients = await repositories.auth.getClients(org.id)
+      if (!clients[0]) return
+      navigate({
+        to: '/$orgSlug/$clientSlug/shop',
+        params: { orgSlug: org.slug, clientSlug: clients[0].slug },
+      })
     } catch (err) {
       console.error('Login error:', err)
       setError(err instanceof Error ? err.message : 'Login failed')
