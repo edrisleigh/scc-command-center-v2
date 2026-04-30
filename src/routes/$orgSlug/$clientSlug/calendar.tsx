@@ -3,10 +3,10 @@ import { CalendarPage } from '@/modules/calendar/components/calendar-page'
 import { repositories } from '@/data'
 
 export const Route = createFileRoute('/$orgSlug/$clientSlug/calendar')({
-  loader: ({ context: { queryClient, client } }) =>
+  loader: ({ context: { queryClient, org, client } }) =>
     queryClient.ensureQueryData({
-      queryKey: ['calendar', 'events', client.id],
-      queryFn: () => repositories.calendar.getEvents(client.id),
+      queryKey: ['calendar', 'events', org.id, client.id],
+      queryFn: () => repositories.calendar.getEvents(org.id, client.id),
     }),
   component: CalendarPage,
 })

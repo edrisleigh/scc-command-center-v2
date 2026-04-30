@@ -10,7 +10,7 @@ interface FlagButtonProps {
 }
 
 export function FlagButton({ section, dataPointRef }: FlagButtonProps) {
-  const { client } = useTenant()
+  const { org, client } = useTenant()
   const [open, setOpen] = useState(false)
   return (
     <>
@@ -29,6 +29,7 @@ export function FlagButton({ section, dataPointRef }: FlagButtonProps) {
         onClose={() => setOpen(false)}
         section={section}
         dataPointRef={dataPointRef}
+        orgId={org.id}
         clientId={client.id}
       />
     </>

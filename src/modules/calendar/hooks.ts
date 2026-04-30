@@ -3,40 +3,40 @@ import { repositories } from '@/data'
 import type { CalendarEventInput } from '@/modules/calendar/types'
 import { useCurrentUser } from '@/modules/shared/hooks/use-current-user'
 
-export function useCalendarEvents(clientId: string) {
+export function useCalendarEvents(orgId: string, clientId: string) {
   return useQuery({
-    queryKey: ['calendar', 'events', clientId],
-    queryFn: () => repositories.calendar.getEvents(clientId),
+    queryKey: ['calendar', 'events', orgId, clientId],
+    queryFn: () => repositories.calendar.getEvents(orgId, clientId),
   })
 }
 
-export function useCreateCalendarEvent(clientId: string) {
+export function useCreateCalendarEvent(orgId: string, clientId: string) {
   const qc = useQueryClient()
   const user = useCurrentUser()
   return useMutation({
     mutationFn: (input: CalendarEventInput) =>
-      repositories.calendar.createEvent(clientId, input, user.name),
+      repositories.calendar.createEvent(orgId, clientId, input, user.name),
     onSuccess: () =>
-      qc.invalidateQueries({ queryKey: ['calendar', 'events', clientId] }),
+      qc.invalidateQueries({ queryKey: ['calendar', 'events', orgId, clientId] }),
   })
 }
 
-export function useUpdateCalendarEvent(clientId: string) {
+export function useUpdateCalendarEvent(orgId: string, clientId: string) {
   const qc = useQueryClient()
   const user = useCurrentUser()
   return useMutation({
     mutationFn: ({ id, patch }: { id: string; patch: Partial<CalendarEventInput> }) =>
-      repositories.calendar.updateEvent(clientId, id, patch, user.name),
+      repositories.calendar.updateEvent(orgId, clientId, id, patch, user.name),
     onSuccess: () =>
-      qc.invalidateQueries({ queryKey: ['calendar', 'events', clientId] }),
+      qc.invalidateQueries({ queryKey: ['calendar', 'events', orgId, clientId] }),
   })
 }
 
-export function useDeleteCalendarEvent(clientId: string) {
+export function useDeleteCalendarEvent(orgId: string, clientId: string) {
   const qc = useQueryClient()
   return useMutation({
-    mutationFn: (id: string) => repositories.calendar.deleteEvent(clientId, id),
+    mutationFn: (id: string) => repositories.calendar.deleteEvent(orgId, clientId, id),
     onSuccess: () =>
-      qc.invalidateQueries({ queryKey: ['calendar', 'events', clientId] }),
+      qc.invalidateQueries({ queryKey: ['calendar', 'events', orgId, clientId] }),
   })
 }

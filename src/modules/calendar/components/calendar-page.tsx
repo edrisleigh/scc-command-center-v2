@@ -8,8 +8,8 @@ import { FlagButton } from '@/modules/flags/components/flag-button'
 import { useTenant } from '@/modules/shared/hooks/use-tenant'
 
 export function CalendarPage() {
-  const { client } = useTenant()
-  const { data: events, isLoading } = useCalendarEvents(client.id)
+  const { org, client } = useTenant()
+  const { data: events, isLoading } = useCalendarEvents(org.id, client.id)
 
   const kpis = useMemo(() => {
     if (!events) return null
@@ -57,7 +57,7 @@ export function CalendarPage() {
       )}
 
       {/* Calendar */}
-      <CalendarView events={events ?? []} clientId={client.id} />
+      <CalendarView events={events ?? []} orgId={org.id} clientId={client.id} />
     </div>
   )
 }

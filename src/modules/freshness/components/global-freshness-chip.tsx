@@ -19,8 +19,8 @@ const SOURCE_ORDER: DataSource[] = [
 ]
 
 export function GlobalFreshnessChip() {
-  const { client } = useTenant()
-  const { data } = useFreshness(client.id)
+  const { org, client } = useTenant()
+  const { data } = useFreshness(org.id, client.id)
   const [open, setOpen] = useState(false)
   const ref = useRef<HTMLDivElement>(null)
 

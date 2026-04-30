@@ -25,21 +25,18 @@ function getStore(orgId: string, clientId: string): Store {
   return store
 }
 
-function ridOrgId(_clientId: string): string {
-  return 'org-1' // temporary: until WorkflowRepository receives orgId in Phase 4
-}
-
 export function createMockWorkflowRepository(): WorkflowRepository {
   return {
-    async getWorkflowTasks(clientId: string): Promise<WorkflowTask[]> {
-      return getStore(ridOrgId(clientId), clientId).read()
+    async getWorkflowTasks(orgId: string, clientId: string): Promise<WorkflowTask[]> {
+      return getStore(orgId, clientId).read()
     },
     async createTask(
+      orgId: string,
       clientId: string,
       input: WorkflowTaskInput,
       actor: string,
     ): Promise<WorkflowTask> {
-      const store = getStore(ridOrgId(clientId), clientId)
+      const store = getStore(orgId, clientId)
       const now = new Date().toISOString()
       const next: WorkflowTask = {
         clientId,
@@ -54,12 +51,13 @@ export function createMockWorkflowRepository(): WorkflowRepository {
       return next
     },
     async updateTask(
+      orgId: string,
       clientId: string,
       id: string,
       patch: Partial<Omit<WorkflowTask, 'id' | 'createdAt'>>,
       actor: string,
     ): Promise<WorkflowTask> {
-      const store = getStore(ridOrgId(clientId), clientId)
+      const store = getStore(orgId, clientId)
       const current = store.read()
       const idx = current.findIndex((t) => t.id === id)
       if (idx === -1) throw new Error(`Workflow task not found: ${id}`)
@@ -74,8 +72,8 @@ export function createMockWorkflowRepository(): WorkflowRepository {
       store.write(next)
       return updated
     },
-    async deleteTask(clientId: string, id: string): Promise<void> {
-      const store = getStore(ridOrgId(clientId), clientId)
+    async deleteTask(orgId: string, clientId: string, id: string): Promise<void> {
+      const store = getStore(orgId, clientId)
       store.write(store.read().filter((t) => t.id !== id))
     },
   }

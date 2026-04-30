@@ -23,6 +23,7 @@ import {
 
 interface CalendarViewProps {
   events: CalendarEvent[]
+  orgId: string
   clientId: string
 }
 
@@ -56,7 +57,7 @@ function getMondayFirstIndex(date: Date): number {
   return day === 0 ? 6 : day - 1
 }
 
-export function CalendarView({ events, clientId }: CalendarViewProps) {
+export function CalendarView({ events, orgId, clientId }: CalendarViewProps) {
   const [currentMonth, setCurrentMonth] = useState(() => new Date(2026, 3, 1))
   const [selectedEvent, setSelectedEvent] = useState<CalendarEvent | null>(null)
   const [dialog, setDialog] = useState<
@@ -65,9 +66,9 @@ export function CalendarView({ events, clientId }: CalendarViewProps) {
     | null
   >(null)
 
-  const createMutation = useCreateCalendarEvent(clientId)
-  const updateMutation = useUpdateCalendarEvent(clientId)
-  const deleteMutation = useDeleteCalendarEvent(clientId)
+  const createMutation = useCreateCalendarEvent(orgId, clientId)
+  const updateMutation = useUpdateCalendarEvent(orgId, clientId)
+  const deleteMutation = useDeleteCalendarEvent(orgId, clientId)
 
   const days = useMemo(() => {
     const monthStart = startOfMonth(currentMonth)

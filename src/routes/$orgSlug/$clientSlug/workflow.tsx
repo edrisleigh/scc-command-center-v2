@@ -3,10 +3,10 @@ import { WorkflowPage } from '@/modules/workflow/components/workflow-page'
 import { repositories } from '@/data'
 
 export const Route = createFileRoute('/$orgSlug/$clientSlug/workflow')({
-  loader: ({ context: { queryClient, client } }) =>
+  loader: ({ context: { queryClient, org, client } }) =>
     queryClient.ensureQueryData({
-      queryKey: ['workflow', 'tasks', client.id],
-      queryFn: () => repositories.workflow.getWorkflowTasks(client.id),
+      queryKey: ['workflow', 'tasks', org.id, client.id],
+      queryFn: () => repositories.workflow.getWorkflowTasks(org.id, client.id),
     }),
   component: WorkflowPage,
 })

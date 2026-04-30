@@ -18,12 +18,12 @@ export function FreshnessBadge({
   allowRefresh = true,
   size = 'md',
 }: FreshnessBadgeProps) {
-  const { client } = useTenant()
-  const { data } = useFreshness(client.id)
+  const { org, client } = useTenant()
+  const { data } = useFreshness(org.id, client.id)
   const record = data?.find((r) => r.dataSource === source) ?? null
   const user = useCurrentUser()
   const canRefresh = allowRefresh && user.role === 'admin'
-  const refresh = useRecordRefresh(client.id)
+  const refresh = useRecordRefresh(org.id, client.id)
 
   const baseClass = cn(
     'inline-flex items-center gap-1.5 rounded-full border px-2 py-0.5',

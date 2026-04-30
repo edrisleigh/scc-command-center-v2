@@ -3,58 +3,58 @@ import { repositories } from '@/data'
 import { useCurrentUser } from '@/modules/shared/hooks/use-current-user'
 import type { FlagInput, FlagStatus } from '@/modules/flags/types'
 
-const key = (clientId: string) => ['flags', clientId]
+const key = (orgId: string, clientId: string) => ['flags', orgId, clientId]
 
-export function useFlags(clientId: string) {
+export function useFlags(orgId: string, clientId: string) {
   return useQuery({
-    queryKey: key(clientId),
-    queryFn: () => repositories.flags.getFlags(clientId),
+    queryKey: key(orgId, clientId),
+    queryFn: () => repositories.flags.getFlags(orgId, clientId),
   })
 }
 
-export function useCreateFlag(clientId: string) {
+export function useCreateFlag(orgId: string, clientId: string) {
   const qc = useQueryClient()
   const user = useCurrentUser()
   return useMutation({
     mutationFn: (input: FlagInput) =>
-      repositories.flags.createFlag(clientId, input, user.name),
-    onSuccess: () => qc.invalidateQueries({ queryKey: key(clientId) }),
+      repositories.flags.createFlag(orgId, clientId, input, user.name),
+    onSuccess: () => qc.invalidateQueries({ queryKey: key(orgId, clientId) }),
   })
 }
 
-export function useUpdateFlagStatus(clientId: string) {
+export function useUpdateFlagStatus(orgId: string, clientId: string) {
   const qc = useQueryClient()
   const user = useCurrentUser()
   return useMutation({
     mutationFn: ({ id, status }: { id: string; status: FlagStatus }) =>
-      repositories.flags.updateFlagStatus(clientId, id, status, user.name),
-    onSuccess: () => qc.invalidateQueries({ queryKey: key(clientId) }),
+      repositories.flags.updateFlagStatus(orgId, clientId, id, status, user.name),
+    onSuccess: () => qc.invalidateQueries({ queryKey: key(orgId, clientId) }),
   })
 }
 
-export function useAssignFlag(clientId: string) {
+export function useAssignFlag(orgId: string, clientId: string) {
   const qc = useQueryClient()
   return useMutation({
     mutationFn: ({ id, assignee }: { id: string; assignee: string }) =>
-      repositories.flags.assignFlag(clientId, id, assignee),
-    onSuccess: () => qc.invalidateQueries({ queryKey: key(clientId) }),
+      repositories.flags.assignFlag(orgId, clientId, id, assignee),
+    onSuccess: () => qc.invalidateQueries({ queryKey: key(orgId, clientId) }),
   })
 }
 
-export function useAddFlagComment(clientId: string) {
+export function useAddFlagComment(orgId: string, clientId: string) {
   const qc = useQueryClient()
   const user = useCurrentUser()
   return useMutation({
     mutationFn: ({ id, body }: { id: string; body: string }) =>
-      repositories.flags.addComment(clientId, id, body, user.name),
-    onSuccess: () => qc.invalidateQueries({ queryKey: key(clientId) }),
+      repositories.flags.addComment(orgId, clientId, id, body, user.name),
+    onSuccess: () => qc.invalidateQueries({ queryKey: key(orgId, clientId) }),
   })
 }
 
-export function useDeleteFlag(clientId: string) {
+export function useDeleteFlag(orgId: string, clientId: string) {
   const qc = useQueryClient()
   return useMutation({
-    mutationFn: (id: string) => repositories.flags.deleteFlag(clientId, id),
-    onSuccess: () => qc.invalidateQueries({ queryKey: key(clientId) }),
+    mutationFn: (id: string) => repositories.flags.deleteFlag(orgId, clientId, id),
+    onSuccess: () => qc.invalidateQueries({ queryKey: key(orgId, clientId) }),
   })
 }

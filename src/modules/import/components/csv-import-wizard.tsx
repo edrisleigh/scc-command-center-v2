@@ -86,7 +86,7 @@ const TARGET_FIELDS: Record<ImportDataType, { field: string; label: string }[]> 
 const STEP_LABELS = ['Data Type', 'Upload', 'Map Columns', 'Preview', 'Confirm']
 
 export function CsvImportWizard() {
-  const { client } = useTenant()
+  const { org, client } = useTenant()
   const [step, setStep] = useState(0)
   const [dataType, setDataType] = useState<ImportDataType | null>(null)
   const [parsedData, setParsedData] = useState<ParsedData | null>(null)
@@ -97,7 +97,7 @@ export function CsvImportWizard() {
   const [importComplete, setImportComplete] = useState(false)
   const [isDragging, setIsDragging] = useState(false)
   const fileInputRef = useRef<HTMLInputElement>(null)
-  const recordRefresh = useRecordRefresh(client.id)
+  const recordRefresh = useRecordRefresh(org.id, client.id)
 
   const handleFileSelect = useCallback(
     async (file: File) => {

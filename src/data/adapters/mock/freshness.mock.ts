@@ -17,21 +17,18 @@ function getStore(orgId: string, clientId: string): Store {
   return store
 }
 
-function ridOrgId(_clientId: string): string {
-  return 'org-1' // temporary: until FreshnessRepository receives orgId in Phase 4
-}
-
 export function createMockFreshnessRepository(): FreshnessRepository {
   return {
-    async getFreshness(clientId: string): Promise<FreshnessRecord[]> {
-      return getStore(ridOrgId(clientId), clientId).read()
+    async getFreshness(orgId: string, clientId: string): Promise<FreshnessRecord[]> {
+      return getStore(orgId, clientId).read()
     },
     async recordRefresh(
+      orgId: string,
       clientId: string,
       dataSource: DataSource,
       actor: string,
     ): Promise<FreshnessRecord> {
-      const store = getStore(ridOrgId(clientId), clientId)
+      const store = getStore(orgId, clientId)
       const now = new Date().toISOString()
       const record: FreshnessRecord = {
         clientId,

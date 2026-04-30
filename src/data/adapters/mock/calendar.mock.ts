@@ -25,21 +25,18 @@ function getStore(orgId: string, clientId: string): Store {
   return store
 }
 
-function ridOrgId(_clientId: string): string {
-  return 'org-1' // temporary: until CalendarRepository receives orgId in Phase 4
-}
-
 export function createMockCalendarRepository(): CalendarRepository {
   return {
-    async getEvents(clientId: string): Promise<CalendarEvent[]> {
-      return getStore(ridOrgId(clientId), clientId).read()
+    async getEvents(orgId: string, clientId: string): Promise<CalendarEvent[]> {
+      return getStore(orgId, clientId).read()
     },
     async createEvent(
+      orgId: string,
       clientId: string,
       input: CalendarEventInput,
       actor: string,
     ): Promise<CalendarEvent> {
-      const store = getStore(ridOrgId(clientId), clientId)
+      const store = getStore(orgId, clientId)
       const now = new Date().toISOString()
       const next: CalendarEvent = {
         clientId,
@@ -53,12 +50,13 @@ export function createMockCalendarRepository(): CalendarRepository {
       return next
     },
     async updateEvent(
+      orgId: string,
       clientId: string,
       id: string,
       patch: Partial<CalendarEventInput>,
       actor: string,
     ): Promise<CalendarEvent> {
-      const store = getStore(ridOrgId(clientId), clientId)
+      const store = getStore(orgId, clientId)
       const current = store.read()
       const idx = current.findIndex((e) => e.id === id)
       if (idx === -1) throw new Error(`Calendar event not found: ${id}`)
@@ -73,8 +71,8 @@ export function createMockCalendarRepository(): CalendarRepository {
       store.write(next)
       return updated
     },
-    async deleteEvent(clientId: string, id: string): Promise<void> {
-      const store = getStore(ridOrgId(clientId), clientId)
+    async deleteEvent(orgId: string, clientId: string, id: string): Promise<void> {
+      const store = getStore(orgId, clientId)
       store.write(store.read().filter((e) => e.id !== id))
     },
   }

@@ -17,18 +17,14 @@ function getStore(orgId: string, clientId: string): Store {
   return store
 }
 
-function ridOrgId(_clientId: string): string {
-  return 'org-1' // temporary: until FlagsRepository receives orgId in Phase 4
-}
-
 export function createMockFlagsRepository(): FlagsRepository {
   return {
-    async getFlags(clientId) {
-      return getStore(ridOrgId(clientId), clientId).read()
+    async getFlags(orgId, clientId) {
+      return getStore(orgId, clientId).read()
     },
 
-    async createFlag(clientId, input, actor) {
-      const store = getStore(ridOrgId(clientId), clientId)
+    async createFlag(orgId, clientId, input, actor) {
+      const store = getStore(orgId, clientId)
       const now = new Date().toISOString()
       const flag: Flag = {
         id: generateId('flag'),
@@ -46,8 +42,8 @@ export function createMockFlagsRepository(): FlagsRepository {
       return flag
     },
 
-    async updateFlagStatus(clientId, id, status: FlagStatus, actor) {
-      const store = getStore(ridOrgId(clientId), clientId)
+    async updateFlagStatus(orgId, clientId, id, status: FlagStatus, actor) {
+      const store = getStore(orgId, clientId)
       const all = store.read()
       const idx = all.findIndex((f) => f.id === id)
       if (idx < 0) throw new Error('Flag not found')
@@ -65,8 +61,8 @@ export function createMockFlagsRepository(): FlagsRepository {
       return next
     },
 
-    async assignFlag(clientId, id, assignee) {
-      const store = getStore(ridOrgId(clientId), clientId)
+    async assignFlag(orgId, clientId, id, assignee) {
+      const store = getStore(orgId, clientId)
       const all = store.read()
       const idx = all.findIndex((f) => f.id === id)
       if (idx < 0) throw new Error('Flag not found')
@@ -77,8 +73,8 @@ export function createMockFlagsRepository(): FlagsRepository {
       return next
     },
 
-    async addComment(clientId, id, body, actor) {
-      const store = getStore(ridOrgId(clientId), clientId)
+    async addComment(orgId, clientId, id, body, actor) {
+      const store = getStore(orgId, clientId)
       const all = store.read()
       const idx = all.findIndex((f) => f.id === id)
       if (idx < 0) throw new Error('Flag not found')
@@ -100,8 +96,8 @@ export function createMockFlagsRepository(): FlagsRepository {
       return next
     },
 
-    async deleteFlag(clientId, id) {
-      const store = getStore(ridOrgId(clientId), clientId)
+    async deleteFlag(orgId, clientId, id) {
+      const store = getStore(orgId, clientId)
       const all = store.read()
       store.write(all.filter((f) => f.id !== id))
     },

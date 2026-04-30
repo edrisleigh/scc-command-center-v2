@@ -3,25 +3,25 @@ import { repositories } from '@/data'
 import type { WorkflowTask, WorkflowTaskInput } from '@/modules/workflow/types'
 import { useCurrentUser } from '@/modules/shared/hooks/use-current-user'
 
-export function useWorkflowTasks(clientId: string) {
+export function useWorkflowTasks(orgId: string, clientId: string) {
   return useQuery({
-    queryKey: ['workflow', 'tasks', clientId],
-    queryFn: () => repositories.workflow.getWorkflowTasks(clientId),
+    queryKey: ['workflow', 'tasks', orgId, clientId],
+    queryFn: () => repositories.workflow.getWorkflowTasks(orgId, clientId),
   })
 }
 
-export function useCreateWorkflowTask(clientId: string) {
+export function useCreateWorkflowTask(orgId: string, clientId: string) {
   const qc = useQueryClient()
   const user = useCurrentUser()
   return useMutation({
     mutationFn: (input: WorkflowTaskInput) =>
-      repositories.workflow.createTask(clientId, input, user.name),
+      repositories.workflow.createTask(orgId, clientId, input, user.name),
     onSuccess: () =>
-      qc.invalidateQueries({ queryKey: ['workflow', 'tasks', clientId] }),
+      qc.invalidateQueries({ queryKey: ['workflow', 'tasks', orgId, clientId] }),
   })
 }
 
-export function useUpdateWorkflowTask(clientId: string) {
+export function useUpdateWorkflowTask(orgId: string, clientId: string) {
   const qc = useQueryClient()
   const user = useCurrentUser()
   return useMutation({
@@ -31,17 +31,17 @@ export function useUpdateWorkflowTask(clientId: string) {
     }: {
       id: string
       patch: Partial<Omit<WorkflowTask, 'id' | 'createdAt'>>
-    }) => repositories.workflow.updateTask(clientId, id, patch, user.name),
+    }) => repositories.workflow.updateTask(orgId, clientId, id, patch, user.name),
     onSuccess: () =>
-      qc.invalidateQueries({ queryKey: ['workflow', 'tasks', clientId] }),
+      qc.invalidateQueries({ queryKey: ['workflow', 'tasks', orgId, clientId] }),
   })
 }
 
-export function useDeleteWorkflowTask(clientId: string) {
+export function useDeleteWorkflowTask(orgId: string, clientId: string) {
   const qc = useQueryClient()
   return useMutation({
-    mutationFn: (id: string) => repositories.workflow.deleteTask(clientId, id),
+    mutationFn: (id: string) => repositories.workflow.deleteTask(orgId, clientId, id),
     onSuccess: () =>
-      qc.invalidateQueries({ queryKey: ['workflow', 'tasks', clientId] }),
+      qc.invalidateQueries({ queryKey: ['workflow', 'tasks', orgId, clientId] }),
   })
 }

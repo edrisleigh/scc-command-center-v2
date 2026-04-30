@@ -92,8 +92,8 @@ describe('workflow adapter tenant scoping', () => {
   it('seeds only tasks matching the clientId', async () => {
     if (typeof window !== 'undefined') window.localStorage.clear()
     const repo = createMockWorkflowRepository()
-    expect((await repo.getWorkflowTasks('client-1')).length).toBeGreaterThan(0)
-    expect(await repo.getWorkflowTasks('client-999')).toEqual([])
+    expect((await repo.getWorkflowTasks('org-1', 'client-1')).length).toBeGreaterThan(0)
+    expect(await repo.getWorkflowTasks('org-1', 'client-999')).toEqual([])
   })
 })
 
@@ -101,7 +101,7 @@ describe('calendar adapter tenant scoping', () => {
   it('seeds only events matching the clientId', async () => {
     if (typeof window !== 'undefined') window.localStorage.clear()
     const repo = createMockCalendarRepository()
-    expect((await repo.getEvents('client-1')).length).toBeGreaterThan(0)
-    expect(await repo.getEvents('client-999')).toEqual([])
+    expect((await repo.getEvents('org-1', 'client-1')).length).toBeGreaterThan(0)
+    expect(await repo.getEvents('org-1', 'client-999')).toEqual([])
   })
 })

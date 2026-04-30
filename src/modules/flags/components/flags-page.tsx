@@ -40,16 +40,16 @@ const PRIORITY_STYLES: Record<Flag['priority'], string> = {
 }
 
 export function FlagsPage() {
-  const { client } = useTenant()
+  const { org, client } = useTenant()
   const clientId = client.id
-  const { data: flags, isLoading } = useFlags(clientId)
+  const { data: flags, isLoading } = useFlags(org.id, clientId)
   const user = useCurrentUser()
   const canManage = user.role === 'admin'
 
-  const updateStatus = useUpdateFlagStatus(clientId)
-  const assign = useAssignFlag(clientId)
-  const addComment = useAddFlagComment(clientId)
-  const deleteFlag = useDeleteFlag(clientId)
+  const updateStatus = useUpdateFlagStatus(org.id, clientId)
+  const assign = useAssignFlag(org.id, clientId)
+  const addComment = useAddFlagComment(org.id, clientId)
+  const deleteFlag = useDeleteFlag(org.id, clientId)
 
   const [filter, setFilter] = useState<FlagStatus | 'all'>('all')
   const [selectedId, setSelectedId] = useState<string | null>(null)
