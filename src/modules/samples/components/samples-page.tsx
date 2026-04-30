@@ -1,4 +1,5 @@
 import { useState, useMemo } from 'react'
+import { useTenant } from '@/modules/shared/hooks/use-tenant'
 import { KpiCard } from '@/modules/shared/components/kpi-card'
 import { ProductCatalog } from '@/modules/samples/components/product-catalog'
 import { SampleOrders } from '@/modules/samples/components/sample-orders'
@@ -12,12 +13,13 @@ import { FlagButton } from '@/modules/flags/components/flag-button'
 type Tab = 'products' | 'orders' | 'hero' | 'restocks'
 
 export function SamplesPage() {
+  const { client } = useTenant()
   const [activeTab, setActiveTab] = useState<Tab>('products')
 
-  const { data: products, isLoading: loadingProducts } = useProducts('client-1')
-  const { data: sampleOrders, isLoading: loadingOrders } = useSampleOrders('client-1')
-  const { data: heroProducts, isLoading: loadingHero } = useHeroProducts('client-1')
-  const { data: restocks, isLoading: loadingRestocks } = useRestocks('client-1')
+  const { data: products, isLoading: loadingProducts } = useProducts(client.id)
+  const { data: sampleOrders, isLoading: loadingOrders } = useSampleOrders(client.id)
+  const { data: heroProducts, isLoading: loadingHero } = useHeroProducts(client.id)
+  const { data: restocks, isLoading: loadingRestocks } = useRestocks(client.id)
 
   const isLoading = loadingProducts || loadingOrders || loadingHero || loadingRestocks
 

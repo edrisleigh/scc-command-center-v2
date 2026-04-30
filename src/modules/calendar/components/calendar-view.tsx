@@ -23,7 +23,7 @@ import {
 
 interface CalendarViewProps {
   events: CalendarEvent[]
-  clientId?: string
+  clientId: string
 }
 
 const EVENT_TYPE_CONFIG = {
@@ -56,7 +56,7 @@ function getMondayFirstIndex(date: Date): number {
   return day === 0 ? 6 : day - 1
 }
 
-export function CalendarView({ events, clientId = 'client-1' }: CalendarViewProps) {
+export function CalendarView({ events, clientId }: CalendarViewProps) {
   const [currentMonth, setCurrentMonth] = useState(() => new Date(2026, 3, 1))
   const [selectedEvent, setSelectedEvent] = useState<CalendarEvent | null>(null)
   const [dialog, setDialog] = useState<

@@ -1,4 +1,5 @@
 import { useState, useMemo } from 'react'
+import { useTenant } from '@/modules/shared/hooks/use-tenant'
 import { KpiCard } from '@/modules/shared/components/kpi-card'
 import { CreatorList } from '@/modules/creators/components/creator-list'
 import { CreatorDetail } from '@/modules/creators/components/creator-detail'
@@ -19,14 +20,15 @@ import { FlagButton } from '@/modules/flags/components/flag-button'
 type Tab = 'all' | 'live' | 'collabs'
 
 export function CreatorsPage() {
+  const { client } = useTenant()
   const [activeTab, setActiveTab] = useState<Tab>('all')
   const [selectedCreator, setSelectedCreator] = useState<Creator | null>(null)
 
-  const { data: creators, isLoading: loadingCreators } = useCreators('client-1')
-  const { data: liveCreators, isLoading: loadingLive } = useLiveCreators('client-1')
-  const { data: targetCollabs, isLoading: loadingCollabs } = useTargetCollabs('client-1')
-  const { data: collaborations } = useCollaborationData('client-1')
-  const { data: incentives } = useCreatorIncentives('client-1')
+  const { data: creators, isLoading: loadingCreators } = useCreators(client.id)
+  const { data: liveCreators, isLoading: loadingLive } = useLiveCreators(client.id)
+  const { data: targetCollabs, isLoading: loadingCollabs } = useTargetCollabs(client.id)
+  const { data: collaborations } = useCollaborationData(client.id)
+  const { data: incentives } = useCreatorIncentives(client.id)
 
   const isLoading = loadingCreators || loadingLive || loadingCollabs
 

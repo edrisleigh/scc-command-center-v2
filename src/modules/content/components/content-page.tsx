@@ -1,4 +1,5 @@
 import { useState, useMemo } from 'react'
+import { useTenant } from '@/modules/shared/hooks/use-tenant'
 import { KpiCard } from '@/modules/shared/components/kpi-card'
 import { ContentList } from '@/modules/content/components/content-list'
 import { SparkCodesList } from '@/modules/content/components/spark-codes-list'
@@ -10,10 +11,11 @@ import { FlagButton } from '@/modules/flags/components/flag-button'
 type Tab = 'submissions' | 'spark-codes'
 
 export function ContentPage() {
+  const { client } = useTenant()
   const [activeTab, setActiveTab] = useState<Tab>('submissions')
 
-  const { data: submissions, isLoading: loadingSubmissions } = useContentSubmissions('client-1')
-  const { data: sparkCodes, isLoading: loadingSparkCodes } = useSparkCodes('client-1')
+  const { data: submissions, isLoading: loadingSubmissions } = useContentSubmissions(client.id)
+  const { data: sparkCodes, isLoading: loadingSparkCodes } = useSparkCodes(client.id)
 
   const isLoading = loadingSubmissions || loadingSparkCodes
 

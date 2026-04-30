@@ -11,7 +11,7 @@ import {
 
 interface WorkflowChecklistProps {
   tasks: WorkflowTask[]
-  clientId?: string
+  clientId: string
 }
 
 const ROLE_CONFIG: Record<WorkflowRole, { label: string; color: string; bg: string }> = {
@@ -185,7 +185,7 @@ function RoleSection({ role, tasks, onToggleDay, onEdit, onAdd }: RoleSectionPro
   )
 }
 
-export function WorkflowChecklist({ tasks, clientId = 'client-1' }: WorkflowChecklistProps) {
+export function WorkflowChecklist({ tasks, clientId }: WorkflowChecklistProps) {
   const roles: WorkflowRole[] = ['affiliate_comms', 'media_buyer', 'scs']
   const createMutation = useCreateWorkflowTask(clientId)
   const updateMutation = useUpdateWorkflowTask(clientId)

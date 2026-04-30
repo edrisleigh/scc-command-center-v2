@@ -4,9 +4,11 @@ import { WorkflowChecklist } from '@/modules/workflow/components/workflow-checkl
 import { useWorkflowTasks } from '@/modules/workflow/hooks'
 import { FreshnessBadge } from '@/modules/freshness/components/freshness-badge'
 import { FlagButton } from '@/modules/flags/components/flag-button'
+import { useTenant } from '@/modules/shared/hooks/use-tenant'
 
 export function WorkflowPage() {
-  const { data: tasks, isLoading } = useWorkflowTasks('client-1')
+  const { client } = useTenant()
+  const { data: tasks, isLoading } = useWorkflowTasks(client.id)
 
   const kpis = useMemo(() => {
     if (!tasks) return null
@@ -82,7 +84,7 @@ export function WorkflowPage() {
       )}
 
       {/* Checklist */}
-      <WorkflowChecklist tasks={tasks ?? []} />
+      <WorkflowChecklist tasks={tasks ?? []} clientId={client.id} />
     </div>
   )
 }

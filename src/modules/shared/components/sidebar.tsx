@@ -77,9 +77,9 @@ const sections: NavSection[] = [
 ]
 
 export function Sidebar() {
-  const { orgSlug, clientSlug } = useTenant()
+  const { client, orgSlug, clientSlug } = useTenant()
   const matchRoute = useMatchRoute()
-  const { data: flags } = useFlags('client-1')
+  const { data: flags } = useFlags(client.id)
   const openFlagCount = (flags ?? []).filter((f) => f.status !== 'resolved').length
   const launchPlan = useLaunchScenarioByClient(orgSlug, clientSlug ?? '')
   const showLaunchPlan = !!clientSlug && launchPlan.data?.status === 'locked'

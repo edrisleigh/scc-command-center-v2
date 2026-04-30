@@ -13,7 +13,7 @@ interface FlagDialogProps {
   onClose: () => void
   section: FlagSection
   dataPointRef?: string
-  clientId?: string
+  clientId: string
 }
 
 const PRIORITIES: { value: FlagPriority; label: string }[] = [
@@ -27,7 +27,7 @@ export function FlagDialog({
   onClose,
   section,
   dataPointRef,
-  clientId = 'client-1',
+  clientId,
 }: FlagDialogProps) {
   const create = useCreateFlag(clientId)
   const [description, setDescription] = useState('')

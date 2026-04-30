@@ -5,9 +5,11 @@ import { CalendarView } from '@/modules/calendar/components/calendar-view'
 import { useCalendarEvents } from '@/modules/calendar/hooks'
 import { FreshnessBadge } from '@/modules/freshness/components/freshness-badge'
 import { FlagButton } from '@/modules/flags/components/flag-button'
+import { useTenant } from '@/modules/shared/hooks/use-tenant'
 
 export function CalendarPage() {
-  const { data: events, isLoading } = useCalendarEvents('client-1')
+  const { client } = useTenant()
+  const { data: events, isLoading } = useCalendarEvents(client.id)
 
   const kpis = useMemo(() => {
     if (!events) return null
@@ -55,7 +57,7 @@ export function CalendarPage() {
       )}
 
       {/* Calendar */}
-      <CalendarView events={events ?? []} />
+      <CalendarView events={events ?? []} clientId={client.id} />
     </div>
   )
 }

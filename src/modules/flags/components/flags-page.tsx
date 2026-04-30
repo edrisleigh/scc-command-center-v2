@@ -1,4 +1,5 @@
 import { useState, useMemo } from 'react'
+import { useTenant } from '@/modules/shared/hooks/use-tenant'
 import { formatDistanceToNow, parseISO, format } from 'date-fns'
 import { toast } from 'sonner'
 import { AlertTriangle, Flag as FlagIcon, Circle, Clock, CheckCircle2, Trash2 } from 'lucide-react'
@@ -39,7 +40,8 @@ const PRIORITY_STYLES: Record<Flag['priority'], string> = {
 }
 
 export function FlagsPage() {
-  const clientId = 'client-1'
+  const { client } = useTenant()
+  const clientId = client.id
   const { data: flags, isLoading } = useFlags(clientId)
   const user = useCurrentUser()
   const canManage = user.role === 'admin'

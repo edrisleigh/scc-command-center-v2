@@ -1,4 +1,5 @@
 import { useState, useMemo } from 'react'
+import { useTenant } from '@/modules/shared/hooks/use-tenant'
 import { KpiCard } from '@/modules/shared/components/kpi-card'
 import { WeeklyScorecardTable } from '@/modules/scorecards/components/weekly-scorecard'
 import { MonthlyScorecardTable } from '@/modules/scorecards/components/monthly-scorecard'
@@ -10,10 +11,11 @@ import { FlagButton } from '@/modules/flags/components/flag-button'
 type Tab = 'weekly' | 'monthly'
 
 export function ScorecardsPage() {
+  const { client } = useTenant()
   const [activeTab, setActiveTab] = useState<Tab>('weekly')
 
-  const { data: weeklyData, isLoading: loadingWeekly } = useWeeklyScorecard('client-1')
-  const { data: monthlyData, isLoading: loadingMonthly } = useMonthlyScorecard('client-1')
+  const { data: weeklyData, isLoading: loadingWeekly } = useWeeklyScorecard(client.id)
+  const { data: monthlyData, isLoading: loadingMonthly } = useMonthlyScorecard(client.id)
 
   const isLoading = loadingWeekly || loadingMonthly
 
