@@ -2,6 +2,7 @@ import { DateRangePicker } from './date-range-picker'
 import { useTenant } from '@/modules/shared/hooks/use-tenant'
 import { GlobalFreshnessChip } from '@/modules/freshness/components/global-freshness-chip'
 import { ClientSwitcher } from './client-switcher'
+import { FakeUserSwitcher } from './fake-user-switcher'
 
 export function Topbar() {
   const { org } = useTenant()
@@ -18,9 +19,10 @@ export function Topbar() {
         </div>
       </div>
 
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-3">
         <GlobalFreshnessChip />
         <DateRangePicker />
+        <FakeUserSwitcher />
         <div className="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-xs font-semibold text-primary-foreground">
           EA
         </div>
