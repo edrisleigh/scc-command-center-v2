@@ -1,7 +1,7 @@
 # Multi-Tenant (Pre-Login) — Design Spec
 
 **Date:** 2026-04-29
-**Status:** Design approved, awaiting implementation plan
+**Status:** Implemented (branch `feat/multi-tenant`, 2026-04-29)
 **Author:** edrisa@halo.agency (with Claude)
 
 ---
